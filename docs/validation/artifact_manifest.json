@@ -220,5 +220,22 @@
   "not_clinical": true,
   "no_causal_dietary_claim": true,
   "analysis_unit": "participant/GSM",
-  "data_access": "official public GEO HTTPS"
+  "data_access": "official public GEO HTTPS",
+  "historical_source_preserved_mapping": {
+    "src/nutriomics_methylation/cli.py": {
+      "archived_path": "docs/executed_sources/primary_cli.py",
+      "executed_sha256": "9e0b07ea6c2c612788f7b483dc92682148cdc8d4f723b6c366f1fbfa8d997abf",
+      "preservation_reason": "Added transfer CLI entrypoint after primary runs; learning code unchanged",
+      "retrieval_origin": "Verified original execution checkout: Z10PE /home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/cli.py",
+      "retrieved_utc": "2026-10-01T10:00:18.990479+00:00"
+    },
+    "src/nutriomics_methylation/io.py": {
+      "archived_path": "docs/executed_sources/primary_io.py",
+      "executed_sha256": "b5839b1e4f1e4680c310f50b569bb3d66f7857eab07b3020d1e7228a8b9909b9",
+      "preservation_reason": "Changed fetched manifest relative-path serialization to as_posix; preprocessing and learning unchanged",
+      "retrieval_origin": "Verified original execution checkout: Z10PE /home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/io.py",
+      "retrieved_utc": "2026-10-01T10:00:18.990479+00:00"
+    }
+  },
+  "historical_code_annotation_scope": "Executed hashes and every scientific result left unchanged; exact earlier source bytes preserved separately"
 }
