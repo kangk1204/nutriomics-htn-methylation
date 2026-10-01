@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "file": "analysis_config.json",
+      "sha256": "b58df219022768223fcb37464ed780ac90828dde797e7a05e57d9f2a693c9e0d"
+    },
+    {
+      "file": "complete.json",
+      "sha256": "f69eb5434e7d5d980452ea08242b4d6a3c62262a1d09b82c6789af039fdb61d4"
+    },
+    {
+      "file": "CONCLUSION_KO.md",
+      "sha256": "528f2b0754252c3828b9789d7b49384c5e3d5ff42f25c41f69480811e37bfa91"
+    },
+    {
+      "file": "elasticnet_age_50_65_secondary_calibration_bins.tsv",
+      "sha256": "2ee9c367226e2a0fdfc30520354a2e2b97e7b5bf1ae6dc8f826421165475ce68"
+    },
+    {
+      "file": "elasticnet_age_50_65_secondary_predictions.tsv",
+      "sha256": "38094ed610bf11ec98f580d29932cd9790748055abfd8c52a9c107a9935c06a3"
+    },
+    {
+      "file": "elasticnet_age_50_65_secondary_roc_calibration.svg",
+      "sha256": "3535c5f1bbe36398396a8bc5704642fbcf9b9681c7ec3618907593e77527ecc2"
+    },
+    {
+      "file": "elasticnet_all_predictions.tsv",
+      "sha256": "d32b0d7d0fb3ae11c049889e1b1aef41c9030346712d0c2bb773bc298631dc92"
+    },
+    {
+      "file": "elasticnet_all_proxy_calibration_bins.tsv",
+      "sha256": "72816c1fcca500a0fdd2e5e70c03efcb61c19223e7f3a2549ab0818e16fb8e3f"
+    },
+    {
+      "file": "elasticnet_all_proxy_predictions.tsv",
+      "sha256": "1deef745875474489f2c24c4e87729ad05235161c6abfad731086ee63f30dc60"
+    },
+    {
+      "file": "elasticnet_all_proxy_roc_calibration.svg",
+      "sha256": "ac8683f69ce5e379784a0899439f007ef1c72e746f98a5c026b32f9dd2a80d75"
+    },
+    {
+      "file": "measurement_qc.json",
+      "sha256": "3df1a8a02f45113d5fb4a0821f4aedafd4e6b21e4f1be6a1dbf8019704f117dc"
+    },
+    {
+      "file": "metrics_all.json",
+      "sha256": "787853aec5c47f4d6f885eba6f3b60c2ba4a3bbebce4a058e0ba0fe49f32a6d4"
+    },
+    {
+      "file": "ridge_age_50_65_secondary_calibration_bins.tsv",
+      "sha256": "af3223240e4166db5a9128662b354f5fd1a59756454b4960404e7e694b571943"
+    },
+    {
+      "file": "ridge_age_50_65_secondary_predictions.tsv",
+      "sha256": "87d3218b645877f0d626c479eb4b9492f90883c69252f129da2758b0daa38df7"
+    },
+    {
+      "file": "ridge_age_50_65_secondary_roc_calibration.svg",
+      "sha256": "447c4d8b0e981e8488610fb279d23bb6845c9642e8661fd3ebce670b5f99668f"
+    },
+    {
+      "file": "ridge_all_predictions.tsv",
+      "sha256": "9b478eb052c901af3068704b2b79e63a7f3b8bd3110228fd140bec21b8240676"
+    },
+    {
+      "file": "ridge_all_proxy_calibration_bins.tsv",
+      "sha256": "2eaadf7c4595fdd8b38d14636593744529acb51cfe969333ba13cde0b19acb60"
+    },
+    {
+      "file": "ridge_all_proxy_predictions.tsv",
+      "sha256": "d34ccbc2ee55541f2078cb595e4ddffc41fa87f7c54d7a196dfd3580d7043b05"
+    },
+    {
+      "file": "ridge_all_proxy_roc_calibration.svg",
+      "sha256": "af535521e62cc1b95cfbe4307fec5eaf6e29a063a4e02ff5afb3680a37e1b6da"
+    },
+    {
+      "file": "source_manifest.json",
+      "sha256": "a10cdc86429217c36a417240196e71e19223bf07de9979304d87d7dd604d44f1"
+    },
+    {
+      "file": "SUMMARY.md",
+      "sha256": "7ae82863af78e5763d91a9d10611ec1e8929e2f9552c561dd087d41388e63b12"
+    },
+    {
+      "file": "target_sample_qc.tsv",
+      "sha256": "25c79fa2ce7e446d9fb09411a78dd1bb930242470fef5c09be38b1dd1f71423a"
+    }
+  ],
+  "code_sha256": "9024f670ea5985aff3d40f1035557290f5c62401da474c5a7d65413bf4b407a8",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "clinical_endpoint_equivalent": false,
+  "source_model_refit": false,
+  "original_results_overwritten": false,
+  "code_files": [
+    {
+      "path": "src/nutriomics_methylation/__init__.py",
+      "sha256": "4d30b3ea9acf8ede5a30402c1bde0a81b5aa2123a58b2ef01fb6346a4ca11976"
+    },
+    {
+      "path": "src/nutriomics_methylation/cli.py",
+      "sha256": "4e78b6fb3b43c2930778454022649b4845f444901ae38e62fd0c011968cd4973"
+    },
+    {
+      "path": "src/nutriomics_methylation/evaluation.py",
+      "sha256": "e2a5caab7546ef46e9d2adddee890c4616ebf6f37add007b4f144cdce28e980e"
+    },
+    {
+      "path": "src/nutriomics_methylation/genoa.py",
+      "sha256": "9024f670ea5985aff3d40f1035557290f5c62401da474c5a7d65413bf4b407a8"
+    },
+    {
+      "path": "src/nutriomics_methylation/io.py",
+      "sha256": "3b567582b97d3b6fa778d75130825af4aebd79d17cb938b5a1c99bad4c71c337"
+    },
+    {
+      "path": "src/nutriomics_methylation/model.py",
+      "sha256": "82f1c985de8d75b1997b7697a3e4341c6dd106f8be34d4c75b14042f8e9cc5b6"
+    },
+    {
+      "path": "src/nutriomics_methylation/transfer.py",
+      "sha256": "3223edcd72b5fa1376de88ad23f7ed46ba4a3e9008ff9070b839aaf8f8d3883a"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "spaces": [
+    "common",
+    "full"
+  ],
+  "methods": [
+    "nested5",
+    "loocv"
+  ],
+  "cores": 12,
+  "seed": 20261001,
+  "k_grid": [
+    100,
+    500
+  ],
+  "C_grid": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "inner_folds": 5,
+  "max_training_missing_fraction": 0.1,
+  "decision_threshold": 0.5,
+  "threshold_selection": "fixed before outcomes, never chosen using external results",
+  "preHT_used_for_training": false,
+  "common_mask_sha256": "59212ff164236656da223829e82499707d8a4a908bc13608700cf9622cea4078",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "prepared_matrix_sha256": "8353873c44e88186debcc13ede15fc8896c7232716ffc77fa5bcb2701bf5402e"
+}

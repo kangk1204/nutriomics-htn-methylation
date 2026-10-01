@@ -1,0 +1,98 @@
+{
+  "files": [
+    {
+      "file": "CONCLUSION_KO.md",
+      "sha256": "7081c217517474bee24ca0b1fe13f4be28d41a1c6ac78d6d17785c83a1a473fb"
+    },
+    {
+      "file": "elasticnet_calibration_bins.tsv",
+      "sha256": "1ffe4e426f0c96dda014c319e53b61c92b3dca9045738662eb69dc0d27fcfa8d"
+    },
+    {
+      "file": "elasticnet_source_final_tuning_audit.json",
+      "sha256": "d39abc5b759e096432d93b098a73114538c188b1e1afd8ecab4d17ac21ce317e"
+    },
+    {
+      "file": "elasticnet_source_fold_audit.json",
+      "sha256": "aef1db7ba775dab6bdc5330998a33c32636bfb2490c0777e595e5d1e2184de2c"
+    },
+    {
+      "file": "elasticnet_source_marker_stability.tsv",
+      "sha256": "9edbabfc1def302903621edcea7c831365a272dbdec6aa505fd4b4a4ac1b5505"
+    },
+    {
+      "file": "elasticnet_source_oof_predictions.tsv",
+      "sha256": "43faff6a5839d36fa9ae72d8ef550cd4580eeb72fe18488207784de8f80b2489"
+    },
+    {
+      "file": "elasticnet_target_predictions.tsv",
+      "sha256": "dc4fde73533934f81d301e353f1de268adc2b3f308cc51dfe8271028d662a44c"
+    },
+    {
+      "file": "metrics_all.json",
+      "sha256": "136a486f09514161e228db9a1dc84c08ee18ceb83f2599180048fb50a125c86c"
+    },
+    {
+      "file": "ridge_calibration_bins.tsv",
+      "sha256": "bc1b29ec21c906adcf9655ddbfa7cddd3af7977d4569ae0b3490bfbc3e3c1a6b"
+    },
+    {
+      "file": "ridge_source_final_tuning_audit.json",
+      "sha256": "16e7ab397081667857a159f138041106750eb9cc08ab0d9dc5f4a9673b092599"
+    },
+    {
+      "file": "ridge_source_fold_audit.json",
+      "sha256": "cc608e4bff949e8072b3f6733e174d374fa351d7408a2f5e9813b7224915e2ab"
+    },
+    {
+      "file": "ridge_source_marker_stability.tsv",
+      "sha256": "5be5c88d72a64250658abd3b908a936f13dd3701621688500e3b5eb3876435a8"
+    },
+    {
+      "file": "ridge_source_oof_predictions.tsv",
+      "sha256": "3b1fd94697fddd73f7da7ac010d339cd415ba09d4d92ff1e8feabd9cca16ad66"
+    },
+    {
+      "file": "ridge_target_predictions.tsv",
+      "sha256": "846bfcdc763a07f6300665e61bec7d14c0f9fec161ba84536e40cf3b870bcd29"
+    },
+    {
+      "file": "SUMMARY.md",
+      "sha256": "c1afd529b36ac1535b06150890bfb0d4827c40ea027e06b19a4cae161b883624"
+    },
+    {
+      "file": "transfer_config.json",
+      "sha256": "78de593b6b022baad6bc09b35de65b37b1edb79aa028ab2c59783c6627a2efa6"
+    }
+  ],
+  "code_sha256": "3223edcd72b5fa1376de88ad23f7ed46ba4a3e9008ff9070b839aaf8f8d3883a",
+  "target_previously_observed": true,
+  "original_primary_results_overwritten": false,
+  "clinical_generalization_claim": false,
+  "code_files": [
+    {
+      "path": "src/nutriomics_methylation/__init__.py",
+      "sha256": "4d30b3ea9acf8ede5a30402c1bde0a81b5aa2123a58b2ef01fb6346a4ca11976"
+    },
+    {
+      "path": "src/nutriomics_methylation/cli.py",
+      "sha256": "4e78b6fb3b43c2930778454022649b4845f444901ae38e62fd0c011968cd4973"
+    },
+    {
+      "path": "src/nutriomics_methylation/evaluation.py",
+      "sha256": "e2a5caab7546ef46e9d2adddee890c4616ebf6f37add007b4f144cdce28e980e"
+    },
+    {
+      "path": "src/nutriomics_methylation/io.py",
+      "sha256": "3b567582b97d3b6fa778d75130825af4aebd79d17cb938b5a1c99bad4c71c337"
+    },
+    {
+      "path": "src/nutriomics_methylation/model.py",
+      "sha256": "82f1c985de8d75b1997b7697a3e4341c6dd106f8be34d4c75b14042f8e9cc5b6"
+    },
+    {
+      "path": "src/nutriomics_methylation/transfer.py",
+      "sha256": "3223edcd72b5fa1376de88ad23f7ed46ba4a3e9008ff9070b839aaf8f8d3883a"
+    }
+  ]
+}

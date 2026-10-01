@@ -1,0 +1,38 @@
+{
+  "primary_samples": 132,
+  "external_samples": 16,
+  "primary_probes": 223945,
+  "common_probe_count": 10749,
+  "common_mask_sha256": "59212ff164236656da223829e82499707d8a4a908bc13608700cf9622cea4078",
+  "mask_uses_outcomes": false,
+  "detection_threshold": 0.01,
+  "external_detection_p": "Observed per-sample Detection Pval from official GSE42774 family SOFT; fixed per-measurement mask only",
+  "primary_covariates": {
+    "individual_age_field": [],
+    "individual_sex_field": [],
+    "age_adjusted": false,
+    "sex_adjusted": false,
+    "reason": "No covariate adjustment prespecified; group-level publication demographics are not individual covariates."
+  },
+  "external_covariates": {
+    "individual_age_field": [],
+    "individual_sex_field": [
+      "characteristic_gender"
+    ],
+    "age_adjusted": false,
+    "sex_adjusted": false,
+    "reason": "No covariate adjustment prespecified; group-level publication demographics are not individual covariates."
+  },
+  "biological_unit": "one deposited GSM; duplicate profiles checked; undisclosed relatedness cannot be excluded",
+  "sample_exclusion": "No sample excluded; detection-failed measurements become missing; probe QC learned inside CV",
+  "external_interpretation": "Exploratory transfer across platform, age range, ancestry and sex; n16 age-matched male study",
+  "no_joint_normalization": true,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}

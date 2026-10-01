@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# Generated source summaries retain exact bytes for provenance checks.
+docs/** -text -whitespace
+reports/** -text -whitespace
+*.svg -whitespace
+*.tsv -whitespace

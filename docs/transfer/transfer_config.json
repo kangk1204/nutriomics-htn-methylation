@@ -1,0 +1,45 @@
+{
+  "analysis": "exploratory_reciprocal_transfer",
+  "source": "GSE42774",
+  "source_n": 16,
+  "target": "GSE193795",
+  "target_n": 88,
+  "target_previously_observed": true,
+  "source_pair_groups": 8,
+  "source_outer_group_folds": 4,
+  "source_inner_group_folds": 3,
+  "final_tuning_source_group_folds": 4,
+  "k_grid": [
+    100,
+    500
+  ],
+  "C_grid": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "elasticnet_l1_ratios": [
+    0.1,
+    0.5
+  ],
+  "max_training_missing_fraction": 0.1,
+  "decision_threshold": 0.5,
+  "seed": 20261001,
+  "cores": 4,
+  "common_probe_count": 10749,
+  "preHT_used_for_training": false,
+  "common_mask_sha256": "59212ff164236656da223829e82499707d8a4a908bc13608700cf9622cea4078",
+  "prepared_matrix_sha256": "8353873c44e88186debcc13ede15fc8896c7232716ffc77fa5bcb2701bf5402e",
+  "primary_training_config_sha256": "70bbb4fc8bda4a59ce7e8839e331e68b7d7c59563bd2016f40e3b7d72792b967",
+  "primary_training_config_path": "docs/validation/training_config.json",
+  "bootstrap_replicates": 1000,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "interpretation": "Supplementary direction-of-transfer experiment. Previously evaluated target outcomes preclude a new untouched external validation claim; no improvement claim from selecting the better direction."
+}

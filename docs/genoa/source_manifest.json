@@ -1,0 +1,21 @@
+{
+  "official_raw_source": {
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157131/suppl/GSE157131_Matrix_raw_data_450K_08252020.txt.gz",
+    "bytes": 661681566,
+    "sha256": "4f04abb44aaa8a918a009e88988d3c006ccaf963b9c8942b0a0faf866888d069",
+    "gzip_eof_crc_validated": true,
+    "table_data_rows": 478865,
+    "header_columns": 817,
+    "sample_signal_triplets": 272,
+    "acquired_at_utc": "2026-10-01T08:19:54Z",
+    "seconds": 73.02,
+    "analysis_performed": false,
+    "assay": "raw 450K methylated/unmethylated signal+detection P, not normalized beta",
+    "usage": "conditional BP proxy transfer research; clinical hypertension label and medication data absent from GEO"
+  },
+  "official_series_metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157131/matrix/GSE157131-GPL13534_series_matrix.txt.gz",
+  "official_series_metadata_sha256": "9ff8e0aafddc6d8e9356fe5ab0d27411ede857046b2e72418244bc20663c8ee7",
+  "primary_paper_url": "https://doi.org/10.1186/s12920-020-00791-0",
+  "individual_controlled_access_metadata": "dbGaP phs001401.v2.p1 not accessed",
+  "no_individual_medication_or_family_join": true
+}

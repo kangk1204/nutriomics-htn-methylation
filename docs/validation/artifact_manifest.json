@@ -1,0 +1,224 @@
+{
+  "files": [
+    {
+      "path": "docs/validation/full_ridge_nested5_oof_predictions.tsv",
+      "sha256": "ce8f4951d96d85fc2f033e145da1c15e4267381b577917f28d643a65d0a17122",
+      "bytes": 3053
+    },
+    {
+      "path": "docs/validation/training_config.json",
+      "sha256": "70bbb4fc8bda4a59ce7e8839e331e68b7d7c59563bd2016f40e3b7d72792b967",
+      "bytes": 776
+    },
+    {
+      "path": "docs/validation/common_ridge_nested5_oof_predictions.tsv",
+      "sha256": "b8d0cde38eb5c3b127523569186859ab67d74c58c2eee72e685e29784dea4ebb",
+      "bytes": 3038
+    },
+    {
+      "path": "docs/validation/common_elasticnet_external_roc_calibration.svg",
+      "sha256": "196237dac85f46f7547278f1239d970c4ff1469442bd386fa946e4f27d767c96",
+      "bytes": 39413
+    },
+    {
+      "path": "docs/validation/full_elasticnet_loocv_roc_calibration.svg",
+      "sha256": "cbd3ec6af2ff755c114514dd3e14586486ec6b4d4cd7d9453c63c70c2a5aa65e",
+      "bytes": 41302
+    },
+    {
+      "path": "docs/validation/common_ridge_external_roc_calibration.svg",
+      "sha256": "0a88907b2cf6bbd896437a6a9d5ecbe84bdc124d72c7523505a122814db919ab",
+      "bytes": 40040
+    },
+    {
+      "path": "docs/validation/source_manifest.json",
+      "sha256": "330fd231708e259c359cebfa82b14b815583e4858d23d5f7661a5c1542b20529",
+      "bytes": 1742
+    },
+    {
+      "path": "docs/validation/common_ridge_preHT_predictions.tsv",
+      "sha256": "2eaebfe36bd88bc94291528155fcb3efa5db8f5b6b9026bdf2c74f44b7be69d4",
+      "bytes": 1910
+    },
+    {
+      "path": "docs/validation/full_elasticnet_nested5_marker_stability.tsv",
+      "sha256": "e37ffd15d2c26a8c1170f6920b4696378cb7b46b0e1c09b7f6f4f1632328daed",
+      "bytes": 18157
+    },
+    {
+      "path": "docs/validation/common_ridge_nested5_roc_calibration.svg",
+      "sha256": "2ac930fa103697a007cfafa4529bd42863f9164e2a3788229292dd92c5cc7cd7",
+      "bytes": 40869
+    },
+    {
+      "path": "docs/validation/full_ridge_loocv_roc_calibration.svg",
+      "sha256": "db6617563d1e80d4652d06557798796ecb882bb1b8f9a604933391b58ba30708",
+      "bytes": 41284
+    },
+    {
+      "path": "docs/validation/full_ridge_loocv_oof_predictions.tsv",
+      "sha256": "cb4a660a0c757d39decb90d6ffa4f9f80e817465d3c969dd6fca03c3d881dcc0",
+      "bytes": 3140
+    },
+    {
+      "path": "docs/validation/common_elasticnet_external_predictions.tsv",
+      "sha256": "5e1b57bc72ef910677b619304493e7331043a836d8d3f603c4c37cfce00c59d6",
+      "bytes": 402
+    },
+    {
+      "path": "docs/validation/full_ridge_nested5_roc_calibration.svg",
+      "sha256": "a3cad72080c024e72ea236e3eabb27925e12ef51abc39dbf256066f5b7ad36da",
+      "bytes": 41406
+    },
+    {
+      "path": "docs/validation/common_ridge_loocv_oof_predictions.tsv",
+      "sha256": "3eebd409cc473836e423961aac4853686167b270c43b43e60d8f8ba0b2fee868",
+      "bytes": 3121
+    },
+    {
+      "path": "docs/validation/common_elasticnet_nested5_oof_predictions.tsv",
+      "sha256": "12e41f8bec1b348bd23576586ca339f8feb225d75fbad1b659cf820ebe936229",
+      "bytes": 3048
+    },
+    {
+      "path": "docs/validation/common_elasticnet_loocv_marker_stability.tsv",
+      "sha256": "56013a52704708a615b756910a44c9911070224b5aa65b5fd8e39338cbedd153",
+      "bytes": 21655
+    },
+    {
+      "path": "docs/validation/full_elasticnet_nested5_oof_predictions.tsv",
+      "sha256": "28f1c50158a9ef46d4889ff5c96ddd77091e60ca68298c9b00eb0638df98ad5d",
+      "bytes": 3052
+    },
+    {
+      "path": "docs/validation/full_ridge_loocv_marker_stability.tsv",
+      "sha256": "23aeba4ea9bb2017125beea7629c68eaf9c1d3866cf250f540c698dae25fec34",
+      "bytes": 22433
+    },
+    {
+      "path": "docs/validation/common_elasticnet_nested5_roc_calibration.svg",
+      "sha256": "1d896dda78c4dc23f94d897abd151277c1520de9897ea65345d872e31542e0c1",
+      "bytes": 41242
+    },
+    {
+      "path": "docs/validation/common_elasticnet_preHT_predictions.tsv",
+      "sha256": "d45a16184883d69556c3bbfa1a7b08ef27925382789b790e4434d25aaa9b8660",
+      "bytes": 1533
+    },
+    {
+      "path": "docs/validation/full_elasticnet_nested5_roc_calibration.svg",
+      "sha256": "53e1a5c6cc8edae6466f01119869e036de983af9fd58d50927a4244cb10c540d",
+      "bytes": 41765
+    },
+    {
+      "path": "docs/validation/common_elasticnet_loocv_oof_predictions.tsv",
+      "sha256": "f3a4ef614c457938afa951ad47d106ae7d4126a382d049d8ec7a32a9b68e7220",
+      "bytes": 3127
+    },
+    {
+      "path": "docs/validation/full_ridge_nested5_marker_stability.tsv",
+      "sha256": "57ffa51b25c152526c563fe5f6963b4ccf9eb092409994e29608413605f42608",
+      "bytes": 21566
+    },
+    {
+      "path": "docs/validation/common_elasticnet_loocv_roc_calibration.svg",
+      "sha256": "5412be722571cca697184ac0150f0f06e07cde781a1e8cae67e3bc3f2105cc09",
+      "bytes": 40598
+    },
+    {
+      "path": "docs/validation/full_elasticnet_loocv_marker_stability.tsv",
+      "sha256": "f491bc542b5d76851d887d4174463e95a8c07b0c76c73736254f407d19bb51e8",
+      "bytes": 21272
+    },
+    {
+      "path": "docs/validation/common_ridge_nested5_marker_stability.tsv",
+      "sha256": "a73d1de5d7980f3a93219ade2ba9f75ed855b7c13d93dee3d0aa45c7dd75c3e4",
+      "bytes": 22257
+    },
+    {
+      "path": "docs/validation/common_elasticnet_nested5_marker_stability.tsv",
+      "sha256": "266a6c2473b91800b025f4baf081cb403c10642c2b90988fd65acd773ef3fedb",
+      "bytes": 21652
+    },
+    {
+      "path": "docs/validation/full_elasticnet_preHT_predictions.tsv",
+      "sha256": "a35f9f4230cb7b5eafd3bbe61818d9c9540a099909ea396ca939398d4bceeac5",
+      "bytes": 1529
+    },
+    {
+      "path": "docs/validation/full_ridge_preHT_predictions.tsv",
+      "sha256": "c98b7373f95c055dd2f15a64f77b802143dfafc3a998bff60a8a5907d2b7c82a",
+      "bytes": 1910
+    },
+    {
+      "path": "docs/validation/full_elasticnet_loocv_oof_predictions.tsv",
+      "sha256": "ca1f2517a7f08b0c6ef6090300c7d1bb4609f475b2ac216b7f4944fce74573b5",
+      "bytes": 3113
+    },
+    {
+      "path": "docs/validation/metrics_all.json",
+      "sha256": "cd4a0c1f84e238c17be520901520a7e51b2d60c6b6599f65da35ba69861adb72",
+      "bytes": 16048
+    },
+    {
+      "path": "docs/validation/common_ridge_loocv_roc_calibration.svg",
+      "sha256": "e4f84417985f704f4d20a47d640528a2dda075c6151e90a10d5be2c209b64fa9",
+      "bytes": 40623
+    },
+    {
+      "path": "docs/validation/performance.tsv",
+      "sha256": "d00bffec62fbb9e9664914cdb9b256f2ec30cd143bfd27ede864e035a964654a",
+      "bytes": 7917
+    },
+    {
+      "path": "docs/validation/common_ridge_external_predictions.tsv",
+      "sha256": "8622a2fa4a85d41d0b61b944581261ded9038e7c75686368ad3895936f8f80ca",
+      "bytes": 533
+    },
+    {
+      "path": "docs/validation/common_ridge_loocv_marker_stability.tsv",
+      "sha256": "fa56e2cb44596b6f1fc89c2be85fcbb9a268554cd5137a40b0cabecf16758791",
+      "bytes": 23767
+    },
+    {
+      "path": "docs/validation/qc_manifest.json",
+      "sha256": "2309f472b9d4ff0606645913d8b2c96dc141cf76aec6d98f113d8b460b430358",
+      "bytes": 1573
+    }
+  ],
+  "code_files": [
+    {
+      "path": "src/nutriomics_methylation/__init__.py",
+      "sha256": "4d30b3ea9acf8ede5a30402c1bde0a81b5aa2123a58b2ef01fb6346a4ca11976"
+    },
+    {
+      "path": "src/nutriomics_methylation/cli.py",
+      "sha256": "9e0b07ea6c2c612788f7b483dc92682148cdc8d4f723b6c366f1fbfa8d997abf"
+    },
+    {
+      "path": "src/nutriomics_methylation/evaluation.py",
+      "sha256": "e2a5caab7546ef46e9d2adddee890c4616ebf6f37add007b4f144cdce28e980e"
+    },
+    {
+      "path": "src/nutriomics_methylation/io.py",
+      "sha256": "b5839b1e4f1e4680c310f50b569bb3d66f7857eab07b3020d1e7228a8b9909b9"
+    },
+    {
+      "path": "src/nutriomics_methylation/model.py",
+      "sha256": "82f1c985de8d75b1997b7697a3e4341c6dd106f8be34d4c75b14042f8e9cc5b6"
+    }
+  ],
+  "code_revision_at_export": "uncommitted_initial_implementation",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "not_clinical": true,
+  "no_causal_dietary_claim": true,
+  "analysis_unit": "participant/GSM",
+  "data_access": "official public GEO HTTPS"
+}

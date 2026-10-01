@@ -1,0 +1,101 @@
+probe_id	selected_folds	selection_frequency	nonzero_frequency	median_standardized_coefficient_when_selected	positive_sign_fraction_when_selected	interpretation	ID	CHR	MAPINFO	Chromosome_36	Coordinate_36	UCSC_RefGene_Name	UCSC_RefGene_Accession	UCSC_RefGene_Group	UCSC_CpG_Islands_Name	Relation_to_UCSC_CpG_Island	HMM_Island
+cg07258983	5	1.0	1.0	-0.1632054299116134	0.0	exploratory stability; not an independently validated biomarker	cg07258983	18	42255459	18	40509457				chr18:42258983-42260795	N_Shelf	
+cg02299007	5	1.0	1.0	-0.2162089049816131	0.0	exploratory stability; not an independently validated biomarker	cg02299007	8	1140574	8	1127981				chr8:1137207-1138672	S_Shore	8:1127898-1128090
+cg11229715	5	1.0	1.0	-0.2167267054319381	0.0	exploratory stability; not an independently validated biomarker	cg11229715	2	225441832	2	225150076	CUL3	NM_003590	Body			
+cg04814784	5	1.0	1.0	0.2626231014728546	1.0	exploratory stability; not an independently validated biomarker	cg04814784	3	10182561	3	10157561	VHL;VHL	NM_198156;NM_000551	TSS1500;TSS1500	chr3:10183305-10183941	N_Shore	
+cg00814218	5	1.0	1.0	0.0677258819341659	1.0	exploratory stability; not an independently validated biomarker	cg00814218	14	37445440	14	36515191	SLC25A21;SLC25A21	NM_030631;NM_001171170	Body;Body			
+cg05918715	5	1.0	1.0	0.1139965504407882	1.0	exploratory stability; not an independently validated biomarker	cg05918715	13	26622819	13	25520819	SHISA2	NM_001007538	Body	chr13:26624725-26626265	N_Shore	
+cg04566473	5	1.0	1.0	-0.2053709477186203	0.0	exploratory stability; not an independently validated biomarker	cg04566473	13	100517027	13	99315028	CLYBL	NM_206808	Body			13:99315010-99315041
+cg01191806	5	1.0	1.0	0.1025996953248977	1.0	exploratory stability; not an independently validated biomarker	cg01191806	10	81680307	10	81670287	MBL1P	NR_002724	Body			
+cg06352538	5	1.0	1.0	0.1270123869180679	1.0	exploratory stability; not an independently validated biomarker	cg06352538	12	55368244	12	53654511	KIAA0748;KIAA0748	NM_001098815;NM_001136030	Body;Body			
+cg02507579	5	1.0	0.8	0.1103478297591209	0.8	exploratory stability; not an independently validated biomarker	cg02507579	3	97887864	3	99370554	OR5H15	NM_001005515	1stExon			
+cg00017157	5	1.0	0.8	-0.1031220257282257	0.0	exploratory stability; not an independently validated biomarker	cg00017157	1	167127353	1	165393977						
+cg07437923	5	1.0	0.8	0.0520366057753562	0.8	exploratory stability; not an independently validated biomarker	cg07437923	16	4506231	16	4446232	DNAJA3;DNAJA3	NM_001135110;NM_005147	3'UTR;3'UTR			
+cg06445586	5	1.0	0.8	0.0522134564816951	0.8	exploratory stability; not an independently validated biomarker	cg06445586	11	49073835	11	49030411				chr11:49069720-49070722	S_Shelf	
+cg02901522	5	1.0	0.8	0.0860898941755294	0.8	exploratory stability; not an independently validated biomarker	cg02901522	8	129082086	8	129151268	PVT1	NR_003367	Body			
+cg08629394	5	1.0	0.8	-0.0654360726475715	0.0	exploratory stability; not an independently validated biomarker	cg08629394	12	96188933	12	94713064				chr12:96183873-96185199	S_Shelf	
+cg09627057	5	1.0	0.8	-0.1166510060429573	0.0	exploratory stability; not an independently validated biomarker	cg09627057	3	15377670	3	15352674	SH3BP5	NM_001018009	5'UTR	chr3:15373314-15374209	S_Shelf	
+cg00146240	5	1.0	0.8	-0.1435667276382446	0.0	exploratory stability; not an independently validated biomarker	cg00146240	15	62899159	15	60686451						
+cg04212500	5	1.0	0.8	-0.0753659754991531	0.0	exploratory stability; not an independently validated biomarker	cg04212500	17	27184533	17	24208659	ERAL1	NM_005702	Body	chr17:27181979-27182319	S_Shelf	
+cg11019791	5	1.0	0.8	-0.1034960374236106	0.0	exploratory stability; not an independently validated biomarker	cg11019791	22	48896579	22	47275243	FAM19A5	NM_001082967	Body	chr22:48896375-48896591	Island	
+cg00035449	5	1.0	0.8	0.0890301093459129	0.8	exploratory stability; not an independently validated biomarker	cg00035449	6	169539646	6	169281571				chr6:169539501-169540033	Island	6:169281427-169282428
+cg01201512	5	1.0	0.8	-0.1564223170280456	0.0	exploratory stability; not an independently validated biomarker	cg01201512	12	740338	12	610599	NINJ2	NM_016533	Body			12:610193-610666
+cg08198851	5	1.0	0.8	-0.1583769023418426	0.0	exploratory stability; not an independently validated biomarker	cg08198851	6	7847437	6	7792436	BMP6	NM_001718	Body			
+cg03329597	5	1.0	0.8	-0.0244094431400299	0.0	exploratory stability; not an independently validated biomarker	cg03329597	3	108125523	3	109608213	MYH15	NM_014981	Body			
+cg09636756	5	1.0	0.6	-0.0427159741520881	0.0	exploratory stability; not an independently validated biomarker	cg09636756	18	77134251	18	75235239	ATP9B	NM_198531	Body	chr18:77134250-77134551	Island	18:75235239-75235644
+cg03885028	5	1.0	0.6	0.0240794494748115	0.6	exploratory stability; not an independently validated biomarker	cg03885028	X	118890879	X	118774907				chrX:118891923-118893527	N_Shore	
+cg02533724	5	1.0	0.6	0.0637360736727714	0.6	exploratory stability; not an independently validated biomarker	cg02533724	10	130279912	10	130169902						10:130169838-130169903
+cg09081941	5	1.0	0.6	0.1212884336709976	0.6	exploratory stability; not an independently validated biomarker	cg09081941	12	132338464	12	130904417				chr12:132334377-132334786	S_Shelf	12:130904402-130904760
+cg08603678	5	1.0	0.6	-0.0046621807850897	0.0	exploratory stability; not an independently validated biomarker	cg08603678	8	109235928	8	109305104	EIF3E	NM_001568	Body			
+cg01081438	5	1.0	0.6	0.0092579070478677	0.6	exploratory stability; not an independently validated biomarker	cg01081438	1	92417998	1	92190586	BRDT;BRDT	NM_207189;NM_001726	5'UTR;5'UTR	chr1:92414718-92414986	S_Shelf	
+cg00345083	5	1.0	0.6	-0.0626343563199043	0.0	exploratory stability; not an independently validated biomarker	cg00345083	1	4725584	1	4625444	AJAP1;AJAP1	NM_018836;NM_001042478	Body;Body	chr1:4726576-4726867	N_Shore	
+cg10155537	5	1.0	0.6	-0.0374104045331478	0.0	exploratory stability; not an independently validated biomarker	cg10155537	1	248512094	1	246578717	OR14C36	NM_001001918	1stExon			
+cg03119308	5	1.0	0.6	0.0065162740647792	0.6	exploratory stability; not an independently validated biomarker	cg03119308	7	127950724	7	127737960	RBM28;RBM28	NM_018077;NM_001166135	3'UTR;3'UTR			
+cg01223071	5	1.0	0.6	-0.0462485365569591	0.0	exploratory stability; not an independently validated biomarker	cg01223071	11	86472904	11	86150552						
+cg05308244	5	1.0	0.6	0.0733916983008384	0.6	exploratory stability; not an independently validated biomarker	cg05308244	12	130968528	12	129534481	RIMBP2	NM_015347	5'UTR			12:129534319-129534640
+cg05279330	5	1.0	0.6	-0.056672379374504	0.0	exploratory stability; not an independently validated biomarker	cg05279330	13	26776254	13	25674254						
+cg02464073	5	1.0	0.6	0.0198094248771667	0.6	exploratory stability; not an independently validated biomarker	cg02464073	21	46349496	21	45173924	ITGB2	NM_001127491	TSS1500	chr21:46351328-46352911	N_Shore	
+cg09411910	5	1.0	0.6	0.0450171567499637	0.6	exploratory stability; not an independently validated biomarker	cg09411910	6	32607224	6	32715202	HLA-DQA1	NM_002122	Body			
+cg02668233	5	1.0	0.6	0.0903336852788925	0.6	exploratory stability; not an independently validated biomarker	cg02668233	12	125813494	12	124379447	TMEM132B	NM_052907	Body	chr12:125815555-125815817	N_Shelf	
+cg11956442	5	1.0	0.6	0.0757966488599777	0.6	exploratory stability; not an independently validated biomarker	cg11956442	4	39531927	4	39208322				chr4:39528728-39529723	S_Shelf	
+cg03988092	5	1.0	0.6	-0.156043142080307	0.0	exploratory stability; not an independently validated biomarker	cg03988092	4	190236439	4	190473433				chr4:190235572-190236030	S_Shore	
+cg03900028	5	1.0	0.4	0.0	0.2	exploratory stability; not an independently validated biomarker	cg03900028	7	64451426	7	64088861	ZNF117	NM_015852	TSS200			
+cg11251367	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg11251367	1	240620177	1	238686800	FMN2	NM_020066	Body			
+cg06961873	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg06961873	1	25825780	1	25698367	TMEM57	NM_018202	3'UTR			
+cg10006614	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg10006614	14	95877336	14	94947089	C14orf139	NR_026779	TSS1500			
+cg04132418	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg04132418	6	131148736	6	131190429	LOC285733	NR_015397	Body			
+cg00009523	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg00009523	2	1165351	2	1155351	SNTG2	NM_018968	Body	chr2:1163016-1163820	S_Shore	
+cg05134736	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg05134736	12	378771	12	249032						
+cg05890457	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg05890457	8	1905131	8	1892538	ARHGEF10	NM_014629	Body			8:1892437-1892848
+cg08250118	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg08250118	1	182858007	1	181124630						
+cg11144103	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg11144103	17	40561514	17	37815040	PTRF	NM_012232	Body	chr17:40556632-40557537	S_Shelf	
+cg10058204	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg10058204	10	91453851	10	91443831	FLJ37201	NR_026835	Body			
+cg10632770	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg10632770	15	81122346	15	78909401	KIAA1199	NM_018689	5'UTR			
+cg01463139	5	1.0	0.4	0.0	0.2	exploratory stability; not an independently validated biomarker	cg01463139	1	158435277	1	156701901	OR10K1	NM_001004473	TSS200			
+cg02702444	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg02702444	X	8696915	X	8656915	KAL1	NM_000216	Body	chrX:8698857-8700500	N_Shore	
+cg00540295	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg00540295	9	139616839	9	138736660	FAM69B	NM_152421	Body	chr9:139617622-139618131	N_Shore	
+cg00686453	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg00686453	2	100759810	2	100126242	AFF3	NM_002285	TSS1500			
+cg10920758	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg10920758	10	134974555	10	134824545	KNDC1	NM_152643	Body	chr10:134973510-134974311	S_Shore	
+cg09908042	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg09908042	15	102025217	15	99842740	PCSK6;PCSK6;PCSK6;PCSK6;PCSK6;PCSK6;PCSK6;PCSK6	NM_002570;NM_138320;NM_138319;NM_138324;NM_138323;NM_138325;NM_138322;NM_138321	Body;Body;Body;Body;Body;Body;Body;Body	chr15:102028860-102030608	N_Shelf	
+cg01016092	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg01016092	18	43305784	18	41559782	SLC14A1;SLC14A1;SLC14A1;SLC14A1	NM_015865;NM_001146036;NM_001146037;NM_001128588	5'UTR;5'UTR;TSS1500;5'UTR			
+cg03871140	5	1.0	0.4	0.0	0.2	exploratory stability; not an independently validated biomarker	cg03871140	5	177387597	5	177320203				chr5:177388753-177389250	N_Shore	5:177320194-177320403
+cg03467235	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg03467235	20	21003839	20	20951839				chr20:21000765-21001280	S_Shelf	
+cg09856996	5	1.0	0.4	0.0	0.2	exploratory stability; not an independently validated biomarker	cg09856996	14	104625669	14	103695422	KIF26A	NM_015656	Body	chr14:104625248-104625522	S_Shore	14:103695069-103695759
+cg11957130	5	1.0	0.4	0.0	0.2	exploratory stability; not an independently validated biomarker	cg11957130	7	105306555	7	105093791	ATXN7L1;ATXN7L1	NM_020725;NM_138495	Body;5'UTR			
+cg11857805	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg11857805	14	100441223	14	99510976				chr14:100437381-100438863	S_Shelf	
+cg10590338	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg10590338	3	168707389	3	170190083						
+cg09916840	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg09916840	16	87248612	16	85806113				chr16:87250097-87250745	N_Shore	
+cg03075889	5	1.0	0.4	0.0	0.2	exploratory stability; not an independently validated biomarker	cg03075889	7	1976457	7	1942983	MAD1L1;MAD1L1;MAD1L1	NM_003550;NM_001013837;NM_001013836	Body;Body;Body	chr7:1976258-1976464	Island	
+cg03987818	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg03987818	2	186988953	2	186697198						
+cg04131969	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg04131969	2	33951647	2	33805151	MYADML	NR_003143	Body	chr2:33952422-33952684	N_Shore	
+cg01491428	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg01491428	16	2334163	16	2274164	ABCA3	NM_001089	Body	chr16:2334108-2334347	Island	
+cg09263513	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg09263513	11	2295852	11	2252428				chr11:2290104-2292932	S_Shelf	11:2252286-2252447
+cg10695549	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg10695549	8	18432000	8	18476280	PSD3;PSD3	NM_206909;NM_015310	Body;Body			
+cg11331837	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg11331837	17	35161825	17	32235938				chr17:35165323-35165983	N_Shelf	
+cg05929129	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg05929129	12	132698423	12	131264376	GALNT9	NM_001122636	Body	chr12:132696661-132697724	S_Shore	12:131264368-131264574
+cg03088219	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg03088219	4	176711190	4	176948184	GPM6A;GPM6A;GPM6A	NM_201591;NM_005277;NM_201592	Body;Body;Body			
+cg06653140	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg06653140	5	36157329	5	36193086	SKP2;SKP2	NM_032637;NM_005983	Body;Body			
+cg09949906	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg09949906	6	32552350	6	32660328	HLA-DRB1	NM_002124	Body	chr6:32551851-32552331	S_Shore	6:32659866-32660444
+cg00274640	5	1.0	0.4	0.0	0.4	exploratory stability; not an independently validated biomarker	cg00274640	16	88238863	16	86796364				chr16:88237669-88237893	S_Shore	16:86796356-86796487
+cg08412936	5	1.0	0.4	0.0	0.0	exploratory stability; not an independently validated biomarker	cg08412936	6	31097051	6	31205030	PSORS1C1	NM_014068	5'UTR			
+cg06394820	5	1.0	0.4	0.0	0.2	exploratory stability; not an independently validated biomarker	cg06394820	11	60608291	11	60364867	CCDC86	NM_024098	TSS1500	chr11:60609392-60609786	N_Shore	
+cg05751055	5	1.0	0.2	0.0	0.0	exploratory stability; not an independently validated biomarker	cg05751055	6	33036504	6	33144482	HLA-DPA1	NM_033554	Body			
+cg11437465	5	1.0	0.2	0.0	0.0	exploratory stability; not an independently validated biomarker	cg11437465	6	33036958	6	33144936	HLA-DPA1	NM_033554	Body			
+cg04963199	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg04963199	16	87868947	16	86426448	SLC7A5	NM_003486	Body			
+cg08238375	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg08238375	5	112483149	5	112511048	MCC;MCC	NM_002387;NM_001085377	Body;Body			
+cg09993319	5	1.0	0.2	0.0	0.0	exploratory stability; not an independently validated biomarker	cg09993319	10	131529435	10	131419425	MGMT	NM_002412	Body			
+cg06032337	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg06032337	6	29648468	6	29756447						6:29756034-29757072
+cg01350803	5	1.0	0.2	0.0	0.0	exploratory stability; not an independently validated biomarker	cg01350803	7	157260189	7	156952950				chr7:157260938-157261221	N_Shore	7:156952553-156953261
+cg04234412	5	1.0	0.2	0.0	0.0	exploratory stability; not an independently validated biomarker	cg04234412	22	24373322	22	22703322	LOC391322	NM_001144931	Body	chr22:24372912-24373725	Island	22:22702803-22703712
+cg10306192	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg10306192	11	102576374	11	102081584	MMP27	NM_022122	1stExon			
+cg11400162	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg11400162	6	170455498	6	170297423				chr6:170453924-170454935	S_Shore	6:170297418-170297496
+cg07878625	5	1.0	0.2	0.0	0.0	exploratory stability; not an independently validated biomarker	cg07878625	7	148977647	7	148608580	ZNF783	NR_015357	Body	chr7:148978762-148979390	N_Shore	
+cg05161773	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg05161773	17	75378036	17	72889631	SEPT9;SEPT9;SEPT9;SEPT9;SEPT9	NM_001113494;NM_001113492;NM_001113493;NM_001113491;NM_006640	5'UTR;5'UTR;Body;Body;Body			
+cg07456585	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg07456585	14	74704714	14	73774467	VSX2	NM_182894	TSS1500	chr14:74706188-74708192	N_Shore	
+cg01821635	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg01821635	1	101089253	1	100861841						
+cg04263740	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg04263740	7	65375514	7	65012949	VKORC1L1	NM_173517	Body			
+cg06758191	5	1.0	0.2	0.0	0.0	exploratory stability; not an independently validated biomarker	cg06758191	4	7812988	4	7863888	AFAP1;AFAP1	NM_198595;NM_001134647	Body;Body			4:7863548-7864479
+cg05526809	5	1.0	0.2	0.0	0.0	exploratory stability; not an independently validated biomarker	cg05526809	4	1309416	4	1299416	MAEA;MAEA	NM_005882;NM_001017405	Body;Body	chr4:1309204-1309417	Island	4:1299140-1299968
+cg00532122	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg00532122	4	56274131	4	55968888	TMEM165	NM_018475	Body			
+cg05515244	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg05515244	16	66413050	16	64970551	CDH5	NM_001795	5'UTR			
+cg04145681	5	1.0	0.2	0.0	0.2	exploratory stability; not an independently validated biomarker	cg04145681	6	30899162	6	31007141	SFTA2	NM_205854	3'UTR			

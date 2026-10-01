@@ -1,0 +1,46 @@
+{
+  "accession": "GSE157131",
+  "platform": "GPL13534",
+  "source_accession": "GSE193795",
+  "source_n": 88,
+  "target_endpoint": "Measured-BP proxy; not diagnosed essential hypertension",
+  "target_n_metadata": 272,
+  "case_definition": "SBP>=140 OR DBP>=90",
+  "control_definition": "SBP<120 AND DBP<80",
+  "middle_bp_excluded": true,
+  "secondary_age_band": "50<=age<=65, predefined before target predictions",
+  "signal_beta_formula": "M/(M+U+100)",
+  "per_measurement_qc": "Detection P>.01 or invalid M/U/P -> missing",
+  "protocol_amendment_before_target_predictions": "Source10749 features retained. Target-file-unprovided probes stay NaN and use existing source88-fitted medians only. No feature dropping or target median fitting.",
+  "target_used_for_fit_or_tuning": false,
+  "target_normalization_or_batch_fit": false,
+  "age_or_sex_adjusted": false,
+  "family_ids_available": false,
+  "individual_medication_available": false,
+  "blood_pressure_medication_correction": "GEO individual values' correction status unknown",
+  "threshold": 0.5,
+  "bootstrap_replicates": 1000,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "raw_signals_sha256": "4f04abb44aaa8a918a009e88988d3c006ccaf963b9c8942b0a0faf866888d069",
+  "metadata_csv_sha256": "a848d57fdae3ae1b96bbd005609d3c1e1d6ce2030ff93c4707e53563d507674e",
+  "sample_qc_json_sha256": "ce66cdef9cd65b008422e21c12476d25f286724eceff2b02317a99ab432b7407",
+  "source_training_config_sha256": "70bbb4fc8bda4a59ce7e8839e331e68b7d7c59563bd2016f40e3b7d72792b967",
+  "common_probe_mask_sha256": "59212ff164236656da223829e82499707d8a4a908bc13608700cf9622cea4078",
+  "frozen_model_sha256": {
+    "ridge": "99db125d35678cb6b917ca287fc6d4ed9f6fe67b895d9d0d5e1a7505ff38cffd",
+    "elasticnet": "ea710d35b39939dc2b43767efd83584ced7c46594cb88a946fee5bdfaaa4a137"
+  },
+  "limitations": [
+    "Unknown family dependence is not modeled by participant bootstrap intervals.",
+    "Treated hypertension may appear in measured normal-BP controls; clinical diagnoses/individual medications are unavailable.",
+    "Raw signal beta differs from source deposited processed beta; no cross-cohort normalization is fitted.",
+    "Blood leukocyte fractions/preprocessing/population differences remain; age/sex are descriptive only."
+  ]
+}

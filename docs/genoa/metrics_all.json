@@ -1,0 +1,214 @@
+{
+  "ridge/all_proxy": {
+    "n": 179,
+    "n_positive": 126,
+    "auroc": 0.5513626834381551,
+    "average_precision": 0.7508446217181141,
+    "auprc_trapezoid": 0.7485258477490029,
+    "brier": 0.2520976313338667,
+    "sensitivity": 0.5158730158730159,
+    "specificity": 0.6037735849056604,
+    "threshold": 0.5,
+    "tp": 65,
+    "tn": 32,
+    "fp": 21,
+    "fn": 61,
+    "ci95": {
+      "auroc": [
+        0.4534141958670261,
+        0.6410864031147049
+      ],
+      "average_precision": [
+        0.690288474471279,
+        0.8164265161752623
+      ],
+      "auprc_trapezoid": [
+        0.6838989537162352,
+        0.8134091047337589
+      ],
+      "brier": [
+        0.2378241134267986,
+        0.26592007441031357
+      ],
+      "sensitivity": [
+        0.4251860902363472,
+        0.6057968455125016
+      ],
+      "specificity": [
+        0.46004305346547075,
+        0.7354835592054407
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.47250765646249343,
+    "calibration_intercept_descriptive": 0.8745043853069485,
+    "endpoint": "Measured-BP proxy; not diagnosed essential hypertension",
+    "family_dependence_captured": false,
+    "interpretation": "Conditional fixed-classifier association with independently deposited measured-BP proxy; not clinical HTN validation or proof of improved disease generalization."
+  },
+  "ridge/age_50_65_secondary": {
+    "n": 67,
+    "n_positive": 42,
+    "auroc": 0.4876190476190476,
+    "average_precision": 0.6016349738702078,
+    "auprc_trapezoid": 0.5851315999471682,
+    "brier": 0.26671168343987345,
+    "sensitivity": 0.38095238095238093,
+    "specificity": 0.56,
+    "threshold": 0.5,
+    "tp": 16,
+    "tn": 14,
+    "fp": 11,
+    "fn": 26,
+    "ci95": {
+      "auroc": [
+        0.3428333333333333,
+        0.6333571428571428
+      ],
+      "average_precision": [
+        0.536979057491764,
+        0.7332640575294823
+      ],
+      "auprc_trapezoid": [
+        0.5142136322774118,
+        0.7182995940560026
+      ],
+      "brier": [
+        0.24513033117709926,
+        0.28873186632178005
+      ],
+      "sensitivity": [
+        0.23572054686321633,
+        0.5436325045021015
+      ],
+      "specificity": [
+        0.34928163399133577,
+        0.7559763348527919
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": -0.2575977869394087,
+    "calibration_intercept_descriptive": 0.5032086933333417,
+    "endpoint": "Measured-BP proxy; not diagnosed essential hypertension",
+    "family_dependence_captured": false,
+    "interpretation": "Conditional fixed-classifier association with independently deposited measured-BP proxy; not clinical HTN validation or proof of improved disease generalization."
+  },
+  "elasticnet/all_proxy": {
+    "n": 179,
+    "n_positive": 126,
+    "auroc": 0.5155735250074873,
+    "average_precision": 0.7042250515049552,
+    "auprc_trapezoid": 0.7009560396012532,
+    "brier": 0.23448306000650276,
+    "sensitivity": 0.9682539682539683,
+    "specificity": 0.05660377358490566,
+    "threshold": 0.5,
+    "tp": 122,
+    "tn": 3,
+    "fp": 50,
+    "fn": 4,
+    "ci95": {
+      "auroc": [
+        0.41013402216232403,
+        0.613514525306978
+      ],
+      "average_precision": [
+        0.6453263853240971,
+        0.7702240759129863
+      ],
+      "auprc_trapezoid": [
+        0.6379292609890584,
+        0.7650928222103082
+      ],
+      "brier": [
+        0.23032261499745338,
+        0.23848458752795432
+      ],
+      "sensitivity": [
+        0.9207119943473792,
+        0.991283839208916
+      ],
+      "specificity": [
+        0.011828718859133636,
+        0.15662946217237497
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.4059944450855255,
+    "calibration_intercept_descriptive": 0.7959116697311401,
+    "endpoint": "Measured-BP proxy; not diagnosed essential hypertension",
+    "family_dependence_captured": false,
+    "interpretation": "Conditional fixed-classifier association with independently deposited measured-BP proxy; not clinical HTN validation or proof of improved disease generalization."
+  },
+  "elasticnet/age_50_65_secondary": {
+    "n": 67,
+    "n_positive": 42,
+    "auroc": 0.5447619047619048,
+    "average_precision": 0.6309004292150877,
+    "auprc_trapezoid": 0.6163972609824748,
+    "brier": 0.241191380030881,
+    "sensitivity": 1.0,
+    "specificity": 0.12,
+    "threshold": 0.5,
+    "tp": 42,
+    "tn": 3,
+    "fp": 22,
+    "fn": 0,
+    "ci95": {
+      "auroc": [
+        0.3980714285714285,
+        0.699095238095238
+      ],
+      "average_precision": [
+        0.55325052596909,
+        0.7684240773806521
+      ],
+      "auprc_trapezoid": [
+        0.5322560932631029,
+        0.7520970211302652
+      ],
+      "brier": [
+        0.23558205843160515,
+        0.2465839957786435
+      ],
+      "sensitivity": [
+        0.9159161450596448,
+        1.0
+      ],
+      "specificity": [
+        0.025465396647733195,
+        0.31219030728623537
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 1.1170145273208618,
+    "calibration_intercept_descriptive": 0.349980890750885,
+    "endpoint": "Measured-BP proxy; not diagnosed essential hypertension",
+    "family_dependence_captured": false,
+    "interpretation": "Conditional fixed-classifier association with independently deposited measured-BP proxy; not clinical HTN validation or proof of improved disease generalization."
+  }
+}

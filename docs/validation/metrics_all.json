@@ -1,0 +1,524 @@
+{
+  "common_elasticnet/external": {
+    "n": 16,
+    "n_positive": 8,
+    "auroc": 0.640625,
+    "average_precision": 0.6114739427239427,
+    "auprc_trapezoid": 0.5492028804528805,
+    "brier": 0.2536528695272564,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "threshold": 0.5,
+    "tp": 8,
+    "tn": 0,
+    "fp": 8,
+    "fn": 0,
+    "ci95": {
+      "auroc": [
+        0.3125,
+        0.921875
+      ],
+      "average_precision": [
+        0.4597705853174603,
+        0.95
+      ],
+      "auprc_trapezoid": [
+        0.37107715201465197,
+        0.94375
+      ],
+      "brier": [
+        0.24529020044895908,
+        0.26279593724355205
+      ],
+      "sensitivity": [
+        0.6305833524471807,
+        1.0
+      ],
+      "specificity": [
+        0.0,
+        0.3694166475528192
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "matched-pair bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 9.367289613619535,
+    "calibration_intercept_descriptive": -3.446780138379041,
+    "source": "results/common_elasticnet/external_predictions.tsv",
+    "prediction_sha256": "5e1b57bc72ef910677b619304493e7331043a836d8d3f603c4c37cfce00c59d6",
+    "interpretation": "Exploratory independent cross-platform transfer, n16 young African American males; cannot establish clinical generalization."
+  },
+  "common_elasticnet/loocv": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.4700413223140496,
+    "average_precision": 0.49172827300807914,
+    "auprc_trapezoid": 0.4755394013790588,
+    "brier": 0.2571396271118182,
+    "sensitivity": 0.4090909090909091,
+    "specificity": 0.6136363636363636,
+    "threshold": 0.5,
+    "tp": 18,
+    "tn": 27,
+    "fp": 17,
+    "fn": 26,
+    "ci95": {
+      "auroc": [
+        0.3527246900826446,
+        0.5996900826446281
+      ],
+      "average_precision": [
+        0.426199070932445,
+        0.623095845922409
+      ],
+      "auprc_trapezoid": [
+        0.40711241285150385,
+        0.6065123478417264
+      ],
+      "brier": [
+        0.24128451879416019,
+        0.2730325328807802
+      ],
+      "sensitivity": [
+        0.26337942508130363,
+        0.5675035727478288
+      ],
+      "specificity": [
+        0.4549553046634418,
+        0.756428357559279
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": -0.1381847554034153,
+    "calibration_intercept_descriptive": -0.011119249656420265,
+    "source": "results/common_elasticnet/loocv/oof_predictions.tsv",
+    "prediction_sha256": "f3a4ef614c457938afa951ad47d106ae7d4126a382d049d8ec7a32a9b68e7220"
+  },
+  "common_elasticnet/nested5": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.5408057851239669,
+    "average_precision": 0.5389497503596519,
+    "auprc_trapezoid": 0.5283631607202235,
+    "brier": 0.29057934749585856,
+    "sensitivity": 0.5227272727272727,
+    "specificity": 0.5227272727272727,
+    "threshold": 0.5,
+    "tp": 23,
+    "tn": 23,
+    "fp": 21,
+    "fn": 21,
+    "ci95": {
+      "auroc": [
+        0.4256069214876033,
+        0.6503099173553719
+      ],
+      "average_precision": [
+        0.4630163576090815,
+        0.6583153197552462
+      ],
+      "auprc_trapezoid": [
+        0.4438261665430351,
+        0.6428606744816501
+      ],
+      "brier": [
+        0.24462479342575574,
+        0.3418402139071756
+      ],
+      "sensitivity": [
+        0.36689751659283454,
+        0.6753857836029169
+      ],
+      "specificity": [
+        0.36689751659283454,
+        0.6753857836029169
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.07573544812870077,
+    "calibration_intercept_descriptive": -0.018350735247534753,
+    "source": "results/common_elasticnet/nested5/oof_predictions.tsv",
+    "prediction_sha256": "12e41f8bec1b348bd23576586ca339f8feb225d75fbad1b659cf820ebe936229"
+  },
+  "common_ridge/external": {
+    "n": 16,
+    "n_positive": 8,
+    "auroc": 0.5625,
+    "average_precision": 0.6111381673881674,
+    "auprc_trapezoid": 0.5792433261183261,
+    "brier": 0.25715463566923624,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "threshold": 0.5,
+    "tp": 8,
+    "tn": 0,
+    "fp": 8,
+    "fn": 0,
+    "ci95": {
+      "auroc": [
+        0.21875,
+        0.875
+      ],
+      "average_precision": [
+        0.42532670454545457,
+        0.8854166666666667
+      ],
+      "auprc_trapezoid": [
+        0.3503649215367965,
+        0.8593941735347985
+      ],
+      "brier": [
+        0.2329948670540622,
+        0.2812225129494565
+      ],
+      "sensitivity": [
+        0.6305833524471807,
+        1.0
+      ],
+      "specificity": [
+        0.0,
+        0.3694166475528192
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "matched-pair bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 1.4851207860476021,
+    "calibration_intercept_descriptive": -0.6382641067335726,
+    "source": "results/common_ridge/external_predictions.tsv",
+    "prediction_sha256": "8622a2fa4a85d41d0b61b944581261ded9038e7c75686368ad3895936f8f80ca",
+    "interpretation": "Exploratory independent cross-platform transfer, n16 young African American males; cannot establish clinical generalization."
+  },
+  "common_ridge/loocv": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.46849173553719015,
+    "average_precision": 0.5066014866686035,
+    "auprc_trapezoid": 0.490640737116029,
+    "brier": 0.28607828480957254,
+    "sensitivity": 0.38636363636363635,
+    "specificity": 0.6136363636363636,
+    "threshold": 0.5,
+    "tp": 17,
+    "tn": 27,
+    "fp": 17,
+    "fn": 27,
+    "ci95": {
+      "auroc": [
+        0.34551911157024795,
+        0.5898889462809916
+      ],
+      "average_precision": [
+        0.43247578551457044,
+        0.630597405230922
+      ],
+      "auprc_trapezoid": [
+        0.4113453438846844,
+        0.616032631639896
+      ],
+      "brier": [
+        0.25124477940297124,
+        0.3241336442162152
+      ],
+      "sensitivity": [
+        0.243571642440721,
+        0.5450446953365582
+      ],
+      "specificity": [
+        0.4549553046634418,
+        0.756428357559279
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": -0.08906563240664614,
+    "calibration_intercept_descriptive": -0.014257336462900026,
+    "source": "results/common_ridge/loocv/oof_predictions.tsv",
+    "prediction_sha256": "3eebd409cc473836e423961aac4853686167b270c43b43e60d8f8ba0b2fee868"
+  },
+  "common_ridge/nested5": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.4679752066115702,
+    "average_precision": 0.48089812535658716,
+    "auprc_trapezoid": 0.4649656490289525,
+    "brier": 0.3054828093945576,
+    "sensitivity": 0.5681818181818182,
+    "specificity": 0.38636363636363635,
+    "threshold": 0.5,
+    "tp": 25,
+    "tn": 17,
+    "fp": 27,
+    "fn": 19,
+    "ci95": {
+      "auroc": [
+        0.3434659090909091,
+        0.5800748966942149
+      ],
+      "average_precision": [
+        0.4208907433044142,
+        0.5983030988400518
+      ],
+      "auprc_trapezoid": [
+        0.3988272017909461,
+        0.5773860130184817
+      ],
+      "brier": [
+        0.26272357261997786,
+        0.3528307380322346
+      ],
+      "sensitivity": [
+        0.41033721610603374,
+        0.7165062719107134
+      ],
+      "specificity": [
+        0.243571642440721,
+        0.5450446953365582
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": -0.03077161738957459,
+    "calibration_intercept_descriptive": 0.005500815838248968,
+    "source": "results/common_ridge/nested5/oof_predictions.tsv",
+    "prediction_sha256": "b8d0cde38eb5c3b127523569186859ab67d74c58c2eee72e685e29784dea4ebb"
+  },
+  "full_elasticnet/loocv": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.5537190082644629,
+    "average_precision": 0.5400556778032185,
+    "auprc_trapezoid": 0.5259130425267111,
+    "brier": 0.26813657669972835,
+    "sensitivity": 0.4772727272727273,
+    "specificity": 0.6136363636363636,
+    "threshold": 0.5,
+    "tp": 21,
+    "tn": 27,
+    "fp": 17,
+    "fn": 23,
+    "ci95": {
+      "auroc": [
+        0.43330320247933884,
+        0.6838972107438016
+      ],
+      "average_precision": [
+        0.4677731094982552,
+        0.6761977496206286
+      ],
+      "auprc_trapezoid": [
+        0.44646707148430864,
+        0.6543806815107145
+      ],
+      "brier": [
+        0.23216864630672693,
+        0.30659815710472416
+      ],
+      "sensitivity": [
+        0.3246142163970831,
+        0.6331024834071655
+      ],
+      "specificity": [
+        0.4549553046634418,
+        0.756428357559279
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.020603909925233695,
+    "calibration_intercept_descriptive": 0.0019755857753736483,
+    "source": "results/full_elasticnet/loocv/oof_predictions.tsv",
+    "prediction_sha256": "ca1f2517a7f08b0c6ef6090300c7d1bb4609f475b2ac216b7f4944fce74573b5"
+  },
+  "full_elasticnet/nested5": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.568698347107438,
+    "average_precision": 0.5579791269862349,
+    "auprc_trapezoid": 0.5419167912040289,
+    "brier": 0.28336885476106927,
+    "sensitivity": 0.5227272727272727,
+    "specificity": 0.6363636363636364,
+    "threshold": 0.5,
+    "tp": 23,
+    "tn": 28,
+    "fp": 16,
+    "fn": 21,
+    "ci95": {
+      "auroc": [
+        0.44781766528925615,
+        0.6957902892561983
+      ],
+      "average_precision": [
+        0.47775952869230287,
+        0.701591497282668
+      ],
+      "auprc_trapezoid": [
+        0.4542600635094916,
+        0.6891856302733405
+      ],
+      "brier": [
+        0.22745010717242872,
+        0.338962635658139
+      ],
+      "sensitivity": [
+        0.36689751659283454,
+        0.6753857836029169
+      ],
+      "specificity": [
+        0.47772149643862577,
+        0.7759198599212762
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.16745479487327639,
+    "calibration_intercept_descriptive": 0.019961344656903388,
+    "source": "results/full_elasticnet/nested5/oof_predictions.tsv",
+    "prediction_sha256": "28f1c50158a9ef46d4889ff5c96ddd77091e60ca68298c9b00eb0638df98ad5d"
+  },
+  "full_ridge/loocv": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.365702479338843,
+    "average_precision": 0.43617543096766176,
+    "auprc_trapezoid": 0.4203750803360065,
+    "brier": 0.39158304292624885,
+    "sensitivity": 0.2727272727272727,
+    "specificity": 0.4772727272727273,
+    "threshold": 0.5,
+    "tp": 12,
+    "tn": 21,
+    "fp": 23,
+    "fn": 32,
+    "ci95": {
+      "auroc": [
+        0.249974173553719,
+        0.48864927685950416
+      ],
+      "average_precision": [
+        0.3860229959352189,
+        0.5515290962436952
+      ],
+      "auprc_trapezoid": [
+        0.3663768471487042,
+        0.5281991058526054
+      ],
+      "brier": [
+        0.32478844818814917,
+        0.4598152892016884
+      ],
+      "sensitivity": [
+        0.14957684376530814,
+        0.4278964124555005
+      ],
+      "specificity": [
+        0.3246142163970831,
+        0.6331024834071655
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": -0.20051827301061018,
+    "calibration_intercept_descriptive": -0.05193889475946722,
+    "source": "results/full_ridge/loocv/oof_predictions.tsv",
+    "prediction_sha256": "cb4a660a0c757d39decb90d6ffa4f9f80e817465d3c969dd6fca03c3d881dcc0"
+  },
+  "full_ridge/nested5": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.4323347107438017,
+    "average_precision": 0.45378741071861795,
+    "auprc_trapezoid": 0.4397335327081212,
+    "brier": 0.3030272813829869,
+    "sensitivity": 0.45454545454545453,
+    "specificity": 0.4090909090909091,
+    "threshold": 0.5,
+    "tp": 20,
+    "tn": 18,
+    "fp": 26,
+    "fn": 24,
+    "ci95": {
+      "auroc": [
+        0.31197055785123967,
+        0.5599302685950414
+      ],
+      "average_precision": [
+        0.39920636781379926,
+        0.5637751676883566
+      ],
+      "auprc_trapezoid": [
+        0.3811003816455893,
+        0.5423174026765327
+      ],
+      "brier": [
+        0.2594594841798112,
+        0.34703645827045193
+      ],
+      "sensitivity": [
+        0.3039071135156736,
+        0.6115278775270836
+      ],
+      "specificity": [
+        0.26337942508130363,
+        0.5675035727478288
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": -0.06740979246931673,
+    "calibration_intercept_descriptive": -0.005687702925287159,
+    "source": "results/full_ridge/nested5/oof_predictions.tsv",
+    "prediction_sha256": "ce8f4951d96d85fc2f033e145da1c15e4267381b577917f28d643a65d0a17122"
+  }
+}

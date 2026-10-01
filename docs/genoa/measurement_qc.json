@@ -1,0 +1,5344 @@
+{
+  "raw_probe_rows_scanned": 478865,
+  "fixed_source_probes_found": 10689,
+  "unprovided_source_probes": [
+    "cg00061629",
+    "cg00849368",
+    "cg00912191",
+    "cg01253545",
+    "cg01311051",
+    "cg01371477",
+    "cg01723747",
+    "cg01889448",
+    "cg01959004",
+    "cg01994779",
+    "cg02057157",
+    "cg02077793",
+    "cg02549424",
+    "cg02775617",
+    "cg03148461",
+    "cg03218019",
+    "cg03561565",
+    "cg03954587",
+    "cg03991326",
+    "cg04009666",
+    "cg04316754",
+    "cg04317031",
+    "cg04336379",
+    "cg04376617",
+    "cg04648087",
+    "cg04878842",
+    "cg05088386",
+    "cg05303448",
+    "cg05417950",
+    "cg05486551",
+    "cg06111454",
+    "cg06476337",
+    "cg07207937",
+    "cg07505695",
+    "cg07731916",
+    "cg07844021",
+    "cg07864632",
+    "cg07970007",
+    "cg08222514",
+    "cg08268266",
+    "cg08348962",
+    "cg08634464",
+    "cg08674093",
+    "cg08724517",
+    "cg08797194",
+    "cg09054876",
+    "cg09082921",
+    "cg09102409",
+    "cg09757277",
+    "cg09930017",
+    "cg10021735",
+    "cg10049535",
+    "cg10104451",
+    "cg10409680",
+    "cg10839997",
+    "cg11008866",
+    "cg11041457",
+    "cg11175476",
+    "cg11227541",
+    "cg11879514"
+  ],
+  "unprovided_source_probe_count": 60,
+  "coverage_policy": "Full frozen source feature width; unprovided target probes remain NaN and use original source-fitted medians only",
+  "raw_metadata_sample_identity_join": "exact and bijective",
+  "gzip_full_stream_read": true,
+  "sample_missing_fraction_quantiles": {
+    "0": 0.0055819145967066705,
+    "0.25": 0.0055819145967066705,
+    "0.5": 0.0055819145967066705,
+    "0.75": 0.0055819145967066705,
+    "1": 0.0055819145967066705
+  },
+  "measured_probe_detection_or_signal_failure_fraction_quantiles": {
+    "0": 0.0,
+    "0.25": 0.0,
+    "0.5": 0.0,
+    "0.75": 0.0,
+    "1": 0.0
+  },
+  "frozen_selected_probe_coverage": {
+    "ridge": {
+      "selected_probes": 100,
+      "unprovided_selected_probes": [
+        "cg10409680",
+        "cg08634464",
+        "cg08797194",
+        "cg04336379"
+      ]
+    },
+    "elasticnet": {
+      "selected_probes": 500,
+      "unprovided_selected_probes": [
+        "cg10409680",
+        "cg08634464",
+        "cg08797194",
+        "cg04336379",
+        "cg11879514",
+        "cg11008866",
+        "cg10104451",
+        "cg01889448",
+        "cg03561565",
+        "cg04376617",
+        "cg04878842"
+      ]
+    }
+  },
+  "beta_mean_descriptive": 0.3062896430492401,
+  "target_missingness_sample_exclusions": 0,
+  "bp_counts": {
+    "case": 126,
+    "control": 53,
+    "middle_or_missing": 93
+  },
+  "age_quantiles": {
+    "0": 39.26,
+    "0.25": 62.875,
+    "0.5": 66.315,
+    "0.75": 71.0175,
+    "1": 94.74
+  },
+  "sex_counts": {
+    "F": 195,
+    "M": 77
+  },
+  "metadata_mapping": {
+    "data_accession": "GSE157131",
+    "platform": "GPL13534",
+    "people_in_450k_geo_metadata": 272,
+    "raw_signal_triplets": 272,
+    "exact_sample_id_join": true,
+    "duplicate_gsm": 0,
+    "duplicate_description": 0,
+    "metadata_without_raw": [],
+    "raw_without_metadata": [],
+    "raw_signals_are_not_normalized_beta": true,
+    "family_id_present": false,
+    "medication_present": false,
+    "clinical_htn_label_present": false,
+    "age_min_max": [
+      39.26,
+      94.74
+    ],
+    "sex_counts": {
+      "F": 195,
+      "M": 77
+    },
+    "bp_proxy_definition": {
+      "case": "SBP>=140 OR DBP>=90",
+      "control": "SBP<120 AND DBP<80",
+      "exclude": "remaining middle-BP subjects",
+      "not_clinical_essential_htn": true,
+      "medication_adjustment_of_GEO_BP": "not specified in GEO metadata; paper analysis used +15/+10 for medication but individual medication unavailable"
+    },
+    "bp_proxy_counts": {
+      "elevated_measured_bp": 126,
+      "middle_bp_excluded": 93,
+      "low_measured_bp": 53
+    },
+    "age_50_to_65_proxy_counts": {
+      "middle_bp_excluded": 36,
+      "elevated_measured_bp": 42,
+      "low_measured_bp": 25
+    },
+    "source_metadata_bytes": 13181,
+    "source_metadata_sha256": "9ff8e0aafddc6d8e9356fe5ab0d27411ede857046b2e72418244bc20663c8ee7",
+    "source_metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157131/matrix/GSE157131-GPL13534_series_matrix.txt.gz",
+    "models_trained": false,
+    "feature_values_processed": false,
+    "samples": [
+      {
+        "gsm": "GSM4753643",
+        "description": "AAGENOA_LCL_0006",
+        "source_title": "genomic DNA from peripheral blood leukocytes 6",
+        "age_years": 66.31,
+        "sex": "F",
+        "sbp_mmhg": 179.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 1,
+          "Unmethylated.signal": 2,
+          "Detection.Pval": 3
+        }
+      },
+      {
+        "gsm": "GSM4753647",
+        "description": "AAGENOA_LCL_0010",
+        "source_title": "genomic DNA from peripheral blood leukocytes 10",
+        "age_years": 59.39,
+        "sex": "F",
+        "sbp_mmhg": 123.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 4,
+          "Unmethylated.signal": 5,
+          "Detection.Pval": 6
+        }
+      },
+      {
+        "gsm": "GSM4753648",
+        "description": "AAGENOA_LCL_0011",
+        "source_title": "genomic DNA from peripheral blood leukocytes 11",
+        "age_years": 63.88,
+        "sex": "M",
+        "sbp_mmhg": 136.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 7,
+          "Unmethylated.signal": 8,
+          "Detection.Pval": 9
+        }
+      },
+      {
+        "gsm": "GSM4753651",
+        "description": "AAGENOA_LCL_0014",
+        "source_title": "genomic DNA from peripheral blood leukocytes 14",
+        "age_years": 66.35,
+        "sex": "M",
+        "sbp_mmhg": 131.0,
+        "dbp_mmhg": 75.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 10,
+          "Unmethylated.signal": 11,
+          "Detection.Pval": 12
+        }
+      },
+      {
+        "gsm": "GSM4753652",
+        "description": "AAGENOA_LCL_0015",
+        "source_title": "genomic DNA from peripheral blood leukocytes 15",
+        "age_years": 62.54,
+        "sex": "F",
+        "sbp_mmhg": 170.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 13,
+          "Unmethylated.signal": 14,
+          "Detection.Pval": 15
+        }
+      },
+      {
+        "gsm": "GSM4753657",
+        "description": "AAGENOA_LCL_0020",
+        "source_title": "genomic DNA from peripheral blood leukocytes 20",
+        "age_years": 63.25,
+        "sex": "F",
+        "sbp_mmhg": 117.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 16,
+          "Unmethylated.signal": 17,
+          "Detection.Pval": 18
+        }
+      },
+      {
+        "gsm": "GSM4753662",
+        "description": "AAGENOA_LCL_0027",
+        "source_title": "genomic DNA from peripheral blood leukocytes 27",
+        "age_years": 59.0,
+        "sex": "F",
+        "sbp_mmhg": 111.0,
+        "dbp_mmhg": 68.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 19,
+          "Unmethylated.signal": 20,
+          "Detection.Pval": 21
+        }
+      },
+      {
+        "gsm": "GSM4753666",
+        "description": "AAGENOA_LCL_0031",
+        "source_title": "genomic DNA from peripheral blood leukocytes 31",
+        "age_years": 65.91,
+        "sex": "F",
+        "sbp_mmhg": 148.0,
+        "dbp_mmhg": 59.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 22,
+          "Unmethylated.signal": 23,
+          "Detection.Pval": 24
+        }
+      },
+      {
+        "gsm": "GSM4753669",
+        "description": "AAGENOA_LCL_0035",
+        "source_title": "genomic DNA from peripheral blood leukocytes 35",
+        "age_years": 68.4,
+        "sex": "M",
+        "sbp_mmhg": 125.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 25,
+          "Unmethylated.signal": 26,
+          "Detection.Pval": 27
+        }
+      },
+      {
+        "gsm": "GSM4753672",
+        "description": "AAGENOA_LCL_0038",
+        "source_title": "genomic DNA from peripheral blood leukocytes 38",
+        "age_years": 72.91,
+        "sex": "F",
+        "sbp_mmhg": 163.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 28,
+          "Unmethylated.signal": 29,
+          "Detection.Pval": 30
+        }
+      },
+      {
+        "gsm": "GSM4753677",
+        "description": "AAGENOA_LCL_0045",
+        "source_title": "genomic DNA from peripheral blood leukocytes 45",
+        "age_years": 62.47,
+        "sex": "F",
+        "sbp_mmhg": 141.0,
+        "dbp_mmhg": 79.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 31,
+          "Unmethylated.signal": 32,
+          "Detection.Pval": 33
+        }
+      },
+      {
+        "gsm": "GSM4753683",
+        "description": "AAGENOA_LCL_0051",
+        "source_title": "genomic DNA from peripheral blood leukocytes 51",
+        "age_years": 57.34,
+        "sex": "F",
+        "sbp_mmhg": 132.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 34,
+          "Unmethylated.signal": 35,
+          "Detection.Pval": 36
+        }
+      },
+      {
+        "gsm": "GSM4753685",
+        "description": "AAGENOA_LCL_0053",
+        "source_title": "genomic DNA from peripheral blood leukocytes 53",
+        "age_years": 65.12,
+        "sex": "F",
+        "sbp_mmhg": 132.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 37,
+          "Unmethylated.signal": 38,
+          "Detection.Pval": 39
+        }
+      },
+      {
+        "gsm": "GSM4753690",
+        "description": "AAGENOA_LCL_0059",
+        "source_title": "genomic DNA from peripheral blood leukocytes 59",
+        "age_years": 64.6,
+        "sex": "M",
+        "sbp_mmhg": 147.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 40,
+          "Unmethylated.signal": 41,
+          "Detection.Pval": 42
+        }
+      },
+      {
+        "gsm": "GSM4753692",
+        "description": "AAGENOA_LCL_0061",
+        "source_title": "genomic DNA from peripheral blood leukocytes 61",
+        "age_years": 60.33,
+        "sex": "F",
+        "sbp_mmhg": 104.0,
+        "dbp_mmhg": 53.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 43,
+          "Unmethylated.signal": 44,
+          "Detection.Pval": 45
+        }
+      },
+      {
+        "gsm": "GSM4753693",
+        "description": "AAGENOA_LCL_0062",
+        "source_title": "genomic DNA from peripheral blood leukocytes 62",
+        "age_years": 39.26,
+        "sex": "F",
+        "sbp_mmhg": 112.0,
+        "dbp_mmhg": 67.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 46,
+          "Unmethylated.signal": 47,
+          "Detection.Pval": 48
+        }
+      },
+      {
+        "gsm": "GSM4753698",
+        "description": "AAGENOA_LCL_0067",
+        "source_title": "genomic DNA from peripheral blood leukocytes 67",
+        "age_years": 66.57,
+        "sex": "F",
+        "sbp_mmhg": 109.0,
+        "dbp_mmhg": 67.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 49,
+          "Unmethylated.signal": 50,
+          "Detection.Pval": 51
+        }
+      },
+      {
+        "gsm": "GSM4753699",
+        "description": "AAGENOA_LCL_0068",
+        "source_title": "genomic DNA from peripheral blood leukocytes 68",
+        "age_years": 54.29,
+        "sex": "M",
+        "sbp_mmhg": 145.0,
+        "dbp_mmhg": 89.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 52,
+          "Unmethylated.signal": 53,
+          "Detection.Pval": 54
+        }
+      },
+      {
+        "gsm": "GSM4753702",
+        "description": "AAGENOA_LCL_0073",
+        "source_title": "genomic DNA from peripheral blood leukocytes 73",
+        "age_years": 62.19,
+        "sex": "M",
+        "sbp_mmhg": 182.0,
+        "dbp_mmhg": 96.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 55,
+          "Unmethylated.signal": 56,
+          "Detection.Pval": 57
+        }
+      },
+      {
+        "gsm": "GSM4753704",
+        "description": "AAGENOA_LCL_0075",
+        "source_title": "genomic DNA from peripheral blood leukocytes 75",
+        "age_years": 70.31,
+        "sex": "M",
+        "sbp_mmhg": 155.0,
+        "dbp_mmhg": 55.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 58,
+          "Unmethylated.signal": 59,
+          "Detection.Pval": 60
+        }
+      },
+      {
+        "gsm": "GSM4753721",
+        "description": "AAGENOA_LCL_0094",
+        "source_title": "genomic DNA from peripheral blood leukocytes 94",
+        "age_years": 63.84,
+        "sex": "F",
+        "sbp_mmhg": 119.0,
+        "dbp_mmhg": 74.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 61,
+          "Unmethylated.signal": 62,
+          "Detection.Pval": 63
+        }
+      },
+      {
+        "gsm": "GSM4753725",
+        "description": "AAGENOA_LCL_0100",
+        "source_title": "genomic DNA from peripheral blood leukocytes 100",
+        "age_years": 62.83,
+        "sex": "F",
+        "sbp_mmhg": 116.0,
+        "dbp_mmhg": 73.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 64,
+          "Unmethylated.signal": 65,
+          "Detection.Pval": 66
+        }
+      },
+      {
+        "gsm": "GSM4753731",
+        "description": "AAGENOA_LCL_0106",
+        "source_title": "genomic DNA from peripheral blood leukocytes 106",
+        "age_years": 62.76,
+        "sex": "F",
+        "sbp_mmhg": 148.0,
+        "dbp_mmhg": 98.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 67,
+          "Unmethylated.signal": 68,
+          "Detection.Pval": 69
+        }
+      },
+      {
+        "gsm": "GSM4753735",
+        "description": "AAGENOA_LCL_0110",
+        "source_title": "genomic DNA from peripheral blood leukocytes 110",
+        "age_years": 62.9,
+        "sex": "F",
+        "sbp_mmhg": 120.0,
+        "dbp_mmhg": 72.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 70,
+          "Unmethylated.signal": 71,
+          "Detection.Pval": 72
+        }
+      },
+      {
+        "gsm": "GSM4753756",
+        "description": "AAGENOA_LCL_0138",
+        "source_title": "genomic DNA from peripheral blood leukocytes 138",
+        "age_years": 62.51,
+        "sex": "M",
+        "sbp_mmhg": 134.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 73,
+          "Unmethylated.signal": 74,
+          "Detection.Pval": 75
+        }
+      },
+      {
+        "gsm": "GSM4753757",
+        "description": "AAGENOA_LCL_0139",
+        "source_title": "genomic DNA from peripheral blood leukocytes 139",
+        "age_years": 59.2,
+        "sex": "M",
+        "sbp_mmhg": 125.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 76,
+          "Unmethylated.signal": 77,
+          "Detection.Pval": 78
+        }
+      },
+      {
+        "gsm": "GSM4753766",
+        "description": "AAGENOA_LCL_0149",
+        "source_title": "genomic DNA from peripheral blood leukocytes 149",
+        "age_years": 64.93,
+        "sex": "F",
+        "sbp_mmhg": 164.0,
+        "dbp_mmhg": 70.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 79,
+          "Unmethylated.signal": 80,
+          "Detection.Pval": 81
+        }
+      },
+      {
+        "gsm": "GSM4753775",
+        "description": "AAGENOA_LCL_0166",
+        "source_title": "genomic DNA from peripheral blood leukocytes 166",
+        "age_years": 54.59,
+        "sex": "F",
+        "sbp_mmhg": 130.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 82,
+          "Unmethylated.signal": 83,
+          "Detection.Pval": 84
+        }
+      },
+      {
+        "gsm": "GSM4753781",
+        "description": "AAGENOA_LCL_0173",
+        "source_title": "genomic DNA from peripheral blood leukocytes 173",
+        "age_years": 64.94,
+        "sex": "F",
+        "sbp_mmhg": 148.0,
+        "dbp_mmhg": 75.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 85,
+          "Unmethylated.signal": 86,
+          "Detection.Pval": 87
+        }
+      },
+      {
+        "gsm": "GSM4753790",
+        "description": "AAGENOA_LCL_0184",
+        "source_title": "genomic DNA from peripheral blood leukocytes 184",
+        "age_years": 54.35,
+        "sex": "M",
+        "sbp_mmhg": 108.0,
+        "dbp_mmhg": 68.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 88,
+          "Unmethylated.signal": 89,
+          "Detection.Pval": 90
+        }
+      },
+      {
+        "gsm": "GSM4753792",
+        "description": "AAGENOA_LCL_0186",
+        "source_title": "genomic DNA from peripheral blood leukocytes 186",
+        "age_years": 61.32,
+        "sex": "F",
+        "sbp_mmhg": 153.0,
+        "dbp_mmhg": 83.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 91,
+          "Unmethylated.signal": 92,
+          "Detection.Pval": 93
+        }
+      },
+      {
+        "gsm": "GSM4753807",
+        "description": "AAGENOA_LCL_0203",
+        "source_title": "genomic DNA from peripheral blood leukocytes 203",
+        "age_years": 55.47,
+        "sex": "F",
+        "sbp_mmhg": 121.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 94,
+          "Unmethylated.signal": 95,
+          "Detection.Pval": 96
+        }
+      },
+      {
+        "gsm": "GSM4753853",
+        "description": "AAGENOA_LCL_0259",
+        "source_title": "genomic DNA from peripheral blood leukocytes 259",
+        "age_years": 65.59,
+        "sex": "F",
+        "sbp_mmhg": 105.0,
+        "dbp_mmhg": 70.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 97,
+          "Unmethylated.signal": 98,
+          "Detection.Pval": 99
+        }
+      },
+      {
+        "gsm": "GSM4753894",
+        "description": "AAGENOA_LCL_0316",
+        "source_title": "genomic DNA from peripheral blood leukocytes 316",
+        "age_years": 54.72,
+        "sex": "F",
+        "sbp_mmhg": 154.0,
+        "dbp_mmhg": 92.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 100,
+          "Unmethylated.signal": 101,
+          "Detection.Pval": 102
+        }
+      },
+      {
+        "gsm": "GSM4753908",
+        "description": "AAGENOA_LCL_0333",
+        "source_title": "genomic DNA from peripheral blood leukocytes 333",
+        "age_years": 60.39,
+        "sex": "F",
+        "sbp_mmhg": 123.0,
+        "dbp_mmhg": 57.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 103,
+          "Unmethylated.signal": 104,
+          "Detection.Pval": 105
+        }
+      },
+      {
+        "gsm": "GSM4753912",
+        "description": "AAGENOA_LCL_0339",
+        "source_title": "genomic DNA from peripheral blood leukocytes 339",
+        "age_years": 62.91,
+        "sex": "F",
+        "sbp_mmhg": 142.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 106,
+          "Unmethylated.signal": 107,
+          "Detection.Pval": 108
+        }
+      },
+      {
+        "gsm": "GSM4753915",
+        "description": "AAGENOA_LCL_0342",
+        "source_title": "genomic DNA from peripheral blood leukocytes 342",
+        "age_years": 57.91,
+        "sex": "F",
+        "sbp_mmhg": 152.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 109,
+          "Unmethylated.signal": 110,
+          "Detection.Pval": 111
+        }
+      },
+      {
+        "gsm": "GSM4753918",
+        "description": "AAGENOA_LCL_0346",
+        "source_title": "genomic DNA from peripheral blood leukocytes 346",
+        "age_years": 64.47,
+        "sex": "F",
+        "sbp_mmhg": 164.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 112,
+          "Unmethylated.signal": 113,
+          "Detection.Pval": 114
+        }
+      },
+      {
+        "gsm": "GSM4753926",
+        "description": "AAGENOA_LCL_0357",
+        "source_title": "genomic DNA from peripheral blood leukocytes 357",
+        "age_years": 66.89,
+        "sex": "F",
+        "sbp_mmhg": 165.0,
+        "dbp_mmhg": 89.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 115,
+          "Unmethylated.signal": 116,
+          "Detection.Pval": 117
+        }
+      },
+      {
+        "gsm": "GSM4753928",
+        "description": "AAGENOA_LCL_0359",
+        "source_title": "genomic DNA from peripheral blood leukocytes 359",
+        "age_years": 63.64,
+        "sex": "F",
+        "sbp_mmhg": 144.0,
+        "dbp_mmhg": 92.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 118,
+          "Unmethylated.signal": 119,
+          "Detection.Pval": 120
+        }
+      },
+      {
+        "gsm": "GSM4753937",
+        "description": "AAGENOA_LCL_0370",
+        "source_title": "genomic DNA from peripheral blood leukocytes 370",
+        "age_years": 74.81,
+        "sex": "M",
+        "sbp_mmhg": 102.0,
+        "dbp_mmhg": 45.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 121,
+          "Unmethylated.signal": 122,
+          "Detection.Pval": 123
+        }
+      },
+      {
+        "gsm": "GSM4753938",
+        "description": "AAGENOA_LCL_0371",
+        "source_title": "genomic DNA from peripheral blood leukocytes 371",
+        "age_years": 75.16,
+        "sex": "F",
+        "sbp_mmhg": 163.0,
+        "dbp_mmhg": 103.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 124,
+          "Unmethylated.signal": 125,
+          "Detection.Pval": 126
+        }
+      },
+      {
+        "gsm": "GSM4753943",
+        "description": "AAGENOA_LCL_0376",
+        "source_title": "genomic DNA from peripheral blood leukocytes 376",
+        "age_years": 74.77,
+        "sex": "F",
+        "sbp_mmhg": 150.0,
+        "dbp_mmhg": 91.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 127,
+          "Unmethylated.signal": 128,
+          "Detection.Pval": 129
+        }
+      },
+      {
+        "gsm": "GSM4753944",
+        "description": "AAGENOA_LCL_0377",
+        "source_title": "genomic DNA from peripheral blood leukocytes 377",
+        "age_years": 63.1,
+        "sex": "F",
+        "sbp_mmhg": 125.0,
+        "dbp_mmhg": 74.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 130,
+          "Unmethylated.signal": 131,
+          "Detection.Pval": 132
+        }
+      },
+      {
+        "gsm": "GSM4753945",
+        "description": "AAGENOA_LCL_0379",
+        "source_title": "genomic DNA from peripheral blood leukocytes 379",
+        "age_years": 61.82,
+        "sex": "F",
+        "sbp_mmhg": 119.0,
+        "dbp_mmhg": 62.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 133,
+          "Unmethylated.signal": 134,
+          "Detection.Pval": 135
+        }
+      },
+      {
+        "gsm": "GSM4753946",
+        "description": "AAGENOA_LCL_0380",
+        "source_title": "genomic DNA from peripheral blood leukocytes 380",
+        "age_years": 65.17,
+        "sex": "F",
+        "sbp_mmhg": 114.0,
+        "dbp_mmhg": 68.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 136,
+          "Unmethylated.signal": 137,
+          "Detection.Pval": 138
+        }
+      },
+      {
+        "gsm": "GSM4753947",
+        "description": "AAGENOA_LCL_0381",
+        "source_title": "genomic DNA from peripheral blood leukocytes 381",
+        "age_years": 65.55,
+        "sex": "M",
+        "sbp_mmhg": 107.0,
+        "dbp_mmhg": 64.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 139,
+          "Unmethylated.signal": 140,
+          "Detection.Pval": 141
+        }
+      },
+      {
+        "gsm": "GSM4753948",
+        "description": "AAGENOA_LCL_0382",
+        "source_title": "genomic DNA from peripheral blood leukocytes 382",
+        "age_years": 65.71,
+        "sex": "F",
+        "sbp_mmhg": 154.0,
+        "dbp_mmhg": 88.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 142,
+          "Unmethylated.signal": 143,
+          "Detection.Pval": 144
+        }
+      },
+      {
+        "gsm": "GSM4753949",
+        "description": "AAGENOA_LCL_0383",
+        "source_title": "genomic DNA from peripheral blood leukocytes 383",
+        "age_years": 67.3,
+        "sex": "M",
+        "sbp_mmhg": 108.0,
+        "dbp_mmhg": 64.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 145,
+          "Unmethylated.signal": 146,
+          "Detection.Pval": 147
+        }
+      },
+      {
+        "gsm": "GSM4753950",
+        "description": "AAGENOA_LCL_0385",
+        "source_title": "genomic DNA from peripheral blood leukocytes 385",
+        "age_years": 60.93,
+        "sex": "F",
+        "sbp_mmhg": 136.0,
+        "dbp_mmhg": 88.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 148,
+          "Unmethylated.signal": 149,
+          "Detection.Pval": 150
+        }
+      },
+      {
+        "gsm": "GSM4753951",
+        "description": "AAGENOA_LCL_0386",
+        "source_title": "genomic DNA from peripheral blood leukocytes 386",
+        "age_years": 67.47,
+        "sex": "F",
+        "sbp_mmhg": 125.0,
+        "dbp_mmhg": 65.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 151,
+          "Unmethylated.signal": 152,
+          "Detection.Pval": 153
+        }
+      },
+      {
+        "gsm": "GSM4753959",
+        "description": "AAGENOA_LCL_0396",
+        "source_title": "genomic DNA from peripheral blood leukocytes 396",
+        "age_years": 68.15,
+        "sex": "F",
+        "sbp_mmhg": 145.0,
+        "dbp_mmhg": 75.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 154,
+          "Unmethylated.signal": 155,
+          "Detection.Pval": 156
+        }
+      },
+      {
+        "gsm": "GSM4753960",
+        "description": "AAGENOA_LCL_0397",
+        "source_title": "genomic DNA from peripheral blood leukocytes 397",
+        "age_years": 60.0,
+        "sex": "M",
+        "sbp_mmhg": 133.0,
+        "dbp_mmhg": 87.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 157,
+          "Unmethylated.signal": 158,
+          "Detection.Pval": 159
+        }
+      },
+      {
+        "gsm": "GSM4753964",
+        "description": "AAGENOA_LCL_0402",
+        "source_title": "genomic DNA from peripheral blood leukocytes 402",
+        "age_years": 64.78,
+        "sex": "M",
+        "sbp_mmhg": 161.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 160,
+          "Unmethylated.signal": 161,
+          "Detection.Pval": 162
+        }
+      },
+      {
+        "gsm": "GSM4753972",
+        "description": "AAGENOA_LCL_0414",
+        "source_title": "genomic DNA from peripheral blood leukocytes 414",
+        "age_years": 65.64,
+        "sex": "F",
+        "sbp_mmhg": 128.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 163,
+          "Unmethylated.signal": 164,
+          "Detection.Pval": 165
+        }
+      },
+      {
+        "gsm": "GSM4753973",
+        "description": "AAGENOA_LCL_0415",
+        "source_title": "genomic DNA from peripheral blood leukocytes 415",
+        "age_years": 61.18,
+        "sex": "F",
+        "sbp_mmhg": 135.0,
+        "dbp_mmhg": 76.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 166,
+          "Unmethylated.signal": 167,
+          "Detection.Pval": 168
+        }
+      },
+      {
+        "gsm": "GSM4753975",
+        "description": "AAGENOA_LCL_0418",
+        "source_title": "genomic DNA from peripheral blood leukocytes 418",
+        "age_years": 77.26,
+        "sex": "F",
+        "sbp_mmhg": 107.0,
+        "dbp_mmhg": 57.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 169,
+          "Unmethylated.signal": 170,
+          "Detection.Pval": 171
+        }
+      },
+      {
+        "gsm": "GSM4753979",
+        "description": "AAGENOA_LCL_0423",
+        "source_title": "genomic DNA from peripheral blood leukocytes 423",
+        "age_years": 72.32,
+        "sex": "M",
+        "sbp_mmhg": 145.0,
+        "dbp_mmhg": 67.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 172,
+          "Unmethylated.signal": 173,
+          "Detection.Pval": 174
+        }
+      },
+      {
+        "gsm": "GSM4753980",
+        "description": "AAGENOA_LCL_0424",
+        "source_title": "genomic DNA from peripheral blood leukocytes 424",
+        "age_years": 70.53,
+        "sex": "M",
+        "sbp_mmhg": 148.0,
+        "dbp_mmhg": 82.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 175,
+          "Unmethylated.signal": 176,
+          "Detection.Pval": 177
+        }
+      },
+      {
+        "gsm": "GSM4753981",
+        "description": "AAGENOA_LCL_0425",
+        "source_title": "genomic DNA from peripheral blood leukocytes 425",
+        "age_years": 62.7,
+        "sex": "F",
+        "sbp_mmhg": 113.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 178,
+          "Unmethylated.signal": 179,
+          "Detection.Pval": 180
+        }
+      },
+      {
+        "gsm": "GSM4753988",
+        "description": "AAGENOA_LCL_0432",
+        "source_title": "genomic DNA from peripheral blood leukocytes 432",
+        "age_years": 60.21,
+        "sex": "F",
+        "sbp_mmhg": 148.0,
+        "dbp_mmhg": 112.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 181,
+          "Unmethylated.signal": 182,
+          "Detection.Pval": 183
+        }
+      },
+      {
+        "gsm": "GSM4753990",
+        "description": "AAGENOA_LCL_0435",
+        "source_title": "genomic DNA from peripheral blood leukocytes 435",
+        "age_years": 72.01,
+        "sex": "F",
+        "sbp_mmhg": 125.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 184,
+          "Unmethylated.signal": 185,
+          "Detection.Pval": 186
+        }
+      },
+      {
+        "gsm": "GSM4753993",
+        "description": "AAGENOA_LCL_0438",
+        "source_title": "genomic DNA from peripheral blood leukocytes 438",
+        "age_years": 71.26,
+        "sex": "F",
+        "sbp_mmhg": 150.0,
+        "dbp_mmhg": 73.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 187,
+          "Unmethylated.signal": 188,
+          "Detection.Pval": 189
+        }
+      },
+      {
+        "gsm": "GSM4753994",
+        "description": "AAGENOA_LCL_0440",
+        "source_title": "genomic DNA from peripheral blood leukocytes 440",
+        "age_years": 64.52,
+        "sex": "F",
+        "sbp_mmhg": 138.0,
+        "dbp_mmhg": 89.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 190,
+          "Unmethylated.signal": 191,
+          "Detection.Pval": 192
+        }
+      },
+      {
+        "gsm": "GSM4753997",
+        "description": "AAGENOA_LCL_0443",
+        "source_title": "genomic DNA from peripheral blood leukocytes 443",
+        "age_years": 68.43,
+        "sex": "M",
+        "sbp_mmhg": 99.0,
+        "dbp_mmhg": 74.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 193,
+          "Unmethylated.signal": 194,
+          "Detection.Pval": 195
+        }
+      },
+      {
+        "gsm": "GSM4754000",
+        "description": "AAGENOA_LCL_0446",
+        "source_title": "genomic DNA from peripheral blood leukocytes 446",
+        "age_years": 63.89,
+        "sex": "F",
+        "sbp_mmhg": 140.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 196,
+          "Unmethylated.signal": 197,
+          "Detection.Pval": 198
+        }
+      },
+      {
+        "gsm": "GSM4754002",
+        "description": "AAGENOA_LCL_0448",
+        "source_title": "genomic DNA from peripheral blood leukocytes 448",
+        "age_years": 70.05,
+        "sex": "F",
+        "sbp_mmhg": 132.0,
+        "dbp_mmhg": 67.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 199,
+          "Unmethylated.signal": 200,
+          "Detection.Pval": 201
+        }
+      },
+      {
+        "gsm": "GSM4754005",
+        "description": "AAGENOA_LCL_0455",
+        "source_title": "genomic DNA from peripheral blood leukocytes 455",
+        "age_years": 60.45,
+        "sex": "F",
+        "sbp_mmhg": 122.0,
+        "dbp_mmhg": 74.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 202,
+          "Unmethylated.signal": 203,
+          "Detection.Pval": 204
+        }
+      },
+      {
+        "gsm": "GSM4754007",
+        "description": "AAGENOA_LCL_0459",
+        "source_title": "genomic DNA from peripheral blood leukocytes 459",
+        "age_years": 68.12,
+        "sex": "F",
+        "sbp_mmhg": 157.0,
+        "dbp_mmhg": 90.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 205,
+          "Unmethylated.signal": 206,
+          "Detection.Pval": 207
+        }
+      },
+      {
+        "gsm": "GSM4754009",
+        "description": "AAGENOA_LCL_0461",
+        "source_title": "genomic DNA from peripheral blood leukocytes 461",
+        "age_years": 68.28,
+        "sex": "M",
+        "sbp_mmhg": 129.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 208,
+          "Unmethylated.signal": 209,
+          "Detection.Pval": 210
+        }
+      },
+      {
+        "gsm": "GSM4754010",
+        "description": "AAGENOA_LCL_0462",
+        "source_title": "genomic DNA from peripheral blood leukocytes 462",
+        "age_years": 61.78,
+        "sex": "F",
+        "sbp_mmhg": 144.0,
+        "dbp_mmhg": 83.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 211,
+          "Unmethylated.signal": 212,
+          "Detection.Pval": 213
+        }
+      },
+      {
+        "gsm": "GSM4754016",
+        "description": "AAGENOA_LCL_0475",
+        "source_title": "genomic DNA from peripheral blood leukocytes 475",
+        "age_years": 76.26,
+        "sex": "M",
+        "sbp_mmhg": 115.0,
+        "dbp_mmhg": 61.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 214,
+          "Unmethylated.signal": 215,
+          "Detection.Pval": 216
+        }
+      },
+      {
+        "gsm": "GSM4754023",
+        "description": "AAGENOA_LCL_0487",
+        "source_title": "genomic DNA from peripheral blood leukocytes 487",
+        "age_years": 66.41,
+        "sex": "M",
+        "sbp_mmhg": 171.0,
+        "dbp_mmhg": 82.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 217,
+          "Unmethylated.signal": 218,
+          "Detection.Pval": 219
+        }
+      },
+      {
+        "gsm": "GSM4754049",
+        "description": "AAGENOA_LCL_0520",
+        "source_title": "genomic DNA from peripheral blood leukocytes 520",
+        "age_years": 64.86,
+        "sex": "F",
+        "sbp_mmhg": 163.0,
+        "dbp_mmhg": 100.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 220,
+          "Unmethylated.signal": 221,
+          "Detection.Pval": 222
+        }
+      },
+      {
+        "gsm": "GSM4754052",
+        "description": "AAGENOA_LCL_0523",
+        "source_title": "genomic DNA from peripheral blood leukocytes 523",
+        "age_years": 64.07,
+        "sex": "F",
+        "sbp_mmhg": 135.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 223,
+          "Unmethylated.signal": 224,
+          "Detection.Pval": 225
+        }
+      },
+      {
+        "gsm": "GSM4754053",
+        "description": "AAGENOA_LCL_0524",
+        "source_title": "genomic DNA from peripheral blood leukocytes 524",
+        "age_years": 72.26,
+        "sex": "M",
+        "sbp_mmhg": 123.0,
+        "dbp_mmhg": 86.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 226,
+          "Unmethylated.signal": 227,
+          "Detection.Pval": 228
+        }
+      },
+      {
+        "gsm": "GSM4754061",
+        "description": "AAGENOA_LCL_0536",
+        "source_title": "genomic DNA from peripheral blood leukocytes 536",
+        "age_years": 73.05,
+        "sex": "F",
+        "sbp_mmhg": 174.0,
+        "dbp_mmhg": 63.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 229,
+          "Unmethylated.signal": 230,
+          "Detection.Pval": 231
+        }
+      },
+      {
+        "gsm": "GSM4754065",
+        "description": "AAGENOA_LCL_0541",
+        "source_title": "genomic DNA from peripheral blood leukocytes 541",
+        "age_years": 70.58,
+        "sex": "F",
+        "sbp_mmhg": 127.0,
+        "dbp_mmhg": 73.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 232,
+          "Unmethylated.signal": 233,
+          "Detection.Pval": 234
+        }
+      },
+      {
+        "gsm": "GSM4754068",
+        "description": "AAGENOA_LCL_0544",
+        "source_title": "genomic DNA from peripheral blood leukocytes 544",
+        "age_years": 67.92,
+        "sex": "F",
+        "sbp_mmhg": 153.0,
+        "dbp_mmhg": 87.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 235,
+          "Unmethylated.signal": 236,
+          "Detection.Pval": 237
+        }
+      },
+      {
+        "gsm": "GSM4754076",
+        "description": "AAGENOA_LCL_0556",
+        "source_title": "genomic DNA from peripheral blood leukocytes 556",
+        "age_years": 65.83,
+        "sex": "F",
+        "sbp_mmhg": 150.0,
+        "dbp_mmhg": 60.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 238,
+          "Unmethylated.signal": 239,
+          "Detection.Pval": 240
+        }
+      },
+      {
+        "gsm": "GSM4754079",
+        "description": "AAGENOA_LCL_0559",
+        "source_title": "genomic DNA from peripheral blood leukocytes 559",
+        "age_years": 69.32,
+        "sex": "F",
+        "sbp_mmhg": 135.0,
+        "dbp_mmhg": 82.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 241,
+          "Unmethylated.signal": 242,
+          "Detection.Pval": 243
+        }
+      },
+      {
+        "gsm": "GSM4754080",
+        "description": "AAGENOA_LCL_0561",
+        "source_title": "genomic DNA from peripheral blood leukocytes 561",
+        "age_years": 69.43,
+        "sex": "F",
+        "sbp_mmhg": 109.0,
+        "dbp_mmhg": 46.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 244,
+          "Unmethylated.signal": 245,
+          "Detection.Pval": 246
+        }
+      },
+      {
+        "gsm": "GSM4754081",
+        "description": "AAGENOA_LCL_0562",
+        "source_title": "genomic DNA from peripheral blood leukocytes 562",
+        "age_years": 65.59,
+        "sex": "F",
+        "sbp_mmhg": 140.0,
+        "dbp_mmhg": 63.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 247,
+          "Unmethylated.signal": 248,
+          "Detection.Pval": 249
+        }
+      },
+      {
+        "gsm": "GSM4754083",
+        "description": "AAGENOA_LCL_0564",
+        "source_title": "genomic DNA from peripheral blood leukocytes 564",
+        "age_years": 78.14,
+        "sex": "F",
+        "sbp_mmhg": 145.0,
+        "dbp_mmhg": 73.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 250,
+          "Unmethylated.signal": 251,
+          "Detection.Pval": 252
+        }
+      },
+      {
+        "gsm": "GSM4754084",
+        "description": "AAGENOA_LCL_0567",
+        "source_title": "genomic DNA from peripheral blood leukocytes 567",
+        "age_years": 67.39,
+        "sex": "M",
+        "sbp_mmhg": 172.0,
+        "dbp_mmhg": 92.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 253,
+          "Unmethylated.signal": 254,
+          "Detection.Pval": 255
+        }
+      },
+      {
+        "gsm": "GSM4754089",
+        "description": "AAGENOA_LCL_0573",
+        "source_title": "genomic DNA from peripheral blood leukocytes 573",
+        "age_years": 66.11,
+        "sex": "F",
+        "sbp_mmhg": 158.0,
+        "dbp_mmhg": 76.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 256,
+          "Unmethylated.signal": 257,
+          "Detection.Pval": 258
+        }
+      },
+      {
+        "gsm": "GSM4754090",
+        "description": "AAGENOA_LCL_0575",
+        "source_title": "genomic DNA from peripheral blood leukocytes 575",
+        "age_years": 66.47,
+        "sex": "F",
+        "sbp_mmhg": 187.0,
+        "dbp_mmhg": 103.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 259,
+          "Unmethylated.signal": 260,
+          "Detection.Pval": 261
+        }
+      },
+      {
+        "gsm": "GSM4754092",
+        "description": "AAGENOA_LCL_0577",
+        "source_title": "genomic DNA from peripheral blood leukocytes 577",
+        "age_years": 65.73,
+        "sex": "F",
+        "sbp_mmhg": 116.0,
+        "dbp_mmhg": 74.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 262,
+          "Unmethylated.signal": 263,
+          "Detection.Pval": 264
+        }
+      },
+      {
+        "gsm": "GSM4754094",
+        "description": "AAGENOA_LCL_0579",
+        "source_title": "genomic DNA from peripheral blood leukocytes 579",
+        "age_years": 71.79,
+        "sex": "F",
+        "sbp_mmhg": 165.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 265,
+          "Unmethylated.signal": 266,
+          "Detection.Pval": 267
+        }
+      },
+      {
+        "gsm": "GSM4754103",
+        "description": "AAGENOA_LCL_0588",
+        "source_title": "genomic DNA from peripheral blood leukocytes 588",
+        "age_years": 67.67,
+        "sex": "F",
+        "sbp_mmhg": 155.0,
+        "dbp_mmhg": 90.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 268,
+          "Unmethylated.signal": 269,
+          "Detection.Pval": 270
+        }
+      },
+      {
+        "gsm": "GSM4754107",
+        "description": "AAGENOA_LCL_0592",
+        "source_title": "genomic DNA from peripheral blood leukocytes 592",
+        "age_years": 65.43,
+        "sex": "F",
+        "sbp_mmhg": 133.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 271,
+          "Unmethylated.signal": 272,
+          "Detection.Pval": 273
+        }
+      },
+      {
+        "gsm": "GSM4754118",
+        "description": "AAGENOA_LCL_0606",
+        "source_title": "genomic DNA from peripheral blood leukocytes 606",
+        "age_years": 60.14,
+        "sex": "F",
+        "sbp_mmhg": 144.0,
+        "dbp_mmhg": 83.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 274,
+          "Unmethylated.signal": 275,
+          "Detection.Pval": 276
+        }
+      },
+      {
+        "gsm": "GSM4754121",
+        "description": "AAGENOA_LCL_0609",
+        "source_title": "genomic DNA from peripheral blood leukocytes 609",
+        "age_years": 67.09,
+        "sex": "F",
+        "sbp_mmhg": 154.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 277,
+          "Unmethylated.signal": 278,
+          "Detection.Pval": 279
+        }
+      },
+      {
+        "gsm": "GSM4754125",
+        "description": "AAGENOA_LCL_0613",
+        "source_title": "genomic DNA from peripheral blood leukocytes 613",
+        "age_years": 64.5,
+        "sex": "F",
+        "sbp_mmhg": 102.0,
+        "dbp_mmhg": 63.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 280,
+          "Unmethylated.signal": 281,
+          "Detection.Pval": 282
+        }
+      },
+      {
+        "gsm": "GSM4754126",
+        "description": "AAGENOA_LCL_0614",
+        "source_title": "genomic DNA from peripheral blood leukocytes 614",
+        "age_years": 65.14,
+        "sex": "M",
+        "sbp_mmhg": 115.0,
+        "dbp_mmhg": 68.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 283,
+          "Unmethylated.signal": 284,
+          "Detection.Pval": 285
+        }
+      },
+      {
+        "gsm": "GSM4754129",
+        "description": "AAGENOA_LCL_0617",
+        "source_title": "genomic DNA from peripheral blood leukocytes 617",
+        "age_years": 67.44,
+        "sex": "M",
+        "sbp_mmhg": 120.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 286,
+          "Unmethylated.signal": 287,
+          "Detection.Pval": 288
+        }
+      },
+      {
+        "gsm": "GSM4754131",
+        "description": "AAGENOA_LCL_0619",
+        "source_title": "genomic DNA from peripheral blood leukocytes 619",
+        "age_years": 65.83,
+        "sex": "F",
+        "sbp_mmhg": 122.0,
+        "dbp_mmhg": 67.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 289,
+          "Unmethylated.signal": 290,
+          "Detection.Pval": 291
+        }
+      },
+      {
+        "gsm": "GSM4754146",
+        "description": "AAGENOA_LCL_0639",
+        "source_title": "genomic DNA from peripheral blood leukocytes 639",
+        "age_years": 70.99,
+        "sex": "F",
+        "sbp_mmhg": 116.0,
+        "dbp_mmhg": 65.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 292,
+          "Unmethylated.signal": 293,
+          "Detection.Pval": 294
+        }
+      },
+      {
+        "gsm": "GSM4754153",
+        "description": "AAGENOA_LCL_0646",
+        "source_title": "genomic DNA from peripheral blood leukocytes 646",
+        "age_years": 65.43,
+        "sex": "F",
+        "sbp_mmhg": 164.0,
+        "dbp_mmhg": 93.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 295,
+          "Unmethylated.signal": 296,
+          "Detection.Pval": 297
+        }
+      },
+      {
+        "gsm": "GSM4754154",
+        "description": "AAGENOA_LCL_0647",
+        "source_title": "genomic DNA from peripheral blood leukocytes 647",
+        "age_years": 69.11,
+        "sex": "F",
+        "sbp_mmhg": 132.0,
+        "dbp_mmhg": 64.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 298,
+          "Unmethylated.signal": 299,
+          "Detection.Pval": 300
+        }
+      },
+      {
+        "gsm": "GSM4754155",
+        "description": "AAGENOA_LCL_0648",
+        "source_title": "genomic DNA from peripheral blood leukocytes 648",
+        "age_years": 65.0,
+        "sex": "F",
+        "sbp_mmhg": 130.0,
+        "dbp_mmhg": 67.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 301,
+          "Unmethylated.signal": 302,
+          "Detection.Pval": 303
+        }
+      },
+      {
+        "gsm": "GSM4754163",
+        "description": "AAGENOA_LCL_0657",
+        "source_title": "genomic DNA from peripheral blood leukocytes 657",
+        "age_years": 73.89,
+        "sex": "M",
+        "sbp_mmhg": 154.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 304,
+          "Unmethylated.signal": 305,
+          "Detection.Pval": 306
+        }
+      },
+      {
+        "gsm": "GSM4754171",
+        "description": "AAGENOA_LCL_0668",
+        "source_title": "genomic DNA from peripheral blood leukocytes 668",
+        "age_years": 63.43,
+        "sex": "F",
+        "sbp_mmhg": 134.0,
+        "dbp_mmhg": 81.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 307,
+          "Unmethylated.signal": 308,
+          "Detection.Pval": 309
+        }
+      },
+      {
+        "gsm": "GSM4754174",
+        "description": "AAGENOA_LCL_0671",
+        "source_title": "genomic DNA from peripheral blood leukocytes 671",
+        "age_years": 61.49,
+        "sex": "F",
+        "sbp_mmhg": 138.0,
+        "dbp_mmhg": 72.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 310,
+          "Unmethylated.signal": 311,
+          "Detection.Pval": 312
+        }
+      },
+      {
+        "gsm": "GSM4754181",
+        "description": "AAGENOA_LCL_0680",
+        "source_title": "genomic DNA from peripheral blood leukocytes 680",
+        "age_years": 76.0,
+        "sex": "F",
+        "sbp_mmhg": 165.0,
+        "dbp_mmhg": 75.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 313,
+          "Unmethylated.signal": 314,
+          "Detection.Pval": 315
+        }
+      },
+      {
+        "gsm": "GSM4754182",
+        "description": "AAGENOA_LCL_0681",
+        "source_title": "genomic DNA from peripheral blood leukocytes 681",
+        "age_years": 65.32,
+        "sex": "F",
+        "sbp_mmhg": 135.0,
+        "dbp_mmhg": 74.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 316,
+          "Unmethylated.signal": 317,
+          "Detection.Pval": 318
+        }
+      },
+      {
+        "gsm": "GSM4754186",
+        "description": "AAGENOA_LCL_0685",
+        "source_title": "genomic DNA from peripheral blood leukocytes 685",
+        "age_years": 65.61,
+        "sex": "F",
+        "sbp_mmhg": 159.0,
+        "dbp_mmhg": 92.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 319,
+          "Unmethylated.signal": 320,
+          "Detection.Pval": 321
+        }
+      },
+      {
+        "gsm": "GSM4754199",
+        "description": "AAGENOA_LCL_0703",
+        "source_title": "genomic DNA from peripheral blood leukocytes 703",
+        "age_years": 59.47,
+        "sex": "M",
+        "sbp_mmhg": 149.0,
+        "dbp_mmhg": 93.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 322,
+          "Unmethylated.signal": 323,
+          "Detection.Pval": 324
+        }
+      },
+      {
+        "gsm": "GSM4754202",
+        "description": "AAGENOA_LCL_0706",
+        "source_title": "genomic DNA from peripheral blood leukocytes 706",
+        "age_years": 57.22,
+        "sex": "M",
+        "sbp_mmhg": 134.0,
+        "dbp_mmhg": 88.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 325,
+          "Unmethylated.signal": 326,
+          "Detection.Pval": 327
+        }
+      },
+      {
+        "gsm": "GSM4754207",
+        "description": "AAGENOA_LCL_0712",
+        "source_title": "genomic DNA from peripheral blood leukocytes 712",
+        "age_years": 59.37,
+        "sex": "F",
+        "sbp_mmhg": 131.0,
+        "dbp_mmhg": 81.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 328,
+          "Unmethylated.signal": 329,
+          "Detection.Pval": 330
+        }
+      },
+      {
+        "gsm": "GSM4754208",
+        "description": "AAGENOA_LCL_0714",
+        "source_title": "genomic DNA from peripheral blood leukocytes 714",
+        "age_years": 58.06,
+        "sex": "M",
+        "sbp_mmhg": 142.0,
+        "dbp_mmhg": 97.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 331,
+          "Unmethylated.signal": 332,
+          "Detection.Pval": 333
+        }
+      },
+      {
+        "gsm": "GSM4754210",
+        "description": "AAGENOA_LCL_0716",
+        "source_title": "genomic DNA from peripheral blood leukocytes 716",
+        "age_years": 66.35,
+        "sex": "F",
+        "sbp_mmhg": 118.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 334,
+          "Unmethylated.signal": 335,
+          "Detection.Pval": 336
+        }
+      },
+      {
+        "gsm": "GSM4754215",
+        "description": "AAGENOA_LCL_0722",
+        "source_title": "genomic DNA from peripheral blood leukocytes 722",
+        "age_years": 65.84,
+        "sex": "M",
+        "sbp_mmhg": 126.0,
+        "dbp_mmhg": 81.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 337,
+          "Unmethylated.signal": 338,
+          "Detection.Pval": 339
+        }
+      },
+      {
+        "gsm": "GSM4754229",
+        "description": "AAGENOA_LCL_0740",
+        "source_title": "genomic DNA from peripheral blood leukocytes 740",
+        "age_years": 66.09,
+        "sex": "F",
+        "sbp_mmhg": 139.0,
+        "dbp_mmhg": 76.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 340,
+          "Unmethylated.signal": 341,
+          "Detection.Pval": 342
+        }
+      },
+      {
+        "gsm": "GSM4754235",
+        "description": "AAGENOA_LCL_0747",
+        "source_title": "genomic DNA from peripheral blood leukocytes 747",
+        "age_years": 59.44,
+        "sex": "F",
+        "sbp_mmhg": 141.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 343,
+          "Unmethylated.signal": 344,
+          "Detection.Pval": 345
+        }
+      },
+      {
+        "gsm": "GSM4754237",
+        "description": "AAGENOA_LCL_0751",
+        "source_title": "genomic DNA from peripheral blood leukocytes 751",
+        "age_years": 62.09,
+        "sex": "F",
+        "sbp_mmhg": 171.0,
+        "dbp_mmhg": 90.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 346,
+          "Unmethylated.signal": 347,
+          "Detection.Pval": 348
+        }
+      },
+      {
+        "gsm": "GSM4754239",
+        "description": "AAGENOA_LCL_0753",
+        "source_title": "genomic DNA from peripheral blood leukocytes 753",
+        "age_years": 65.13,
+        "sex": "F",
+        "sbp_mmhg": 106.0,
+        "dbp_mmhg": 60.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 349,
+          "Unmethylated.signal": 350,
+          "Detection.Pval": 351
+        }
+      },
+      {
+        "gsm": "GSM4754246",
+        "description": "AAGENOA_LCL_0760",
+        "source_title": "genomic DNA from peripheral blood leukocytes 760",
+        "age_years": 60.03,
+        "sex": "F",
+        "sbp_mmhg": 170.0,
+        "dbp_mmhg": 81.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 352,
+          "Unmethylated.signal": 353,
+          "Detection.Pval": 354
+        }
+      },
+      {
+        "gsm": "GSM4754247",
+        "description": "AAGENOA_LCL_0761",
+        "source_title": "genomic DNA from peripheral blood leukocytes 761",
+        "age_years": 55.8,
+        "sex": "M",
+        "sbp_mmhg": 115.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 355,
+          "Unmethylated.signal": 356,
+          "Detection.Pval": 357
+        }
+      },
+      {
+        "gsm": "GSM4754255",
+        "description": "AAGENOA_LCL_0770",
+        "source_title": "genomic DNA from peripheral blood leukocytes 770",
+        "age_years": 58.3,
+        "sex": "F",
+        "sbp_mmhg": 109.0,
+        "dbp_mmhg": 62.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 358,
+          "Unmethylated.signal": 359,
+          "Detection.Pval": 360
+        }
+      },
+      {
+        "gsm": "GSM4754260",
+        "description": "AAGENOA_LCL_0777",
+        "source_title": "genomic DNA from peripheral blood leukocytes 777",
+        "age_years": 59.45,
+        "sex": "M",
+        "sbp_mmhg": 110.0,
+        "dbp_mmhg": 66.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 361,
+          "Unmethylated.signal": 362,
+          "Detection.Pval": 363
+        }
+      },
+      {
+        "gsm": "GSM4754265",
+        "description": "AAGENOA_LCL_0782",
+        "source_title": "genomic DNA from peripheral blood leukocytes 782",
+        "age_years": 69.02,
+        "sex": "F",
+        "sbp_mmhg": 160.0,
+        "dbp_mmhg": 93.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 364,
+          "Unmethylated.signal": 365,
+          "Detection.Pval": 366
+        }
+      },
+      {
+        "gsm": "GSM4754275",
+        "description": "AAGENOA_LCL_0794",
+        "source_title": "genomic DNA from peripheral blood leukocytes 794",
+        "age_years": 55.05,
+        "sex": "F",
+        "sbp_mmhg": 119.0,
+        "dbp_mmhg": 66.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 367,
+          "Unmethylated.signal": 368,
+          "Detection.Pval": 369
+        }
+      },
+      {
+        "gsm": "GSM4754306",
+        "description": "AAGENOA_LCL_0832",
+        "source_title": "genomic DNA from peripheral blood leukocytes 832",
+        "age_years": 58.24,
+        "sex": "F",
+        "sbp_mmhg": 108.0,
+        "dbp_mmhg": 77.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 370,
+          "Unmethylated.signal": 371,
+          "Detection.Pval": 372
+        }
+      },
+      {
+        "gsm": "GSM4754315",
+        "description": "AAGENOA_LCL_0841",
+        "source_title": "genomic DNA from peripheral blood leukocytes 841",
+        "age_years": 65.65,
+        "sex": "F",
+        "sbp_mmhg": 153.0,
+        "dbp_mmhg": 90.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 373,
+          "Unmethylated.signal": 374,
+          "Detection.Pval": 375
+        }
+      },
+      {
+        "gsm": "GSM4754317",
+        "description": "AAGENOA_LCL_0843",
+        "source_title": "genomic DNA from peripheral blood leukocytes 843",
+        "age_years": 62.89,
+        "sex": "F",
+        "sbp_mmhg": 116.0,
+        "dbp_mmhg": 65.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 376,
+          "Unmethylated.signal": 377,
+          "Detection.Pval": 378
+        }
+      },
+      {
+        "gsm": "GSM4754366",
+        "description": "AAGENOA_LCL_0906",
+        "source_title": "genomic DNA from peripheral blood leukocytes 906",
+        "age_years": 63.95,
+        "sex": "F",
+        "sbp_mmhg": 147.0,
+        "dbp_mmhg": 87.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 379,
+          "Unmethylated.signal": 380,
+          "Detection.Pval": 381
+        }
+      },
+      {
+        "gsm": "GSM4754391",
+        "description": "AAGENOA_LCL_0933",
+        "source_title": "genomic DNA from peripheral blood leukocytes 933",
+        "age_years": 63.18,
+        "sex": "F",
+        "sbp_mmhg": 134.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 382,
+          "Unmethylated.signal": 383,
+          "Detection.Pval": 384
+        }
+      },
+      {
+        "gsm": "GSM4754392",
+        "description": "AAGENOA_LCL_0934",
+        "source_title": "genomic DNA from peripheral blood leukocytes 934",
+        "age_years": 64.59,
+        "sex": "F",
+        "sbp_mmhg": 123.0,
+        "dbp_mmhg": 86.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 385,
+          "Unmethylated.signal": 386,
+          "Detection.Pval": 387
+        }
+      },
+      {
+        "gsm": "GSM4754398",
+        "description": "AAGENOA_LCL_0941",
+        "source_title": "genomic DNA from peripheral blood leukocytes 941",
+        "age_years": 67.02,
+        "sex": "M",
+        "sbp_mmhg": 127.0,
+        "dbp_mmhg": 72.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 388,
+          "Unmethylated.signal": 389,
+          "Detection.Pval": 390
+        }
+      },
+      {
+        "gsm": "GSM4754401",
+        "description": "AAGENOA_LCL_0944",
+        "source_title": "genomic DNA from peripheral blood leukocytes 944",
+        "age_years": 61.86,
+        "sex": "F",
+        "sbp_mmhg": 134.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 391,
+          "Unmethylated.signal": 392,
+          "Detection.Pval": 393
+        }
+      },
+      {
+        "gsm": "GSM4754404",
+        "description": "AAGENOA_LCL_0949",
+        "source_title": "genomic DNA from peripheral blood leukocytes 949",
+        "age_years": 70.77,
+        "sex": "F",
+        "sbp_mmhg": 154.0,
+        "dbp_mmhg": 90.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 394,
+          "Unmethylated.signal": 395,
+          "Detection.Pval": 396
+        }
+      },
+      {
+        "gsm": "GSM4754406",
+        "description": "AAGENOA_LCL_0951",
+        "source_title": "genomic DNA from peripheral blood leukocytes 951",
+        "age_years": 63.08,
+        "sex": "F",
+        "sbp_mmhg": 160.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 397,
+          "Unmethylated.signal": 398,
+          "Detection.Pval": 399
+        }
+      },
+      {
+        "gsm": "GSM4754407",
+        "description": "AAGENOA_LCL_0953",
+        "source_title": "genomic DNA from peripheral blood leukocytes 953",
+        "age_years": 62.0,
+        "sex": "F",
+        "sbp_mmhg": 144.0,
+        "dbp_mmhg": 81.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 400,
+          "Unmethylated.signal": 401,
+          "Detection.Pval": 402
+        }
+      },
+      {
+        "gsm": "GSM4754410",
+        "description": "AAGENOA_LCL_0957",
+        "source_title": "genomic DNA from peripheral blood leukocytes 957",
+        "age_years": 60.47,
+        "sex": "F",
+        "sbp_mmhg": 126.0,
+        "dbp_mmhg": 72.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 403,
+          "Unmethylated.signal": 404,
+          "Detection.Pval": 405
+        }
+      },
+      {
+        "gsm": "GSM4754418",
+        "description": "AAGENOA_LCL_0966",
+        "source_title": "genomic DNA from peripheral blood leukocytes 966",
+        "age_years": 61.4,
+        "sex": "F",
+        "sbp_mmhg": 135.0,
+        "dbp_mmhg": 89.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 406,
+          "Unmethylated.signal": 407,
+          "Detection.Pval": 408
+        }
+      },
+      {
+        "gsm": "GSM4754422",
+        "description": "AAGENOA_LCL_0970",
+        "source_title": "genomic DNA from peripheral blood leukocytes 970",
+        "age_years": 67.15,
+        "sex": "F",
+        "sbp_mmhg": 126.0,
+        "dbp_mmhg": 61.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 409,
+          "Unmethylated.signal": 410,
+          "Detection.Pval": 411
+        }
+      },
+      {
+        "gsm": "GSM4754424",
+        "description": "AAGENOA_LCL_0973",
+        "source_title": "genomic DNA from peripheral blood leukocytes 973",
+        "age_years": 77.84,
+        "sex": "F",
+        "sbp_mmhg": 139.0,
+        "dbp_mmhg": 68.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 412,
+          "Unmethylated.signal": 413,
+          "Detection.Pval": 414
+        }
+      },
+      {
+        "gsm": "GSM4754425",
+        "description": "AAGENOA_LCL_0974",
+        "source_title": "genomic DNA from peripheral blood leukocytes 974",
+        "age_years": 65.58,
+        "sex": "F",
+        "sbp_mmhg": 150.0,
+        "dbp_mmhg": 83.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 415,
+          "Unmethylated.signal": 416,
+          "Detection.Pval": 417
+        }
+      },
+      {
+        "gsm": "GSM4754427",
+        "description": "AAGENOA_LCL_0976",
+        "source_title": "genomic DNA from peripheral blood leukocytes 976",
+        "age_years": 67.31,
+        "sex": "F",
+        "sbp_mmhg": 243.0,
+        "dbp_mmhg": 108.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 418,
+          "Unmethylated.signal": 419,
+          "Detection.Pval": 420
+        }
+      },
+      {
+        "gsm": "GSM4754431",
+        "description": "AAGENOA_LCL_0983",
+        "source_title": "genomic DNA from peripheral blood leukocytes 983",
+        "age_years": 69.8,
+        "sex": "F",
+        "sbp_mmhg": 120.0,
+        "dbp_mmhg": 68.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 421,
+          "Unmethylated.signal": 422,
+          "Detection.Pval": 423
+        }
+      },
+      {
+        "gsm": "GSM4754434",
+        "description": "AAGENOA_LCL_0986",
+        "source_title": "genomic DNA from peripheral blood leukocytes 986",
+        "age_years": 71.57,
+        "sex": "M",
+        "sbp_mmhg": 191.0,
+        "dbp_mmhg": 105.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 424,
+          "Unmethylated.signal": 425,
+          "Detection.Pval": 426
+        }
+      },
+      {
+        "gsm": "GSM4754442",
+        "description": "AAGENOA_LCL_0995",
+        "source_title": "genomic DNA from peripheral blood leukocytes 995",
+        "age_years": 66.98,
+        "sex": "M",
+        "sbp_mmhg": 105.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 427,
+          "Unmethylated.signal": 428,
+          "Detection.Pval": 429
+        }
+      },
+      {
+        "gsm": "GSM4754443",
+        "description": "AAGENOA_LCL_0996",
+        "source_title": "genomic DNA from peripheral blood leukocytes 996",
+        "age_years": 78.36,
+        "sex": "M",
+        "sbp_mmhg": 153.0,
+        "dbp_mmhg": 87.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 430,
+          "Unmethylated.signal": 431,
+          "Detection.Pval": 432
+        }
+      },
+      {
+        "gsm": "GSM4754445",
+        "description": "AAGENOA_LCL_0998",
+        "source_title": "genomic DNA from peripheral blood leukocytes 998",
+        "age_years": 69.03,
+        "sex": "M",
+        "sbp_mmhg": 143.0,
+        "dbp_mmhg": 89.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 433,
+          "Unmethylated.signal": 434,
+          "Detection.Pval": 435
+        }
+      },
+      {
+        "gsm": "GSM4754447",
+        "description": "AAGENOA_LCL_1000",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1000",
+        "age_years": 66.18,
+        "sex": "M",
+        "sbp_mmhg": 101.0,
+        "dbp_mmhg": 58.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 436,
+          "Unmethylated.signal": 437,
+          "Detection.Pval": 438
+        }
+      },
+      {
+        "gsm": "GSM4754448",
+        "description": "AAGENOA_LCL_1001",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1001",
+        "age_years": 68.21,
+        "sex": "F",
+        "sbp_mmhg": 128.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 439,
+          "Unmethylated.signal": 440,
+          "Detection.Pval": 441
+        }
+      },
+      {
+        "gsm": "GSM4754454",
+        "description": "AAGENOA_LCL_1008",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1008",
+        "age_years": 77.5,
+        "sex": "M",
+        "sbp_mmhg": 135.0,
+        "dbp_mmhg": 65.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 442,
+          "Unmethylated.signal": 443,
+          "Detection.Pval": 444
+        }
+      },
+      {
+        "gsm": "GSM4754455",
+        "description": "AAGENOA_LCL_1009",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1009",
+        "age_years": 73.45,
+        "sex": "F",
+        "sbp_mmhg": 209.0,
+        "dbp_mmhg": 108.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 445,
+          "Unmethylated.signal": 446,
+          "Detection.Pval": 447
+        }
+      },
+      {
+        "gsm": "GSM4754456",
+        "description": "AAGENOA_LCL_1011",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1011",
+        "age_years": 69.45,
+        "sex": "F",
+        "sbp_mmhg": 128.0,
+        "dbp_mmhg": 77.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 448,
+          "Unmethylated.signal": 449,
+          "Detection.Pval": 450
+        }
+      },
+      {
+        "gsm": "GSM4754457",
+        "description": "AAGENOA_LCL_1012",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1012",
+        "age_years": 64.44,
+        "sex": "F",
+        "sbp_mmhg": 121.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 451,
+          "Unmethylated.signal": 452,
+          "Detection.Pval": 453
+        }
+      },
+      {
+        "gsm": "GSM4754460",
+        "description": "AAGENOA_LCL_1016",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1016",
+        "age_years": 71.54,
+        "sex": "F",
+        "sbp_mmhg": 155.0,
+        "dbp_mmhg": 62.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 454,
+          "Unmethylated.signal": 455,
+          "Detection.Pval": 456
+        }
+      },
+      {
+        "gsm": "GSM4754461",
+        "description": "AAGENOA_LCL_1017",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1017",
+        "age_years": 64.65,
+        "sex": "F",
+        "sbp_mmhg": 131.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 457,
+          "Unmethylated.signal": 458,
+          "Detection.Pval": 459
+        }
+      },
+      {
+        "gsm": "GSM4754463",
+        "description": "AAGENOA_LCL_1019",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1019",
+        "age_years": 68.47,
+        "sex": "F",
+        "sbp_mmhg": 139.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 460,
+          "Unmethylated.signal": 461,
+          "Detection.Pval": 462
+        }
+      },
+      {
+        "gsm": "GSM4754464",
+        "description": "AAGENOA_LCL_1020",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1020",
+        "age_years": 69.85,
+        "sex": "F",
+        "sbp_mmhg": 151.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 463,
+          "Unmethylated.signal": 464,
+          "Detection.Pval": 465
+        }
+      },
+      {
+        "gsm": "GSM4754466",
+        "description": "AAGENOA_LCL_1022",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1022",
+        "age_years": 73.27,
+        "sex": "M",
+        "sbp_mmhg": 176.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 466,
+          "Unmethylated.signal": 467,
+          "Detection.Pval": 468
+        }
+      },
+      {
+        "gsm": "GSM4754470",
+        "description": "AAGENOA_LCL_1026",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1026",
+        "age_years": 72.84,
+        "sex": "F",
+        "sbp_mmhg": 152.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 469,
+          "Unmethylated.signal": 470,
+          "Detection.Pval": 471
+        }
+      },
+      {
+        "gsm": "GSM4754473",
+        "description": "AAGENOA_LCL_1029",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1029",
+        "age_years": 59.38,
+        "sex": "F",
+        "sbp_mmhg": 110.0,
+        "dbp_mmhg": 62.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 472,
+          "Unmethylated.signal": 473,
+          "Detection.Pval": 474
+        }
+      },
+      {
+        "gsm": "GSM4754474",
+        "description": "AAGENOA_LCL_1030",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1030",
+        "age_years": 68.67,
+        "sex": "F",
+        "sbp_mmhg": 129.0,
+        "dbp_mmhg": 74.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 475,
+          "Unmethylated.signal": 476,
+          "Detection.Pval": 477
+        }
+      },
+      {
+        "gsm": "GSM4754483",
+        "description": "AAGENOA_LCL_1040",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1040",
+        "age_years": 69.65,
+        "sex": "F",
+        "sbp_mmhg": 126.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 478,
+          "Unmethylated.signal": 479,
+          "Detection.Pval": 480
+        }
+      },
+      {
+        "gsm": "GSM4754487",
+        "description": "AAGENOA_LCL_1044",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1044",
+        "age_years": 67.31,
+        "sex": "M",
+        "sbp_mmhg": 124.0,
+        "dbp_mmhg": 83.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 481,
+          "Unmethylated.signal": 482,
+          "Detection.Pval": 483
+        }
+      },
+      {
+        "gsm": "GSM4754488",
+        "description": "AAGENOA_LCL_1045",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1045",
+        "age_years": 70.69,
+        "sex": "F",
+        "sbp_mmhg": 172.0,
+        "dbp_mmhg": 95.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 484,
+          "Unmethylated.signal": 485,
+          "Detection.Pval": 486
+        }
+      },
+      {
+        "gsm": "GSM4754493",
+        "description": "AAGENOA_LCL_1052",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1052",
+        "age_years": 67.44,
+        "sex": "F",
+        "sbp_mmhg": 107.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 487,
+          "Unmethylated.signal": 488,
+          "Detection.Pval": 489
+        }
+      },
+      {
+        "gsm": "GSM4754494",
+        "description": "AAGENOA_LCL_1054",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1054",
+        "age_years": 72.56,
+        "sex": "F",
+        "sbp_mmhg": 169.0,
+        "dbp_mmhg": 81.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 490,
+          "Unmethylated.signal": 491,
+          "Detection.Pval": 492
+        }
+      },
+      {
+        "gsm": "GSM4754500",
+        "description": "AAGENOA_LCL_1062",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1062",
+        "age_years": 66.29,
+        "sex": "F",
+        "sbp_mmhg": 140.0,
+        "dbp_mmhg": 87.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 493,
+          "Unmethylated.signal": 494,
+          "Detection.Pval": 495
+        }
+      },
+      {
+        "gsm": "GSM4754502",
+        "description": "AAGENOA_LCL_1064",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1064",
+        "age_years": 66.75,
+        "sex": "F",
+        "sbp_mmhg": 161.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 496,
+          "Unmethylated.signal": 497,
+          "Detection.Pval": 498
+        }
+      },
+      {
+        "gsm": "GSM4754504",
+        "description": "AAGENOA_LCL_1067",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1067",
+        "age_years": 59.26,
+        "sex": "F",
+        "sbp_mmhg": 118.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 499,
+          "Unmethylated.signal": 500,
+          "Detection.Pval": 501
+        }
+      },
+      {
+        "gsm": "GSM4754511",
+        "description": "AAGENOA_LCL_1074",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1074",
+        "age_years": 59.71,
+        "sex": "F",
+        "sbp_mmhg": 100.0,
+        "dbp_mmhg": 55.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 502,
+          "Unmethylated.signal": 503,
+          "Detection.Pval": 504
+        }
+      },
+      {
+        "gsm": "GSM4754521",
+        "description": "AAGENOA_LCL_1089",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1089",
+        "age_years": 69.98,
+        "sex": "M",
+        "sbp_mmhg": 157.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 505,
+          "Unmethylated.signal": 506,
+          "Detection.Pval": 507
+        }
+      },
+      {
+        "gsm": "GSM4754523",
+        "description": "AAGENOA_LCL_1093",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1093",
+        "age_years": 73.99,
+        "sex": "F",
+        "sbp_mmhg": 150.0,
+        "dbp_mmhg": 70.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 508,
+          "Unmethylated.signal": 509,
+          "Detection.Pval": 510
+        }
+      },
+      {
+        "gsm": "GSM4754525",
+        "description": "AAGENOA_LCL_1095",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1095",
+        "age_years": 63.18,
+        "sex": "F",
+        "sbp_mmhg": 141.0,
+        "dbp_mmhg": 63.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 511,
+          "Unmethylated.signal": 512,
+          "Detection.Pval": 513
+        }
+      },
+      {
+        "gsm": "GSM4754529",
+        "description": "AAGENOA_LCL_1099",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1099",
+        "age_years": 75.46,
+        "sex": "M",
+        "sbp_mmhg": 133.0,
+        "dbp_mmhg": 72.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 514,
+          "Unmethylated.signal": 515,
+          "Detection.Pval": 516
+        }
+      },
+      {
+        "gsm": "GSM4754536",
+        "description": "AAGENOA_LCL_1106",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1106",
+        "age_years": 77.68,
+        "sex": "M",
+        "sbp_mmhg": 138.0,
+        "dbp_mmhg": 77.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 517,
+          "Unmethylated.signal": 518,
+          "Detection.Pval": 519
+        }
+      },
+      {
+        "gsm": "GSM4754537",
+        "description": "AAGENOA_LCL_1107",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1107",
+        "age_years": 73.79,
+        "sex": "M",
+        "sbp_mmhg": 123.0,
+        "dbp_mmhg": 52.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 520,
+          "Unmethylated.signal": 521,
+          "Detection.Pval": 522
+        }
+      },
+      {
+        "gsm": "GSM4754541",
+        "description": "AAGENOA_LCL_1111",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1111",
+        "age_years": 74.55,
+        "sex": "F",
+        "sbp_mmhg": 112.0,
+        "dbp_mmhg": 65.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 523,
+          "Unmethylated.signal": 524,
+          "Detection.Pval": 525
+        }
+      },
+      {
+        "gsm": "GSM4754546",
+        "description": "AAGENOA_LCL_1118",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1118",
+        "age_years": 77.37,
+        "sex": "F",
+        "sbp_mmhg": 172.0,
+        "dbp_mmhg": 68.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 526,
+          "Unmethylated.signal": 527,
+          "Detection.Pval": 528
+        }
+      },
+      {
+        "gsm": "GSM4754554",
+        "description": "AAGENOA_LCL_1126",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1126",
+        "age_years": 73.78,
+        "sex": "F",
+        "sbp_mmhg": 151.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 529,
+          "Unmethylated.signal": 530,
+          "Detection.Pval": 531
+        }
+      },
+      {
+        "gsm": "GSM4754558",
+        "description": "AAGENOA_LCL_1131",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1131",
+        "age_years": 67.92,
+        "sex": "F",
+        "sbp_mmhg": 146.0,
+        "dbp_mmhg": 77.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 532,
+          "Unmethylated.signal": 533,
+          "Detection.Pval": 534
+        }
+      },
+      {
+        "gsm": "GSM4754566",
+        "description": "AAGENOA_LCL_1139",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1139",
+        "age_years": 73.33,
+        "sex": "M",
+        "sbp_mmhg": 114.0,
+        "dbp_mmhg": 75.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 535,
+          "Unmethylated.signal": 536,
+          "Detection.Pval": 537
+        }
+      },
+      {
+        "gsm": "GSM4754575",
+        "description": "AAGENOA_LCL_1150",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1150",
+        "age_years": 78.06,
+        "sex": "M",
+        "sbp_mmhg": 148.0,
+        "dbp_mmhg": 67.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 538,
+          "Unmethylated.signal": 539,
+          "Detection.Pval": 540
+        }
+      },
+      {
+        "gsm": "GSM4754576",
+        "description": "AAGENOA_LCL_1151",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1151",
+        "age_years": 75.24,
+        "sex": "F",
+        "sbp_mmhg": 153.0,
+        "dbp_mmhg": 70.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 541,
+          "Unmethylated.signal": 542,
+          "Detection.Pval": 543
+        }
+      },
+      {
+        "gsm": "GSM4754582",
+        "description": "AAGENOA_LCL_1158",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1158",
+        "age_years": 71.84,
+        "sex": "F",
+        "sbp_mmhg": 122.0,
+        "dbp_mmhg": 77.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 544,
+          "Unmethylated.signal": 545,
+          "Detection.Pval": 546
+        }
+      },
+      {
+        "gsm": "GSM4754584",
+        "description": "AAGENOA_LCL_1161",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1161",
+        "age_years": 69.85,
+        "sex": "F",
+        "sbp_mmhg": 151.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 547,
+          "Unmethylated.signal": 548,
+          "Detection.Pval": 549
+        }
+      },
+      {
+        "gsm": "GSM4754589",
+        "description": "AAGENOA_LCL_1167",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1167",
+        "age_years": 77.23,
+        "sex": "F",
+        "sbp_mmhg": 129.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 550,
+          "Unmethylated.signal": 551,
+          "Detection.Pval": 552
+        }
+      },
+      {
+        "gsm": "GSM4754594",
+        "description": "AAGENOA_LCL_1174",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1174",
+        "age_years": 72.56,
+        "sex": "F",
+        "sbp_mmhg": 189.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 553,
+          "Unmethylated.signal": 554,
+          "Detection.Pval": 555
+        }
+      },
+      {
+        "gsm": "GSM4754598",
+        "description": "AAGENOA_LCL_1178",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1178",
+        "age_years": 67.88,
+        "sex": "M",
+        "sbp_mmhg": 158.0,
+        "dbp_mmhg": 96.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 556,
+          "Unmethylated.signal": 557,
+          "Detection.Pval": 558
+        }
+      },
+      {
+        "gsm": "GSM4754600",
+        "description": "AAGENOA_LCL_1180",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1180",
+        "age_years": 72.52,
+        "sex": "M",
+        "sbp_mmhg": 128.0,
+        "dbp_mmhg": 77.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 559,
+          "Unmethylated.signal": 560,
+          "Detection.Pval": 561
+        }
+      },
+      {
+        "gsm": "GSM4754601",
+        "description": "AAGENOA_LCL_1181",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1181",
+        "age_years": 78.1,
+        "sex": "F",
+        "sbp_mmhg": 146.0,
+        "dbp_mmhg": 75.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 562,
+          "Unmethylated.signal": 563,
+          "Detection.Pval": 564
+        }
+      },
+      {
+        "gsm": "GSM4754604",
+        "description": "AAGENOA_LCL_1186",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1186",
+        "age_years": 74.05,
+        "sex": "F",
+        "sbp_mmhg": 154.0,
+        "dbp_mmhg": 82.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 565,
+          "Unmethylated.signal": 566,
+          "Detection.Pval": 567
+        }
+      },
+      {
+        "gsm": "GSM4754605",
+        "description": "AAGENOA_LCL_1187",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1187",
+        "age_years": 71.17,
+        "sex": "F",
+        "sbp_mmhg": 122.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 568,
+          "Unmethylated.signal": 569,
+          "Detection.Pval": 570
+        }
+      },
+      {
+        "gsm": "GSM4754612",
+        "description": "AAGENOA_LCL_1196",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1196",
+        "age_years": 53.5,
+        "sex": "F",
+        "sbp_mmhg": 123.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 571,
+          "Unmethylated.signal": 572,
+          "Detection.Pval": 573
+        }
+      },
+      {
+        "gsm": "GSM4754617",
+        "description": "AAGENOA_LCL_1203",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1203",
+        "age_years": 73.44,
+        "sex": "M",
+        "sbp_mmhg": 121.0,
+        "dbp_mmhg": 76.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 574,
+          "Unmethylated.signal": 575,
+          "Detection.Pval": 576
+        }
+      },
+      {
+        "gsm": "GSM4754620",
+        "description": "AAGENOA_LCL_1206",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1206",
+        "age_years": 64.33,
+        "sex": "F",
+        "sbp_mmhg": 129.0,
+        "dbp_mmhg": 75.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 577,
+          "Unmethylated.signal": 578,
+          "Detection.Pval": 579
+        }
+      },
+      {
+        "gsm": "GSM4754624",
+        "description": "AAGENOA_LCL_1214",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1214",
+        "age_years": 72.01,
+        "sex": "F",
+        "sbp_mmhg": 222.0,
+        "dbp_mmhg": 112.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 580,
+          "Unmethylated.signal": 581,
+          "Detection.Pval": 582
+        }
+      },
+      {
+        "gsm": "GSM4754625",
+        "description": "AAGENOA_LCL_1218",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1218",
+        "age_years": 70.15,
+        "sex": "M",
+        "sbp_mmhg": 121.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 583,
+          "Unmethylated.signal": 584,
+          "Detection.Pval": 585
+        }
+      },
+      {
+        "gsm": "GSM4754629",
+        "description": "AAGENOA_LCL_1224",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1224",
+        "age_years": 63.67,
+        "sex": "F",
+        "sbp_mmhg": 106.0,
+        "dbp_mmhg": 72.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 586,
+          "Unmethylated.signal": 587,
+          "Detection.Pval": 588
+        }
+      },
+      {
+        "gsm": "GSM4754631",
+        "description": "AAGENOA_LCL_1227",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1227",
+        "age_years": 66.2,
+        "sex": "M",
+        "sbp_mmhg": 133.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 589,
+          "Unmethylated.signal": 590,
+          "Detection.Pval": 591
+        }
+      },
+      {
+        "gsm": "GSM4754637",
+        "description": "AAGENOA_LCL_1244",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1244",
+        "age_years": 62.09,
+        "sex": "F",
+        "sbp_mmhg": 163.0,
+        "dbp_mmhg": 87.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 592,
+          "Unmethylated.signal": 593,
+          "Detection.Pval": 594
+        }
+      },
+      {
+        "gsm": "GSM4754642",
+        "description": "AAGENOA_LCL_1256",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1256",
+        "age_years": 74.4,
+        "sex": "M",
+        "sbp_mmhg": 155.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 595,
+          "Unmethylated.signal": 596,
+          "Detection.Pval": 597
+        }
+      },
+      {
+        "gsm": "GSM4754646",
+        "description": "AAGENOA_LCL_1264",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1264",
+        "age_years": 72.34,
+        "sex": "F",
+        "sbp_mmhg": 143.0,
+        "dbp_mmhg": 76.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 598,
+          "Unmethylated.signal": 599,
+          "Detection.Pval": 600
+        }
+      },
+      {
+        "gsm": "GSM4754647",
+        "description": "AAGENOA_LCL_1265",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1265",
+        "age_years": 65.69,
+        "sex": "F",
+        "sbp_mmhg": 134.0,
+        "dbp_mmhg": 82.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 601,
+          "Unmethylated.signal": 602,
+          "Detection.Pval": 603
+        }
+      },
+      {
+        "gsm": "GSM4754650",
+        "description": "AAGENOA_LCL_1270",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1270",
+        "age_years": 72.89,
+        "sex": "F",
+        "sbp_mmhg": 217.0,
+        "dbp_mmhg": 105.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 604,
+          "Unmethylated.signal": 605,
+          "Detection.Pval": 606
+        }
+      },
+      {
+        "gsm": "GSM4754652",
+        "description": "AAGENOA_LCL_1273",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1273",
+        "age_years": 70.28,
+        "sex": "F",
+        "sbp_mmhg": 143.0,
+        "dbp_mmhg": 82.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 607,
+          "Unmethylated.signal": 608,
+          "Detection.Pval": 609
+        }
+      },
+      {
+        "gsm": "GSM4754653",
+        "description": "AAGENOA_LCL_1274",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1274",
+        "age_years": 72.56,
+        "sex": "F",
+        "sbp_mmhg": 155.0,
+        "dbp_mmhg": 74.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 610,
+          "Unmethylated.signal": 611,
+          "Detection.Pval": 612
+        }
+      },
+      {
+        "gsm": "GSM4754655",
+        "description": "AAGENOA_LCL_1282",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1282",
+        "age_years": 61.74,
+        "sex": "M",
+        "sbp_mmhg": 150.0,
+        "dbp_mmhg": 91.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 613,
+          "Unmethylated.signal": 614,
+          "Detection.Pval": 615
+        }
+      },
+      {
+        "gsm": "GSM4754658",
+        "description": "AAGENOA_LCL_1288",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1288",
+        "age_years": 68.58,
+        "sex": "F",
+        "sbp_mmhg": 139.0,
+        "dbp_mmhg": 66.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 616,
+          "Unmethylated.signal": 617,
+          "Detection.Pval": 618
+        }
+      },
+      {
+        "gsm": "GSM4754661",
+        "description": "AAGENOA_LCL_1301",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1301",
+        "age_years": 73.77,
+        "sex": "M",
+        "sbp_mmhg": 123.0,
+        "dbp_mmhg": 79.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 619,
+          "Unmethylated.signal": 620,
+          "Detection.Pval": 621
+        }
+      },
+      {
+        "gsm": "GSM4754663",
+        "description": "AAGENOA_LCL_1304",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1304",
+        "age_years": 62.79,
+        "sex": "F",
+        "sbp_mmhg": 133.0,
+        "dbp_mmhg": 91.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 622,
+          "Unmethylated.signal": 623,
+          "Detection.Pval": 624
+        }
+      },
+      {
+        "gsm": "GSM4754665",
+        "description": "AAGENOA_LCL_1307",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1307",
+        "age_years": 68.38,
+        "sex": "M",
+        "sbp_mmhg": 157.0,
+        "dbp_mmhg": 88.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 625,
+          "Unmethylated.signal": 626,
+          "Detection.Pval": 627
+        }
+      },
+      {
+        "gsm": "GSM4754666",
+        "description": "AAGENOA_LCL_1314",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1314",
+        "age_years": 66.85,
+        "sex": "F",
+        "sbp_mmhg": 132.0,
+        "dbp_mmhg": 77.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 628,
+          "Unmethylated.signal": 629,
+          "Detection.Pval": 630
+        }
+      },
+      {
+        "gsm": "GSM4754667",
+        "description": "AAGENOA_LCL_1317",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1317",
+        "age_years": 70.84,
+        "sex": "M",
+        "sbp_mmhg": 117.0,
+        "dbp_mmhg": 58.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 631,
+          "Unmethylated.signal": 632,
+          "Detection.Pval": 633
+        }
+      },
+      {
+        "gsm": "GSM4754670",
+        "description": "AAGENOA_LCL_1323",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1323",
+        "age_years": 64.34,
+        "sex": "F",
+        "sbp_mmhg": 168.0,
+        "dbp_mmhg": 83.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 634,
+          "Unmethylated.signal": 635,
+          "Detection.Pval": 636
+        }
+      },
+      {
+        "gsm": "GSM4754672",
+        "description": "AAGENOA_LCL_1329",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1329",
+        "age_years": 70.03,
+        "sex": "M",
+        "sbp_mmhg": 144.0,
+        "dbp_mmhg": 94.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 637,
+          "Unmethylated.signal": 638,
+          "Detection.Pval": 639
+        }
+      },
+      {
+        "gsm": "GSM4754674",
+        "description": "AAGENOA_LCL_1331",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1331",
+        "age_years": 67.61,
+        "sex": "F",
+        "sbp_mmhg": 132.0,
+        "dbp_mmhg": 76.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 640,
+          "Unmethylated.signal": 641,
+          "Detection.Pval": 642
+        }
+      },
+      {
+        "gsm": "GSM4754676",
+        "description": "AAGENOA_LCL_1343",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1343",
+        "age_years": 71.67,
+        "sex": "F",
+        "sbp_mmhg": 119.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 643,
+          "Unmethylated.signal": 644,
+          "Detection.Pval": 645
+        }
+      },
+      {
+        "gsm": "GSM4754682",
+        "description": "AAGENOA_LCL_1352",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1352",
+        "age_years": 78.97,
+        "sex": "M",
+        "sbp_mmhg": 134.0,
+        "dbp_mmhg": 82.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 646,
+          "Unmethylated.signal": 647,
+          "Detection.Pval": 648
+        }
+      },
+      {
+        "gsm": "GSM4754684",
+        "description": "AAGENOA_LCL_1355",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1355",
+        "age_years": 66.59,
+        "sex": "F",
+        "sbp_mmhg": 131.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 649,
+          "Unmethylated.signal": 650,
+          "Detection.Pval": 651
+        }
+      },
+      {
+        "gsm": "GSM4754685",
+        "description": "AAGENOA_LCL_1359",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1359",
+        "age_years": 73.51,
+        "sex": "M",
+        "sbp_mmhg": 162.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 652,
+          "Unmethylated.signal": 653,
+          "Detection.Pval": 654
+        }
+      },
+      {
+        "gsm": "GSM4754686",
+        "description": "AAGENOA_LCL_1360",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1360",
+        "age_years": 71.35,
+        "sex": "F",
+        "sbp_mmhg": 162.0,
+        "dbp_mmhg": 74.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 655,
+          "Unmethylated.signal": 656,
+          "Detection.Pval": 657
+        }
+      },
+      {
+        "gsm": "GSM4754687",
+        "description": "AAGENOA_LCL_1361",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1361",
+        "age_years": 73.0,
+        "sex": "F",
+        "sbp_mmhg": 128.0,
+        "dbp_mmhg": 63.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 658,
+          "Unmethylated.signal": 659,
+          "Detection.Pval": 660
+        }
+      },
+      {
+        "gsm": "GSM4754688",
+        "description": "AAGENOA_LCL_1363",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1363",
+        "age_years": 66.22,
+        "sex": "M",
+        "sbp_mmhg": 130.0,
+        "dbp_mmhg": 75.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 661,
+          "Unmethylated.signal": 662,
+          "Detection.Pval": 663
+        }
+      },
+      {
+        "gsm": "GSM4754693",
+        "description": "AAGENOA_LCL_1377",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1377",
+        "age_years": 59.72,
+        "sex": "F",
+        "sbp_mmhg": 120.0,
+        "dbp_mmhg": 72.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 664,
+          "Unmethylated.signal": 665,
+          "Detection.Pval": 666
+        }
+      },
+      {
+        "gsm": "GSM4754698",
+        "description": "AAGENOA_LCL_1396",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1396",
+        "age_years": 58.29,
+        "sex": "F",
+        "sbp_mmhg": 112.0,
+        "dbp_mmhg": 72.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 667,
+          "Unmethylated.signal": 668,
+          "Detection.Pval": 669
+        }
+      },
+      {
+        "gsm": "GSM4754700",
+        "description": "AAGENOA_LCL_1400",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1400",
+        "age_years": 66.31,
+        "sex": "F",
+        "sbp_mmhg": 144.0,
+        "dbp_mmhg": 59.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 670,
+          "Unmethylated.signal": 671,
+          "Detection.Pval": 672
+        }
+      },
+      {
+        "gsm": "GSM4754702",
+        "description": "AAGENOA_LCL_1404",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1404",
+        "age_years": 64.97,
+        "sex": "F",
+        "sbp_mmhg": 159.0,
+        "dbp_mmhg": 71.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 673,
+          "Unmethylated.signal": 674,
+          "Detection.Pval": 675
+        }
+      },
+      {
+        "gsm": "GSM4754713",
+        "description": "AAGENOA_LCL_1433",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1433",
+        "age_years": 64.93,
+        "sex": "M",
+        "sbp_mmhg": 151.0,
+        "dbp_mmhg": 94.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 676,
+          "Unmethylated.signal": 677,
+          "Detection.Pval": 678
+        }
+      },
+      {
+        "gsm": "GSM4754718",
+        "description": "AAGENOA_LCL_1449",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1449",
+        "age_years": 56.46,
+        "sex": "F",
+        "sbp_mmhg": 112.0,
+        "dbp_mmhg": 62.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 679,
+          "Unmethylated.signal": 680,
+          "Detection.Pval": 681
+        }
+      },
+      {
+        "gsm": "GSM4754726",
+        "description": "AAGENOA_LCL_1463",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1463",
+        "age_years": 80.0,
+        "sex": "F",
+        "sbp_mmhg": 122.0,
+        "dbp_mmhg": 60.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 682,
+          "Unmethylated.signal": 683,
+          "Detection.Pval": 684
+        }
+      },
+      {
+        "gsm": "GSM4754729",
+        "description": "AAGENOA_LCL_1467",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1467",
+        "age_years": 73.05,
+        "sex": "M",
+        "sbp_mmhg": 135.0,
+        "dbp_mmhg": 64.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 685,
+          "Unmethylated.signal": 686,
+          "Detection.Pval": 687
+        }
+      },
+      {
+        "gsm": "GSM4754738",
+        "description": "AAGENOA_LCL_1483",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1483",
+        "age_years": 59.03,
+        "sex": "F",
+        "sbp_mmhg": 92.0,
+        "dbp_mmhg": 53.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 688,
+          "Unmethylated.signal": 689,
+          "Detection.Pval": 690
+        }
+      },
+      {
+        "gsm": "GSM4754741",
+        "description": "AAGENOA_LCL_1489",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1489",
+        "age_years": 74.47,
+        "sex": "F",
+        "sbp_mmhg": 180.0,
+        "dbp_mmhg": 89.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 691,
+          "Unmethylated.signal": 692,
+          "Detection.Pval": 693
+        }
+      },
+      {
+        "gsm": "GSM4754742",
+        "description": "AAGENOA_LCL_1492",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1492",
+        "age_years": 68.4,
+        "sex": "M",
+        "sbp_mmhg": 150.0,
+        "dbp_mmhg": 76.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 694,
+          "Unmethylated.signal": 695,
+          "Detection.Pval": 696
+        }
+      },
+      {
+        "gsm": "GSM4754744",
+        "description": "AAGENOA_LCL_1496",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1496",
+        "age_years": 68.94,
+        "sex": "F",
+        "sbp_mmhg": 127.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 697,
+          "Unmethylated.signal": 698,
+          "Detection.Pval": 699
+        }
+      },
+      {
+        "gsm": "GSM4754747",
+        "description": "AAGENOA_LCL_1505",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1505",
+        "age_years": 74.27,
+        "sex": "M",
+        "sbp_mmhg": 207.0,
+        "dbp_mmhg": 92.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 700,
+          "Unmethylated.signal": 701,
+          "Detection.Pval": 702
+        }
+      },
+      {
+        "gsm": "GSM4754753",
+        "description": "AAGENOA_LCL_1524",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1524",
+        "age_years": 63.49,
+        "sex": "F",
+        "sbp_mmhg": 119.0,
+        "dbp_mmhg": 60.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 703,
+          "Unmethylated.signal": 704,
+          "Detection.Pval": 705
+        }
+      },
+      {
+        "gsm": "GSM4754755",
+        "description": "AAGENOA_LCL_1528",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1528",
+        "age_years": 83.84,
+        "sex": "F",
+        "sbp_mmhg": 139.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 706,
+          "Unmethylated.signal": 707,
+          "Detection.Pval": 708
+        }
+      },
+      {
+        "gsm": "GSM4754757",
+        "description": "AAGENOA_LCL_1534",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1534",
+        "age_years": 68.07,
+        "sex": "F",
+        "sbp_mmhg": 198.0,
+        "dbp_mmhg": 91.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 709,
+          "Unmethylated.signal": 710,
+          "Detection.Pval": 711
+        }
+      },
+      {
+        "gsm": "GSM4754761",
+        "description": "AAGENOA_LCL_1546",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1546",
+        "age_years": 79.73,
+        "sex": "M",
+        "sbp_mmhg": 99.0,
+        "dbp_mmhg": 47.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 712,
+          "Unmethylated.signal": 713,
+          "Detection.Pval": 714
+        }
+      },
+      {
+        "gsm": "GSM4754763",
+        "description": "AAGENOA_LCL_1551",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1551",
+        "age_years": 64.64,
+        "sex": "F",
+        "sbp_mmhg": 140.0,
+        "dbp_mmhg": 65.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 715,
+          "Unmethylated.signal": 716,
+          "Detection.Pval": 717
+        }
+      },
+      {
+        "gsm": "GSM4754765",
+        "description": "AAGENOA_LCL_1554",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1554",
+        "age_years": 59.79,
+        "sex": "M",
+        "sbp_mmhg": 145.0,
+        "dbp_mmhg": 92.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 718,
+          "Unmethylated.signal": 719,
+          "Detection.Pval": 720
+        }
+      },
+      {
+        "gsm": "GSM4754768",
+        "description": "AAGENOA_LCL_1560",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1560",
+        "age_years": 51.72,
+        "sex": "F",
+        "sbp_mmhg": 146.0,
+        "dbp_mmhg": 92.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 721,
+          "Unmethylated.signal": 722,
+          "Detection.Pval": 723
+        }
+      },
+      {
+        "gsm": "GSM4754769",
+        "description": "AAGENOA_LCL_1561",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1561",
+        "age_years": 94.74,
+        "sex": "F",
+        "sbp_mmhg": 215.0,
+        "dbp_mmhg": 73.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 724,
+          "Unmethylated.signal": 725,
+          "Detection.Pval": 726
+        }
+      },
+      {
+        "gsm": "GSM4754773",
+        "description": "AAGENOA_LCL_1566",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1566",
+        "age_years": 67.42,
+        "sex": "M",
+        "sbp_mmhg": 178.0,
+        "dbp_mmhg": 98.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 727,
+          "Unmethylated.signal": 728,
+          "Detection.Pval": 729
+        }
+      },
+      {
+        "gsm": "GSM4754774",
+        "description": "AAGENOA_LCL_1567",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1567",
+        "age_years": 79.55,
+        "sex": "F",
+        "sbp_mmhg": 131.0,
+        "dbp_mmhg": 58.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 730,
+          "Unmethylated.signal": 731,
+          "Detection.Pval": 732
+        }
+      },
+      {
+        "gsm": "GSM4754779",
+        "description": "AAGENOA_LCL_1578",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1578",
+        "age_years": 64.38,
+        "sex": "M",
+        "sbp_mmhg": 126.0,
+        "dbp_mmhg": 81.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 733,
+          "Unmethylated.signal": 734,
+          "Detection.Pval": 735
+        }
+      },
+      {
+        "gsm": "GSM4754782",
+        "description": "AAGENOA_LCL_1582",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1582",
+        "age_years": 64.1,
+        "sex": "F",
+        "sbp_mmhg": 121.0,
+        "dbp_mmhg": 66.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 736,
+          "Unmethylated.signal": 737,
+          "Detection.Pval": 738
+        }
+      },
+      {
+        "gsm": "GSM4754783",
+        "description": "AAGENOA_LCL_1583",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1583",
+        "age_years": 56.7,
+        "sex": "F",
+        "sbp_mmhg": 113.0,
+        "dbp_mmhg": 65.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 739,
+          "Unmethylated.signal": 740,
+          "Detection.Pval": 741
+        }
+      },
+      {
+        "gsm": "GSM4754784",
+        "description": "AAGENOA_LCL_1584",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1584",
+        "age_years": 86.01,
+        "sex": "M",
+        "sbp_mmhg": 158.0,
+        "dbp_mmhg": 81.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 742,
+          "Unmethylated.signal": 743,
+          "Detection.Pval": 744
+        }
+      },
+      {
+        "gsm": "GSM4754786",
+        "description": "AAGENOA_LCL_1587",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1587",
+        "age_years": 69.88,
+        "sex": "M",
+        "sbp_mmhg": 119.0,
+        "dbp_mmhg": 62.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 745,
+          "Unmethylated.signal": 746,
+          "Detection.Pval": 747
+        }
+      },
+      {
+        "gsm": "GSM4754789",
+        "description": "AAGENOA_LCL_1597",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1597",
+        "age_years": 71.51,
+        "sex": "M",
+        "sbp_mmhg": 108.0,
+        "dbp_mmhg": 68.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 748,
+          "Unmethylated.signal": 749,
+          "Detection.Pval": 750
+        }
+      },
+      {
+        "gsm": "GSM4754791",
+        "description": "AAGENOA_LCL_1602",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1602",
+        "age_years": 69.72,
+        "sex": "F",
+        "sbp_mmhg": 108.0,
+        "dbp_mmhg": 57.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 751,
+          "Unmethylated.signal": 752,
+          "Detection.Pval": 753
+        }
+      },
+      {
+        "gsm": "GSM4754792",
+        "description": "AAGENOA_LCL_1611",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1611",
+        "age_years": 45.95,
+        "sex": "F",
+        "sbp_mmhg": 105.0,
+        "dbp_mmhg": 66.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 754,
+          "Unmethylated.signal": 755,
+          "Detection.Pval": 756
+        }
+      },
+      {
+        "gsm": "GSM4754794",
+        "description": "AAGENOA_LCL_1615",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1615",
+        "age_years": 55.98,
+        "sex": "F",
+        "sbp_mmhg": 110.0,
+        "dbp_mmhg": 68.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 757,
+          "Unmethylated.signal": 758,
+          "Detection.Pval": 759
+        }
+      },
+      {
+        "gsm": "GSM4754795",
+        "description": "AAGENOA_LCL_1618",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1618",
+        "age_years": 57.91,
+        "sex": "F",
+        "sbp_mmhg": 145.0,
+        "dbp_mmhg": 78.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 760,
+          "Unmethylated.signal": 761,
+          "Detection.Pval": 762
+        }
+      },
+      {
+        "gsm": "GSM4754798",
+        "description": "AAGENOA_LCL_1626",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1626",
+        "age_years": 63.32,
+        "sex": "M",
+        "sbp_mmhg": 126.0,
+        "dbp_mmhg": 75.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 763,
+          "Unmethylated.signal": 764,
+          "Detection.Pval": 765
+        }
+      },
+      {
+        "gsm": "GSM4754808",
+        "description": "AAGENOA_LCL_1649",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1649",
+        "age_years": 62.06,
+        "sex": "M",
+        "sbp_mmhg": 144.0,
+        "dbp_mmhg": 96.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 766,
+          "Unmethylated.signal": 767,
+          "Detection.Pval": 768
+        }
+      },
+      {
+        "gsm": "GSM4754812",
+        "description": "AAGENOA_LCL_1666",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1666",
+        "age_years": 68.07,
+        "sex": "M",
+        "sbp_mmhg": 116.0,
+        "dbp_mmhg": 70.0,
+        "bp_proxy_group": "low_measured_bp",
+        "bp_proxy_case": 0,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 769,
+          "Unmethylated.signal": 770,
+          "Detection.Pval": 771
+        }
+      },
+      {
+        "gsm": "GSM4754814",
+        "description": "AAGENOA_LCL_1678",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1678",
+        "age_years": 65.87,
+        "sex": "F",
+        "sbp_mmhg": 120.0,
+        "dbp_mmhg": 69.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 772,
+          "Unmethylated.signal": 773,
+          "Detection.Pval": 774
+        }
+      },
+      {
+        "gsm": "GSM4754822",
+        "description": "AAGENOA_LCL_1692",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1692",
+        "age_years": 75.64,
+        "sex": "F",
+        "sbp_mmhg": 168.0,
+        "dbp_mmhg": 91.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 775,
+          "Unmethylated.signal": 776,
+          "Detection.Pval": 777
+        }
+      },
+      {
+        "gsm": "GSM4754824",
+        "description": "AAGENOA_LCL_1710",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1710",
+        "age_years": 67.49,
+        "sex": "F",
+        "sbp_mmhg": 167.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 778,
+          "Unmethylated.signal": 779,
+          "Detection.Pval": 780
+        }
+      },
+      {
+        "gsm": "GSM4754826",
+        "description": "AAGENOA_LCL_1713",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1713",
+        "age_years": 71.1,
+        "sex": "F",
+        "sbp_mmhg": 149.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 781,
+          "Unmethylated.signal": 782,
+          "Detection.Pval": 783
+        }
+      },
+      {
+        "gsm": "GSM4754828",
+        "description": "AAGENOA_LCL_1715",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1715",
+        "age_years": 72.89,
+        "sex": "M",
+        "sbp_mmhg": 152.0,
+        "dbp_mmhg": 96.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 784,
+          "Unmethylated.signal": 785,
+          "Detection.Pval": 786
+        }
+      },
+      {
+        "gsm": "GSM4754831",
+        "description": "AAGENOA_LCL_1719",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1719",
+        "age_years": 57.89,
+        "sex": "F",
+        "sbp_mmhg": 168.0,
+        "dbp_mmhg": 84.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 787,
+          "Unmethylated.signal": 788,
+          "Detection.Pval": 789
+        }
+      },
+      {
+        "gsm": "GSM4754832",
+        "description": "AAGENOA_LCL_1720",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1720",
+        "age_years": 68.56,
+        "sex": "F",
+        "sbp_mmhg": 161.0,
+        "dbp_mmhg": 80.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 790,
+          "Unmethylated.signal": 791,
+          "Detection.Pval": 792
+        }
+      },
+      {
+        "gsm": "GSM4754836",
+        "description": "AAGENOA_LCL_1727",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1727",
+        "age_years": 53.28,
+        "sex": "F",
+        "sbp_mmhg": 118.0,
+        "dbp_mmhg": 81.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 793,
+          "Unmethylated.signal": 794,
+          "Detection.Pval": 795
+        }
+      },
+      {
+        "gsm": "GSM4754838",
+        "description": "AAGENOA_LCL_1734",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1734",
+        "age_years": 74.78,
+        "sex": "M",
+        "sbp_mmhg": 139.0,
+        "dbp_mmhg": 98.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 796,
+          "Unmethylated.signal": 797,
+          "Detection.Pval": 798
+        }
+      },
+      {
+        "gsm": "GSM4754841",
+        "description": "AAGENOA_LCL_1738",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1738",
+        "age_years": 60.98,
+        "sex": "F",
+        "sbp_mmhg": 126.0,
+        "dbp_mmhg": 70.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 799,
+          "Unmethylated.signal": 800,
+          "Detection.Pval": 801
+        }
+      },
+      {
+        "gsm": "GSM4754844",
+        "description": "AAGENOA_LCL_1746",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1746",
+        "age_years": 61.86,
+        "sex": "F",
+        "sbp_mmhg": 156.0,
+        "dbp_mmhg": 90.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 802,
+          "Unmethylated.signal": 803,
+          "Detection.Pval": 804
+        }
+      },
+      {
+        "gsm": "GSM4754850",
+        "description": "AAGENOA_LCL_1758",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1758",
+        "age_years": 65.96,
+        "sex": "F",
+        "sbp_mmhg": 140.0,
+        "dbp_mmhg": 82.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 805,
+          "Unmethylated.signal": 806,
+          "Detection.Pval": 807
+        }
+      },
+      {
+        "gsm": "GSM4754851",
+        "description": "AAGENOA_LCL_1759",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1759",
+        "age_years": 66.32,
+        "sex": "F",
+        "sbp_mmhg": 128.0,
+        "dbp_mmhg": 67.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 808,
+          "Unmethylated.signal": 809,
+          "Detection.Pval": 810
+        }
+      },
+      {
+        "gsm": "GSM4754852",
+        "description": "AAGENOA_LCL_1767",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1767",
+        "age_years": 77.79,
+        "sex": "F",
+        "sbp_mmhg": 137.0,
+        "dbp_mmhg": 48.0,
+        "bp_proxy_group": "middle_bp_excluded",
+        "bp_proxy_case": null,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 811,
+          "Unmethylated.signal": 812,
+          "Detection.Pval": 813
+        }
+      },
+      {
+        "gsm": "GSM4754853",
+        "description": "AAGENOA_LCL_1772",
+        "source_title": "genomic DNA from peripheral blood leukocytes 1772",
+        "age_years": 67.39,
+        "sex": "F",
+        "sbp_mmhg": 145.0,
+        "dbp_mmhg": 85.0,
+        "bp_proxy_group": "elevated_measured_bp",
+        "bp_proxy_case": 1,
+        "family_id": null,
+        "antihypertensive_medication": null,
+        "diagnosed_essential_hypertension": null,
+        "raw_columns_zero_based": {
+          "Methylated.signal": 814,
+          "Unmethylated.signal": 815,
+          "Detection.Pval": 816
+        }
+      }
+    ]
+  }
+}

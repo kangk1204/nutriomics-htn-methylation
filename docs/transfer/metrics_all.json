@@ -1,0 +1,210 @@
+{
+  "ridge/source_nested4_pair_cv": {
+    "n": 16,
+    "n_positive": 8,
+    "auroc": 0.640625,
+    "average_precision": 0.6677083333333333,
+    "auprc_trapezoid": 0.6364718614718614,
+    "brier": 0.23278750795693298,
+    "sensitivity": 0.75,
+    "specificity": 0.625,
+    "threshold": 0.5,
+    "tp": 6,
+    "tn": 5,
+    "fp": 3,
+    "fn": 2,
+    "ci95": {
+      "auroc": [
+        0.296875,
+        0.921875
+      ],
+      "average_precision": [
+        0.4733562271062271,
+        0.932426948051948
+      ],
+      "auprc_trapezoid": [
+        0.3860001456876457,
+        0.928118235930736
+      ],
+      "brier": [
+        0.16337698245410925,
+        0.31900016208860965
+      ],
+      "sensitivity": [
+        0.3491442055871758,
+        0.9681459737500557
+      ],
+      "specificity": [
+        0.2448632163665516,
+        0.9147665858627465
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "matched-pair bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.8306302665831542,
+    "calibration_intercept_descriptive": -0.028921921617330777,
+    "interpretation": "Supplementary direction-of-transfer experiment. Previously evaluated target outcomes preclude a new untouched external validation claim; no improvement claim from selecting the better direction.",
+    "target_used_for_tuning": false
+  },
+  "ridge/target_reciprocal_transfer": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.5697314049586777,
+    "average_precision": 0.5794927684628969,
+    "auprc_trapezoid": 0.571256769559465,
+    "brier": 0.2698140915985765,
+    "sensitivity": 0.8409090909090909,
+    "specificity": 0.2727272727272727,
+    "threshold": 0.5,
+    "tp": 37,
+    "tn": 12,
+    "fp": 32,
+    "fn": 7,
+    "ci95": {
+      "auroc": [
+        0.45091683884297523,
+        0.6931947314049588
+      ],
+      "average_precision": [
+        0.48675452978647127,
+        0.6959693182110256
+      ],
+      "auprc_trapezoid": [
+        0.46272822928797486,
+        0.686735992452216
+      ],
+      "brier": [
+        0.23543811055209288,
+        0.3031210877282683
+      ],
+      "sensitivity": [
+        0.6993467862283121,
+        0.9335565387971044
+      ],
+      "specificity": [
+        0.14957684376530814,
+        0.4278964124555005
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.36297998375762897,
+    "calibration_intercept_descriptive": -0.19903232967639328,
+    "interpretation": "Supplementary direction-of-transfer experiment. Previously evaluated target outcomes preclude a new untouched external validation claim; no improvement claim from selecting the better direction.",
+    "target_used_for_tuning": false
+  },
+  "elasticnet/source_nested4_pair_cv": {
+    "n": 16,
+    "n_positive": 8,
+    "auroc": 0.515625,
+    "average_precision": 0.5304029304029304,
+    "auprc_trapezoid": 0.47353479853479846,
+    "brier": 0.2840023975254953,
+    "sensitivity": 0.5,
+    "specificity": 0.5,
+    "threshold": 0.5,
+    "tp": 4,
+    "tn": 4,
+    "fp": 4,
+    "fn": 4,
+    "ci95": {
+      "auroc": [
+        0.1873046875,
+        0.8439453124999998
+      ],
+      "average_precision": [
+        0.40613553113553114,
+        0.8666856060606061
+      ],
+      "auprc_trapezoid": [
+        0.32999942765567764,
+        0.8602802015692637
+      ],
+      "brier": [
+        0.16656592244892018,
+        0.4441751637276066
+      ],
+      "sensitivity": [
+        0.15701277048705795,
+        0.842987229512942
+      ],
+      "specificity": [
+        0.15701277048705795,
+        0.842987229512942
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "matched-pair bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": -0.006007619192709432,
+    "calibration_intercept_descriptive": 0.0017726963955593286,
+    "interpretation": "Supplementary direction-of-transfer experiment. Previously evaluated target outcomes preclude a new untouched external validation claim; no improvement claim from selecting the better direction.",
+    "target_used_for_tuning": false
+  },
+  "elasticnet/target_reciprocal_transfer": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.5625,
+    "average_precision": 0.5473456560293355,
+    "auprc_trapezoid": 0.5331081405447917,
+    "brier": 0.2763329661939208,
+    "sensitivity": 0.5681818181818182,
+    "specificity": 0.4090909090909091,
+    "threshold": 0.5,
+    "tp": 25,
+    "tn": 18,
+    "fp": 26,
+    "fn": 19,
+    "ci95": {
+      "auroc": [
+        0.44829545454545455,
+        0.6787319214876032
+      ],
+      "average_precision": [
+        0.47356876413505755,
+        0.6888822078156964
+      ],
+      "auprc_trapezoid": [
+        0.452124367645701,
+        0.6636680789411548
+      ],
+      "brier": [
+        0.23149970574908058,
+        0.3187549329477141
+      ],
+      "sensitivity": [
+        0.41033721610603374,
+        0.7165062719107134
+      ],
+      "specificity": [
+        0.26337942508130363,
+        0.5675035727478288
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.2070402354001999,
+    "calibration_intercept_descriptive": -0.018020762130618095,
+    "interpretation": "Supplementary direction-of-transfer experiment. Previously evaluated target outcomes preclude a new untouched external validation claim; no improvement claim from selecting the better direction.",
+    "target_used_for_tuning": false
+  }
+}
