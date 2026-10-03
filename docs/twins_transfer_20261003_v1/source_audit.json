@@ -1,0 +1,572 @@
+{
+  "all_sample_table_rows": {
+    "GSM1668583": 466165,
+    "GSM1668584": 466165,
+    "GSM1668585": 466165,
+    "GSM1668586": 466165,
+    "GSM1668587": 466165,
+    "GSM1668588": 466165,
+    "GSM1668589": 466165,
+    "GSM1668590": 466165,
+    "GSM1668591": 466165,
+    "GSM1668592": 466165,
+    "GSM1668593": 466165,
+    "GSM1668594": 466165,
+    "GSM1668595": 466165,
+    "GSM1668596": 466165,
+    "GSM1668597": 466165,
+    "GSM1668598": 466165,
+    "GSM1668599": 466165,
+    "GSM1668600": 466165,
+    "GSM1668601": 466165,
+    "GSM1668602": 466165,
+    "GSM1668603": 466165,
+    "GSM1668604": 466165,
+    "GSM1668605": 466165,
+    "GSM1668606": 466165,
+    "GSM1668607": 466165,
+    "GSM1668608": 466165,
+    "GSM1668609": 466165,
+    "GSM1668610": 466165,
+    "GSM1668611": 466165,
+    "GSM1668612": 466165,
+    "GSM1668613": 466165,
+    "GSM1668614": 466165,
+    "GSM1668615": 466165,
+    "GSM1668616": 466165,
+    "GSM1668617": 466165,
+    "GSM1668633": 466165,
+    "GSM1668634": 466165,
+    "GSM1668635": 466165,
+    "GSM1668636": 466165,
+    "GSM1668637": 466165,
+    "GSM1668638": 466165,
+    "GSM1668639": 466165,
+    "GSM1668640": 466165,
+    "GSM1668641": 466165,
+    "GSM1668642": 466165,
+    "GSM1668643": 466165,
+    "GSM1668644": 466165,
+    "GSM1668645": 466165,
+    "GSM1668646": 466165,
+    "GSM1668647": 466165,
+    "GSM1668648": 466165,
+    "GSM1668649": 466165,
+    "GSM1668650": 466165,
+    "GSM1668651": 466165,
+    "GSM1668652": 466165,
+    "GSM1668653": 466165,
+    "GSM1668654": 466165,
+    "GSM1668655": 466165,
+    "GSM1668656": 466165,
+    "GSM1668657": 466165,
+    "GSM1668658": 466165,
+    "GSM1668659": 466165,
+    "GSM1668660": 466165,
+    "GSM1668661": 466165,
+    "GSM1668662": 466165,
+    "GSM1668663": 466165,
+    "GSM1668664": 466165,
+    "GSM1668665": 466165,
+    "GSM1668666": 466165,
+    "GSM1668667": 466165
+  },
+  "numeric_value_definitions": {
+    "GSM1668583": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668584": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668585": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668586": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668587": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668588": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668589": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668590": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668591": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668592": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668593": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668594": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668595": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668596": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668597": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668598": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668599": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668600": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668601": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668602": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668603": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668604": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668605": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668606": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668607": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668608": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668609": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668610": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668611": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668612": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668613": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668614": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668615": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668616": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668617": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668633": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668634": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668635": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668636": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668637": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668638": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668639": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668640": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668641": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668642": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668643": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668644": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668645": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668646": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668647": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668648": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668649": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668650": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668651": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668652": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668653": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668654": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668655": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668656": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668657": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668658": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668659": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668660": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668661": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668662": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668663": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668664": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668665": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668666": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ],
+    "GSM1668667": [
+      "#ID_REF =",
+      "#VALUE = Average Beta",
+      "#Detection Pval ="
+    ]
+  },
+  "series_metadata": {
+    "!Series_title": [
+      "Epigenome analysis of adipose tissue DNA from MZ twins discordant for BMI"
+    ],
+    "!Series_geo_accession": [
+      "GSE68336"
+    ],
+    "!Series_status": [
+      "Public on Dec 01 2015"
+    ],
+    "!Series_submission_date": [
+      "Apr 28 2015"
+    ],
+    "!Series_last_update_date": [
+      "Mar 22 2019"
+    ],
+    "!Series_pubmed_id": [
+      "26499446"
+    ],
+    "!Series_summary": [
+      "Genome wide DNA methylation profiling of adipose tissue of MZ twins discordant and concordant for BMI. The Illumina Infinium 450k Human DNA methylation Beadchip  was used to obtain DNA methylation profiles across approximately 485,000 CpGs. Samples included 24 pairs discordant  and  11 pairs concordant for BMI."
+    ],
+    "!Series_overall_design": [
+      "Bisulphite converted DNA from the 70 samples were hybridised to the Illumina Infinium 450k Human Methylation Beadchip."
+    ],
+    "!Series_type": [
+      "Methylation profiling by genome tiling array"
+    ],
+    "!Series_contributor": [
+      "Kirsi,,Pietiläinen",
+      "Miina,,Ollikainen"
+    ],
+    "!Series_sample_id": [
+      "GSM1668583",
+      "GSM1668584",
+      "GSM1668585",
+      "GSM1668586",
+      "GSM1668587",
+      "GSM1668588",
+      "GSM1668589",
+      "GSM1668590",
+      "GSM1668591",
+      "GSM1668592",
+      "GSM1668593",
+      "GSM1668594",
+      "GSM1668595",
+      "GSM1668596",
+      "GSM1668597",
+      "GSM1668598",
+      "GSM1668599",
+      "GSM1668600",
+      "GSM1668601",
+      "GSM1668602",
+      "GSM1668603",
+      "GSM1668604",
+      "GSM1668605",
+      "GSM1668606",
+      "GSM1668607",
+      "GSM1668608",
+      "GSM1668609",
+      "GSM1668610",
+      "GSM1668611",
+      "GSM1668612",
+      "GSM1668613",
+      "GSM1668614",
+      "GSM1668615",
+      "GSM1668616",
+      "GSM1668617",
+      "GSM1668633",
+      "GSM1668634",
+      "GSM1668635",
+      "GSM1668636",
+      "GSM1668637",
+      "GSM1668638",
+      "GSM1668639",
+      "GSM1668640",
+      "GSM1668641",
+      "GSM1668642",
+      "GSM1668643",
+      "GSM1668644",
+      "GSM1668645",
+      "GSM1668646",
+      "GSM1668647",
+      "GSM1668648",
+      "GSM1668649",
+      "GSM1668650",
+      "GSM1668651",
+      "GSM1668652",
+      "GSM1668653",
+      "GSM1668654",
+      "GSM1668655",
+      "GSM1668656",
+      "GSM1668657",
+      "GSM1668658",
+      "GSM1668659",
+      "GSM1668660",
+      "GSM1668661",
+      "GSM1668662",
+      "GSM1668663",
+      "GSM1668664",
+      "GSM1668665",
+      "GSM1668666",
+      "GSM1668667"
+    ],
+    "!Series_contact_name": [
+      "Khadeeja,,Ismail"
+    ],
+    "!Series_contact_department": [
+      "Department of Public Health"
+    ],
+    "!Series_contact_institute": [
+      "University of Helsinki"
+    ],
+    "!Series_contact_address": [
+      "Mannerheimintie 172"
+    ],
+    "!Series_contact_city": [
+      "Helsinki"
+    ],
+    "!Series_contact_state": [
+      "Helsinki"
+    ],
+    "!Series_contact_zip/postal_code": [
+      "FI-00014"
+    ],
+    "!Series_contact_country": [
+      "Finland"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68336/suppl/GSE68336_RAW.tar",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE68nnn/GSE68336/suppl/GSE68336_SIgnalIntensityMatrix.txt.gz"
+    ],
+    "!Series_platform_id": [
+      "GPL13534"
+    ],
+    "!Series_platform_taxid": [
+      "9606"
+    ],
+    "!Series_sample_taxid": [
+      "9606"
+    ],
+    "!Series_relation": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA282471"
+    ]
+  },
+  "gzip_full_read_crc_passed": true
+}

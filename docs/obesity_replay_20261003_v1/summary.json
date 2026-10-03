@@ -1,0 +1,274 @@
+{
+  "results": [
+    {
+      "cohort": "source_nested",
+      "metrics": {
+        "n": 48,
+        "n_positive": 24,
+        "auroc": 0.9322916666666667,
+        "average_precision": 0.8907392394928149,
+        "auprc_trapezoid": 0.8840891609269369,
+        "brier": 0.08100904261241958,
+        "sensitivity": 0.9583333333333334,
+        "specificity": 0.875,
+        "threshold": 0.5,
+        "tp": 23,
+        "tn": 21,
+        "fp": 3,
+        "fn": 1,
+        "ci95": {
+          "auroc": [
+            0.8298177083333332,
+            0.998263888888889
+          ],
+          "average_precision": [
+            0.7467046610331248,
+            0.9983333333333332
+          ],
+          "auprc_trapezoid": [
+            0.7171071271967412,
+            0.9982986111111111
+          ],
+          "brier": [
+            0.0293149564055017,
+            0.15088520076492773
+          ],
+          "sensitivity": [
+            0.7887983165430269,
+            0.9989456475545303
+          ],
+          "specificity": [
+            0.6763886418111671,
+            0.973440685013751
+          ]
+        },
+        "interval_method": {
+          "discrimination_brier": "stratified participant bootstrap",
+          "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+          "bootstrap_replicates": 1000,
+          "seed": 20261003,
+          "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+        },
+        "calibration_slope_descriptive": 0.9063860813373524,
+        "calibration_intercept_descriptive": -0.4396297940636452
+      }
+    },
+    {
+      "cohort": "source_resubstitution",
+      "metrics": {
+        "n": 48,
+        "n_positive": 24,
+        "auroc": 1.0,
+        "average_precision": 0.9999999999999999,
+        "auprc_trapezoid": 0.9999999999999999,
+        "brier": 0.003817306090367859,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "threshold": 0.5,
+        "tp": 24,
+        "tn": 24,
+        "fp": 0,
+        "fn": 0,
+        "ci95": {
+          "auroc": [
+            0.9999999999999999,
+            1.0
+          ],
+          "average_precision": [
+            0.9999999999999999,
+            1.0000000000000002
+          ],
+          "auprc_trapezoid": [
+            0.9999999999999999,
+            1.0000000000000002
+          ],
+          "brier": [
+            0.0006313102970195873,
+            0.009918759983859654
+          ],
+          "sensitivity": [
+            0.8575264022774743,
+            1.0
+          ],
+          "specificity": [
+            0.8575264022774743,
+            1.0
+          ]
+        },
+        "interval_method": {
+          "discrimination_brier": "stratified participant bootstrap",
+          "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+          "bootstrap_replicates": 1000,
+          "seed": 20261003,
+          "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+        },
+        "calibration_slope_descriptive": 5.172463731550311,
+        "calibration_intercept_descriptive": -2.981842804749852
+      }
+    },
+    {
+      "cohort": "old_epic_replication",
+      "metrics": {
+        "n": 48,
+        "n_positive": 24,
+        "auroc": 0.9149305555555556,
+        "average_precision": 0.9180173081089255,
+        "auprc_trapezoid": 0.9159580119706819,
+        "brier": 0.10922730372649858,
+        "sensitivity": 0.8333333333333334,
+        "specificity": 0.9166666666666666,
+        "threshold": 0.5,
+        "tp": 20,
+        "tn": 22,
+        "fp": 2,
+        "fn": 4,
+        "ci95": {
+          "auroc": [
+            0.8125000000000001,
+            0.9826388888888888
+          ],
+          "average_precision": [
+            0.8276942094546457,
+            0.986111111111111
+          ],
+          "auprc_trapezoid": [
+            0.8177821243212415,
+            0.9859126984126984
+          ],
+          "brier": [
+            0.04728856900774701,
+            0.18757955830929782
+          ],
+          "sensitivity": [
+            0.6261582865113173,
+            0.9526463733927428
+          ],
+          "specificity": [
+            0.7300271984423964,
+            0.9897436587187498
+          ]
+        },
+        "interval_method": {
+          "discrimination_brier": "stratified participant bootstrap",
+          "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+          "bootstrap_replicates": 1000,
+          "seed": 20261003,
+          "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+        },
+        "calibration_slope_descriptive": 0.45372557911992956,
+        "calibration_intercept_descriptive": 1.000531828813397
+      }
+    },
+    {
+      "cohort": "GSE67024_seen_replay",
+      "metrics": {
+        "n": 29,
+        "n_positive": 15,
+        "auroc": 0.980952380952381,
+        "average_precision": 0.9829505135387488,
+        "auprc_trapezoid": 0.9823635351576527,
+        "brier": 0.0613098844828943,
+        "sensitivity": 0.9333333333333333,
+        "specificity": 0.8571428571428571,
+        "threshold": 0.5,
+        "tp": 14,
+        "tn": 12,
+        "fp": 2,
+        "fn": 1,
+        "ci95": {
+          "auroc": [
+            0.9238095238095237,
+            1.0
+          ],
+          "average_precision": [
+            0.9366211484593837,
+            1.0
+          ],
+          "auprc_trapezoid": [
+            0.9310549866799867,
+            1.0
+          ],
+          "brier": [
+            0.005395194177494402,
+            0.13248912495729212
+          ],
+          "sensitivity": [
+            0.6805154334216966,
+            0.9983135697586473
+          ],
+          "specificity": [
+            0.5718708390903011,
+            0.9822054845168084
+          ]
+        },
+        "interval_method": {
+          "discrimination_brier": "stratified participant bootstrap",
+          "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+          "bootstrap_replicates": 1000,
+          "seed": 20261003,
+          "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+        },
+        "calibration_slope_descriptive": 0.9084263336348941,
+        "calibration_intercept_descriptive": -0.23112236764144747
+      }
+    }
+  ],
+  "comparisons": {
+    "source_seed_20261003": {
+      "previous_prediction_file_present": true,
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/methylation_transfer_v3/obesity_discovery/supervised_20261003_oof.tsv",
+      "sha256": "18d8b7e83d36066fb9a2dcd454a27a87b240d03b362329b86385b37316365799",
+      "max_absolute_probability_difference": 1.1102230246251565e-16,
+      "within_1e_minus_10": true
+    },
+    "source_seed_20261020": {
+      "previous_prediction_file_present": true,
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/methylation_transfer_v3/obesity_discovery/supervised_20261020_oof.tsv",
+      "sha256": "eb0806286be03cc366595138136439831de87c906fe4677445b40fd132d64cf3",
+      "max_absolute_probability_difference": 1.1102230246251565e-16,
+      "within_1e_minus_10": true
+    },
+    "source_seed_20261103": {
+      "previous_prediction_file_present": true,
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/methylation_transfer_v3/obesity_discovery/supervised_20261103_oof.tsv",
+      "sha256": "dfffe25a669ac43c889a4f91b7500730fa17b55a8fe2ef5602dad4ff476838fc",
+      "max_absolute_probability_difference": 1.1102230246251565e-16,
+      "within_1e_minus_10": true
+    },
+    "source_repeated": {
+      "previous_prediction_file_present": true,
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/methylation_transfer_v3/obesity_discovery/supervised_repeated_oof.tsv",
+      "sha256": "0ab9568cbabb382189d4790b18aa717387c2ef68a2973ede65fcaabf1463ab2d",
+      "max_absolute_probability_difference": 1.1102230246251565e-16,
+      "within_1e_minus_10": true
+    },
+    "old_epic_replication": {
+      "previous_prediction_file_present": true,
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/methylation_transfer_v3/obesity_discovery/supervised_external.tsv",
+      "sha256": "5568752e9064ef9f6ff15903ee1ec50f98ea82278a4b7e5ebf1befab4a462957",
+      "max_absolute_probability_difference": 1.1102230246251565e-16,
+      "within_1e_minus_10": true
+    },
+    "GSE67024": {
+      "previous_prediction_file_present": true,
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/obesity_third_20261003_v1/original_supervised_50_predictions.tsv",
+      "sha256": "44aae38017f41a4489534b4b21725a9fd4525b9fcccec9849fa6e217e44da38e",
+      "max_absolute_probability_difference": 1.1102230246251565e-16,
+      "within_1e_minus_10": true
+    }
+  },
+  "all_existing_predictions_reproduced": true,
+  "primary_model_sha256_before_after": "c95f1740e4b5c4cf46e79079fd3fa77e9614a17813c4b1df64ba258b52c5c2ce",
+  "frozen_model_unchanged": true,
+  "generated_utc": "2026-10-03T05:37:20.881519+00:00",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "script_sha256": "9293c1b1d33aabedd7836e9842e862c513b7440a2afd08fa1ad0be14f4d5a83f",
+  "scope": "Reexecution on existing processed beta; not raw IDAT reconstruction or unused-cohort validation"
+}

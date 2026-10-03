@@ -1,0 +1,5 @@
+cohort	label	n	auroc	ci_low	ci_high	interval_method	clinical_obesity_endpoint
+source_nested	Nested source: adipocytes	48	0.9322916666666667	0.8298177083333332	0.998263888888889	stratified participant bootstrap	True
+old_epic_replication	EPIC replay: adipocytes	48	0.9149305555555556	0.8125000000000001	0.9826388888888888	stratified participant bootstrap	True
+GSE67024_seen_replay	GSE67024 replay: adipocytes	29	0.980952380952381	0.9238095238095237	1.0	stratified participant bootstrap	True
+GSE68336_bulk_SAT_transfer	Twin transfer: bulk SAT	48	0.6996527777777778	0.5833333333333333	0.8177951388888889	Discordant twin-family cluster bootstrap, conditional on fixed predictions	False

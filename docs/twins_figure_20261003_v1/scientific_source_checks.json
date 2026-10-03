@@ -1,0 +1,16 @@
+{
+  "scope": "Source-table consistency, independent metric/BH/paired-CI recalculation; no causal expression claim",
+  "total_people": 70,
+  "total_families": 35,
+  "discordant_people": 48,
+  "discordant_families": 24,
+  "auroc_rank_sum_recalculated": 0.6996527777777778,
+  "brier_recalculated": 0.2872787478005944,
+  "directions_agree": 48,
+  "selected50_BH_hits": 4,
+  "paired_t_CI_df": 23,
+  "all_50_loci_retained": true,
+  "native_gene_unassigned": 11,
+  "EPIC_effect_unmeasured_retained": 4,
+  "checks_passed": true
+}

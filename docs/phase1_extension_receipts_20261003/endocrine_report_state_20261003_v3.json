@@ -1,0 +1,100 @@
+{
+  "observed_utc": "2026-10-03T09:30:01.336834+00:00",
+  "state": "complete_and_independently_audited",
+  "whole_raw_verified_complete": true,
+  "partial_only": false,
+  "not_analyzed": false,
+  "analysis_results_verified": true,
+  "verified_bytes": 3381823154,
+  "official_bytes": 3381823154,
+  "verified_percent": 100.0,
+  "raw_complete_utc": "2026-10-03T08:40:00.672820+00:00",
+  "independent_audit_utc": "2026-10-03T09:23:10.255996+00:00",
+  "whole_raw_sha256": "cacaf984aa56cb4761a9eff6c270c875411f6717cbf4d35836e72d8b0e1b7cc6",
+  "whole_raw_crc32": "60340564",
+  "locally_generated_checksums_not_official_published_hashes": true,
+  "verified_ranges": 404,
+  "unique_source_participants": 255,
+  "source_cpgs": 731635,
+  "healthy_control_count": 0,
+  "shared_primary_htn_controls": 42,
+  "completed_methylation_evaluations": 12,
+  "completed_age_sex_comparators": 4,
+  "all_16_results_passed": true,
+  "original_report_table_rows": 14,
+  "original_report_table_preserved": true,
+  "endocrine_table_rows": 16,
+  "best_methylation_result": {
+    "endpoint": "CS_vs_PHT",
+    "family": "ridge",
+    "n": 99,
+    "auroc": 0.6436925647451963,
+    "auroc_ci95": [
+      0.17304625199362045,
+      0.9500000000000001
+    ],
+    "brier": 0.22137597973656045
+  },
+  "methylation_auroc_above_0_8_met": false,
+  "independent_external_study": false,
+  "normal_vs_general_hypertension_claim": false,
+  "age_sex_adjusted_methylation_claim": false,
+  "model_selection_or_fit_by_auditor": false,
+  "limitations": [
+    "All255 participants have hypertension; no healthy-control classification.",
+    "EHT_vs_PHT means combined endocrine CS+PA+PPGL versus primary hypertension.",
+    "Same42 primary-hypertension controls recur across contrasts; do not sum participant counts.",
+    "Recruitment center and subtype are strongly confounded.",
+    "Center-cluster bootstrap conditions on fixed OOF predictions, without retraining or split uncertainty.",
+    "Age/sex-only comparator does not adjust methylation models for age and sex.",
+    "Source-provided raw-beta export does not permit independent IDAT/detection-P processing."
+  ],
+  "files": [
+    {
+      "path": "docs/endocrine_extension_20261003_v1/comparison.tsv",
+      "bytes": 1681,
+      "sha256": "360261399c9b9f96c18e77465ae834ab8a2c7497ce6954279fb014b0c533f63f"
+    },
+    {
+      "path": "docs/endocrine_extension_20261003_v1/summary.json",
+      "bytes": 32926,
+      "sha256": "384d903ae5b4ee162ba70be776db77199366a9219de3c821a082c2867ff6e167"
+    },
+    {
+      "path": "docs/endocrine_extension_20261003_v1/audit.json",
+      "bytes": 6592,
+      "sha256": "7a91ef57dcc4d3827000f44dc8bcc450976b0dc09e9101ed8cf12a8c99ad5650"
+    },
+    {
+      "path": "docs/endocrine_extension_20261003_v1/protocol.json",
+      "bytes": 1592,
+      "sha256": "6894d0dbad5544d83554bd98c2915884c9bab6a33dda86c1da495aab3a0df70a"
+    },
+    {
+      "path": "docs/endocrine_extension_20261003_v1/preparation.json",
+      "bytes": 7536,
+      "sha256": "f069304f94508e16134d5870e12c00b550206e8fcc3020196809184733a5f45d"
+    },
+    {
+      "path": "docs/endocrine_acquisition_complete_20261003_v1/collection_receipt.json",
+      "bytes": 1454,
+      "sha256": "e11b4fedd7eb8774b01ab64bd61122bde77dc637d75d686f10b29cbc4c4f2bd6"
+    },
+    {
+      "path": "docs/endocrine_acquisition_complete_20261003_v1/range_acquisition_status.json",
+      "bytes": 670,
+      "sha256": "e2a1d739745231051f00edad7037f687401d3942a25ffce39875d7ff77573ea8"
+    },
+    {
+      "path": "docs/phase1_extension_receipts_20261003/all_executed_extension_evaluations.tsv",
+      "bytes": 8119,
+      "sha256": "213a07edfbc4bf9e8dfd036585fa42c2495bc7daf81c6048e488309742fed0a9"
+    }
+  ],
+  "regenerate": "python scripts/finalize_endocrine_receipt.py",
+  "receipt_script": {
+    "path": "scripts/finalize_endocrine_receipt.py",
+    "bytes": 6293,
+    "sha256": "3fdb88dc02e2704edbafd3238581d5bb77c141d395edb24e43c6fd2ef5eadaa2"
+  }
+}

@@ -1,0 +1,5 @@
+PNG at 600 dpi and the independently rasterized PDF at 150 dpi were opened and inspected after the final layout revision. All 50 CpG labels, panel letters, exact cohort labels, missing EPIC cells, diamond markers, confidence intervals, units and uncertainty qualifiers are visible. The initial heading/footer overlaps were corrected before final export. No text clipping or overlap remained in these rendered views.
+
+PDF physical dimensions are 183 x 200 mm; PNG is 4322 x 4724 pixels with approximately 600 dpi metadata. SVG retains editable text. Cross-format checks confirm that all 50 CpG identifiers occur in both PDF and SVG. Structural manifest validation is distinct from this visual review and from `scientific_source_checks.json`, which independently recalculates AUROC by rank sum, Brier, BH across the selected 50 and paired-t confidence intervals.
+
+The portable plot script was independently executed from the package inputs and reproduced the same source tables and central counts. No statistical fitting or source-value modification occurs during figure regeneration.

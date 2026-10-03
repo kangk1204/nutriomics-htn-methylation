@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-10-03T05:34:17.168678+00:00",
+  "purpose": "Independent computation reproduction of previously inspected results",
+  "source": "GSE222595 SAT discovery",
+  "old_replication": "GSE222595 SAT EPIC replication",
+  "third": "GSE67024",
+  "primary_model_sha256": "c95f1740e4b5c4cf46e79079fd3fa77e9614a17813c4b1df64ba258b52c5c2ce",
+  "frozen_model_fit_called": false,
+  "target_fitting_tuning_calibration": false,
+  "threshold": 0.5,
+  "source_nested_seeds": [
+    20261003,
+    20261020,
+    20261103
+  ],
+  "source_grid": {
+    "k": [
+      10,
+      50,
+      200
+    ],
+    "C": [
+      0.1,
+      1.0
+    ]
+  },
+  "independent_raw_IDAT_reprocessing": false
+}

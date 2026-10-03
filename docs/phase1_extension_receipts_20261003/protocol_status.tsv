@@ -1,0 +1,7 @@
+protocol	state	evidence
+obesity immutable source model replay	completed	docs/obesity_replay_20261003_v1/summary.json
+HTN nested ridge/elastic-net/linear-SVM	completed; AUC >0.8 not met	docs/htn_grid_20261003_v1/summary.json
+GSE68336 family-preserved frozen-model transfer	completed; cross-tissue diagnostic	docs/twins_transfer_20261003_v2/summary.json
+S-BSST831 raw-beta endocrine contrasts	completed; all16 independently audited; no healthy controls	docs/endocrine_extension_20261003_v1/audit.json
+GSE314180	mechanistic only; no verified healthy controls	docs/extension_eligibility_20261003_v1/eligibility.json
+GSE262817	no individual numeric matrix acquired; no DMR classifier	docs/extension_eligibility_20261003_v1/eligibility.json

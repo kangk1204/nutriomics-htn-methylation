@@ -1,0 +1,14 @@
+{
+  "state": "running",
+  "pid": 1350046,
+  "started_utc": "2026-10-03T08:28:10.748763+00:00",
+  "source_url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/831/S-BSST831/Files/BetaValue_Raw.txt",
+  "official_bytes": 3381823154,
+  "etag": "\"c99286b2-5eb62b6939180\"",
+  "threads": 2,
+  "chunk_mib": 8,
+  "completed_chunks": 357,
+  "verified_bytes": 2994733056,
+  "official_hash_available": false,
+  "updated_utc": "2026-10-03T08:29:57.520440+00:00"
+}

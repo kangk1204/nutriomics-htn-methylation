@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-10-03T09:24:24.833634+00:00",
+  "evaluations": 14,
+  "input_records": [
+    {
+      "path": "docs\\obesity_replay_20261003_v1\\summary.json",
+      "bytes": 9854,
+      "sha256": "2fd6dd682ae7cfd7b8349ab210e8d7c575150bb8d139717bfb33a7228f930894"
+    },
+    {
+      "path": "docs\\twins_transfer_20261003_v2\\summary.json",
+      "bytes": 2801,
+      "sha256": "7c8a719a95063184293d5629abf6e9a90c388a854c495cd3e0a9593c632ab601"
+    },
+    {
+      "path": "docs\\htn_grid_20261003_v1\\common\\ridge_summary.json",
+      "bytes": 2979,
+      "sha256": "2a0990880a0e4079cc9030bbdc0708c33f33386afafb2d74a60e8bc1af3f253a"
+    },
+    {
+      "path": "docs\\htn_grid_20261003_v1\\common\\elasticnet_summary.json",
+      "bytes": 2988,
+      "sha256": "163171c4afb6a4927ee5763159c5842e9797219c0f431165c744a45cf5b9a39a"
+    },
+    {
+      "path": "docs\\htn_grid_20261003_v1\\common\\linear_svm_summary.json",
+      "bytes": 2981,
+      "sha256": "c74c450246fc009b3f3646e10bf092ea066b89a5994cc9b56d275ad261424dae"
+    },
+    {
+      "path": "docs\\htn_grid_20261003_v1\\full\\ridge_summary.json",
+      "bytes": 1662,
+      "sha256": "20b51e77baba6828d4982c54af4158b48696d3bb8f88615e9d9bd9f28452d5d7"
+    },
+    {
+      "path": "docs\\htn_grid_20261003_v1\\full\\elasticnet_summary.json",
+      "bytes": 1659,
+      "sha256": "8822e233b31cf5a273f8a79b754d5f8e8e1585e944579861acd196735277b051"
+    },
+    {
+      "path": "docs\\htn_grid_20261003_v1\\full\\linear_svm_summary.json",
+      "bytes": 1660,
+      "sha256": "ddc3f2a4215d69f7f3e406af96e8c1c785f0bd03a75e158a3d0f4c5a354f2acc"
+    },
+    {
+      "path": "docs\\endocrine_acquisition_complete_20261003_v1\\collection_receipt.json",
+      "bytes": 1454,
+      "sha256": "e11b4fedd7eb8774b01ab64bd61122bde77dc637d75d686f10b29cbc4c4f2bd6"
+    },
+    {
+      "path": "docs\\endocrine_extension_20261003_v1\\summary.json",
+      "bytes": 32926,
+      "sha256": "384d903ae5b4ee162ba70be776db77199366a9219de3c821a082c2867ff6e167"
+    },
+    {
+      "path": "docs\\endocrine_extension_20261003_v1\\audit.json",
+      "bytes": 6592,
+      "sha256": "7a91ef57dcc4d3827000f44dc8bcc450976b0dc09e9101ed8cf12a8c99ad5650"
+    },
+    {
+      "path": "docs\\chronic_20261003\\screen_v1\\comparison.tsv",
+      "bytes": 896,
+      "sha256": "0632681021e4247aeb166070edf83b2274d7fb1a685afee74351d336e5b107a0"
+    },
+    {
+      "path": "docs\\chronic_20261003\\methylation_transfer_v3\\comparison.tsv",
+      "bytes": 1220,
+      "sha256": "7b5e3ba391c2ee1d60584a8ad638e0cb7f3fa6945e94f1100c3c58b9d10337ac"
+    },
+    {
+      "path": "docs\\trainset_20261003\\comparison.tsv",
+      "bytes": 585,
+      "sha256": "ecedf62fd7ec94f7f1fa63b2c30747944bf5540fcd6926d96a4fa50be5cae226"
+    }
+  ],
+  "obesity_original_predictions_reproduced": true,
+  "obesity_model_unchanged": true,
+  "obesity_model_sha256": "c95f1740e4b5c4cf46e79079fd3fa77e9614a17813c4b1df64ba258b52c5c2ce",
+  "HTN_target_0_8_met": false,
+  "endocrine_model_evaluated": true,
+  "endocrine_raw_complete": true,
+  "endocrine_rows_in_this_table": 0,
+  "clinical_GSE68336_obesity_claim": false,
+  "prior_comparison_tables_are_new_executions": false,
+  "regenerate": "python scripts/package_extension_results.py --output docs\\phase1_extension_receipts_20261003"
+}

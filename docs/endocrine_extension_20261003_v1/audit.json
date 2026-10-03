@@ -1,0 +1,179 @@
+{
+  "audited_utc": "2026-10-03T09:23:10.255996+00:00",
+  "all_16_results_passed": true,
+  "no_model_fit_or_selection": true,
+  "whole_raw_sha256": "cacaf984aa56cb4761a9eff6c270c875411f6717cbf4d35836e72d8b0e1b7cc6",
+  "official_source_hash_available": false,
+  "metadata_sha256": "4fae1c7b3a8c87dbb1473273a39ae8b1281e5b995efc630872e8d6291f9f5fcf",
+  "summary_sha256": "384d903ae5b4ee162ba70be776db77199366a9219de3c821a082c2867ff6e167",
+  "protocol_sha256": "6894d0dbad5544d83554bd98c2915884c9bab6a33dda86c1da495aab3a0df70a",
+  "preparation_sha256": "f069304f94508e16134d5870e12c00b550206e8fcc3020196809184733a5f45d",
+  "metadata_preflight_sha256": "b020f500e0eb6b0a16730339eb9f83cf031734df26b7b3e0c1b413e2bd5c6121",
+  "acquisition_receipt_sha256": "e2a1d739745231051f00edad7037f687401d3942a25ffce39875d7ff77573ea8",
+  "audit_script_sha256": "2fd852d12fe0c286f37a2dd86f2f1f043f778dc7b4be1ae57cead277538aa7c4",
+  "unique_source_participants": 255,
+  "healthy_control_count": 0,
+  "shared_42_controls_across_contrasts_not_independent_people": true,
+  "analyses": [
+    {
+      "endpoint": "CS_vs_PHT",
+      "family": "age_sex_only",
+      "n": 99,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.49644945697577275,
+      "brier": 0.28242897418192925,
+      "predictions_sha256": "5ede1e4343ce302b86be805f74a96bc23b6cfc9aa1d16f162fe3aaf341fb98db",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "CS_vs_PHT",
+      "family": "elasticnet",
+      "n": 99,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.6353383458646616,
+      "brier": 0.2363357559681236,
+      "predictions_sha256": "702ea7089892798779667112b04ad325589e3f298751c44bd14c039307b358f8",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "CS_vs_PHT",
+      "family": "linear_svm",
+      "n": 99,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.5927318295739349,
+      "brier": 0.24987730042839154,
+      "predictions_sha256": "942a21eff116fe94ffb5f6e1d91546874483e4942df8acdd78a512d0bc18268b",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "CS_vs_PHT",
+      "family": "ridge",
+      "n": 99,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.6436925647451963,
+      "brier": 0.22137597973656045,
+      "predictions_sha256": "160b80c14c0a53bd3f8b93003ed4bd17ecd5434b6b9b3a24169ae1933189e9c5",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "EHT_vs_PHT",
+      "family": "age_sex_only",
+      "n": 255,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.4968701095461659,
+      "brier": 0.24435726943771496,
+      "predictions_sha256": "7ba9982586c121e81c419264d910f38f404ec5a0aaaad1812002655c98bc07f9",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "EHT_vs_PHT",
+      "family": "elasticnet",
+      "n": 255,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.4938520008942544,
+      "brier": 0.21145162134390263,
+      "predictions_sha256": "07694fe0603f0d07232bcd25420c988abf0afcd640e379d1bcf35bd06d3575a2",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "EHT_vs_PHT",
+      "family": "linear_svm",
+      "n": 255,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.4246590655041359,
+      "brier": 0.17025264438747179,
+      "predictions_sha256": "de18a9bc615dfd1ca9733d89aff57cc2b24e955d16ee26c18b84f2f53b951107",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "EHT_vs_PHT",
+      "family": "ridge",
+      "n": 255,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.4327073552425665,
+      "brier": 0.14693485588769223,
+      "predictions_sha256": "883b2b1b7264b736008a4585c101e97c1f8688e001d1f84865d759f7a730f641",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "PA_vs_PHT",
+      "family": "age_sex_only",
+      "n": 143,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.6164545025931164,
+      "brier": 0.23852087733029975,
+      "predictions_sha256": "e5a0fc93edcc485c40f2e571a333c3afbc1292667f1d8bf57615712246196680",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "PA_vs_PHT",
+      "family": "elasticnet",
+      "n": 143,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.4293965110796794,
+      "brier": 0.2181532382325809,
+      "predictions_sha256": "69e472d9fbfa380e0e5a12833c990dc066d6446753379a4e986a8062056c7d7f",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "PA_vs_PHT",
+      "family": "linear_svm",
+      "n": 143,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.5009429514380009,
+      "brier": 0.21488942577839365,
+      "predictions_sha256": "2c1f404ed11f2d6acaf34f2e611673f188407dd44a843304acdd028a32b07012",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "PA_vs_PHT",
+      "family": "ridge",
+      "n": 143,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.4900990099009901,
+      "brier": 0.2111078602652248,
+      "predictions_sha256": "ba19f8bb5552d3ecacbd253c4d35352c939d0db6e779cd1d951f86b89de5ec7b",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "PPGL_vs_PHT",
+      "family": "age_sex_only",
+      "n": 97,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.4056277056277056,
+      "brier": 0.30304358660835123,
+      "predictions_sha256": "349b18e5a7d823af4a3cfd6067e1aa2b892a350ab11f41963a584532a1943bb4",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "PPGL_vs_PHT",
+      "family": "elasticnet",
+      "n": 97,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.36428571428571427,
+      "brier": 0.2779981806937341,
+      "predictions_sha256": "562b9bab00b2683cabfd3ae385282517dcf86df8e24d1bb8d245afd554538a08",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "PPGL_vs_PHT",
+      "family": "linear_svm",
+      "n": 97,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.3852813852813853,
+      "brier": 0.3167104095092647,
+      "predictions_sha256": "27dc6b4f56570c44ee1f81e7d9562f458b478255b20b01f12f9ea05768db61a0",
+      "center_leakage_detected": false
+    },
+    {
+      "endpoint": "PPGL_vs_PHT",
+      "family": "ridge",
+      "n": 97,
+      "controls_primary_HTN": 42,
+      "rank_auroc": 0.3567099567099567,
+      "brier": 0.29247380604029655,
+      "predictions_sha256": "c90f5c4da64ac5abcdcb7f00d8004e0cbe9c1a74a4332b9a7455aeb21086d244",
+      "center_leakage_detected": false
+    }
+  ]
+}

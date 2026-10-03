@@ -1,0 +1,45 @@
+{
+  "frozen_utc": "2026-10-03T08:40:05.005058+00:00",
+  "source": "S-BSST831",
+  "paper_pmid": "36329530",
+  "contrasts": [
+    "CS_vs_PHT",
+    "PA_vs_PHT",
+    "PPGL_vs_PHT",
+    "EHT_vs_PHT"
+  ],
+  "unit": "Participant, recruitment center held out",
+  "outer_folds": "3 (only 3 PHT recruitment centers)",
+  "inner_and_calibration_folds": "2 within outer training centers",
+  "group_partition": "Exhaustive feasible minimum label-count imbalance for <=10 centers; no features/predictions enter fold selection",
+  "families": [
+    "ridge",
+    "elasticnet",
+    "linear_svm"
+  ],
+  "k": [
+    10,
+    50,
+    200,
+    1000
+  ],
+  "C": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "elasticnet_l1_ratio": 0.5,
+  "seed": 20261003,
+  "threshold": 0.5,
+  "healthy_controls": 0,
+  "all_models_and_endpoints_reported": true,
+  "primary_vs_normotensive_HTN_claim": false,
+  "global_quantile_normalized_or_ComBat_beta_used": false,
+  "confounding_comparator": "Fixed C1 ridge, age and sex only, identical outer center folds",
+  "predeclared_source_raw": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/endocrine_ranges_20261003_v2/BetaValue_Raw.txt",
+  "metadata": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/extensions_20261003_v1/sample_characteristics.xlsx",
+  "script_sha256": "989fb2d01aa4fb1a753fbcc195d86a4b064d6700893ae16df2d77e5d71062539",
+  "extension_grid_sha256": "6125384bf756c96661dec082cd2728772d255294c5432ac0e16a30b6dce9abe5",
+  "metadata_sha256": "4fae1c7b3a8c87dbb1473273a39ae8b1281e5b995efc630872e8d6291f9f5fcf"
+}

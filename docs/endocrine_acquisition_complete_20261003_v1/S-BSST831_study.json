@@ -1,0 +1,114 @@
+{
+  "accno": "S-BSST831",
+  "attributes": [
+    {
+      "name": "Template",
+      "value": "Default"
+    },
+    {
+      "name": "Title",
+      "value": "Whole blood methylome-derived features to discriminate endocrine hypertension"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2022-11-30"
+    }
+  ],
+  "section": {
+    "type": "Study",
+    "attributes": [
+      {
+        "name": "Description",
+        "value": "Arterial hypertension is a worldwide health burden and a major risk factor for cardiovascular morbidity and mortality. Hypertension can be primary or secondary to endocrine disorders, such as Cushing's syndrome, primary aldosteronism, and pheochromocytoma/paraganglioma. Diagnosis of endocrine hypertension is currently based on hormone assays. Efficient detection remains challenging, but is crucial to properly orientate patients for diagnostic confirmation and specific treatment. More accurate biomarkers would help in the diagnostic pathway. We hypothesized that each type of endocrine hypertension could be associated with a specific blood DNA methylation signature, which could be used for disease discrimination."
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens (human)"
+      }
+    ],
+    "files": [
+      {
+        "path": "BetaValue_Raw.txt",
+        "size": 3381823154,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "Raw methylation data (beta values)"
+          }
+        ],
+        "type": "file"
+      },
+      {
+        "path": "BetaValue_Normalized.txt",
+        "size": 2212592965,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "Normalized methylation data (beta values)"
+          }
+        ],
+        "type": "file"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34914631/",
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "Related publication"
+          }
+        ]
+      }
+    ],
+    "subsections": [
+      {
+        "type": "author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Guillaume Assi\u00e9"
+          },
+          {
+            "name": "E-mail",
+            "value": "guillaume.assie@aphp.fr"
+          },
+          {
+            "name": "affiliation",
+            "value": "o1",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "type": "author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Roberta Armignacco"
+          },
+          {
+            "name": "E-mail",
+            "value": "roberta.armignacco@inserm.fr"
+          },
+          {
+            "name": "affiliation",
+            "value": "o1",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "accno": "o1",
+        "type": "organisation",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Institut Cochin"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "submission"
+}

@@ -1,0 +1,18 @@
+{
+  "pdf_pages": 1,
+  "pdf_mm": [
+    183.0000055948893,
+    200.0000015258789
+  ],
+  "png_pixels": [
+    4322,
+    4724
+  ],
+  "png_dpi": [
+    599.9988,
+    599.9988
+  ],
+  "all_50_CpG_labels_present_in_PDF": true,
+  "all_50_CpG_labels_present_in_SVG": true,
+  "SVG_retains_text": true
+}

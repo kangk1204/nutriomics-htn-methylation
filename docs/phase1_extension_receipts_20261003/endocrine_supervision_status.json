@@ -1,0 +1,19 @@
+{
+  "observed_utc": "2026-10-03T09:30:01.336834+00:00",
+  "state": "complete_and_independently_audited",
+  "supervisor_pid": 1350045,
+  "download_pid": 1350046,
+  "latest_source_snapshot": "../endocrine_acquisition_complete_20261003_v1/range_acquisition_status.json",
+  "latest_bounded_report": "endocrine_report_state_20261003_v3.json",
+  "resume_job_receipt": "endocrine_resume_job_20261003_v4.json",
+  "previous_attempts": [
+    "1337813: failed_resumable, No route to host",
+    "1347027: failed_resumable, temporary DNS resolution failure"
+  ],
+  "all_previous_processes_confirmed_dead_before_resume": true,
+  "duplicate_concurrent_job_started": false,
+  "analysis_results_verified": true,
+  "next_action": "Integrate separate16 comparison and audited negative results in report",
+  "original_processes_finished": true,
+  "completed_evaluations": 16
+}

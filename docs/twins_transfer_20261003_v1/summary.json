@@ -1,0 +1,84 @@
+{
+  "primary_relative_BMI_transfer_metrics": {
+    "n": 48,
+    "n_positive": 24,
+    "auroc": 0.6996527777777778,
+    "average_precision": 0.702327750011297,
+    "auprc_trapezoid": 0.6886183361149618,
+    "brier": 0.2872787478005944,
+    "sensitivity": 0.6666666666666666,
+    "specificity": 0.4583333333333333,
+    "threshold": 0.5,
+    "tp": 16,
+    "tn": 11,
+    "fp": 13,
+    "fn": 8,
+    "ci95": {
+      "auroc": [
+        0.5833333333333333,
+        0.8177951388888889
+      ],
+      "average_precision": [
+        0.5830340800362052,
+        0.8556870796994063
+      ],
+      "auprc_trapezoid": [
+        0.542788089089935,
+        0.8496674110409742
+      ],
+      "brier": [
+        0.21426810617175804,
+        0.35990642971964293
+      ],
+      "sensitivity": [
+        0.4467803843403519,
+        0.8436977142908647
+      ],
+      "specificity": [
+        0.25553020199474624,
+        0.671791924304822
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "Discordant twin-family cluster bootstrap, conditional on fixed predictions",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261003,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.23576278514328694,
+    "calibration_intercept_descriptive": -0.27829355575134546
+  },
+  "paired_probability_ordering": {
+    "pairs": 24,
+    "higher_probability_for_higher_BMI": 17,
+    "ties": 0,
+    "paired_ordering_fraction": 0.7083333333333334,
+    "ordering_ci95": [
+      0.4890521861421669,
+      0.8738479114763087
+    ],
+    "mean_probability_difference": 0.22497979946685076
+  },
+  "target_samples": 70,
+  "primary_samples": 48,
+  "families": 35,
+  "primary_families": 24,
+  "selected_CpGs_all_missing": 0,
+  "frozen_model_unchanged": true,
+  "model_sha256": "c95f1740e4b5c4cf46e79079fd3fa77e9614a17813c4b1df64ba258b52c5c2ce",
+  "source_sha256": "03c6a10fa58be26abd20177e458afce003d9963f4a059163c265ece8b65fca94",
+  "clinical_obesity_external_validation": false,
+  "no_target_fitting_or_calibration": true,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "script_sha256": "034be07750d1f344bc43f1f51217a1ca67b9f6e237fc172277a89561ba87669a",
+  "limits": "Relative BMI phenotype and bulk SAT differ from isolated-adipocyte obese/lean source; public BMI is ordinal; upstream processed beta/QC scope is not rebuilt",
+  "generated_utc": "2026-10-03T05:41:06.399769+00:00"
+}

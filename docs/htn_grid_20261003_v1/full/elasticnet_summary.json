@@ -1,0 +1,61 @@
+{
+  "space": "full",
+  "family": "elasticnet",
+  "source_nested": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.6544421487603306,
+    "average_precision": 0.63608446856461,
+    "auprc_trapezoid": 0.6260893637029283,
+    "brier": 0.24367894465931342,
+    "sensitivity": 0.6818181818181818,
+    "specificity": 0.5,
+    "threshold": 0.5,
+    "tp": 30,
+    "tn": 22,
+    "fp": 22,
+    "fn": 14,
+    "ci95": {
+      "auroc": [
+        0.5397469008264463,
+        0.7655087809917355
+      ],
+      "average_precision": [
+        0.5391761913516829,
+        0.7721701700280998
+      ],
+      "auprc_trapezoid": [
+        0.5157418692877709,
+        0.7613207669337239
+      ],
+      "brier": [
+        0.23811100089661014,
+        0.24930531093456715
+      ],
+      "sensitivity": [
+        0.5242185785027911,
+        0.81390116282513
+      ],
+      "specificity": [
+        0.3456115734972564,
+        0.6543884265027435
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261003,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 4.523269112595032,
+    "calibration_intercept_descriptive": -0.030445550108173982
+  },
+  "seen_external_diagnostic": null,
+  "selected_k": 10,
+  "selected_C": 0.01,
+  "external_model_selection": false,
+  "external_calibration": false,
+  "threshold": 0.5,
+  "clinical_validation": false
+}

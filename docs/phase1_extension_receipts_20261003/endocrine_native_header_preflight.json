@@ -1,0 +1,15 @@
+{
+  "generated_utc": "2026-10-03T07:29:16.091378+00:00",
+  "first_verified_chunk": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/endocrine_ranges_20261003_v2/.beta_ranges/00000.chunk",
+  "chunk_sha256": "2d995fac62de1ac3845dfb24a05d04d6d7e41ea7e9e838518c58a5e144be5610",
+  "metadata_sha256": "4fae1c7b3a8c87dbb1473273a39ae8b1281e5b995efc630872e8d6291f9f5fcf",
+  "native_participant_columns": 255,
+  "exact_native_to_paper_one_to_one_mapping": true,
+  "mapping_rule": "S_<integer> -> S<same integer>",
+  "implicit_R_row_name_header": true,
+  "beta_rows_inspected": 10,
+  "observed_finite_beta_min": 0.0889243876464324,
+  "observed_finite_beta_max": 0.918978912319645,
+  "whole_file_integrity_checked": false,
+  "model_fitted": false
+}

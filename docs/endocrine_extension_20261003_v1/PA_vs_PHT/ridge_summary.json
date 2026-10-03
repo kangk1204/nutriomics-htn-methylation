@@ -1,0 +1,60 @@
+{
+  "endpoint": "PA_vs_PHT",
+  "family": "ridge",
+  "nested_center_metrics": {
+    "n": 143,
+    "n_positive": 101,
+    "auroc": 0.4900990099009901,
+    "average_precision": 0.6848052767104242,
+    "auprc_trapezoid": 0.6774338999207872,
+    "brier": 0.2111078602652248,
+    "sensitivity": 1.0,
+    "specificity": 0.023809523809523808,
+    "threshold": 0.5,
+    "tp": 101,
+    "tn": 1,
+    "fp": 41,
+    "fn": 0,
+    "ci95": {
+      "auroc": [
+        0.058419243986254296,
+        0.8952380952380952
+      ],
+      "average_precision": [
+        0.5134327037701593,
+        0.9313837411295471
+      ],
+      "auprc_trapezoid": [
+        0.4735606784519828,
+        0.9253079448868997
+      ],
+      "brier": [
+        0.12330054215025343,
+        0.35201666875087834
+      ],
+      "sensitivity": [
+        0.9641353796099963,
+        1.0
+      ],
+      "specificity": [
+        0.0006026233016035741,
+        0.12565855717499214
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "Recruitment-center cluster bootstrap, conditional on fixed OOF predictions",
+      "sensitivity_specificity": "Clopper-Pearson participant intervals; center clustering is not represented by these intervals",
+      "bootstrap_replicates": 981,
+      "seed": 20261003,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.21532338993120215,
+    "calibration_intercept_descriptive": 0.6205367939979324
+  },
+  "selected_k": 200,
+  "selected_C": 10.0,
+  "healthy_control_classification": false,
+  "independent_external_study": false,
+  "individual_age_sex_adjustment": false,
+  "limitations": "Center/subtype strongly confounded; raw beta has no IDAT/detectionP reprocessing; OOF probabilities are research scores"
+}

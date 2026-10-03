@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0",
+  "profile": "publication",
+  "figure_id": "obesity50_twin_gene_context_20261003_v1",
+  "generated_at": "2026-10-03T06:27:22.825394+00:00",
+  "base_dir": ".",
+  "script": {
+    "path": "make_twins_cpg_figure.py",
+    "bytes": 13941,
+    "sha256": "5850b5f784d6f6ad1a6a4479b6d5adcf9dfb854caf2b7f49459a777dd23ffc2d",
+    "media_type": "text/x-python"
+  },
+  "inputs": [
+    {
+      "path": "inputs\\source_annotation_all50.tsv",
+      "bytes": 16092,
+      "sha256": "96bfc45460a199a6b1ea5a4a519bd36cc7f7e067b9c5cfac6a5ae0dbe244a515",
+      "media_type": "text/tab-separated-values",
+      "table": {
+        "rows": 50,
+        "columns": 33,
+        "header": [
+          "source_coefficient_rank",
+          "feature_id",
+          "standardized_coefficient",
+          "CHR",
+          "MAPINFO",
+          "coordinate_build",
+          "gene_symbols_native",
+          "gene_regions_native",
+          "cpg_island_context_native",
+          "UCSC_RefGene_Accession",
+          "Probe_SNPs",
+          "Probe_SNPs_10",
+          "outer_selection_count",
+          "outer_selection_denominator",
+          "discovery_control_n",
+          "discovery_obese_n",
+          "discovery_control_mean_beta",
+          "discovery_obese_mean_beta",
+          "discovery_delta_beta_pp",
+          "discovery_delta_beta_pp_ci_low",
+          "discovery_delta_beta_pp_ci_high",
+          "replication_control_n",
+          "replication_obese_n",
+          "replication_control_mean_beta",
+          "replication_obese_mean_beta",
+          "replication_delta_beta_pp",
+          "replication_delta_beta_pp_ci_low",
+          "replication_delta_beta_pp_ci_high",
+          "published_nearest_gene",
+          "published_nearest_region",
+          "published_ST7_targets",
+          "published_ST9_targets",
+          "published_ST11_targets"
+        ]
+      }
+    },
+    {
+      "path": "inputs\\twin_paired_gene_context.tsv",
+      "bytes": 13155,
+      "sha256": "2523d5f469989fbbd360b61f422baa7f557fc08c1187305223b9b4fc391d6ad1",
+      "media_type": "text/tab-separated-values",
+      "table": {
+        "rows": 50,
+        "columns": 25,
+        "header": [
+          "feature_id",
+          "paired_families",
+          "delta_beta_high_minus_low",
+          "standard_error",
+          "confidence_low",
+          "confidence_high",
+          "p_value",
+          "q_value_selected_50_family",
+          "CHR",
+          "MAPINFO",
+          "coordinate_build",
+          "gene_symbols_native",
+          "gene_regions_native",
+          "cpg_island_context_native",
+          "Probe_SNPs",
+          "Probe_SNPs_10",
+          "outer_selection_count",
+          "outer_selection_denominator",
+          "discovery_delta_beta_pp",
+          "replication_delta_beta_pp",
+          "published_ST7_targets",
+          "published_ST9_targets",
+          "published_ST11_targets",
+          "twin_delta_beta_pp",
+          "direction_matches_source"
+        ]
+      }
+    },
+    {
+      "path": "inputs\\twin_summary.json",
+      "bytes": 2801,
+      "sha256": "7c8a719a95063184293d5629abf6e9a90c388a854c495cd3e0a9593c632ab601",
+      "media_type": "application/json"
+    },
+    {
+      "path": "inputs\\obesity_replay_summary.json",
+      "bytes": 9854,
+      "sha256": "2fd6dd682ae7cfd7b8349ab210e8d7c575150bb8d139717bfb33a7228f930894",
+      "media_type": "application/json"
+    },
+    {
+      "path": "inputs\\twin_predictions.tsv",
+      "bytes": 3059,
+      "sha256": "6a145305309b9a33a0b56b95697ca1dc692d3eb32124c84b63ff1edfe1373cf4",
+      "media_type": "text/tab-separated-values",
+      "table": {
+        "rows": 70,
+        "columns": 5,
+        "header": [
+          "sample_id",
+          "family_id",
+          "discordant",
+          "bmi_group",
+          "probability"
+        ]
+      }
+    },
+    {
+      "path": "inputs\\twin_source_audit.json",
+      "bytes": 20081,
+      "sha256": "ceb4c5c1574bdc76a9f7bf54aaf122c08a32b147d1ec60fbbb3fd1411970bc61",
+      "media_type": "application/json"
+    },
+    {
+      "path": "figure_contract.json",
+      "bytes": 2001,
+      "sha256": "d8c4445ff0f3397c68411ad0f53a290e5a2ccdef75999f281c8bafcdb64a2988",
+      "media_type": "application/json"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "obesity50_twin_gene_context.png",
+      "bytes": 1008394,
+      "sha256": "fbf11d7d3812168ba390d1549801c8b3eee2bfe287dddc532173c5258d18c3e8",
+      "media_type": "image/png",
+      "png_width": 4322,
+      "png_height": 4724
+    },
+    {
+      "path": "obesity50_twin_gene_context.pdf",
+      "bytes": 67065,
+      "sha256": "98190b6bb110663d95d6643002e53ae99fa6c27c64838cf1ccacdad9b025cf11",
+      "media_type": "application/pdf",
+      "pdf_check": "header_and_eof"
+    },
+    {
+      "path": "obesity50_twin_gene_context.svg",
+      "bytes": 42985,
+      "sha256": "615fab2efd05657f9e035db9ce91f645bff768cb54924dff8ba940f777b5f1b6",
+      "media_type": "image/svg+xml",
+      "svg_check": "parsed_no_active_content"
+    }
+  ],
+  "source_data": [
+    {
+      "path": "annotated_all50_cpg.tsv",
+      "bytes": 29923,
+      "sha256": "4f7ca6b811d6c380783ada966d5feb9845a838663ab395c4d761bd1b2f16086c",
+      "media_type": "text/tab-separated-values",
+      "table": {
+        "rows": 50,
+        "columns": 49,
+        "header": [
+          "source_coefficient_rank",
+          "feature_id",
+          "standardized_coefficient",
+          "CHR",
+          "MAPINFO",
+          "coordinate_build",
+          "gene_symbols_native",
+          "gene_regions_native",
+          "cpg_island_context_native",
+          "UCSC_RefGene_Accession",
+          "Probe_SNPs",
+          "Probe_SNPs_10",
+          "outer_selection_count",
+          "outer_selection_denominator",
+          "discovery_control_n",
+          "discovery_obese_n",
+          "discovery_control_mean_beta",
+          "discovery_obese_mean_beta",
+          "discovery_delta_beta_pp",
+          "discovery_delta_beta_pp_ci_low",
+          "discovery_delta_beta_pp_ci_high",
+          "replication_control_n",
+          "replication_obese_n",
+          "replication_control_mean_beta",
+          "replication_obese_mean_beta",
+          "replication_delta_beta_pp",
+          "replication_delta_beta_pp_ci_low",
+          "replication_delta_beta_pp_ci_high",
+          "published_nearest_gene",
+          "published_nearest_region",
+          "published_ST7_targets",
+          "published_ST9_targets",
+          "published_ST11_targets",
+          "paired_families",
+          "delta_beta_high_minus_low",
+          "standard_error",
+          "confidence_low",
+          "confidence_high",
+          "p_value",
+          "q_value_selected_50_family",
+          "gene_annotation_display",
+          "gene_relation_scope",
+          "twin_delta_beta_pp",
+          "twin_standard_error_pp",
+          "twin_ci_low_pp",
+          "twin_ci_high_pp",
+          "twin_direction_matches_discovery",
+          "twin_q_below_005_selected50",
+          "EPIC_effect_measured"
+        ]
+      }
+    },
+    {
+      "path": "panel_a_heatmap.tsv",
+      "bytes": 4571,
+      "sha256": "96b7b31d554df642416d07214416cf68d3b79c9b886d2baf4af6868010b29ff2",
+      "media_type": "text/tab-separated-values",
+      "table": {
+        "rows": 50,
+        "columns": 8,
+        "header": [
+          "source_coefficient_rank",
+          "feature_id",
+          "gene_annotation_display",
+          "gene_regions_native",
+          "discovery_delta_beta_pp",
+          "replication_delta_beta_pp",
+          "twin_delta_beta_pp",
+          "twin_q_below_005_selected50"
+        ]
+      }
+    },
+    {
+      "path": "panel_b_discrimination.tsv",
+      "bytes": 686,
+      "sha256": "a6736bdd73d2b777f097ebeb1db89ef40aceb83dbfc488603fba1518d03947fd",
+      "media_type": "text/tab-separated-values",
+      "table": {
+        "rows": 4,
+        "columns": 8,
+        "header": [
+          "cohort",
+          "label",
+          "n",
+          "auroc",
+          "ci_low",
+          "ci_high",
+          "interval_method",
+          "clinical_obesity_endpoint"
+        ]
+      }
+    },
+    {
+      "path": "panel_c_paired_loci.tsv",
+      "bytes": 3431,
+      "sha256": "73907ec36f71290fad65f8cc0ad02a253bd2c3ece8d4607f5749485d238bab01",
+      "media_type": "text/tab-separated-values",
+      "table": {
+        "rows": 4,
+        "columns": 49,
+        "header": [
+          "source_coefficient_rank",
+          "feature_id",
+          "standardized_coefficient",
+          "CHR",
+          "MAPINFO",
+          "coordinate_build",
+          "gene_symbols_native",
+          "gene_regions_native",
+          "cpg_island_context_native",
+          "UCSC_RefGene_Accession",
+          "Probe_SNPs",
+          "Probe_SNPs_10",
+          "outer_selection_count",
+          "outer_selection_denominator",
+          "discovery_control_n",
+          "discovery_obese_n",
+          "discovery_control_mean_beta",
+          "discovery_obese_mean_beta",
+          "discovery_delta_beta_pp",
+          "discovery_delta_beta_pp_ci_low",
+          "discovery_delta_beta_pp_ci_high",
+          "replication_control_n",
+          "replication_obese_n",
+          "replication_control_mean_beta",
+          "replication_obese_mean_beta",
+          "replication_delta_beta_pp",
+          "replication_delta_beta_pp_ci_low",
+          "replication_delta_beta_pp_ci_high",
+          "published_nearest_gene",
+          "published_nearest_region",
+          "published_ST7_targets",
+          "published_ST9_targets",
+          "published_ST11_targets",
+          "paired_families",
+          "delta_beta_high_minus_low",
+          "standard_error",
+          "confidence_low",
+          "confidence_high",
+          "p_value",
+          "q_value_selected_50_family",
+          "gene_annotation_display",
+          "gene_relation_scope",
+          "twin_delta_beta_pp",
+          "twin_standard_error_pp",
+          "twin_ci_low_pp",
+          "twin_ci_high_pp",
+          "twin_direction_matches_discovery",
+          "twin_q_below_005_selected50",
+          "EPIC_effect_measured"
+        ]
+      }
+    }
+  ],
+  "panel_claims": [
+    "48 of 50 selected CpGs have the same effect direction in source adipocytes and BMI-discordant twin bulk adipose tissue.",
+    "Cross-tissue relative-BMI AUROC is 0.700 with a twin-family conditional interval of 0.583 to 0.818."
+  ],
+  "transformations": [
+    "One-to-one CpG join; original source coefficient ordering; beta fraction multiplied by 100; BH correction across 50 source-selected probes."
+  ],
+  "known_limitations": [
+    "Ordinal within-family BMI and bulk adipose tissue do not constitute absolute clinical obesity validation.",
+    "Four unavailable EPIC effects are retained as grey crosses; genes are native hg19 annotation associations, not causal expression evidence.",
+    "Already-inspected cohorts are computational replays; intervals are conditional on realized predictions."
+  ],
+  "validation": {
+    "status": "structural_pass",
+    "scientific_validation": "not_assessed",
+    "commands": [
+      "python3 validate_figure_package.py --manifest figure_manifest.json --profile publication --figure-id obesity50_twin_gene_context_20261003_v1 --script make_twins_cpg_figure.py --input inputs/source_annotation_all50.tsv --input inputs/twin_paired_gene_context.tsv --input inputs/twin_summary.json --input inputs/obesity_replay_summary.json --input inputs/twin_predictions.tsv --input inputs/twin_source_audit.json --input figure_contract.json --source-data annotated_all50_cpg.tsv --source-data panel_a_heatmap.tsv --source-data panel_b_discrimination.tsv --source-data panel_c_paired_loci.tsv --figure obesity50_twin_gene_context.png --figure obesity50_twin_gene_context.pdf --figure obesity50_twin_gene_context.svg --claim '48 of 50 selected CpGs have the same effect direction in source adipocytes and BMI-discordant twin bulk adipose tissue.' --claim 'Cross-tissue relative-BMI AUROC is 0.700 with a twin-family conditional interval of 0.583 to 0.818.' --transformation 'One-to-one CpG join; original source coefficient ordering; beta fraction multiplied by 100; BH correction across 50 source-selected probes.' --limitation 'Ordinal within-family BMI and bulk adipose tissue do not constitute absolute clinical obesity validation.' --limitation 'Four unavailable EPIC effects are retained as grey crosses; genes are native hg19 annotation associations, not causal expression evidence.' --limitation 'Already-inspected cohorts are computational replays; intervals are conditional on realized predictions.' --write-manifest"
+    ]
+  }
+}

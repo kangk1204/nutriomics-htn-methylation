@@ -1,0 +1,15 @@
+{
+  "figure_id": "obesity50_twin_gene_context_20261003_v1",
+  "profile": "publication",
+  "backend": "python",
+  "size_mm": [183, 200],
+  "exports": ["PDF", "SVG", "PNG 600 dpi"],
+  "main_claim": "The unchanged source-selected CpG model reproduces prior predictions. Most selected methylation directions persist in BMI-discordant twin bulk adipose tissue, while discrimination is lower across tissue and endpoint.",
+  "panels": {
+    "a": {"type": "all-50 CpG heatmap", "unit": "beta percentage points", "order": "original source coefficient rank", "gene_assignment": "native Illumina hg19 gene annotation; retain unassigned explicitly"},
+    "b": {"type": "AUROC forest plot", "interval": "95% conditional bootstrap intervals; twin-family bootstrap for GSE68336", "omission": "training-set resubstitution remains in comparison table, not plotted as validation"},
+    "c": {"type": "paired twin CpG effect forest plot", "selection": "BH q < 0.05 across the 50 preselected source-model probes", "unit": "beta percentage points", "interval": "paired-t 95% confidence intervals across 24 twin families"}
+  },
+  "statistical_units": {"source": "48 people", "old_EPIC": "48 people", "GSE67024": "29 people", "GSE68336": "24 BMI-discordant twin pairs, 48 people; 11 concordant pairs are descriptive only"},
+  "limitations": ["GSE68336 has ordinal within-family BMI, not an absolute clinical-obesity diagnosis.", "Bulk subcutaneous adipose tissue differs from isolated adipocytes.", "Four EPIC CpG effects are unavailable; grey x cells preserve them, and the frozen prediction pipeline uses its pre-existing source-fitted imputation.", "Discovery effects are descriptive after source feature selection.", "Previous replication cohorts were already inspected; this is independent computational replay.", "Gene-body and promoter mappings are annotation associations, not methylation-to-expression causal evidence.", "Intervals are conditional on realized predictions, not full model-selection uncertainty."]
+}

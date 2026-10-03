@@ -1,0 +1,38 @@
+{
+  "collected_utc": "2026-10-03T08:42:54.145775+00:00",
+  "whole_raw_verified_complete": true,
+  "bytes": 3381823154,
+  "whole_raw_sha256": "cacaf984aa56cb4761a9eff6c270c875411f6717cbf4d35836e72d8b0e1b7cc6",
+  "whole_raw_crc32": "60340564",
+  "source_completed_utc": "2026-10-03T08:40:00.672820+00:00",
+  "etag": "\"c99286b2-5eb62b6939180\"",
+  "all_verified_ranges_cover_whole_file_once": true,
+  "ranges": 404,
+  "official_published_checksum_available": false,
+  "checksum_scope": "Locally generated downloaded-byte integrity hashes; no official source checksum claimed",
+  "raw_or_model_weights_transferred": false,
+  "model_results_in_this_collection": false,
+  "files": [
+    {
+      "name": "chain_job_receipt.json",
+      "bytes": 2472,
+      "sha256": "3e8ecbb7f7c66d327585dd025bf7c7852519e395ed7d46e596ddbc9e9f2139ee"
+    },
+    {
+      "name": "range_acquisition_status.json",
+      "bytes": 670,
+      "sha256": "e2a1d739745231051f00edad7037f687401d3942a25ffce39875d7ff77573ea8"
+    },
+    {
+      "name": "range_chunk_manifest.json",
+      "bytes": 122437,
+      "sha256": "87fc54e508f594e7165d504c1bf2d128a8bcdf7b48b6acb1b46eaaff456b4690"
+    },
+    {
+      "name": "S-BSST831_study.json",
+      "bytes": 3070,
+      "sha256": "e3a62f0186954671b948700626878f4a6820dc60457c6cf4799f55b7bddae3a4"
+    }
+  ],
+  "collection_script_sha256": "36d000a7c4df45137d8a0b6b4fd55669a46c65e73dd62424ce4ac971579a520a"
+}

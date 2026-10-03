@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-03T06:22:16.908089+00:00",
+  "versions": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  },
+  "input_sha256": {
+    "source_annotation_all50.tsv": "96bfc45460a199a6b1ea5a4a519bd36cc7f7e067b9c5cfac6a5ae0dbe244a515",
+    "twin_paired_gene_context.tsv": "2523d5f469989fbbd360b61f422baa7f557fc08c1187305223b9b4fc391d6ad1",
+    "twin_summary.json": "7c8a719a95063184293d5629abf6e9a90c388a854c495cd3e0a9593c632ab601",
+    "twin_predictions.tsv": "6a145305309b9a33a0b56b95697ca1dc692d3eb32124c84b63ff1edfe1373cf4",
+    "twin_source_audit.json": "ceb4c5c1574bdc76a9f7bf54aaf122c08a32b147d1ec60fbbb3fd1411970bc61",
+    "obesity_replay_summary.json": "2fd6dd682ae7cfd7b8349ab210e8d7c575150bb8d139717bfb33a7228f930894"
+  },
+  "script_sha256": "5850b5f784d6f6ad1a6a4479b6d5adcf9dfb854caf2b7f49459a777dd23ffc2d",
+  "contract_sha256": "d8c4445ff0f3397c68411ad0f53a290e5a2ccdef75999f281c8bafcdb64a2988",
+  "scientific_data_checks": {
+    "directions_matching_discovery": 48,
+    "paired_fdr_hits": 4,
+    "unassigned_native_genes": 11,
+    "EPIC_effect_unmeasured": 4,
+    "heatmap_color_limit_pp": 35.0,
+    "statistical_family": "50 frozen-source-selected CpGs, not genome-wide"
+  },
+  "regenerate_portable": "python make_twins_cpg_figure.py --portable-inputs --output .",
+  "limits": [
+    "GSE68336 has ordinal within-family BMI, not an absolute clinical-obesity diagnosis.",
+    "Bulk subcutaneous adipose tissue differs from isolated adipocytes.",
+    "Four EPIC CpG effects are unavailable; grey x cells preserve them, and the frozen prediction pipeline uses its pre-existing source-fitted imputation.",
+    "Discovery effects are descriptive after source feature selection.",
+    "Previous replication cohorts were already inspected; this is independent computational replay.",
+    "Gene-body and promoter mappings are annotation associations, not methylation-to-expression causal evidence.",
+    "Intervals are conditional on realized predictions, not full model-selection uncertainty."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "studies": [
+    {
+      "accession": "GSE314180",
+      "sample_records": 218,
+      "unique_native_titles": 218,
+      "official_processed_numeric_files": [
+        "GSE314180_Unnormalization.beta.csv.gz"
+      ],
+      "retrieval_utc": "2026-10-03T05:55:15.644194+00:00",
+      "sources": [
+        {
+          "path": "final_2026\\repos\\nutriomics-htn-methylation\\data\\extensions_20261003_v1\\GSE314180_series_metadata.txt",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314180&targ=self&form=text&view=full",
+          "bytes": 10118,
+          "sha256": "e471a4324d7a3a6fdf5469fc35246e281e0994a342c91c41053f02eb4bae6acc"
+        },
+        {
+          "path": "final_2026\\repos\\nutriomics-htn-methylation\\data\\extensions_20261003_v1\\GSE314180_all_sample_brief.txt",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314180&targ=gsm&form=text&view=brief",
+          "bytes": 403709,
+          "sha256": "0ab41a4d57b703362bc8da695c3c3b9982b3e72a906dd8d252be80dce5b84bc4"
+        },
+        {
+          "path": "final_2026\\repos\\nutriomics-htn-methylation\\data\\extensions_20261003_v1\\GSE314180_supplementary_listing.html",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE314nnn/GSE314180/suppl/",
+          "bytes": 808,
+          "sha256": "0168866b7f318c480c1a9c485e7a519927cc2f20a943c683cde8eaff481bd5ef"
+        }
+      ],
+      "native_titles_explicit_hypertensive": 218,
+      "verified_normotensive_controls": 0,
+      "paper_analysis_patients": 176,
+      "participant_equivalence_of_218_GSM_and_paper176_resolved": false,
+      "eligible_binary_HTN_vs_normal_test": false,
+      "permitted_role": "Mechanistic leukocyte CpG-inflammatory biomarker support; no disease discrimination test",
+      "gate_reason": "All 218 deposited sample titles identify hypertensive patients; no verified normal control outcome. Paper reports176 analyzed patients, exclusion crosswalk unavailable."
+    },
+    {
+      "accession": "GSE262817",
+      "sample_records": 30,
+      "unique_native_titles": 30,
+      "official_processed_numeric_files": [],
+      "retrieval_utc": "2026-10-03T05:55:15.663232+00:00",
+      "sources": [
+        {
+          "path": "final_2026\\repos\\nutriomics-htn-methylation\\data\\extensions_20261003_v1\\GSE262817_series_metadata.txt",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE262817&targ=self&form=text&view=full",
+          "bytes": 5529,
+          "sha256": "1070a54f1ce56a48ced58c8d0b9321969ce80d73a03094f8071ffb5252ab0acc"
+        },
+        {
+          "path": "final_2026\\repos\\nutriomics-htn-methylation\\data\\extensions_20261003_v1\\GSE262817_all_sample_brief.txt",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE262817&targ=gsm&form=text&view=brief",
+          "bytes": 148453,
+          "sha256": "4e9f3c187cff37d2d92e7c0e4d264631373a0915c234278f85f3505ad800a0aa"
+        },
+        {
+          "path": "final_2026\\repos\\nutriomics-htn-methylation\\data\\extensions_20261003_v1\\GSE262817_supplementary_listing.html",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262817/suppl/",
+          "bytes": 679,
+          "sha256": "6b620db78b67a54fb67a890e3ad87e3e984fb688ad416d32543cd56596644d4f"
+        }
+      ],
+      "native_BP_title_counts": {
+        "Elevated/Mid Blood Pressure": 10,
+        "High Blood Pressure": 10,
+        "Low Blood Pressure": 10
+      },
+      "processed_per_person_CpG_matrix_available": false,
+      "eligible_binary_HTN_vs_normal_test": false,
+      "future_proxy_comparison": "High BP10 versus low BP10; elevated/mid BP10 excluded from fit/tuning",
+      "permitted_role": "Group-level DMR/gene mechanism support; raw SRA processing requires a separately completed participant matrix",
+      "gate_reason": "Official supplementary files supply a group tDMR/gene workbook and no per-person numerical CpG matrix. DMR group labels cannot be used as sample classifier data."
+    }
+  ],
+  "generated_utc": "2026-10-03T05:55:15.664235+00:00",
+  "no_classifier_or_AUROC_fabricated": true
+}

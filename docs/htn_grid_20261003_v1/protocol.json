@@ -1,0 +1,43 @@
+{
+  "frozen_utc": "2026-10-03T05:26:50.119990+00:00",
+  "source": "GSE193795",
+  "n": 88,
+  "preHT_excluded": 44,
+  "primary_endpoint": "Depositor HTN versus control",
+  "families": [
+    "ridge",
+    "elasticnet",
+    "linear_svm"
+  ],
+  "feature_counts": [
+    10,
+    50,
+    200,
+    1000
+  ],
+  "C": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "elasticnet_l1_ratio": 0.5,
+  "nested_outer_folds": 5,
+  "inner_folds": 3,
+  "calibration_folds": 3,
+  "seeds": [
+    20261003,
+    20261020,
+    20261103
+  ],
+  "selection_metric": "Internal AUROC; no target selection",
+  "spaces": [
+    "common",
+    "full"
+  ],
+  "threshold": 0.5,
+  "external": "GSE42774; previously seen diagnostic only",
+  "all_models_reported": true,
+  "prepared_sha256": "8353873c44e88186debcc13ede15fc8896c7232716ffc77fa5bcb2701bf5402e",
+  "individual_age_sex_adjustment": false
+}

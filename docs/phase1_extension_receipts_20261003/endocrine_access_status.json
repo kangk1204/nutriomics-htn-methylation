@@ -1,0 +1,41 @@
+{
+  "status": "acquisition_pending_remote_access",
+  "accession": "S-BSST831",
+  "official_raw_file": "BetaValue_Raw.txt",
+  "official_declared_bytes": 3381823154,
+  "prior_host": "keunsoo4070-z790-aorus-elite-ax / 100.93.148.94",
+  "prior_acquisition_pid": 2186079,
+  "prior_partial_last_verified": "approximately 32.5 MB; this is historical, not current bytes",
+  "current_prior_pid_verified": false,
+  "current_prior_bytes_verified": false,
+  "access_attempts": [
+    {
+      "route": "local Tailscale SSH to authorized 5070 host",
+      "result": "HTTP 502 Bad Gateway / connect timeout to port 22",
+      "interpretation": "Tailscale control-plane Online flag does not establish SSH availability"
+    },
+    {
+      "route": "CPU SSH audit",
+      "result": "intermittently reachable; old PID 1273998 absent; no raw beta file and no acquisition process on CPU",
+      "last_cpu_clock_utc": "2026-10-03T06:26:23Z"
+    },
+    {
+      "route": "bounded 15-second CPU-to-5070 Tailscale SSH",
+      "result": "did not return PID/file/log evidence; exit code 1"
+    }
+  ],
+  "duplicate_download_started": false,
+  "reason_for_holding_new_submission": "The prior host acquisition progress cannot currently be verified or safely stopped; avoid duplicate active downloads.",
+  "resume_implementation": "scripts/download_endocrine_ranges.py",
+  "resume_threads_max": 2,
+  "resume_integrity": "Official API size, stable ETag, exact 206 Content-Range, identity transport, per-chunk CRC32/SHA256 and complete-file size/hash. CRC32 checks local resume integrity, not an unavailable official checksum.",
+  "normalized_ComBat_matrix_admitted": false,
+  "sample_metadata_prepared": true,
+  "sample_count": 255,
+  "CS_count": 57,
+  "PA_count": 101,
+  "PPGL_count": 55,
+  "primary_HTN_count": 42,
+  "center_grouping_predefined": true,
+  "endocrine_model_metrics_available": false
+}
