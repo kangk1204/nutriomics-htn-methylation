@@ -1,0 +1,124 @@
+{
+  "accession": "GSE89632",
+  "disease": "NAFLD",
+  "modality": "expression",
+  "tissue": "liver",
+  "ranking": "variance",
+  "repeated_nested_oof_metrics": {
+    "n": 63,
+    "n_positive": 39,
+    "auroc": 0.9604700854700854,
+    "average_precision": 0.9831743000920675,
+    "auprc_trapezoid": 0.9830204385381458,
+    "brier": 0.06419338418044851,
+    "sensitivity": 0.9230769230769231,
+    "specificity": 1.0,
+    "threshold": 0.5,
+    "tp": 36,
+    "tn": 24,
+    "fp": 0,
+    "fn": 3,
+    "ci95": {
+      "auroc": [
+        0.8963675213675214,
+        1.0
+      ],
+      "average_precision": [
+        0.9566227771917428,
+        1.0
+      ],
+      "auprc_trapezoid": [
+        0.9553045776699308,
+        1.0
+      ],
+      "brier": [
+        0.03517555670406937,
+        0.10511776342534204
+      ],
+      "sensitivity": [
+        0.7912980787735568,
+        0.9838466996893416
+      ],
+      "specificity": [
+        0.8575264022774743,
+        1.0
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261003,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 1.9776126657371722,
+    "calibration_intercept_descriptive": 1.1566201211653973
+  },
+  "seed_metrics": [
+    {
+      "seed": 20261003,
+      "n": 63,
+      "n_positive": 39,
+      "auroc": 0.9775641025641025,
+      "average_precision": 0.9893496955410653,
+      "auprc_trapezoid": 0.9892398750109986,
+      "brier": 0.06297388770933336,
+      "sensitivity": 0.9230769230769231,
+      "specificity": 0.9583333333333334,
+      "threshold": 0.5,
+      "tp": 36,
+      "tn": 23,
+      "fp": 1,
+      "fn": 3
+    },
+    {
+      "seed": 20261020,
+      "n": 63,
+      "n_positive": 39,
+      "auroc": 0.9444444444444444,
+      "average_precision": 0.9764551466318304,
+      "auprc_trapezoid": 0.976241225059544,
+      "brier": 0.0768057019037415,
+      "sensitivity": 0.9230769230769231,
+      "specificity": 0.9583333333333334,
+      "threshold": 0.5,
+      "tp": 36,
+      "tn": 23,
+      "fp": 1,
+      "fn": 3
+    },
+    {
+      "seed": 20261103,
+      "n": 63,
+      "n_positive": 39,
+      "auroc": 0.9615384615384616,
+      "average_precision": 0.983849063924726,
+      "auprc_trapezoid": 0.9837043208009755,
+      "brier": 0.0757151250515872,
+      "sensitivity": 0.9230769230769231,
+      "specificity": 1.0,
+      "threshold": 0.5,
+      "tp": 36,
+      "tn": 24,
+      "fp": 0,
+      "fn": 3
+    }
+  ],
+  "training_resubstitution_metrics": {
+    "n": 63,
+    "n_positive": 39,
+    "auroc": 0.9946581196581197,
+    "average_precision": 0.996836272139916,
+    "auprc_trapezoid": 0.9967961675031886,
+    "brier": 0.032181501888035195,
+    "sensitivity": 0.9743589743589743,
+    "specificity": 0.9583333333333334,
+    "threshold": 0.5,
+    "tp": 38,
+    "tn": 23,
+    "fp": 1,
+    "fn": 1
+  },
+  "independent_external_evaluation": false,
+  "interpretation": "Exploratory tissue-specific discrimination; not dietary effects, causal markers, clinical risk or externally validated improvement."
+}

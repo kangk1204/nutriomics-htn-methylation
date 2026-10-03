@@ -1,0 +1,25 @@
+{
+  "accession": "GSE38642",
+  "source_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE38642_series_matrix.txt.gz",
+  "sha256": "aa9513381d5e13a3ba08fc0665d88a36b08d98f712b451781298fffad0633bcb",
+  "n": 63,
+  "n_positive": 9,
+  "features": 18808,
+  "disease": "T2D",
+  "modality": "expression",
+  "tissue": "pancreatic islets",
+  "field": "characteristic_status",
+  "labels": {
+    "non-diabetic donors": 0,
+    "T2D donors": 1
+  },
+  "expected": [
+    54,
+    9
+  ],
+  "public_processed_data": true,
+  "normalization_scope": "Author-supplied processed cohort; original cohort normalization cannot be undone here.",
+  "individual_covariate_adjustment_performed": false,
+  "independent_external_evaluation": false,
+  "tissue_representative_of_blood": false
+}

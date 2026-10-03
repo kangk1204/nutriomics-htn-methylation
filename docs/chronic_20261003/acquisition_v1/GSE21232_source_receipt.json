@@ -1,0 +1,211 @@
+{
+  "accession": "GSE21232",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21232/matrix/GSE21232_series_matrix.txt.gz",
+  "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE21232_series_matrix.txt.gz",
+  "sha256": "4a7253cfcf5acfe61bbbc9f4f000b8dd5f7371fe0150b108d3cb9afc0b093873",
+  "bytes": 877680,
+  "gzip_crc": "passed_to_eof",
+  "schema_width": "passed",
+  "numeric_rows": 27578,
+  "samples": 16,
+  "sample_ids_unique": true,
+  "matrix_contains_values": true,
+  "series_metadata": {
+    "!Series_title": [
+      [
+        "DNA methylation profiling of male human pancreatic islets identifies loci for type 2 diabetes"
+      ]
+    ],
+    "!Series_geo_accession": [
+      [
+        "GSE21232"
+      ]
+    ],
+    "!Series_status": [
+      [
+        "Public on Apr 23 2012"
+      ]
+    ],
+    "!Series_submission_date": [
+      [
+        "Apr 06 2010"
+      ]
+    ],
+    "!Series_last_update_date": [
+      [
+        "Jan 02 2015"
+      ]
+    ],
+    "!Series_pubmed_id": [
+      [
+        "22293752"
+      ]
+    ],
+    "!Series_summary": [
+      [
+        "Little is known about the contribution of the epigenome to the pathophysiology of type 2 diabetes (T2D). Here we have used genome-wide DNA methylation profiling to obtain the first comprehensive DNA methylation data set for human T2D pancreatic islets. Therefore, we analyzed the methylation profile of 27,578 CpG sites affiliated to more than 14,000 genes in 16 samples of pancreatic islets, 11 normal and 5 type 2-diabetic."
+      ],
+      [
+        "Keywords: DNA methylation"
+      ],
+      [
+        ""
+      ],
+      [
+        "Keywords: Methylation profiling by array"
+      ]
+    ],
+    "!Series_overall_design": [
+      [
+        "We measured the methylation status of the 27,578 CpG sites (Human Methylation27 DNA BeadChip array) in genomic DNA obtained from pnacreatic islets of 11 non-diabetic and 5 type-2-diabetic male human donors to identify genes that are differentially methylated in T2D."
+      ]
+    ],
+    "!Series_type": [
+      [
+        "Methylation profiling by array"
+      ]
+    ],
+    "!Series_contributor": [
+      [
+        "Michael,,Volkmar"
+      ],
+      [
+        "Emilie,,Calonne"
+      ],
+      [
+        "Sarah,,Dedeurwaerder"
+      ],
+      [
+        "François,,Fuks"
+      ]
+    ],
+    "!Series_sample_id": [
+      [
+        "GSM530883 GSM530884 GSM530885 GSM530886 GSM530887 GSM530888 GSM530889 GSM530890 GSM530891 GSM530892 GSM530893 GSM530894 GSM530895 GSM530896 GSM530897 GSM530898 "
+      ]
+    ],
+    "!Series_contact_name": [
+      [
+        "Michael,,Volkmar"
+      ]
+    ],
+    "!Series_contact_laboratory": [
+      [
+        "Laboratory of Cancer Epigenetics"
+      ]
+    ],
+    "!Series_contact_department": [
+      [
+        "Faculty of Medicine, C.P. 614"
+      ]
+    ],
+    "!Series_contact_institute": [
+      [
+        "Free University of Brussels (U.L.B.)"
+      ]
+    ],
+    "!Series_contact_address": [
+      [
+        "808 route de Lennik"
+      ]
+    ],
+    "!Series_contact_city": [
+      [
+        "Brussels"
+      ]
+    ],
+    "!Series_contact_zip/postal_code": [
+      [
+        "1070"
+      ]
+    ],
+    "!Series_contact_country": [
+      [
+        "Belgium"
+      ]
+    ],
+    "!Series_supplementary_file": [
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21232/suppl/GSE21232_RAW.tar"
+      ]
+    ],
+    "!Series_platform_id": [
+      [
+        "GPL8490"
+      ]
+    ],
+    "!Series_platform_taxid": [
+      [
+        "9606"
+      ]
+    ],
+    "!Series_sample_taxid": [
+      [
+        "9606"
+      ]
+    ],
+    "!Series_relation": [
+      [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA126501"
+      ]
+    ]
+  },
+  "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE21232_series_matrix_metadata.tsv",
+  "metadata_sha256": "baa261358930b6ed7eef6381f930923473a886e45a1954307f833fd4d58ae6f4",
+  "characteristics": {
+    "source_name_ch1": {
+      "human pancreatic islets": 16
+    },
+    "characteristic_disease_state": {
+      "non-diabetic": 11,
+      "type 2 diabetes": 5
+    },
+    "characteristic_gender": {
+      "male": 16
+    },
+    "characteristic_age_y_": {
+      "69": 3,
+      "56": 2,
+      "42": 1,
+      "87": 1,
+      "70": 1,
+      "36": 1,
+      "20": 1,
+      "54": 1,
+      "na": 1,
+      "61": 1,
+      "66": 1,
+      "76": 1,
+      "63": 1
+    },
+    "characteristic_group": {
+      "CTL": 11,
+      "CASE": 5
+    },
+    "characteristic_cell_type": {
+      "pancreatic islets": 16
+    },
+    "platform_id": {
+      "GPL8490": 16
+    }
+  },
+  "sample_titles": [
+    "CTL islets (4301311023_A )",
+    "CTL islets (4301311023_B)",
+    "CTL islets (4301311023_C)",
+    "CTL islets (4690141078_E)",
+    "CTL islets (4690141078_F)",
+    "CTL islets (4690141078_G)",
+    "CTL islets (4690141078_H)",
+    "CTL islets (4564612127_K)",
+    "CTL islets (4564612128_J)",
+    "CTL islets (4564612128_L)",
+    "CTL islets (4871081068_L)",
+    "T2D islets (4301311009_A)",
+    "T2D islets (4301311009_C)",
+    "T2D islets (4301311023_F)",
+    "T2D islets (4301311023_H)",
+    "T2D islets (4301311023_L)"
+  ],
+  "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+}

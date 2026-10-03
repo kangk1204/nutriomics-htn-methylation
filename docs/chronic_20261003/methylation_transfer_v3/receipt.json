@@ -1,0 +1,16 @@
+{
+  "generated_utc": "2026-10-03T01:13:02.768965+00:00",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "script_sha256": "fc6f3904b1a7a7691538b10f029409939ccdeab0fda67e8c701e8365f6974d47",
+  "learning_code_sha256": "22123f43b7c4e94a2b22795f4a9a19822addbb2642367c5386ef25d044536c83",
+  "models_reported": 4,
+  "nested_prediction_runs": 12,
+  "all_evaluated_models_reported": true
+}

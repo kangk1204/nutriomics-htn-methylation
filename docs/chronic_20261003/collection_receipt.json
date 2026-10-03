@@ -1,0 +1,90 @@
+{
+  "generated_utc": "2026-10-03T01:05:27.060346+00:00",
+  "operations": [
+    {
+      "source_filename": "GSE135251_series_matrix_metadata.tsv",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\data\\chronic_20261003\\collected_native_metadata\\GSE135251_series_matrix_metadata.tsv",
+      "sha256": "39ad7d436cb8acbe6b8df7c1dda60842453ec8e1c2dd32801c54a201209a2a9c",
+      "versioned": false,
+      "reason": "Native GEO metadata retained under ignored data; derived sample audits remain versionable."
+    },
+    {
+      "source_filename": "GSE21232_series_matrix_metadata.tsv",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\data\\chronic_20261003\\collected_native_metadata\\GSE21232_series_matrix_metadata.tsv",
+      "sha256": "baa261358930b6ed7eef6381f930923473a886e45a1954307f833fd4d58ae6f4",
+      "versioned": false,
+      "reason": "Native GEO metadata retained under ignored data; derived sample audits remain versionable."
+    },
+    {
+      "source_filename": "GSE222595-GPL13534_series_matrix_metadata.tsv",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\data\\chronic_20261003\\collected_native_metadata\\GSE222595-GPL13534_series_matrix_metadata.tsv",
+      "sha256": "56994d626cc30f115d535a2872a498a23b2f7f39e9d98dcb958bda17497b0e4b",
+      "versioned": false,
+      "reason": "Native GEO metadata retained under ignored data; derived sample audits remain versionable."
+    },
+    {
+      "source_filename": "GSE222595-GPL21145_series_matrix_metadata.tsv",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\data\\chronic_20261003\\collected_native_metadata\\GSE222595-GPL21145_series_matrix_metadata.tsv",
+      "sha256": "da62f3aa8306f2487f5d47343c86cb27fbef3e0b966534dd2e37790d31c305da",
+      "versioned": false,
+      "reason": "Native GEO metadata retained under ignored data; derived sample audits remain versionable."
+    },
+    {
+      "source_filename": "GSE38642_series_matrix_metadata.tsv",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\data\\chronic_20261003\\collected_native_metadata\\GSE38642_series_matrix_metadata.tsv",
+      "sha256": "b6dec9ee65000807393c63d66f10818409dabd7d906b854bdc7426e556bdacfc",
+      "versioned": false,
+      "reason": "Native GEO metadata retained under ignored data; derived sample audits remain versionable."
+    },
+    {
+      "source_filename": "GSE89632_series_matrix_metadata.tsv",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\data\\chronic_20261003\\collected_native_metadata\\GSE89632_series_matrix_metadata.tsv",
+      "sha256": "1fd79984f5496a76cd7bbd763d639ae96784575302dfcf56fbd326c372d3ce53",
+      "versioned": false,
+      "reason": "Native GEO metadata retained under ignored data; derived sample audits remain versionable."
+    },
+    {
+      "source_filename": "GSE135251_series_matrix_source.json",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\acquisition_v1\\GSE135251_source_receipt.json",
+      "sha256": "a9677f51afceef3d576050b1c4583d377317d988e2db1046a830915d10cdf69d",
+      "versioned": true,
+      "reason": "Copied derived source receipt renamed; original content and all source hashes unchanged."
+    },
+    {
+      "source_filename": "GSE21232_series_matrix_source.json",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\acquisition_v1\\GSE21232_source_receipt.json",
+      "sha256": "2936a47c27c11518f6289f6fe811e394e805d6f07f413a2a4716e0442878e033",
+      "versioned": true,
+      "reason": "Copied derived source receipt renamed; original content and all source hashes unchanged."
+    },
+    {
+      "source_filename": "GSE222595-GPL13534_series_matrix_source.json",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\acquisition_v1\\GSE222595-GPL13534_source_receipt.json",
+      "sha256": "e456151ab0d1a9644aed7027a5335ce6f05dc0d3f0680da7579ebc4f77716fd7",
+      "versioned": true,
+      "reason": "Copied derived source receipt renamed; original content and all source hashes unchanged."
+    },
+    {
+      "source_filename": "GSE222595-GPL21145_series_matrix_source.json",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\acquisition_v1\\GSE222595-GPL21145_source_receipt.json",
+      "sha256": "7f02d3e8e153c8adc3162ea9a00ccb49ae88cdac8aa4d95db646fa7c61f5713d",
+      "versioned": true,
+      "reason": "Copied derived source receipt renamed; original content and all source hashes unchanged."
+    },
+    {
+      "source_filename": "GSE38642_series_matrix_source.json",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\acquisition_v1\\GSE38642_source_receipt.json",
+      "sha256": "c83c9665569eea0179eb286c9e4d2b2fd31da4b95728285bfaea5559de3780b8",
+      "versioned": true,
+      "reason": "Copied derived source receipt renamed; original content and all source hashes unchanged."
+    },
+    {
+      "source_filename": "GSE89632_series_matrix_source.json",
+      "local_file": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\acquisition_v1\\GSE89632_source_receipt.json",
+      "sha256": "4f6c69c23be12e4e3e95c67295c9588ba70af4fa6d6a0f36a9ae0ca4cf3a710a",
+      "versioned": true,
+      "reason": "Copied derived source receipt renamed; original content and all source hashes unchanged."
+    }
+  ],
+  "raw_matrices_and_models_not_collected_or_committed": true
+}

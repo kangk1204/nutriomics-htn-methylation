@@ -1,0 +1,73 @@
+{
+  "fixed_before_chronic_model_evaluation": true,
+  "cohorts": {
+    "GSE89632": {
+      "disease": "NAFLD",
+      "modality": "expression",
+      "tissue": "liver",
+      "field": "characteristic_diagnosis",
+      "labels": {
+        "HC": 0,
+        "SS": 1,
+        "NASH": 1
+      },
+      "expected": [
+        24,
+        39
+      ]
+    },
+    "GSE38642": {
+      "disease": "T2D",
+      "modality": "expression",
+      "tissue": "pancreatic islets",
+      "field": "characteristic_status",
+      "labels": {
+        "non-diabetic donors": 0,
+        "T2D donors": 1
+      },
+      "expected": [
+        54,
+        9
+      ]
+    },
+    "GSE21232": {
+      "disease": "T2D",
+      "modality": "DNAm",
+      "tissue": "pancreatic islets",
+      "field": "characteristic_disease_state",
+      "labels": {
+        "non-diabetic": 0,
+        "type 2 diabetes": 1
+      },
+      "expected": [
+        11,
+        5
+      ]
+    }
+  },
+  "seeds": [
+    20261003,
+    20261020,
+    20261103
+  ],
+  "outer": "Stratified min(5,minority n)",
+  "inner": "Stratified min(3,training minority n)",
+  "selection": [
+    "supervised F statistic inside folds",
+    "variance inside folds"
+  ],
+  "k": [
+    10,
+    50,
+    200
+  ],
+  "C": [
+    0.1,
+    1.0
+  ],
+  "threshold": 0.5,
+  "class_weight": "balanced",
+  "primary": "Repeated nested OOF; training score separately",
+  "negative_results_reported": true,
+  "multiple_cohort_screening": "Exploratory; no confirmatory selected-positive claim"
+}

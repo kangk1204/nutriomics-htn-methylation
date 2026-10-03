@@ -1,0 +1,429 @@
+{
+  "accession": "GSE222595",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/matrix/GSE222595-GPL21145_series_matrix.txt.gz",
+  "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE222595-GPL21145_series_matrix.txt.gz",
+  "sha256": "1f80e47fe7cfcacae7eed6af558ccb97646b12a056b3995b3284eb28266b7b5b",
+  "bytes": 7469,
+  "gzip_crc": "passed_to_eof",
+  "schema_width": "passed",
+  "numeric_rows": 0,
+  "samples": 96,
+  "sample_ids_unique": true,
+  "matrix_contains_values": false,
+  "series_metadata": {
+    "!Series_title": [
+      [
+        "Integrative genomic analyses in adipocytes implicate DNA methylation in human obesity and diabetes"
+      ]
+    ],
+    "!Series_geo_accession": [
+      [
+        "GSE222595"
+      ]
+    ],
+    "!Series_status": [
+      [
+        "Public on Apr 14 2023"
+      ]
+    ],
+    "!Series_submission_date": [
+      [
+        "Jan 10 2023"
+      ]
+    ],
+    "!Series_last_update_date": [
+      [
+        "Aug 16 2023"
+      ]
+    ],
+    "!Series_pubmed_id": [
+      [
+        "37188674"
+      ]
+    ],
+    "!Series_summary": [
+      [
+        "DNA methylation variations are prevalent in human obesity but evidence of a causative role in disease pathogenesis is limited. Here, we combine epigenome-wide association and integrative genomics to investigate the impact of adipocyte DNA methylation variations in human obesity. We discover extensive DNA methylation changes that are robustly associated with obesity (N=190 samples, 691 loci in subcutaneous and 173 loci in visceral adipocytes, P<1x10-7). We connect obesity-associated methylation variations to transcriptomic changes at >500 target genes, and identify putative methylation-transcription factor interactions. Through Mendelian Randomisation, we infer causal effects of methylation on obesity and obesity-induced metabolic disturbances at 59 independent loci. Targeted methylation sequencing, CRISPR-activation and gene silencing in adipocytes, further identifies regional methylation variations, underlying regulatory elements and novel cellular metabolic effects. Our results indicate DNA methylation is an important determinant of human obesity and its metabolic complications, and reveal mechanisms through which altered methylation may impact adipocyte functions."
+      ]
+    ],
+    "!Series_overall_design": [
+      [
+        "We characterised genome-wide DNA methylation in two independent cohorts. Cohort one comprised 48 adipocyte samples (24 subcutaneous and 24 visceral) from people with extreme obesity and 48 adipocyte samples from healthy controls (24 subcutaneous and 24 visceral) analysed using the Illumina Infinium HumanMethylation450 BeadChip (Discovery Cohort). Cohort two comprised 48 adipocyte samples (24 subcutaneous and 24 visceral) from people with extreme obesity and 48 adipocyte samples from healthy controls (24 subcutaneous and 24 visceral) analysed using the Illumina Infinium EPIC BeadChip (Replication Cohort). Adipocytes were isolated from fresh whole subcutaneous and visceral adipose tissue samples using collagenase digestion and flotation, and stored at -80C, prior to DNA extraction and bisulfite conversion with 0.2-0.5-mcg of genomic DNA."
+      ]
+    ],
+    "!Series_type": [
+      [
+        "Methylation profiling by genome tiling array"
+      ]
+    ],
+    "!Series_contributor": [
+      [
+        "Liam,,McAllan"
+      ],
+      [
+        "Damir,,Baranašić"
+      ],
+      [
+        "Sergio,,Villicaña"
+      ],
+      [
+        "Scarlett,,Brown"
+      ],
+      [
+        "Weihua,,Zhang"
+      ],
+      [
+        "Benjamin,,Lehne"
+      ],
+      [
+        "Marco,,Adamo"
+      ],
+      [
+        "Andrew,,Jenkinson"
+      ],
+      [
+        "Mohamed,,Elkalaawy"
+      ],
+      [
+        "Borzoueh,,Mohammadi"
+      ],
+      [
+        "Majid,,Hashemi"
+      ],
+      [
+        "Nadia,,Fernandes"
+      ],
+      [
+        "Nathalie,,Lambie"
+      ],
+      [
+        "Richard,,Williams"
+      ],
+      [
+        "Colette,,Christiansen"
+      ],
+      [
+        "Youwen,,Yang"
+      ],
+      [
+        "Liudmila,,Zudina"
+      ],
+      [
+        "Vasiliki,,Lagou"
+      ],
+      [
+        "Sili,,Tan"
+      ],
+      [
+        "Juan,,Castillo-Fernandez"
+      ],
+      [
+        "James,,King"
+      ],
+      [
+        "R.,,Soong"
+      ],
+      [
+        "Paul,,Elliott"
+      ],
+      [
+        "James,,Scott"
+      ],
+      [
+        "Inga,,Prokopenko"
+      ],
+      [
+        "Ines,,Cebola"
+      ],
+      [
+        "Marie,,Loh"
+      ],
+      [
+        "Boris,,Lenhard"
+      ],
+      [
+        "Rachel,L,Batterham"
+      ],
+      [
+        "Jordana,T,Bell"
+      ],
+      [
+        "John,C,Chambers"
+      ],
+      [
+        "Jaspal,S,Kooner"
+      ],
+      [
+        "William,R,Scott"
+      ]
+    ],
+    "!Series_sample_id": [
+      [
+        "GSM6927446 GSM6927447 GSM6927448 GSM6927449 GSM6927450 GSM6927451 GSM6927452 GSM6927453 GSM6927454 GSM6927455 GSM6927456 GSM6927457 GSM6927458 GSM6927459 GSM6927460 GSM6927461 GSM6927462 GSM6927463 GSM6927464 GSM6927465 GSM6927466 GSM6927467 GSM6927468 GSM6927469 GSM6927470 GSM6927471 GSM6927472 GSM6927473 GSM6927474 GSM6927475 GSM6927476 GSM6927477 GSM6927478 GSM6927479 GSM6927480 GSM6927481 GSM6927482 GSM6927483 GSM6927484 GSM6927485 GSM6927486 GSM6927487 GSM6927488 GSM6927489 GSM6927490 GSM6927491 GSM6927492 GSM6927493 GSM6927494 GSM6927495 GSM6927496 GSM6927497 GSM6927498 GSM6927499 GSM6927500 GSM6927501 GSM6927502 GSM6927503 GSM6927504 GSM6927505 GSM6927506 GSM6927507 GSM6927508 GSM6927509 GSM6927510 GSM6927511 GSM6927512 GSM6927513 GSM6927514 GSM6927515 GSM6927516 GSM6927517 GSM6927518 GSM6927519 GSM6927520 GSM6927521 GSM6927522 GSM6927523 GSM6927524 GSM6927525 GSM6927526 GSM6927527 GSM6927528 GSM6927529 GSM6927530 GSM6927531 GSM6927532 GSM6927533 GSM6927534 GSM6927535 GSM6927536 GSM6927537 GSM6927538 GSM6927539 GSM6927540 GSM6927541 GSM6927542 GSM6927543 GSM6927544 GSM6927545 GSM6927546 GSM6927547 GSM6927548 GSM6927549 GSM6927550 GSM6927551 GSM6927552 GSM6927553 GSM6927554 GSM6927555 GSM6927556 GSM6927557 GSM6927558 GSM6927559 GSM6927560 GSM6927561 GSM6927562 GSM6927563 GSM6927564 GSM6927565 GSM6927566 GSM6927567 GSM6927568 GSM6927569 GSM6927570 GSM6927571 GSM6927572 GSM6927573 GSM6927574 GSM6927575 GSM6927576 GSM6927577 GSM6927578 GSM6927579 GSM6927580 GSM6927581 GSM6927582 GSM6927583 GSM6927584 GSM6927585 GSM6927586 GSM6927587 GSM6927588 GSM6927589 GSM6927590 GSM6927591 GSM6927592 GSM6927593 GSM6927594 GSM6927595 GSM6927596 GSM6927597 GSM6927598 GSM6927599 GSM6927600 GSM6927601 GSM6927602 GSM6927603 GSM6927604 GSM6927605 GSM6927606 GSM6927607 GSM6927608 GSM6927609 GSM6927610 GSM6927611 GSM6927612 GSM6927613 GSM6927614 GSM6927615 GSM6927616 GSM6927617 GSM6927618 GSM6927619 GSM6927620 GSM6927621 GSM6927622 GSM6927623 GSM6927624 GSM6927625 GSM6927626 GSM6927627 GSM6927628 GSM6927629 GSM6927630 GSM6927631 GSM6927632 GSM6927633 GSM6927634 GSM6927635 GSM6927636 GSM6927637 "
+      ]
+    ],
+    "!Series_contact_name": [
+      [
+        "William,Robert,Scott"
+      ]
+    ],
+    "!Series_contact_email": [
+      [
+        "w.scott@imperial.ac.uk"
+      ]
+    ],
+    "!Series_contact_phone": [
+      [
+        "00447729882311"
+      ]
+    ],
+    "!Series_contact_department": [
+      [
+        "Institute of Clinical Sciences"
+      ]
+    ],
+    "!Series_contact_institute": [
+      [
+        "Imperial College London"
+      ]
+    ],
+    "!Series_contact_address": [
+      [
+        "Hammersmith Hospital, Du Cane Road"
+      ]
+    ],
+    "!Series_contact_city": [
+      [
+        "London"
+      ]
+    ],
+    "!Series_contact_zip/postal_code": [
+      [
+        "W12 ONN"
+      ]
+    ],
+    "!Series_contact_country": [
+      [
+        "United Kingdom"
+      ]
+    ],
+    "!Series_supplementary_file": [
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_RAW.tar"
+      ],
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_subcut_effect.bedgraph.gz"
+      ],
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_subcut_pval.bedgraph.gz"
+      ],
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_visceral_effect.bedgraph.gz"
+      ],
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_visceral_pval.bedgraph.gz"
+      ],
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_processed_beta_comb.txt.gz"
+      ],
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_raw_unmeth_meth_comb.txt.gz"
+      ]
+    ],
+    "!Series_platform_id": [
+      [
+        "GPL13534"
+      ],
+      [
+        "GPL21145"
+      ]
+    ],
+    "!Series_platform_taxid": [
+      [
+        "9606"
+      ]
+    ],
+    "!Series_sample_taxid": [
+      [
+        "9606"
+      ]
+    ],
+    "!Series_relation": [
+      [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA922597"
+      ]
+    ]
+  },
+  "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE222595-GPL21145_series_matrix_metadata.tsv",
+  "metadata_sha256": "da62f3aa8306f2487f5d47343c86cb27fbef3e0b966534dd2e37790d31c305da",
+  "characteristics": {
+    "source_name_ch1": {
+      "subcutaneous": 48,
+      "visceral": 48
+    },
+    "characteristic_age": {
+      "64": 2,
+      "53.5": 2,
+      "52.1": 2,
+      "45.9": 2,
+      "59.8": 2,
+      "65.7": 2,
+      "58.2": 2,
+      "40.6": 2,
+      "36": 2,
+      "60.6": 2,
+      "47.1": 2,
+      "48.6": 2,
+      "69.4": 2,
+      "41.4": 2,
+      "51.2": 2,
+      "51.7": 2,
+      "59.5": 2,
+      "39": 2,
+      "52.5": 2,
+      "34.8": 2,
+      "35.8": 2,
+      "32.8": 2,
+      "40": 2,
+      "57.6": 2,
+      "25.8": 2,
+      "45.4": 2,
+      "59": 2,
+      "54.6": 2,
+      "41.7": 2,
+      "51.8": 2,
+      "51.1": 2,
+      "67.1": 2,
+      "26": 2,
+      "53.4": 2,
+      "33.4": 2,
+      "43.2": 2,
+      "41.5": 2,
+      "56.3": 2,
+      "44.3": 2,
+      "30.9": 2,
+      "27.4": 2,
+      "55.6": 2,
+      "63": 2,
+      "47.7": 1,
+      "70.3": 1,
+      "65.5": 1,
+      "39.8": 1,
+      "49.2": 1,
+      "47.4": 1,
+      "37.4": 1,
+      "40.8": 1,
+      "41.8": 1,
+      "50.9": 1
+    },
+    "characteristic_sex": {
+      "F": 74,
+      "M": 22
+    },
+    "characteristic_cohort": {
+      "replication": 96
+    },
+    "platform_id": {
+      "GPL21145": 96
+    }
+  },
+  "sample_titles": [
+    "adipocyte-control-rep49",
+    "adipocyte-control-rep50",
+    "adipocyte-control-rep51",
+    "adipocyte-control-rep52",
+    "adipocyte-control-rep53",
+    "adipocyte-control-rep54",
+    "adipocyte-control-rep55",
+    "adipocyte-control-rep56",
+    "adipocyte-control-rep57",
+    "adipocyte-control-rep58",
+    "adipocyte-control-rep59",
+    "adipocyte-control-rep60",
+    "adipocyte-control-rep61",
+    "adipocyte-control-rep62",
+    "adipocyte-control-rep63",
+    "adipocyte-control-rep64",
+    "adipocyte-control-rep65",
+    "adipocyte-control-rep66",
+    "adipocyte-control-rep67",
+    "adipocyte-control-rep68",
+    "adipocyte-control-rep69",
+    "adipocyte-control-rep70",
+    "adipocyte-control-rep71",
+    "adipocyte-control-rep72",
+    "adipocyte-obese-rep49",
+    "adipocyte-obese-rep50",
+    "adipocyte-obese-rep51",
+    "adipocyte-obese-rep52",
+    "adipocyte-obese-rep53",
+    "adipocyte-obese-rep54",
+    "adipocyte-obese-rep55",
+    "adipocyte-obese-rep56",
+    "adipocyte-obese-rep57",
+    "adipocyte-obese-rep58",
+    "adipocyte-obese-rep59",
+    "adipocyte-obese-rep60",
+    "adipocyte-obese-rep61",
+    "adipocyte-obese-rep62",
+    "adipocyte-obese-rep63",
+    "adipocyte-obese-rep64",
+    "adipocyte-obese-rep65",
+    "adipocyte-obese-rep66",
+    "adipocyte-obese-rep67",
+    "adipocyte-obese-rep68",
+    "adipocyte-obese-rep69",
+    "adipocyte-obese-rep70",
+    "adipocyte-obese-rep71",
+    "adipocyte-obese-rep72",
+    "adipocyte-control-rep73",
+    "adipocyte-control-rep74",
+    "adipocyte-control-rep75",
+    "adipocyte-control-rep76",
+    "adipocyte-control-rep77",
+    "adipocyte-control-rep78",
+    "adipocyte-control-rep79",
+    "adipocyte-control-rep80",
+    "adipocyte-control-rep81",
+    "adipocyte-control-rep82",
+    "adipocyte-control-rep83",
+    "adipocyte-control-rep84",
+    "adipocyte-control-rep85",
+    "adipocyte-control-rep86",
+    "adipocyte-control-rep87",
+    "adipocyte-control-rep88",
+    "adipocyte-control-rep89",
+    "adipocyte-control-rep90",
+    "adipocyte-control-rep91",
+    "adipocyte-control-rep92",
+    "adipocyte-control-rep93",
+    "adipocyte-control-rep94",
+    "adipocyte-control-rep95",
+    "adipocyte-control-rep96",
+    "adipocyte-obese-rep73",
+    "adipocyte-obese-rep74",
+    "adipocyte-obese-rep75",
+    "adipocyte-obese-rep76",
+    "adipocyte-obese-rep77",
+    "adipocyte-obese-rep78",
+    "adipocyte-obese-rep79",
+    "adipocyte-obese-rep80",
+    "adipocyte-obese-rep81",
+    "adipocyte-obese-rep82",
+    "adipocyte-obese-rep83",
+    "adipocyte-obese-rep84",
+    "adipocyte-obese-rep85",
+    "adipocyte-obese-rep86",
+    "adipocyte-obese-rep87",
+    "adipocyte-obese-rep88",
+    "adipocyte-obese-rep89",
+    "adipocyte-obese-rep90",
+    "adipocyte-obese-rep91",
+    "adipocyte-obese-rep92",
+    "adipocyte-obese-rep93",
+    "adipocyte-obese-rep94",
+    "adipocyte-obese-rep95",
+    "adipocyte-obese-rep96"
+  ],
+  "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+}

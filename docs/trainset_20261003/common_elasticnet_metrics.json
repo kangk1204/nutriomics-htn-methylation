@@ -1,0 +1,35 @@
+{
+  "model": "common_elasticnet",
+  "metrics": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.9018595041322315,
+    "average_precision": 0.8972580764330583,
+    "auprc_trapezoid": 0.8956931754684896,
+    "brier": 0.23285244072934078,
+    "sensitivity": 0.7727272727272727,
+    "specificity": 0.8409090909090909,
+    "threshold": 0.5,
+    "tp": 34,
+    "tn": 37,
+    "fp": 7,
+    "fn": 10,
+    "accuracy": 0.8068181818181818,
+    "evaluation": "training_resubstitution",
+    "independent_evaluation": false
+  },
+  "parameters": {
+    "k": 500,
+    "C": 0.01,
+    "l1_ratio": 0.1
+  },
+  "parameters_source": "Original inner-CV selected final refit parameters, fixed before this diagnostic",
+  "selected_probes": 500,
+  "available_probes": 10749,
+  "fresh_fit_n": 88,
+  "refit_convergence_warnings": 0,
+  "original_refit_max_probability_difference": 0.0,
+  "nested5_auroc": 0.5408057851239669,
+  "loocv_auroc": 0.4700413223140496,
+  "external_auroc": 0.640625
+}

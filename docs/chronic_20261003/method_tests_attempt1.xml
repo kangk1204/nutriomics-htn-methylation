@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="2" failures="1" skipped="0" tests="19" time="18.146" timestamp="2026-10-03T10:02:01.461085+09:00" hostname="keunsoo"><testcase classname="tests.test_boundaries" name="test_common_mask_accepts_only_measurement_ids_and_is_order_invariant" time="0.002" /><testcase classname="tests.test_boundaries" name="test_test_values_cannot_change_fitted_imputer_or_feature_selection" time="0.004" /><testcase classname="tests.test_boundaries" name="test_declared_metadata_labels_not_accession_ranges" time="0.024" /><testcase classname="tests.test_boundaries" name="test_matrix_label_alignment_checked" time="0.002"><error message="failed on setup with &quot;PermissionError: [WinError 5] 액세스가 거부되었습니다: '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'&quot;">path = '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+onexc = functools.partial(&lt;function on_rm_rf_error at 0x000001F667A736A0&gt;, start_path=WindowsPath('//?/C:/Projects/00_NutriGenomics_auto/.pytest_tmp'))
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 액세스가 거부되었습니다: '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+
+C:\Users\kangk\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py:637: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+ignore_errors = False, onerror = None
+onexc = functools.partial(&lt;function on_rm_rf_error at 0x000001F667A736A0&gt;, start_path=WindowsPath('//?/C:/Projects/00_NutriGenomics_auto/.pytest_tmp'))
+dir_fd = None
+
+    def rmtree(path, ignore_errors=False, onerror=None, *, onexc=None, dir_fd=None):
+        """Recursively delete a directory tree.
+    
+        If dir_fd is not None, it should be a file descriptor open to a directory;
+        path will then be relative to that directory.
+        dir_fd may not be implemented on your platform.
+        If it is unavailable, using it will raise a NotImplementedError.
+    
+        If ignore_errors is set, errors are ignored; otherwise, if onexc or
+        onerror is set, it is called to handle the error with arguments (func,
+        path, exc_info) where func is platform and implementation dependent;
+        path is the argument to that function that caused it to fail; and
+        the value of exc_info describes the exception. For onexc it is the
+        exception instance, and for onerror it is a tuple as returned by
+        sys.exc_info().  If ignore_errors is false and both onexc and
+        onerror are None, the exception is reraised.
+    
+        onerror is deprecated and only remains for backwards compatibility.
+        If both onerror and onexc are set, onerror is ignored and onexc is used.
+        """
+    
+        sys.audit("shutil.rmtree", path, dir_fd)
+        if ignore_errors:
+            def onexc(*args):
+                pass
+        elif onerror is None and onexc is None:
+            def onexc(*args):
+                raise
+        elif onexc is None:
+            if onerror is None:
+                def onexc(*args):
+                    raise
+            else:
+                # delegate to onerror
+                def onexc(*args):
+                    func, path, exc = args
+                    if exc is None:
+                        exc_info = None, None, None
+                    else:
+                        exc_info = type(exc), exc, exc.__traceback__
+                    return onerror(func, path, exc_info)
+    
+        if _use_fd_functions:
+            # While the unsafe rmtree works fine on bytes, the fd based does not.
+            if isinstance(path, bytes):
+                path = os.fsdecode(path)
+            stack = [(os.lstat, dir_fd, path, None)]
+            try:
+                while stack:
+                    _rmtree_safe_fd(stack, onexc)
+            finally:
+                # Close any file descriptors still on the stack.
+                while stack:
+                    func, fd, path, entry = stack.pop()
+                    if func is not os.close:
+                        continue
+                    try:
+                        os.close(fd)
+                    except OSError as err:
+                        onexc(os.close, path, err)
+        else:
+            if dir_fd is not None:
+                raise NotImplementedError("dir_fd unavailable on this platform")
+            try:
+                if _rmtree_islink(path):
+                    # symlinks to directories are forbidden, see bug #1669
+                    raise OSError("Cannot call rmtree on a symbolic link")
+            except OSError as err:
+                onexc(os.path.islink, path, err)
+                # can't continue even if onexc hook returns
+                return
+&gt;           return _rmtree_unsafe(path, onexc)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+C:\Users\kangk\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py:781: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+onexc = functools.partial(&lt;function on_rm_rf_error at 0x000001F667A736A0&gt;, start_path=WindowsPath('//?/C:/Projects/00_NutriGenomics_auto/.pytest_tmp'))
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+            os.rmdir(path)
+        except OSError as err:
+&gt;           onexc(os.rmdir, path, err)
+E           PermissionError: [WinError 5] 액세스가 거부되었습니다: '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+
+C:\Users\kangk\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py:639: PermissionError</error></testcase><testcase classname="tests.test_boundaries" name="test_nested_audit_inner_and_outer_samples_never_overlap" time="0.338" /><testcase classname="tests.test_boundaries" name="test_metric_probability_alignment_and_intervals" time="0.463" /><testcase classname="tests.test_boundaries" name="test_external_match_pairs_verified" time="0.037" /><testcase classname="tests.test_chronic" name="test_chronic_training_filter_ignores_holdout_distribution" time="0.012"><failure message="assert np.float32(0.55) == np.float64(0.55)&#10; +  where np.float64(0.55) = &lt;function median at 0x000001F67966C730&gt;(array([0.1, 0.2, 0.4, 0.8, 0.7, 0.9]))&#10; +    where &lt;function median at 0x000001F67966C730&gt; = np.median">def test_chronic_training_filter_ignores_holdout_distribution():
+        X=np.array([[.1,.2,np.nan,1],[.2,.4,.2,1],[.4,.3,.3,1],[.8,.7,.4,1],[.7,.6,.5,1],[.9,.9,.6,1]])
+        y=np.array([0,0,0,1,1,1])
+        fitted=TrainingProbeSelector(k=10,max_missing=.1).fit(X,y)
+        assert set(fitted.selected_indices_)=={0,1}
+        med=fitted.medians_.copy();selected=fitted.selected_indices_.copy()
+        transformed=fitted.transform(np.array([[np.nan,999,-999,0]]))
+        np.testing.assert_array_equal(med,fitted.medians_)
+        np.testing.assert_array_equal(selected,fitted.selected_indices_)
+&gt;       assert transformed[0,np.where(selected==0)[0][0]]==np.median(X[:,0])
+E       assert np.float32(0.55) == np.float64(0.55)
+E        +  where np.float64(0.55) = &lt;function median at 0x000001F67966C730&gt;(array([0.1, 0.2, 0.4, 0.8, 0.7, 0.9]))
+E        +    where &lt;function median at 0x000001F67966C730&gt; = np.median
+
+final_2026\repos\nutriomics-htn-methylation\tests\test_chronic.py:15: AssertionError</failure></testcase><testcase classname="tests.test_chronic" name="test_chronic_nested_membership_and_inner_learned_denominators" time="0.745" /><testcase classname="tests.test_chronic" name="test_chronic_refuses_invalid_outcomes_and_empty_training_features" time="0.003" /><testcase classname="tests.test_chronic" name="test_duplicate_sample_identifiers_cannot_cross_chronic_folds" time="0.207" /><testcase classname="tests.test_genoa" name="test_bp_proxy_prespecified_boundaries_and_missingness" time="0.001" /><testcase classname="tests.test_genoa" name="test_signal_beta_offset_and_measurement_detection_qc" time="0.002" /><testcase classname="tests.test_genoa" name="test_genoa_native_signal_sample_and_probe_order_not_names_or_position" time="0.003"><error message="failed on setup with &quot;PermissionError: [WinError 5] 액세스가 거부되었습니다: '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'&quot;">path = '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+onexc = functools.partial(&lt;function on_rm_rf_error at 0x000001F667A736A0&gt;, start_path=WindowsPath('//?/C:/Projects/00_NutriGenomics_auto/.pytest_tmp'))
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+&gt;           os.rmdir(path)
+E           PermissionError: [WinError 5] 액세스가 거부되었습니다: '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+
+C:\Users\kangk\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py:637: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+path = '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+ignore_errors = False, onerror = None
+onexc = functools.partial(&lt;function on_rm_rf_error at 0x000001F667A736A0&gt;, start_path=WindowsPath('//?/C:/Projects/00_NutriGenomics_auto/.pytest_tmp'))
+dir_fd = None
+
+    def rmtree(path, ignore_errors=False, onerror=None, *, onexc=None, dir_fd=None):
+        """Recursively delete a directory tree.
+    
+        If dir_fd is not None, it should be a file descriptor open to a directory;
+        path will then be relative to that directory.
+        dir_fd may not be implemented on your platform.
+        If it is unavailable, using it will raise a NotImplementedError.
+    
+        If ignore_errors is set, errors are ignored; otherwise, if onexc or
+        onerror is set, it is called to handle the error with arguments (func,
+        path, exc_info) where func is platform and implementation dependent;
+        path is the argument to that function that caused it to fail; and
+        the value of exc_info describes the exception. For onexc it is the
+        exception instance, and for onerror it is a tuple as returned by
+        sys.exc_info().  If ignore_errors is false and both onexc and
+        onerror are None, the exception is reraised.
+    
+        onerror is deprecated and only remains for backwards compatibility.
+        If both onerror and onexc are set, onerror is ignored and onexc is used.
+        """
+    
+        sys.audit("shutil.rmtree", path, dir_fd)
+        if ignore_errors:
+            def onexc(*args):
+                pass
+        elif onerror is None and onexc is None:
+            def onexc(*args):
+                raise
+        elif onexc is None:
+            if onerror is None:
+                def onexc(*args):
+                    raise
+            else:
+                # delegate to onerror
+                def onexc(*args):
+                    func, path, exc = args
+                    if exc is None:
+                        exc_info = None, None, None
+                    else:
+                        exc_info = type(exc), exc, exc.__traceback__
+                    return onerror(func, path, exc_info)
+    
+        if _use_fd_functions:
+            # While the unsafe rmtree works fine on bytes, the fd based does not.
+            if isinstance(path, bytes):
+                path = os.fsdecode(path)
+            stack = [(os.lstat, dir_fd, path, None)]
+            try:
+                while stack:
+                    _rmtree_safe_fd(stack, onexc)
+            finally:
+                # Close any file descriptors still on the stack.
+                while stack:
+                    func, fd, path, entry = stack.pop()
+                    if func is not os.close:
+                        continue
+                    try:
+                        os.close(fd)
+                    except OSError as err:
+                        onexc(os.close, path, err)
+        else:
+            if dir_fd is not None:
+                raise NotImplementedError("dir_fd unavailable on this platform")
+            try:
+                if _rmtree_islink(path):
+                    # symlinks to directories are forbidden, see bug #1669
+                    raise OSError("Cannot call rmtree on a symbolic link")
+            except OSError as err:
+                onexc(os.path.islink, path, err)
+                # can't continue even if onexc hook returns
+                return
+&gt;           return _rmtree_unsafe(path, onexc)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+C:\Users\kangk\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py:781: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+onexc = functools.partial(&lt;function on_rm_rf_error at 0x000001F667A736A0&gt;, start_path=WindowsPath('//?/C:/Projects/00_NutriGenomics_auto/.pytest_tmp'))
+
+    def _rmtree_unsafe(path, onexc):
+        def onerror(err):
+            onexc(os.scandir, err.filename, err)
+        results = os.walk(path, topdown=False, onerror=onerror, followlinks=os._walk_symlinks_as_files)
+        for dirpath, dirnames, filenames in results:
+            for name in dirnames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.rmdir(fullname)
+                except OSError as err:
+                    onexc(os.rmdir, fullname, err)
+            for name in filenames:
+                fullname = os.path.join(dirpath, name)
+                try:
+                    os.unlink(fullname)
+                except OSError as err:
+                    onexc(os.unlink, fullname, err)
+        try:
+            os.rmdir(path)
+        except OSError as err:
+&gt;           onexc(os.rmdir, path, err)
+E           PermissionError: [WinError 5] 액세스가 거부되었습니다: '\\\\?\\C:\\Projects\\00_NutriGenomics_auto\\.pytest_tmp'
+
+C:\Users\kangk\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\shutil.py:639: PermissionError</error></testcase><testcase classname="tests.test_genoa" name="test_genoa_prediction_cannot_fit_target_or_change_source_state" time="0.024" /><testcase classname="tests.test_genoa" name="test_genoa_phenotype_cannot_move_to_another_native_sample" time="0.025" /><testcase classname="tests.test_transfer" name="test_transfer_matching_partner_never_crosses_train_validation" time="0.003" /><testcase classname="tests.test_transfer" name="test_transfer_source_only_fit_cannot_learn_target_scaling_or_imputation" time="0.032" /><testcase classname="tests.test_transfer" name="test_transfer_rejects_missing_groups_or_single_class_folds" time="0.003" /></testsuite></testsuites>

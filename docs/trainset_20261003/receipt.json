@@ -1,0 +1,322 @@
+{
+  "generated_utc": "2026-10-03T00:23:07.351819+00:00",
+  "host": "keunsoo-Z10PE-D16-WS",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "code_revision_at_run": null,
+  "script": {
+    "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/scripts/evaluate_trainset.py",
+    "sha256": "851edcd9521c6ddf6725958f0f4a1f15dc463ba70e17a7f5b13711fde65e6753",
+    "bytes": 8496
+  },
+  "source_files": [
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/prepared/matrices.npz",
+      "sha256": "8353873c44e88186debcc13ede15fc8896c7232716ffc77fa5bcb2701bf5402e",
+      "bytes": 107194848
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results/training_config.json",
+      "sha256": "70bbb4fc8bda4a59ce7e8839e331e68b7d7c59563bd2016f40e3b7d72792b967",
+      "bytes": 776
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/validation/metrics_all.json",
+      "sha256": "cd4a0c1f84e238c17be520901520a7e51b2d60c6b6599f65da35ba69861adb72",
+      "bytes": 16048
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results/common_elasticnet/final_model.joblib",
+      "sha256": "ea710d35b39939dc2b43767efd83584ced7c46594cb88a946fee5bdfaaa4a137",
+      "bytes": 457500
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results/common_ridge/final_model.joblib",
+      "sha256": "99db125d35678cb6b917ca287fc6d4ed9f6fe67b895d9d0d5e1a7505ff38cffd",
+      "bytes": 440316
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results/full_elasticnet/final_model.joblib",
+      "sha256": "97e12f58d1bb42f4cbeff8fe5f426730a0ae1387de183a99aac0fb3a463031ed",
+      "bytes": 8985338
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results/full_ridge/final_model.joblib",
+      "sha256": "ed1e73c855911b6c31e3240b555c66b403be316aeed735a8f50f1b0f9d61a361",
+      "bytes": 8987354
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results/common_elasticnet/final_training_audit.json",
+      "sha256": "1609ae85e9a84b567c8686511d244f99919f3ae4615710f06d697c57c2e5a2b0",
+      "bytes": 9590
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results/common_ridge/final_training_audit.json",
+      "sha256": "64a2b16616b028fd3fc9644074f0ec41bdbe42d7547a3961cd0795b5d88e8ede",
+      "bytes": 7939
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results/full_elasticnet/final_training_audit.json",
+      "sha256": "910a8ae24ab2ad8bbd4604203419a10fb60ab96f33fddc006256786dc9ed7a91",
+      "bytes": 9584
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results/full_ridge/final_training_audit.json",
+      "sha256": "c6dfceca9c929e903fe74f046b3e2716790aa1f2dd3d3ffc8f26452830b8f0f4",
+      "bytes": 7986
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/__init__.py",
+      "sha256": "4d30b3ea9acf8ede5a30402c1bde0a81b5aa2123a58b2ef01fb6346a4ca11976",
+      "bytes": 98
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/cli.py",
+      "sha256": "9e0b07ea6c2c612788f7b483dc92682148cdc8d4f723b6c366f1fbfa8d997abf",
+      "bytes": 1515
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/evaluation.py",
+      "sha256": "e2a5caab7546ef46e9d2adddee890c4616ebf6f37add007b4f144cdce28e980e",
+      "bytes": 12490
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/io.py",
+      "sha256": "b5839b1e4f1e4680c310f50b569bb3d66f7857eab07b3020d1e7228a8b9909b9",
+      "bytes": 14171
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/model.py",
+      "sha256": "82f1c985de8d75b1997b7697a3e4341c6dd106f8be34d4c75b14042f8e9cc5b6",
+      "bytes": 13841
+    }
+  ],
+  "historical_sources_unchanged": true,
+  "participants": 88,
+  "htn": 44,
+  "controls": 44,
+  "preHT_excluded": 44,
+  "random_seed": 20261001,
+  "fresh_full_development_refits": 4,
+  "same_training_and_evaluation_participants": true,
+  "purpose": "Requested diagnostic of optimism from fitting and scoring the same cohort",
+  "clinical_or_independent_performance_claim": false,
+  "historical_auc_088_protocol_confirmed": false,
+  "limits": "Does not reconstruct unavailable historical 131/678 participants or prove the historical evaluation protocol. No generalization or clinical accuracy claim.",
+  "results": [
+    {
+      "model": "common_ridge",
+      "metrics": {
+        "n": 88,
+        "n_positive": 44,
+        "auroc": 0.9307851239669421,
+        "average_precision": 0.9349932375881461,
+        "auprc_trapezoid": 0.9341866890674869,
+        "brier": 0.1834242063933005,
+        "sensitivity": 0.8636363636363636,
+        "specificity": 0.8636363636363636,
+        "threshold": 0.5,
+        "tp": 38,
+        "tn": 38,
+        "fp": 6,
+        "fn": 6,
+        "accuracy": 0.8636363636363636,
+        "evaluation": "training_resubstitution",
+        "independent_evaluation": false
+      },
+      "parameters": {
+        "k": 100,
+        "C": 0.01,
+        "l1_ratio": null
+      },
+      "parameters_source": "Original inner-CV selected final refit parameters, fixed before this diagnostic",
+      "selected_probes": 100,
+      "available_probes": 10749,
+      "fresh_fit_n": 88,
+      "refit_convergence_warnings": 0,
+      "original_refit_max_probability_difference": 0.0,
+      "nested5_auroc": 0.4679752066115702,
+      "loocv_auroc": 0.46849173553719015,
+      "external_auroc": 0.5625
+    },
+    {
+      "model": "common_elasticnet",
+      "metrics": {
+        "n": 88,
+        "n_positive": 44,
+        "auroc": 0.9018595041322315,
+        "average_precision": 0.8972580764330583,
+        "auprc_trapezoid": 0.8956931754684896,
+        "brier": 0.23285244072934078,
+        "sensitivity": 0.7727272727272727,
+        "specificity": 0.8409090909090909,
+        "threshold": 0.5,
+        "tp": 34,
+        "tn": 37,
+        "fp": 7,
+        "fn": 10,
+        "accuracy": 0.8068181818181818,
+        "evaluation": "training_resubstitution",
+        "independent_evaluation": false
+      },
+      "parameters": {
+        "k": 500,
+        "C": 0.01,
+        "l1_ratio": 0.1
+      },
+      "parameters_source": "Original inner-CV selected final refit parameters, fixed before this diagnostic",
+      "selected_probes": 500,
+      "available_probes": 10749,
+      "fresh_fit_n": 88,
+      "refit_convergence_warnings": 0,
+      "original_refit_max_probability_difference": 0.0,
+      "nested5_auroc": 0.5408057851239669,
+      "loocv_auroc": 0.4700413223140496,
+      "external_auroc": 0.640625
+    },
+    {
+      "model": "full_ridge",
+      "metrics": {
+        "n": 88,
+        "n_positive": 44,
+        "auroc": 0.9984504132231405,
+        "average_precision": 0.998449879343114,
+        "auprc_trapezoid": 0.9984318418250765,
+        "brier": 0.11643794964697837,
+        "sensitivity": 1.0,
+        "specificity": 0.9772727272727273,
+        "threshold": 0.5,
+        "tp": 44,
+        "tn": 43,
+        "fp": 1,
+        "fn": 0,
+        "accuracy": 0.9886363636363636,
+        "evaluation": "training_resubstitution",
+        "independent_evaluation": false
+      },
+      "parameters": {
+        "k": 500,
+        "C": 0.01,
+        "l1_ratio": null
+      },
+      "parameters_source": "Original inner-CV selected final refit parameters, fixed before this diagnostic",
+      "selected_probes": 500,
+      "available_probes": 223945,
+      "fresh_fit_n": 88,
+      "refit_convergence_warnings": 0,
+      "original_refit_max_probability_difference": 0.0,
+      "nested5_auroc": 0.4323347107438017,
+      "loocv_auroc": 0.365702479338843,
+      "external_auroc": null
+    },
+    {
+      "model": "full_elasticnet",
+      "metrics": {
+        "n": 88,
+        "n_positive": 44,
+        "auroc": 0.9762396694214875,
+        "average_precision": 0.9709927197102337,
+        "auprc_trapezoid": 0.9705481860483506,
+        "brier": 0.12223527566028602,
+        "sensitivity": 0.9318181818181818,
+        "specificity": 0.9090909090909091,
+        "threshold": 0.5,
+        "tp": 41,
+        "tn": 40,
+        "fp": 4,
+        "fn": 3,
+        "accuracy": 0.9204545454545454,
+        "evaluation": "training_resubstitution",
+        "independent_evaluation": false
+      },
+      "parameters": {
+        "k": 500,
+        "C": 0.1,
+        "l1_ratio": 0.5
+      },
+      "parameters_source": "Original inner-CV selected final refit parameters, fixed before this diagnostic",
+      "selected_probes": 500,
+      "available_probes": 223945,
+      "fresh_fit_n": 88,
+      "refit_convergence_warnings": 0,
+      "original_refit_max_probability_difference": 0.0,
+      "nested5_auroc": 0.568698347107438,
+      "loocv_auroc": 0.5537190082644629,
+      "external_auroc": null
+    }
+  ],
+  "output_files": [
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results_trainset_20261003_v1/common_elasticnet_metrics.json",
+      "sha256": "5a8da58ece5baf456de4d48a9ad72c796504a93e8e117b75648e5de34eff67dc",
+      "bytes": 964
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results_trainset_20261003_v1/common_elasticnet_training_predictions.tsv",
+      "sha256": "2d8925f57da513ccc5951771318cb08ad4379ab27f3374381c892d66de8eb337",
+      "bytes": 3018
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results_trainset_20261003_v1/common_ridge_metrics.json",
+      "sha256": "9380b3380166ec0ff9fe8e5eb71d8b6a66a40807073fe296025c8aee62f12c28",
+      "bytes": 957
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results_trainset_20261003_v1/common_ridge_training_predictions.tsv",
+      "sha256": "b5bfb5b663bd371b4c23ffab3182a373093204f35481ab7f9727a099d574a778",
+      "bytes": 3764
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results_trainset_20261003_v1/comparison.tsv",
+      "sha256": "ecedf62fd7ec94f7f1fa63b2c30747944bf5540fcd6926d96a4fa50be5cae226",
+      "bytes": 585
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results_trainset_20261003_v1/full_elasticnet_metrics.json",
+      "sha256": "f6346850f393557a1bdff0c8071b36c40048deebabbf2e59d7db07aac6985caf",
+      "bytes": 956
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results_trainset_20261003_v1/full_elasticnet_training_predictions.tsv",
+      "sha256": "29623ca43e39ff28d35ebee2cec546076ceee451b674873b9488eacfd8d6ede9",
+      "bytes": 3006
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results_trainset_20261003_v1/full_ridge_metrics.json",
+      "sha256": "c568692104748cbdb4a7fdbcb1a3445053a3313d36a98bc81ca32dd4eedb6900",
+      "bytes": 937
+    },
+    {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/results_trainset_20261003_v1/full_ridge_training_predictions.tsv",
+      "sha256": "83faeb2a10fc65cd13cd493150ef1d9fd8c998a382d1585203534db9d3c11368",
+      "bytes": 3768
+    }
+  ],
+  "historical_source_preserved_mapping": {
+    "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/cli.py": {
+      "archived_path": "docs/executed_sources/primary_cli.py",
+      "executed_sha256": "9e0b07ea6c2c612788f7b483dc92682148cdc8d4f723b6c366f1fbfa8d997abf",
+      "preservation_reason": "Added transfer CLI entrypoint after primary runs; learning code unchanged",
+      "retrieval_origin": "Verified original execution checkout: Z10PE /home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/cli.py",
+      "retrieved_utc": "2026-10-01T10:00:18.990479+00:00"
+    },
+    "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/io.py": {
+      "archived_path": "docs/executed_sources/primary_io.py",
+      "executed_sha256": "b5839b1e4f1e4680c310f50b569bb3d66f7857eab07b3020d1e7228a8b9909b9",
+      "preservation_reason": "Changed fetched manifest relative-path serialization to as_posix; preprocessing and learning unchanged",
+      "retrieval_origin": "Verified original execution checkout: Z10PE /home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/src/nutriomics_methylation/io.py",
+      "retrieved_utc": "2026-10-01T10:00:18.990479+00:00"
+    }
+  },
+  "receipt_original": {
+    "path": "docs/trainset_20261003/receipt_original.txt",
+    "sha256": "076fa87351aefd32b51957c7c1694b103c06d75e5ade6400beead3040a2b6615"
+  },
+  "annotation_scope": "Original source/output hashes and numeric results unchanged. Earlier executed CLI/io bytes are preserved in exact archives; original unannotated receipt is separately retained."
+}

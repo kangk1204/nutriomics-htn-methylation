@@ -1,0 +1,349 @@
+{
+  "generated_utc": "2026-10-03T01:15:16.733070+00:00",
+  "checked_prediction_tables": 48,
+  "outer_fold_audits": 150,
+  "metric_denominators_and_recalculation": "passed",
+  "inner_outer_membership_checks": "passed",
+  "training_refit_matches_frozen_final_predictions": "passed",
+  "learned_source_only_transfer_metadata": "passed",
+  "prediction_tables": [
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\trainset_20261003\\common_ridge_training_predictions.tsv",
+      "sha256": "b5bfb5b663bd371b4c23ffab3182a373093204f35481ab7f9727a099d574a778",
+      "n": 88,
+      "auroc": 0.9307851239669421,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\trainset_20261003\\common_elasticnet_training_predictions.tsv",
+      "sha256": "2d8925f57da513ccc5951771318cb08ad4379ab27f3374381c892d66de8eb337",
+      "n": 88,
+      "auroc": 0.9018595041322315,
+      "probability_serialization_dtype": "float32 native saga output round-trip"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\trainset_20261003\\full_ridge_training_predictions.tsv",
+      "sha256": "83faeb2a10fc65cd13cd493150ef1d9fd8c998a382d1585203534db9d3c11368",
+      "n": 88,
+      "auroc": 0.9984504132231405,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\trainset_20261003\\full_elasticnet_training_predictions.tsv",
+      "sha256": "29623ca43e39ff28d35ebee2cec546076ceee451b674873b9488eacfd8d6ede9",
+      "n": 88,
+      "auroc": 0.9762396694214875,
+      "probability_serialization_dtype": "float32 native saga output round-trip"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE89632\\supervised_repeated_oof.tsv",
+      "sha256": "aab32e400f19bf9b321a301bbbc970651a0438a6a6a4087b4a2ffa0bc81bc629",
+      "n": 63,
+      "auroc": 0.9658119658119658,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE89632\\supervised_20261003_oof.tsv",
+      "sha256": "e2f403994c8c1dc78adc0e1ce2012a74bda187ee37dc2fe14a0fef2a447c507f",
+      "n": 63,
+      "auroc": 0.9658119658119657,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE89632\\supervised_20261020_oof.tsv",
+      "sha256": "50f0edfbfba7a173a26c0584d46967aedd6f3f9b1da673c5608c677e80d61149",
+      "n": 63,
+      "auroc": 0.9743589743589743,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE89632\\supervised_20261103_oof.tsv",
+      "sha256": "cbef77f6eed5f10f59daa3e5d67d66185c518b36cf23a62f3d1449f891d347bc",
+      "n": 63,
+      "auroc": 0.9636752136752137,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE89632\\variance_repeated_oof.tsv",
+      "sha256": "d43d1ea866884068d4481d999051e9e40c3141f308cb8c7ae42cab9b0ef34657",
+      "n": 63,
+      "auroc": 0.9604700854700854,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE89632\\variance_20261003_oof.tsv",
+      "sha256": "2bb276ac2cde7ee1d72066ce91b47ffc19f78826f14fdf4050a767ef46a3955a",
+      "n": 63,
+      "auroc": 0.9775641025641025,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE89632\\variance_20261020_oof.tsv",
+      "sha256": "34e7a07516afd02b7e274475698f8cf437fd6cf5d73b3d902a03c3ca84b0820e",
+      "n": 63,
+      "auroc": 0.9444444444444444,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE89632\\variance_20261103_oof.tsv",
+      "sha256": "ba63803e2795d8917bf518526b7f7dd1fb879d175ad51e4663508519ba5fa050",
+      "n": 63,
+      "auroc": 0.9615384615384616,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE38642\\supervised_repeated_oof.tsv",
+      "sha256": "0e55c3b1a17a35a7e1d5c86d6d67e855009608bbd55f1e77febc96de0e239885",
+      "n": 63,
+      "auroc": 0.7860082304526749,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE38642\\supervised_20261003_oof.tsv",
+      "sha256": "5f6ea7c635cc8ad8d9c6edac73e253533596678748142509887f7f92642a27c8",
+      "n": 63,
+      "auroc": 0.6934156378600823,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE38642\\supervised_20261020_oof.tsv",
+      "sha256": "1fee3bc924488833e03747dfb260291a16875fec9c44345b5218ca04e7b137e2",
+      "n": 63,
+      "auroc": 0.8477366255144033,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE38642\\supervised_20261103_oof.tsv",
+      "sha256": "93fbfdbf11cc4dcc5c30b1ec6438f8e459a3dbcf4e6192b36df79b8d7d596951",
+      "n": 63,
+      "auroc": 0.7098765432098766,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE38642\\variance_repeated_oof.tsv",
+      "sha256": "529c9a347a51c33469f53fe2c97817564f4c94f8f83e3237e6353c59ba9d9110",
+      "n": 63,
+      "auroc": 0.8004115226337448,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE38642\\variance_20261003_oof.tsv",
+      "sha256": "64d07977b79e4152b29dc38ae14d5d523f0d3193eac13fb6ea7bc6e253535daf",
+      "n": 63,
+      "auroc": 0.7160493827160493,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE38642\\variance_20261020_oof.tsv",
+      "sha256": "d5d2bab54896dad60652eae30ff4ee239bd4874eb28e0b6e2d9f8436364a9c04",
+      "n": 63,
+      "auroc": 0.8271604938271606,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE38642\\variance_20261103_oof.tsv",
+      "sha256": "dc27f7b858cc3b97c1d699ab7850c91546958fe6848bef939565adc05488ba76",
+      "n": 63,
+      "auroc": 0.8004115226337448,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE21232\\supervised_repeated_oof.tsv",
+      "sha256": "a362226e2963b91ad1c70a7e8a4a91f3aa3eacdfdfd3a184e9ae88c992c6fe5c",
+      "n": 16,
+      "auroc": 0.8,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE21232\\supervised_20261003_oof.tsv",
+      "sha256": "02f77971e8a7d95bf95b88e7810f44d4f9268c30e08af48d56ada4fe0cbc9127",
+      "n": 16,
+      "auroc": 0.8181818181818182,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE21232\\supervised_20261020_oof.tsv",
+      "sha256": "605d0865053dedf19a5dcb3d29573718d8ab800af3be3493d34ebc6ad2a77a22",
+      "n": 16,
+      "auroc": 0.6727272727272727,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE21232\\supervised_20261103_oof.tsv",
+      "sha256": "1ee116280bb16e266011de9bf49f6d9998b4d9508bf669ea15715bb549399d9e",
+      "n": 16,
+      "auroc": 0.8909090909090909,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE21232\\variance_repeated_oof.tsv",
+      "sha256": "279bda4c220bbec806c30541de37c8e0ebaa787d602dc75233dff9bcb87cb1cd",
+      "n": 16,
+      "auroc": 0.9454545454545454,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE21232\\variance_20261003_oof.tsv",
+      "sha256": "600ac2c140a15ed7b34d23fda33aed8abbb96d030d6cb728c74e0c0491b13665",
+      "n": 16,
+      "auroc": 0.8727272727272727,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE21232\\variance_20261020_oof.tsv",
+      "sha256": "e3d6120f41b7b9d3e1705ea582a41d46d88ff657a47269e91a879f83507a0e42",
+      "n": 16,
+      "auroc": 0.9090909090909092,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\screen_v1\\GSE21232\\variance_20261103_oof.tsv",
+      "sha256": "d49c8b02b0a36fe437f60137ed3c3697d8efb25146925b31bae05e328864bfe6",
+      "n": 16,
+      "auroc": 0.9454545454545454,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\supervised_repeated_oof.tsv",
+      "sha256": "0ab9568cbabb382189d4790b18aa717387c2ef68a2973ede65fcaabf1463ab2d",
+      "n": 48,
+      "auroc": 0.9322916666666667,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\supervised_20261003_oof.tsv",
+      "sha256": "18d8b7e83d36066fb9a2dcd454a27a87b240d03b362329b86385b37316365799",
+      "n": 48,
+      "auroc": 0.9357638888888888,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\supervised_20261020_oof.tsv",
+      "sha256": "eb0806286be03cc366595138136439831de87c906fe4677445b40fd132d64cf3",
+      "n": 48,
+      "auroc": 0.9166666666666667,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\supervised_20261103_oof.tsv",
+      "sha256": "dfffe25a669ac43c889a4f91b7500730fa17b55a8fe2ef5602dad4ff476838fc",
+      "n": 48,
+      "auroc": 0.939236111111111,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\supervised_external.tsv",
+      "sha256": "5568752e9064ef9f6ff15903ee1ec50f98ea82278a4b7e5ebf1befab4a462957",
+      "n": 48,
+      "auroc": 0.9149305555555556,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\variance_repeated_oof.tsv",
+      "sha256": "97a81e822d95e8dfedbc8f0d685c96ba16a933eed0339fee833f4618caea8066",
+      "n": 48,
+      "auroc": 0.5243055555555556,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\variance_20261003_oof.tsv",
+      "sha256": "285579c4d16f6f0cae8b9e5af6a54958f7e00143dc4770a1dbe82cc70ce3a503",
+      "n": 48,
+      "auroc": 0.48611111111111116,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\variance_20261020_oof.tsv",
+      "sha256": "98632f5679148defc2cc8a068986eb4525a3c68e48f1057d8760c21e4511c458",
+      "n": 48,
+      "auroc": 0.45833333333333337,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\variance_20261103_oof.tsv",
+      "sha256": "083cba33420b99f705268d498d4d593bc9461c181762ef0dd4d2e8c204096348",
+      "n": 48,
+      "auroc": 0.6163194444444444,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\obesity_discovery\\variance_external.tsv",
+      "sha256": "04e2b614d9b1069c9d137717c8274dc419bcef13bb1f73c02450443b109f8fad",
+      "n": 48,
+      "auroc": 0.626736111111111,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\supervised_repeated_oof.tsv",
+      "sha256": "988d0706969e3c5e00ebeba1198169f2a1ebb761842e1e7b02f8297548b50809",
+      "n": 59,
+      "auroc": 0.7529411764705882,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\supervised_20261003_oof.tsv",
+      "sha256": "e77124f0928518582905f2e4131b5470793fba59412850f4b3657bd6cfb95ae6",
+      "n": 59,
+      "auroc": 0.7141176470588235,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\supervised_20261020_oof.tsv",
+      "sha256": "15875f7b26fe657ce21294143e0fd3f0501b78ac907af7a734b7383b7e7b987e",
+      "n": 59,
+      "auroc": 0.7870588235294118,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\supervised_20261103_oof.tsv",
+      "sha256": "281cfae0b577fcfd30648180fe670d72aca975aa14e67d5eefe85bcd22c2bd8c",
+      "n": 59,
+      "auroc": 0.7352941176470589,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\supervised_external.tsv",
+      "sha256": "671d69e68c4ebdda152917967b3a1773fb3c71cec277ca48b9c6e5d5e65f5994",
+      "n": 53,
+      "auroc": 0.9122023809523809,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\variance_repeated_oof.tsv",
+      "sha256": "98cfb6bac6e16e81aa2746ea75065a7732f6e65621c3ec1ede92211ece933ecd",
+      "n": 59,
+      "auroc": 0.5152941176470588,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\variance_20261003_oof.tsv",
+      "sha256": "7fc262b6768d65381f554a18a801c286a60babe74f41cbfd89a70412dbec3716",
+      "n": 59,
+      "auroc": 0.42823529411764705,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\variance_20261020_oof.tsv",
+      "sha256": "2066972d4b56ebb076f209b0056f540eeb8ad787d0691e4ff805432c58f6966d",
+      "n": 59,
+      "auroc": 0.47411764705882353,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\variance_20261103_oof.tsv",
+      "sha256": "280700e640acc2598645a20f4a5a02d27a042a6b2347db6ae808f8b6f0a16b7e",
+      "n": 59,
+      "auroc": 0.5917647058823529,
+      "probability_serialization_dtype": "float64"
+    },
+    {
+      "path": "C:\\Projects\\00_NutriGenomics_auto\\final_2026\\repos\\nutriomics-htn-methylation\\docs\\chronic_20261003\\methylation_transfer_v3\\nafld_GSE48325\\variance_external.tsv",
+      "sha256": "27142f9847d08f450030e7d31d0107039fdcc939bd4a6f61cb2bdde474eacc9d",
+      "n": 53,
+      "auroc": 0.41220238095238093,
+      "probability_serialization_dtype": "float64"
+    }
+  ],
+  "script_sha256": "44603b8e0f6cc3b776ce0f174c066f678f276fdf486597cb57ab7e397b1e10fe",
+  "limits": "Checks exported results/audits. Does not establish donor independence, clinical performance, raw normalization independence or causality."
+}

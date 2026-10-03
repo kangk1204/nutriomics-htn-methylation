@@ -1,0 +1,86 @@
+{
+  "generated_utc": "2026-10-03T01:10:52.457003+00:00",
+  "cohorts": [
+    {
+      "cohort": "obesity_discovery",
+      "n": 48,
+      "controls": 24,
+      "cases": 24,
+      "stored_union_probe_ids": 875551,
+      "any_finite_in_cohort_probes": 470866,
+      "cohort_probes_with_at_least_90percent_finite": 469071,
+      "all_measurements_missing_sample_ids": [],
+      "sample_missing_fraction_among_cohort_observed_probes_quantiles": [
+        0.0005819065296708617,
+        0.0010820488206835913,
+        0.001211597354661411,
+        0.001426095746985342,
+        0.003718680049101018
+      ],
+      "sample_filtering_performed_by_this_audit": false,
+      "diagnostic_uses_outcome_labels_for_probe_selection": false,
+      "interpretation": "Union rows are not all measured in each platform. Availability counts are descriptive; each model learns its own missingness filter inside training folds."
+    },
+    {
+      "cohort": "obesity_replication",
+      "n": 48,
+      "controls": 24,
+      "cases": 24,
+      "stored_union_probe_ids": 875551,
+      "any_finite_in_cohort_probes": 844023,
+      "cohort_probes_with_at_least_90percent_finite": 832538,
+      "all_measurements_missing_sample_ids": [],
+      "sample_missing_fraction_among_cohort_observed_probes_quantiles": [
+        0.0013506740930045746,
+        0.0021136864753685623,
+        0.002791985526460772,
+        0.004420791850459052,
+        0.025104766102345553
+      ],
+      "sample_filtering_performed_by_this_audit": false,
+      "diagnostic_uses_outcome_labels_for_probe_selection": false,
+      "interpretation": "Union rows are not all measured in each platform. Availability counts are descriptive; each model learns its own missingness filter inside training folds."
+    },
+    {
+      "cohort": "nafld_GSE48325",
+      "n": 59,
+      "controls": 34,
+      "cases": 25,
+      "stored_union_probe_ids": 482421,
+      "any_finite_in_cohort_probes": 482421,
+      "cohort_probes_with_at_least_90percent_finite": 482181,
+      "all_measurements_missing_sample_ids": [],
+      "sample_missing_fraction_among_cohort_observed_probes_quantiles": [
+        0.0006363736238679494,
+        0.00101674678341117,
+        0.0014821079513536932,
+        0.001949541997549858,
+        0.003911521264621565
+      ],
+      "sample_filtering_performed_by_this_audit": false,
+      "diagnostic_uses_outcome_labels_for_probe_selection": false,
+      "interpretation": "Union rows are not all measured in each platform. Availability counts are descriptive; each model learns its own missingness filter inside training folds."
+    },
+    {
+      "cohort": "nafld_GSE61258",
+      "n": 53,
+      "controls": 32,
+      "cases": 21,
+      "stored_union_probe_ids": 482421,
+      "any_finite_in_cohort_probes": 482421,
+      "cohort_probes_with_at_least_90percent_finite": 482026,
+      "all_measurements_missing_sample_ids": [],
+      "sample_missing_fraction_among_cohort_observed_probes_quantiles": [
+        0.0005202924416640237,
+        0.0008250055449493285,
+        0.0010758238136399534,
+        0.0016375738203768077,
+        0.006183395830612681
+      ],
+      "sample_filtering_performed_by_this_audit": false,
+      "diagnostic_uses_outcome_labels_for_probe_selection": false,
+      "interpretation": "Union rows are not all measured in each platform. Availability counts are descriptive; each model learns its own missingness filter inside training folds."
+    }
+  ],
+  "model_results_modified": false
+}

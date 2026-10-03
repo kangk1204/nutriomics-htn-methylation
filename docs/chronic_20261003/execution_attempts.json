@@ -1,0 +1,10 @@
+{
+  "scope": "Software and acquisition attempts preceding any methylation cohort model results",
+  "acquisition_v1": "Six series matrices passed EOF/CRC; two liver transfers were truncated and rejected. Full liver matrices were subsequently acquired with size and CRC checks, recorded in acquisition_supplement.json.",
+  "methylation_transfer_v1": "Stopped during text parsing: scalar float dtype incorrectly included probe identifier strings. No models fitted or scores generated.",
+  "methylation_transfer_v2": "Preparation completed but model loading stopped because pandas string-extension probe IDs serialized as object arrays. Native GSE61258 HealthyObese spelling was also corrected to implement the declared inclusion of healthy obese controls. No model scores generated.",
+  "methylation_transfer_v3": "Use explicitly typed Unicode NPZ probe IDs and exact native label mapping. Biological source files, outcome definitions, feature grid and target cohorts remain the declared protocol.",
+  "method_tests_attempt1": "One test used exact float32/float64 equality; two existing tests encountered a locked shared temporary directory. The assertion was changed to numerical tolerance and the complete suite rerun in a fresh isolated temporary directory with cache disabled.",
+  "outcome_driven_model_protocol_change": false,
+  "failed_attempts_preserved": true
+}

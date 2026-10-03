@@ -1,0 +1,65 @@
+{
+  "fixed_before_outcome_evaluation": true,
+  "accessions": [
+    "GSE61258",
+    "GSE48325",
+    "GSE38642",
+    "GSE222595",
+    "GSE21232",
+    "GSE89632",
+    "GSE135251"
+  ],
+  "listings": [
+    {
+      "accession": "GSE61258",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE61nnn/GSE61258/matrix/",
+      "matrix_files": [
+        "GSE61258_series_matrix.txt.gz"
+      ]
+    },
+    {
+      "accession": "GSE48325",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48325/matrix/",
+      "matrix_files": [
+        "GSE48325_series_matrix.txt.gz"
+      ]
+    },
+    {
+      "accession": "GSE38642",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38642/matrix/",
+      "matrix_files": [
+        "GSE38642_series_matrix.txt.gz"
+      ]
+    },
+    {
+      "accession": "GSE222595",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/matrix/",
+      "matrix_files": [
+        "GSE222595-GPL13534_series_matrix.txt.gz",
+        "GSE222595-GPL21145_series_matrix.txt.gz"
+      ]
+    },
+    {
+      "accession": "GSE21232",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21232/matrix/",
+      "matrix_files": [
+        "GSE21232_series_matrix.txt.gz"
+      ]
+    },
+    {
+      "accession": "GSE89632",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE89nnn/GSE89632/matrix/",
+      "matrix_files": [
+        "GSE89632_series_matrix.txt.gz"
+      ]
+    },
+    {
+      "accession": "GSE135251",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135251/matrix/",
+      "matrix_files": [
+        "GSE135251_series_matrix.txt.gz"
+      ]
+    }
+  ],
+  "purpose": "Exploratory NAFLD, T2D and obesity screening; report every evaluable cohort and failure; no selected-positive generalization claim."
+}

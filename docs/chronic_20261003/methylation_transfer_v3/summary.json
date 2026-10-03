@@ -1,0 +1,734 @@
+[
+  {
+    "source": "obesity_discovery",
+    "target": "obesity_replication",
+    "modality": "DNAm",
+    "ranking": "supervised",
+    "common_probe_ids": 875551,
+    "repeated_nested_oof_metrics": {
+      "n": 48,
+      "n_positive": 24,
+      "auroc": 0.9322916666666667,
+      "average_precision": 0.8907392394928149,
+      "auprc_trapezoid": 0.8840891609269369,
+      "brier": 0.08100904261241958,
+      "sensitivity": 0.9583333333333334,
+      "specificity": 0.875,
+      "threshold": 0.5,
+      "tp": 23,
+      "tn": 21,
+      "fp": 3,
+      "fn": 1,
+      "ci95": {
+        "auroc": [
+          0.8298177083333332,
+          0.998263888888889
+        ],
+        "average_precision": [
+          0.7467046610331248,
+          0.9983333333333332
+        ],
+        "auprc_trapezoid": [
+          0.7171071271967412,
+          0.9982986111111111
+        ],
+        "brier": [
+          0.0293149564055017,
+          0.15088520076492773
+        ],
+        "sensitivity": [
+          0.7887983165430269,
+          0.9989456475545303
+        ],
+        "specificity": [
+          0.6763886418111671,
+          0.973440685013751
+        ]
+      },
+      "interval_method": {
+        "discrimination_brier": "stratified participant bootstrap",
+        "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+        "bootstrap_replicates": 1000,
+        "seed": 20261003,
+        "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+      },
+      "calibration_slope_descriptive": 0.9063860813373524,
+      "calibration_intercept_descriptive": -0.4396297940636452
+    },
+    "seed_metrics": [
+      {
+        "seed": 20261003,
+        "n": 48,
+        "n_positive": 24,
+        "auroc": 0.9357638888888888,
+        "average_precision": 0.8817001246767705,
+        "auprc_trapezoid": 0.8716892398292333,
+        "brier": 0.08864151665780606,
+        "sensitivity": 1.0,
+        "specificity": 0.7916666666666666,
+        "threshold": 0.5,
+        "tp": 24,
+        "tn": 19,
+        "fp": 5,
+        "fn": 0
+      },
+      {
+        "seed": 20261020,
+        "n": 48,
+        "n_positive": 24,
+        "auroc": 0.9166666666666667,
+        "average_precision": 0.891289199472922,
+        "auprc_trapezoid": 0.8874866136237676,
+        "brier": 0.09465870670857575,
+        "sensitivity": 0.9166666666666666,
+        "specificity": 0.8333333333333334,
+        "threshold": 0.5,
+        "tp": 22,
+        "tn": 20,
+        "fp": 4,
+        "fn": 2
+      },
+      {
+        "seed": 20261103,
+        "n": 48,
+        "n_positive": 24,
+        "auroc": 0.939236111111111,
+        "average_precision": 0.8879264080460826,
+        "auprc_trapezoid": 0.8780888518114676,
+        "brier": 0.08761530437950875,
+        "sensitivity": 0.9583333333333334,
+        "specificity": 0.875,
+        "threshold": 0.5,
+        "tp": 23,
+        "tn": 21,
+        "fp": 3,
+        "fn": 1
+      }
+    ],
+    "training_resubstitution_metrics": {
+      "n": 48,
+      "n_positive": 24,
+      "auroc": 1.0,
+      "average_precision": 0.9999999999999999,
+      "auprc_trapezoid": 0.9999999999999999,
+      "brier": 0.003817306090367859,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "threshold": 0.5,
+      "tp": 24,
+      "tn": 24,
+      "fp": 0,
+      "fn": 0
+    },
+    "source_only_frozen_external_metrics": {
+      "n": 48,
+      "n_positive": 24,
+      "auroc": 0.9149305555555556,
+      "average_precision": 0.9180173081089255,
+      "auprc_trapezoid": 0.9159580119706819,
+      "brier": 0.10922730372649858,
+      "sensitivity": 0.8333333333333334,
+      "specificity": 0.9166666666666666,
+      "threshold": 0.5,
+      "tp": 20,
+      "tn": 22,
+      "fp": 2,
+      "fn": 4,
+      "ci95": {
+        "auroc": [
+          0.8125000000000001,
+          0.9826388888888888
+        ],
+        "average_precision": [
+          0.8276942094546457,
+          0.986111111111111
+        ],
+        "auprc_trapezoid": [
+          0.8177821243212415,
+          0.9859126984126984
+        ],
+        "brier": [
+          0.04728856900774701,
+          0.18757955830929782
+        ],
+        "sensitivity": [
+          0.6261582865113173,
+          0.9526463733927428
+        ],
+        "specificity": [
+          0.7300271984423964,
+          0.9897436587187498
+        ]
+      },
+      "interval_method": {
+        "discrimination_brier": "stratified participant bootstrap",
+        "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+        "bootstrap_replicates": 1000,
+        "seed": 20261003,
+        "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+      },
+      "calibration_slope_descriptive": 0.45372557911992956,
+      "calibration_intercept_descriptive": 1.000531828813397
+    },
+    "external_scope": "Separate discovery/replication cohorts declared by original study; author-processed combined beta matrix upstream pipeline not independently reconstructed.",
+    "target_excluded_exact_duplicates": [],
+    "target_fitting_tuning_calibration_or_threshold_selection": false,
+    "external_cohort_raw_processing_independence_established": false,
+    "individual_age_sex_adjustment_performed": false,
+    "clinical_validation": false,
+    "model_artifact": {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/models/chronic_20261003_obesity_discovery_supervised.joblib",
+      "sha256": "c95f1740e4b5c4cf46e79079fd3fa77e9614a17813c4b1df64ba258b52c5c2ce"
+    },
+    "interpretation": "Exploratory tissue-specific discrimination; source cohort CV and frozen cohort transfer are reported separately."
+  },
+  {
+    "source": "obesity_discovery",
+    "target": "obesity_replication",
+    "modality": "DNAm",
+    "ranking": "variance",
+    "common_probe_ids": 875551,
+    "repeated_nested_oof_metrics": {
+      "n": 48,
+      "n_positive": 24,
+      "auroc": 0.5243055555555556,
+      "average_precision": 0.5072564453077935,
+      "auprc_trapezoid": 0.48425033403835943,
+      "brier": 0.2688572946115067,
+      "sensitivity": 0.5,
+      "specificity": 0.625,
+      "threshold": 0.5,
+      "tp": 12,
+      "tn": 15,
+      "fp": 9,
+      "fn": 12,
+      "ci95": {
+        "auroc": [
+          0.3575954861111111,
+          0.6666666666666666
+        ],
+        "average_precision": [
+          0.4291209331027655,
+          0.6703276929174977
+        ],
+        "auprc_trapezoid": [
+          0.39712419326450044,
+          0.6322939755234097
+        ],
+        "brier": [
+          0.2287881741590552,
+          0.3196802145122524
+        ],
+        "sensitivity": [
+          0.29124177983621197,
+          0.708758220163788
+        ],
+        "specificity": [
+          0.405936384007944,
+          0.8120070718039977
+        ]
+      },
+      "interval_method": {
+        "discrimination_brier": "stratified participant bootstrap",
+        "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+        "bootstrap_replicates": 1000,
+        "seed": 20261003,
+        "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+      },
+      "calibration_slope_descriptive": 0.1878418275225492,
+      "calibration_intercept_descriptive": 0.015717390125015624
+    },
+    "seed_metrics": [
+      {
+        "seed": 20261003,
+        "n": 48,
+        "n_positive": 24,
+        "auroc": 0.48611111111111116,
+        "average_precision": 0.4885208995679689,
+        "auprc_trapezoid": 0.46565285128420497,
+        "brier": 0.2952540846109979,
+        "sensitivity": 0.375,
+        "specificity": 0.5,
+        "threshold": 0.5,
+        "tp": 9,
+        "tn": 12,
+        "fp": 12,
+        "fn": 15
+      },
+      {
+        "seed": 20261020,
+        "n": 48,
+        "n_positive": 24,
+        "auroc": 0.45833333333333337,
+        "average_precision": 0.46350431335951503,
+        "auprc_trapezoid": 0.4440322539306692,
+        "brier": 0.31331877145226866,
+        "sensitivity": 0.4583333333333333,
+        "specificity": 0.5,
+        "threshold": 0.5,
+        "tp": 11,
+        "tn": 12,
+        "fp": 12,
+        "fn": 13
+      },
+      {
+        "seed": 20261103,
+        "n": 48,
+        "n_positive": 24,
+        "auroc": 0.6163194444444444,
+        "average_precision": 0.6009237499254734,
+        "auprc_trapezoid": 0.5847595009317841,
+        "brier": 0.25188590021022345,
+        "sensitivity": 0.5833333333333334,
+        "specificity": 0.5,
+        "threshold": 0.5,
+        "tp": 14,
+        "tn": 12,
+        "fp": 12,
+        "fn": 10
+      }
+    ],
+    "training_resubstitution_metrics": {
+      "n": 48,
+      "n_positive": 24,
+      "auroc": 1.0,
+      "average_precision": 0.9999999999999999,
+      "auprc_trapezoid": 0.9999999999999999,
+      "brier": 0.013395790198616324,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "threshold": 0.5,
+      "tp": 24,
+      "tn": 24,
+      "fp": 0,
+      "fn": 0
+    },
+    "source_only_frozen_external_metrics": {
+      "n": 48,
+      "n_positive": 24,
+      "auroc": 0.626736111111111,
+      "average_precision": 0.6309575413998728,
+      "auprc_trapezoid": 0.6184768282184311,
+      "brier": 0.3003242662946217,
+      "sensitivity": 0.5,
+      "specificity": 0.7083333333333334,
+      "threshold": 0.5,
+      "tp": 12,
+      "tn": 17,
+      "fp": 7,
+      "fn": 12,
+      "ci95": {
+        "auroc": [
+          0.4756076388888889,
+          0.7899739583333333
+        ],
+        "average_precision": [
+          0.507975116756334,
+          0.7969824343012115
+        ],
+        "auprc_trapezoid": [
+          0.4760594175962736,
+          0.7825501511837596
+        ],
+        "brier": [
+          0.20595540775549753,
+          0.391444366286199
+        ],
+        "sensitivity": [
+          0.29124177983621197,
+          0.708758220163788
+        ],
+        "specificity": [
+          0.4890521861421669,
+          0.8738479114763087
+        ]
+      },
+      "interval_method": {
+        "discrimination_brier": "stratified participant bootstrap",
+        "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+        "bootstrap_replicates": 1000,
+        "seed": 20261003,
+        "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+      },
+      "calibration_slope_descriptive": 0.1582684799046335,
+      "calibration_intercept_descriptive": 0.13307340986425667
+    },
+    "external_scope": "Separate discovery/replication cohorts declared by original study; author-processed combined beta matrix upstream pipeline not independently reconstructed.",
+    "target_excluded_exact_duplicates": [],
+    "target_fitting_tuning_calibration_or_threshold_selection": false,
+    "external_cohort_raw_processing_independence_established": false,
+    "individual_age_sex_adjustment_performed": false,
+    "clinical_validation": false,
+    "model_artifact": {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/models/chronic_20261003_obesity_discovery_variance.joblib",
+      "sha256": "983f27f58669eaa7b34afe239f80094d35adad53476d60a92d98fbec96c29dd7"
+    },
+    "interpretation": "Exploratory tissue-specific discrimination; source cohort CV and frozen cohort transfer are reported separately."
+  },
+  {
+    "source": "nafld_GSE48325",
+    "target": "nafld_GSE61258",
+    "modality": "DNAm",
+    "ranking": "supervised",
+    "common_probe_ids": 482421,
+    "repeated_nested_oof_metrics": {
+      "n": 59,
+      "n_positive": 25,
+      "auroc": 0.7529411764705882,
+      "average_precision": 0.7150907107635468,
+      "auprc_trapezoid": 0.7069655695409522,
+      "brier": 0.21475803908787933,
+      "sensitivity": 0.64,
+      "specificity": 0.7058823529411765,
+      "threshold": 0.5,
+      "tp": 16,
+      "tn": 24,
+      "fp": 10,
+      "fn": 9,
+      "ci95": {
+        "auroc": [
+          0.627029411764706,
+          0.873
+        ],
+        "average_precision": [
+          0.5904449497842573,
+          0.8651706820999823
+        ],
+        "auprc_trapezoid": [
+          0.5624277715395172,
+          0.860737101397195
+        ],
+        "brier": [
+          0.14742836684192454,
+          0.28324396969641735
+        ],
+        "sensitivity": [
+          0.42520634955384945,
+          0.8202831794163445
+        ],
+        "specificity": [
+          0.5252189396595142,
+          0.8490163355769715
+        ]
+      },
+      "interval_method": {
+        "discrimination_brier": "stratified participant bootstrap",
+        "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+        "bootstrap_replicates": 1000,
+        "seed": 20261003,
+        "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+      },
+      "calibration_slope_descriptive": 0.5086326067218258,
+      "calibration_intercept_descriptive": -0.3956107292034281
+    },
+    "seed_metrics": [
+      {
+        "seed": 20261003,
+        "n": 59,
+        "n_positive": 25,
+        "auroc": 0.7141176470588235,
+        "average_precision": 0.6251402446260246,
+        "auprc_trapezoid": 0.600684502672882,
+        "brier": 0.2468520553119013,
+        "sensitivity": 0.64,
+        "specificity": 0.6764705882352942,
+        "threshold": 0.5,
+        "tp": 16,
+        "tn": 23,
+        "fp": 11,
+        "fn": 9
+      },
+      {
+        "seed": 20261020,
+        "n": 59,
+        "n_positive": 25,
+        "auroc": 0.7870588235294118,
+        "average_precision": 0.776798358103024,
+        "auprc_trapezoid": 0.7723615788662652,
+        "brier": 0.21073641877909713,
+        "sensitivity": 0.68,
+        "specificity": 0.7352941176470589,
+        "threshold": 0.5,
+        "tp": 17,
+        "tn": 25,
+        "fp": 9,
+        "fn": 8
+      },
+      {
+        "seed": 20261103,
+        "n": 59,
+        "n_positive": 25,
+        "auroc": 0.7352941176470589,
+        "average_precision": 0.716196056310691,
+        "auprc_trapezoid": 0.7087516506933706,
+        "brier": 0.23514276301230472,
+        "sensitivity": 0.56,
+        "specificity": 0.6764705882352942,
+        "threshold": 0.5,
+        "tp": 14,
+        "tn": 23,
+        "fp": 11,
+        "fn": 11
+      }
+    ],
+    "training_resubstitution_metrics": {
+      "n": 59,
+      "n_positive": 25,
+      "auroc": 0.9776470588235294,
+      "average_precision": 0.9683969750056708,
+      "auprc_trapezoid": 0.9677012356572998,
+      "brier": 0.07645253498634845,
+      "sensitivity": 0.88,
+      "specificity": 0.9411764705882353,
+      "threshold": 0.5,
+      "tp": 22,
+      "tn": 32,
+      "fp": 2,
+      "fn": 3
+    },
+    "source_only_frozen_external_metrics": {
+      "n": 53,
+      "n_positive": 21,
+      "auroc": 0.9122023809523809,
+      "average_precision": 0.8763022116726589,
+      "auprc_trapezoid": 0.8729087330690963,
+      "brier": 0.15694864654667315,
+      "sensitivity": 0.8571428571428571,
+      "specificity": 0.65625,
+      "threshold": 0.5,
+      "tp": 18,
+      "tn": 21,
+      "fp": 11,
+      "fn": 3,
+      "ci95": {
+        "auroc": [
+          0.8244047619047619,
+          0.9732142857142857
+        ],
+        "average_precision": [
+          0.7726121170445446,
+          0.9663203626883301
+        ],
+        "auprc_trapezoid": [
+          0.7582446504277819,
+          0.9650099389734923
+        ],
+        "brier": [
+          0.09576365016766615,
+          0.2329169333812271
+        ],
+        "sensitivity": [
+          0.636576012983019,
+          0.9695110323784845
+        ],
+        "specificity": [
+          0.4680689637197313,
+          0.8142809082834338
+        ]
+      },
+      "interval_method": {
+        "discrimination_brier": "stratified participant bootstrap",
+        "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+        "bootstrap_replicates": 1000,
+        "seed": 20261003,
+        "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+      },
+      "calibration_slope_descriptive": 0.8490691286139184,
+      "calibration_intercept_descriptive": -1.338135347286502
+    },
+    "external_scope": "Exploratory liver cohort transfer; source papers and related recruitment do not establish independent donor identities.",
+    "target_excluded_exact_duplicates": [],
+    "target_fitting_tuning_calibration_or_threshold_selection": false,
+    "external_cohort_raw_processing_independence_established": false,
+    "individual_age_sex_adjustment_performed": false,
+    "clinical_validation": false,
+    "model_artifact": {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/models/chronic_20261003_nafld_GSE48325_supervised.joblib",
+      "sha256": "369d210c00573174e70955d024d30ab131b0eb865d21e568d758298358b6514f"
+    },
+    "interpretation": "Exploratory tissue-specific discrimination; source cohort CV and frozen cohort transfer are reported separately."
+  },
+  {
+    "source": "nafld_GSE48325",
+    "target": "nafld_GSE61258",
+    "modality": "DNAm",
+    "ranking": "variance",
+    "common_probe_ids": 482421,
+    "repeated_nested_oof_metrics": {
+      "n": 59,
+      "n_positive": 25,
+      "auroc": 0.5152941176470588,
+      "average_precision": 0.49593898356692667,
+      "auprc_trapezoid": 0.4805244762572814,
+      "brier": 0.27209985738346654,
+      "sensitivity": 0.48,
+      "specificity": 0.5882352941176471,
+      "threshold": 0.5,
+      "tp": 12,
+      "tn": 20,
+      "fp": 14,
+      "fn": 13,
+      "ci95": {
+        "auroc": [
+          0.371764705882353,
+          0.6741470588235294
+        ],
+        "average_precision": [
+          0.3919672006255753,
+          0.6661248343909394
+        ],
+        "auprc_trapezoid": [
+          0.36003691448497344,
+          0.6508298199173684
+        ],
+        "brier": [
+          0.22822113918818548,
+          0.3162021931598873
+        ],
+        "sensitivity": [
+          0.27796800966994656,
+          0.6869429555429676
+        ],
+        "specificity": [
+          0.4069694329708481,
+          0.7535292647022493
+        ]
+      },
+      "interval_method": {
+        "discrimination_brier": "stratified participant bootstrap",
+        "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+        "bootstrap_replicates": 1000,
+        "seed": 20261003,
+        "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+      },
+      "calibration_slope_descriptive": 0.10265194812608229,
+      "calibration_intercept_descriptive": -0.29907378185847383
+    },
+    "seed_metrics": [
+      {
+        "seed": 20261003,
+        "n": 59,
+        "n_positive": 25,
+        "auroc": 0.42823529411764705,
+        "average_precision": 0.38719231606809673,
+        "auprc_trapezoid": 0.3632611507486017,
+        "brier": 0.32391990235898066,
+        "sensitivity": 0.52,
+        "specificity": 0.35294117647058826,
+        "threshold": 0.5,
+        "tp": 13,
+        "tn": 12,
+        "fp": 22,
+        "fn": 12
+      },
+      {
+        "seed": 20261020,
+        "n": 59,
+        "n_positive": 25,
+        "auroc": 0.47411764705882353,
+        "average_precision": 0.4608527107760268,
+        "auprc_trapezoid": 0.4358882789320848,
+        "brier": 0.29774915865730156,
+        "sensitivity": 0.36,
+        "specificity": 0.6176470588235294,
+        "threshold": 0.5,
+        "tp": 9,
+        "tn": 21,
+        "fp": 13,
+        "fn": 16
+      },
+      {
+        "seed": 20261103,
+        "n": 59,
+        "n_positive": 25,
+        "auroc": 0.5917647058823529,
+        "average_precision": 0.5725609676289471,
+        "auprc_trapezoid": 0.5626016995611428,
+        "brier": 0.28379592813446153,
+        "sensitivity": 0.56,
+        "specificity": 0.5882352941176471,
+        "threshold": 0.5,
+        "tp": 14,
+        "tn": 20,
+        "fp": 14,
+        "fn": 11
+      }
+    ],
+    "training_resubstitution_metrics": {
+      "n": 59,
+      "n_positive": 25,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "auprc_trapezoid": 1.0,
+      "brier": 0.02616373279314269,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "threshold": 0.5,
+      "tp": 25,
+      "tn": 34,
+      "fp": 0,
+      "fn": 0
+    },
+    "source_only_frozen_external_metrics": {
+      "n": 53,
+      "n_positive": 21,
+      "auroc": 0.41220238095238093,
+      "average_precision": 0.3555904647307719,
+      "auprc_trapezoid": 0.3323999253776473,
+      "brier": 0.41161957576585645,
+      "sensitivity": 0.3333333333333333,
+      "specificity": 0.53125,
+      "threshold": 0.5,
+      "tp": 7,
+      "tn": 17,
+      "fp": 15,
+      "fn": 14,
+      "ci95": {
+        "auroc": [
+          0.2559151785714286,
+          0.5655877976190475
+        ],
+        "average_precision": [
+          0.30239691967066623,
+          0.5266802985960233
+        ],
+        "auprc_trapezoid": [
+          0.27502782615068244,
+          0.4828009181289008
+        ],
+        "brier": [
+          0.3222414556802256,
+          0.5081737077981701
+        ],
+        "sensitivity": [
+          0.14587694234309667,
+          0.5696754829041243
+        ],
+        "specificity": [
+          0.3474368092863928,
+          0.7090601770939847
+        ]
+      },
+      "interval_method": {
+        "discrimination_brier": "stratified participant bootstrap",
+        "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+        "bootstrap_replicates": 1000,
+        "seed": 20261003,
+        "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+      },
+      "calibration_slope_descriptive": -0.10286128868665166,
+      "calibration_intercept_descriptive": -0.4890957708231867
+    },
+    "external_scope": "Exploratory liver cohort transfer; source papers and related recruitment do not establish independent donor identities.",
+    "target_excluded_exact_duplicates": [],
+    "target_fitting_tuning_calibration_or_threshold_selection": false,
+    "external_cohort_raw_processing_independence_established": false,
+    "individual_age_sex_adjustment_performed": false,
+    "clinical_validation": false,
+    "model_artifact": {
+      "path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/models/chronic_20261003_nafld_GSE48325_variance.joblib",
+      "sha256": "6fb90a3c4dcf868998ece5fd3a25ff69957e92a1dec440c62974311958a68ca8"
+    },
+    "interpretation": "Exploratory tissue-specific discrimination; source cohort CV and frozen cohort transfer are reported separately."
+  }
+]

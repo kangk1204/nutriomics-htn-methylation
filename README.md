@@ -4,6 +4,10 @@ A research implementation using real public peripheral-blood DNA methylation dat
 
 The actual frozen validation run is complete. [Observed results](docs/validation/SUMMARY.md) and the [Korean conclusion](docs/validation/CONCLUSION_KO.md) show that the specified models did not establish useful hypertension discrimination. The main nested 5-fold elastic-net AUROCs were 0.541 (common panel) and 0.569 (full processed panel). External models classified all 16 samples as positive at the fixed 0.5 threshold. Historical AUROC 0.88 is not a result of this implementation.
 
+The separate [3 October full-training diagnostic](docs/trainset_20261003/SUMMARY_KO.md) refits the same88 development samples and scores those exact samples: AUROC0.902–0.998. These are training resubstitution scores; original CV/transfer results are preserved. The user's small-sample exploratory development context is recorded without reconstructing an unavailable historical model.
+
+The [chronic-disease extension](docs/chronic_20261003/README.md) acquires seven GEO accessions and evaluates all ten declared cohort/ranking combinations. NAFLD liver expression gives repeated nested OOF AUROC0.966; obesity subcutaneous-adipocyte DNAm gives source OOF0.932 and frozen450K→EPIC cohort AUROC0.915 (48source/48target samples). The author-processed combined matrix's upstream normalization was not independently reconstructed. Lower variance-only results and exploratory liver transfer are retained. These tissue classifiers do not establish blood-based clinical or dietary effects.
+
 ## Data contract
 
 * [GSE193795](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE193795): processed 450k measurements, HTN 44/control 44 for development. preHT 44 is excluded from every fit, feature selection and hyperparameter search and used only for supplementary predictions.

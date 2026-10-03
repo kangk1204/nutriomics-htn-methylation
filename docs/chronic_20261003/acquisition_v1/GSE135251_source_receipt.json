@@ -1,0 +1,420 @@
+{
+  "accession": "GSE135251",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135251/matrix/GSE135251_series_matrix.txt.gz",
+  "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE135251_series_matrix.txt.gz",
+  "sha256": "3987ef627abe946842da8e44bdeb75769779aed160c4ca37a012fe6d336a8e68",
+  "bytes": 11529,
+  "gzip_crc": "passed_to_eof",
+  "schema_width": "passed",
+  "numeric_rows": 0,
+  "samples": 216,
+  "sample_ids_unique": true,
+  "matrix_contains_values": false,
+  "series_metadata": {
+    "!Series_title": [
+      [
+        "TRANSCRIPTOMIC PROFILING ACROSS THE SPECTRUM OF NON-ALCOHOLIC FATTY LIVER DISEASE"
+      ]
+    ],
+    "!Series_geo_accession": [
+      [
+        "GSE135251"
+      ]
+    ],
+    "!Series_status": [
+      [
+        "Public on Dec 03 2020"
+      ]
+    ],
+    "!Series_submission_date": [
+      [
+        "Aug 01 2019"
+      ]
+    ],
+    "!Series_last_update_date": [
+      [
+        "Jan 28 2025"
+      ]
+    ],
+    "!Series_pubmed_id": [
+      [
+        "33268509"
+      ],
+      [
+        "33762733"
+      ],
+      [
+        "39566466"
+      ]
+    ],
+    "!Series_summary": [
+      [
+        "The pathophysiological mechanisms that drive non-alcoholic fatty liver disease (NAFLD) progression remain poorly understood. This multicenter study characterized the transcriptional changes that occur as liver disease progresses."
+      ],
+      [
+        "216 snap frozen liver biopsies, comprising 206 NAFLD cases with different fibrosis stages and 10 controls were studied. Samples underwent high-throughput RNA sequencing."
+      ],
+      [
+        "This study provides novel insights into transcriptional changes during liver disease evolution and progression as well as proof of principle that transcriptomic changes reveal potentially tractable biomarkers for NAFLD fibrosis."
+      ]
+    ],
+    "!Series_overall_design": [
+      [
+        "216 snap-frozen biopsies were processed for RNA sequencing on the Illumina NextSeq 500 system."
+      ]
+    ],
+    "!Series_type": [
+      [
+        "Expression profiling by high throughput sequencing"
+      ]
+    ],
+    "!Series_contributor": [
+      [
+        "Quentin,M,Anstee"
+      ],
+      [
+        "Ann,K,Daly"
+      ],
+      [
+        "Simon,,Cockell"
+      ],
+      [
+        "Olivier,,Govaere"
+      ]
+    ],
+    "!Series_sample_id": [
+      [
+        "GSM3998167 GSM3998168 GSM3998169 GSM3998170 GSM3998171 GSM3998172 GSM3998173 GSM3998174 GSM3998175 GSM3998176 GSM3998177 GSM3998178 GSM3998179 GSM3998180 GSM3998181 GSM3998182 GSM3998183 GSM3998184 GSM3998185 GSM3998186 GSM3998187 GSM3998188 GSM3998189 GSM3998190 GSM3998191 GSM3998192 GSM3998193 GSM3998194 GSM3998195 GSM3998196 GSM3998197 GSM3998198 GSM3998199 GSM3998200 GSM3998201 GSM3998202 GSM3998203 GSM3998204 GSM3998205 GSM3998206 GSM3998207 GSM3998208 GSM3998209 GSM3998210 GSM3998211 GSM3998212 GSM3998213 GSM3998214 GSM3998215 GSM3998216 GSM3998217 GSM3998218 GSM3998219 GSM3998220 GSM3998221 GSM3998222 GSM3998223 GSM3998224 GSM3998225 GSM3998226 GSM3998227 GSM3998228 GSM3998229 GSM3998230 GSM3998231 GSM3998232 GSM3998233 GSM3998234 GSM3998235 GSM3998236 GSM3998237 GSM3998238 GSM3998239 GSM3998240 GSM3998241 GSM3998242 GSM3998243 GSM3998244 GSM3998245 GSM3998246 GSM3998247 GSM3998248 GSM3998249 GSM3998250 GSM3998251 GSM3998252 GSM3998253 GSM3998254 GSM3998255 GSM3998256 GSM3998257 GSM3998258 GSM3998259 GSM3998260 GSM3998261 GSM3998262 GSM3998263 GSM3998264 GSM3998265 GSM3998266 GSM3998267 GSM3998268 GSM3998269 GSM3998270 GSM3998271 GSM3998272 GSM3998273 GSM3998274 GSM3998275 GSM3998276 GSM3998277 GSM3998278 GSM3998279 GSM3998280 GSM3998281 GSM3998282 GSM3998283 GSM3998284 GSM3998285 GSM3998286 GSM3998287 GSM3998288 GSM3998289 GSM3998290 GSM3998291 GSM3998292 GSM3998293 GSM3998294 GSM3998295 GSM3998296 GSM3998297 GSM3998298 GSM3998299 GSM3998300 GSM3998301 GSM3998302 GSM3998303 GSM3998304 GSM3998305 GSM3998306 GSM3998307 GSM3998308 GSM3998309 GSM3998310 GSM3998311 GSM3998312 GSM3998313 GSM3998314 GSM3998315 GSM3998316 GSM3998317 GSM3998318 GSM3998319 GSM3998320 GSM3998321 GSM3998322 GSM3998323 GSM3998324 GSM3998325 GSM3998326 GSM3998327 GSM3998328 GSM3998329 GSM3998330 GSM3998331 GSM3998332 GSM3998333 GSM3998334 GSM3998335 GSM3998336 GSM3998337 GSM3998338 GSM3998339 GSM3998340 GSM3998341 GSM3998342 GSM3998343 GSM3998344 GSM3998345 GSM3998346 GSM3998347 GSM3998348 GSM3998349 GSM3998350 GSM3998351 GSM3998352 GSM3998353 GSM3998354 GSM3998355 GSM3998356 GSM3998357 GSM3998358 GSM3998359 GSM3998360 GSM3998361 GSM3998362 GSM3998363 GSM3998364 GSM3998365 GSM3998366 GSM3998367 GSM3998368 GSM3998369 GSM3998370 GSM3998371 GSM3998372 GSM3998373 GSM3998374 GSM3998375 GSM3998376 GSM3998377 GSM3998378 GSM3998379 GSM3998380 GSM3998381 GSM3998382 "
+      ]
+    ],
+    "!Series_contact_name": [
+      [
+        "Simon,,Cockell"
+      ]
+    ],
+    "!Series_contact_email": [
+      [
+        "simon.cockell@newcastle.ac.uk"
+      ]
+    ],
+    "!Series_contact_institute": [
+      [
+        "Newcastle University"
+      ]
+    ],
+    "!Series_contact_address": [
+      [
+        "Framlington Place"
+      ]
+    ],
+    "!Series_contact_city": [
+      [
+        "Newcastle"
+      ]
+    ],
+    "!Series_contact_zip/postal_code": [
+      [
+        "NE2 4HH"
+      ]
+    ],
+    "!Series_contact_country": [
+      [
+        "United Kingdom"
+      ]
+    ],
+    "!Series_supplementary_file": [
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135251/suppl/GSE135251_RAW.tar"
+      ]
+    ],
+    "!Series_platform_id": [
+      [
+        "GPL18573"
+      ]
+    ],
+    "!Series_platform_taxid": [
+      [
+        "9606"
+      ]
+    ],
+    "!Series_sample_taxid": [
+      [
+        "9606"
+      ]
+    ],
+    "!Series_relation": [
+      [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA558102"
+      ],
+      [
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP217231"
+      ]
+    ]
+  },
+  "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE135251_series_matrix_metadata.tsv",
+  "metadata_sha256": "39ad7d436cb8acbe6b8df7c1dda60842453ec8e1c2dd32801c54a201209a2a9c",
+  "characteristics": {
+    "source_name_ch1": {
+      "NAFLD_early_liver biopsy": 138,
+      "NAFLD_moderate_liver biopsy": 68,
+      "Control_control_liver biopsy": 10
+    },
+    "characteristic_nas_score": {
+      "5": 47,
+      "4": 38,
+      "6": 37,
+      "3": 26,
+      "2": 21,
+      "7": 18,
+      "1": 11,
+      "0": 10,
+      "8": 8
+    },
+    "characteristic_fibrosis_stage": {
+      "2": 54,
+      "3": 54,
+      "1": 48,
+      "0": 46,
+      "4": 14
+    },
+    "characteristic_group_in_paper": {
+      "NASH_F3": 54,
+      "NASH_F2": 53,
+      "NAFL": 51,
+      "NASH_F0-F1": 34,
+      "NASH_F4": 14,
+      "control": 10
+    },
+    "characteristic_disease": {
+      "NAFLD": 206,
+      "Control": 10
+    },
+    "characteristic_stage": {
+      "early": 138,
+      "moderate": 68,
+      "control": 10
+    },
+    "platform_id": {
+      "GPL18573": 216
+    }
+  },
+  "sample_titles": [
+    "Liver patient 97",
+    "Liver patient 98",
+    "Liver patient 101",
+    "Liver patient 102",
+    "Liver patient 105",
+    "Liver patient 106",
+    "Liver patient 108",
+    "Liver patient 110",
+    "Liver patient 112",
+    "Liver patient 114",
+    "Liver patient 115",
+    "Liver patient 116",
+    "Liver patient 117",
+    "Liver patient 118",
+    "Liver patient 119",
+    "Liver patient 120",
+    "Liver patient 6",
+    "Liver patient 7",
+    "Liver patient 8",
+    "Liver patient 9",
+    "Liver patient 12",
+    "Liver patient 14",
+    "Liver patient 15",
+    "Liver patient 10",
+    "Liver patient 78",
+    "Liver patient 83",
+    "Liver patient 71",
+    "Liver patient 84",
+    "Liver patient 2",
+    "Liver patient 3",
+    "Liver patient 203",
+    "Liver patient 205",
+    "Liver patient 166",
+    "Liver patient 167",
+    "Liver patient 168",
+    "Liver patient 169",
+    "Liver patient 170",
+    "Liver patient 171",
+    "Liver patient 172",
+    "Liver patient 173",
+    "Liver patient 174",
+    "Liver patient 175",
+    "Liver patient 176",
+    "Liver patient 177",
+    "Liver patient 123",
+    "Liver patient 124",
+    "Liver patient 195",
+    "Liver patient 127",
+    "Liver patient 178",
+    "Liver control sample 2",
+    "Liver control sample 3",
+    "Liver control sample 5",
+    "Liver patient 196",
+    "Liver control sample 6",
+    "Liver control sample 7",
+    "Liver control sample 8",
+    "Liver control sample 9",
+    "Liver control sample 10",
+    "Liver patient 21",
+    "Liver patient 197",
+    "Liver patient 23",
+    "Liver patient 198",
+    "Liver patient 46",
+    "Liver patient 90",
+    "Liver patient 79",
+    "Liver patient 202",
+    "Liver patient 75",
+    "Liver patient 77",
+    "Liver patient 81",
+    "Liver patient 82",
+    "Liver patient 70",
+    "Liver patient 121",
+    "Liver patient 72",
+    "Liver patient 73",
+    "Liver patient 74",
+    "Liver patient 189",
+    "Liver patient 85",
+    "Liver patient 80",
+    "Liver patient 86",
+    "Liver patient 89",
+    "Liver patient 204",
+    "Liver patient 51",
+    "Liver patient 87",
+    "Liver patient 88",
+    "Liver patient 30",
+    "Liver patient 44",
+    "Liver patient 57",
+    "Liver patient 5",
+    "Liver patient 40",
+    "Liver patient 58",
+    "Liver patient 59",
+    "Liver patient 32",
+    "Liver patient 188",
+    "Liver patient 187",
+    "Liver patient 13",
+    "Liver patient 24",
+    "Liver patient 28",
+    "Liver patient 29",
+    "Liver patient 34",
+    "Liver patient 36",
+    "Liver patient 42",
+    "Liver patient 186",
+    "Liver patient 113",
+    "Liver patient 31",
+    "Liver patient 33",
+    "Liver patient 35",
+    "Liver patient 37",
+    "Liver patient 38",
+    "Liver patient 39",
+    "Liver patient 43",
+    "Liver patient 184",
+    "Liver patient 11",
+    "Liver patient 76",
+    "Liver patient 183",
+    "Liver patient 122",
+    "Liver patient 22",
+    "Liver patient 25",
+    "Liver patient 92",
+    "Liver patient 182",
+    "Liver patient 52",
+    "Liver patient 109",
+    "Liver patient 49",
+    "Liver patient 63",
+    "Liver patient 111",
+    "Liver patient 47",
+    "Liver patient 48",
+    "Liver patient 50",
+    "Liver patient 54",
+    "Liver patient 55",
+    "Liver patient 68",
+    "Liver patient 56",
+    "Liver patient 60",
+    "Liver patient 199",
+    "Liver patient 61",
+    "Liver patient 69",
+    "Liver patient 94",
+    "Liver patient 95",
+    "Liver patient 96",
+    "Liver patient 20",
+    "Liver patient 194",
+    "Liver patient 1",
+    "Liver patient 16",
+    "Liver patient 17",
+    "Liver patient 18",
+    "Liver patient 200",
+    "Liver patient 19",
+    "Liver patient 201",
+    "Liver patient 93",
+    "Liver patient 100",
+    "Liver patient 103",
+    "Liver patient 104",
+    "Liver patient 107",
+    "Liver patient 41",
+    "Liver patient 53",
+    "Liver patient 192",
+    "Liver patient 62",
+    "Liver patient 64",
+    "Liver patient 65",
+    "Liver patient 66",
+    "Liver patient 67",
+    "Liver patient 179",
+    "Liver patient 180",
+    "Liver patient 45",
+    "Liver patient 181",
+    "Liver patient 191",
+    "Liver patient 190",
+    "Liver patient 185",
+    "Liver patient 193",
+    "Liver patient 26",
+    "Liver patient 27",
+    "Liver patient 206",
+    "Liver patient 4",
+    "Liver patient 91",
+    "Liver patient 99",
+    "Liver control sample 1",
+    "Liver control sample 4",
+    "Liver patient 139",
+    "Liver patient 140",
+    "Liver patient 141",
+    "Liver patient 142",
+    "Liver patient 143",
+    "Liver patient 144",
+    "Liver patient 145",
+    "Liver patient 146",
+    "Liver patient 147",
+    "Liver patient 148",
+    "Liver patient 149",
+    "Liver patient 150",
+    "Liver patient 151",
+    "Liver patient 152",
+    "Liver patient 153",
+    "Liver patient 154",
+    "Liver patient 155",
+    "Liver patient 156",
+    "Liver patient 157",
+    "Liver patient 158",
+    "Liver patient 159",
+    "Liver patient 160",
+    "Liver patient 161",
+    "Liver patient 162",
+    "Liver patient 163",
+    "Liver patient 164",
+    "Liver patient 165",
+    "Liver patient 131",
+    "Liver patient 132",
+    "Liver patient 133",
+    "Liver patient 125",
+    "Liver patient 126",
+    "Liver patient 128",
+    "Liver patient 129",
+    "Liver patient 130",
+    "Liver patient 134",
+    "Liver patient 135",
+    "Liver patient 136",
+    "Liver patient 137",
+    "Liver patient 138"
+  ],
+  "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+}

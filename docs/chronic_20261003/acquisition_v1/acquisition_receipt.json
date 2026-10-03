@@ -1,0 +1,3032 @@
+{
+  "acquired_utc": "2026-10-03T00:29:55.677073+00:00",
+  "script_sha256": "b757acfec6d65a4bd5a5075bf5d2a3c2450e1fce7d1a21ff3d3ed70e6551c71a",
+  "sources": [
+    {
+      "accession": "GSE38642",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38642/matrix/GSE38642_series_matrix.txt.gz",
+      "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE38642_series_matrix.txt.gz",
+      "sha256": "aa9513381d5e13a3ba08fc0665d88a36b08d98f712b451781298fffad0633bcb",
+      "bytes": 1872293,
+      "gzip_crc": "passed_to_eof",
+      "schema_width": "passed",
+      "numeric_rows": 18808,
+      "samples": 63,
+      "sample_ids_unique": true,
+      "matrix_contains_values": true,
+      "series_metadata": {
+        "!Series_title": [
+          [
+            "Expression data from human pancreatic islets"
+          ]
+        ],
+        "!Series_geo_accession": [
+          [
+            "GSE38642"
+          ]
+        ],
+        "!Series_status": [
+          [
+            "Public on Jul 05 2012"
+          ]
+        ],
+        "!Series_submission_date": [
+          [
+            "Jun 11 2012"
+          ]
+        ],
+        "!Series_last_update_date": [
+          [
+            "May 27 2020"
+          ]
+        ],
+        "!Series_pubmed_id": [
+          [
+            "22768844"
+          ],
+          [
+            "23707792"
+          ],
+          [
+            "23935095"
+          ],
+          [
+            "26742564"
+          ]
+        ],
+        "!Series_summary": [
+          [
+            "Close to 50 genetic loci have been associated with type 2 diabetes (T2D), but they explain only 15% of the heritability."
+          ],
+          [
+            "In an attempt to identify additional T2D genes, we analyzed global gene expression in human islets from 63 donors."
+          ]
+        ],
+        "!Series_overall_design": [
+          [
+            "Islets from cadaver donors (54 non-diabetic and 9 diabetic) were provided by the Nordic Islet Transplantation Programme (www.nordicislets.org), Uppsala University. The microarrays were performed using GeneChip® Human Gene 1.0 ST whole transcript according to Affymetrix standard protocol."
+          ]
+        ],
+        "!Series_type": [
+          [
+            "Expression profiling by array"
+          ]
+        ],
+        "!Series_contributor": [
+          [
+            "João,,Fadista"
+          ],
+          [
+            "Jalal,,Taneera"
+          ]
+        ],
+        "!Series_sample_id": [
+          [
+            "GSM946700 GSM946701 GSM946702 GSM946703 GSM946704 GSM946705 GSM946706 GSM946707 GSM946708 GSM946709 GSM946710 GSM946711 GSM946712 GSM946713 GSM946714 GSM946715 GSM946716 GSM946717 GSM946718 GSM946719 GSM946720 GSM946721 GSM946722 GSM946723 GSM946724 GSM946725 GSM946726 GSM946727 GSM946728 GSM946729 GSM946730 GSM946731 GSM946732 GSM946733 GSM946734 GSM946735 GSM946736 GSM946737 GSM946738 GSM946739 GSM946740 GSM946741 GSM946742 GSM946743 GSM946744 GSM946745 GSM946746 GSM946747 GSM946748 GSM946749 GSM946750 GSM946751 GSM946752 GSM946753 GSM946754 GSM946755 GSM946756 GSM946757 GSM946758 GSM946759 GSM946760 GSM946761 GSM946762 "
+          ]
+        ],
+        "!Series_contact_name": [
+          [
+            "Joao,,Fadista"
+          ]
+        ],
+        "!Series_contact_email": [
+          [
+            "joao.fadista@med.lu.se"
+          ]
+        ],
+        "!Series_contact_institute": [
+          [
+            "Lund University Diabetes Centre"
+          ]
+        ],
+        "!Series_contact_address": [
+          [
+            "Jan Waldenströms gata 35"
+          ]
+        ],
+        "!Series_contact_city": [
+          [
+            "Malmö"
+          ]
+        ],
+        "!Series_contact_zip/postal_code": [
+          [
+            "205 02"
+          ]
+        ],
+        "!Series_contact_country": [
+          [
+            "Sweden"
+          ]
+        ],
+        "!Series_supplementary_file": [
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38642/suppl/GSE38642_RAW.tar"
+          ]
+        ],
+        "!Series_platform_id": [
+          [
+            "GPL6244"
+          ]
+        ],
+        "!Series_platform_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_sample_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_relation": [
+          [
+            "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA168302"
+          ]
+        ]
+      },
+      "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE38642_series_matrix_metadata.tsv",
+      "metadata_sha256": "b6dec9ee65000807393c63d66f10818409dabd7d906b854bdc7426e556bdacfc",
+      "characteristics": {
+        "source_name_ch1": {
+          "Islets from cadaver donor ID1": 1,
+          "Islets from cadaver donor ID2": 1,
+          "Islets from cadaver donor ID3": 1,
+          "Islets from cadaver donor ID4": 1,
+          "Islets from cadaver donor ID5": 1,
+          "Islets from cadaver donor ID6": 1,
+          "Islets from cadaver donor ID7": 1,
+          "Islets from cadaver donor ID8": 1,
+          "Islets from cadaver donor ID9": 1,
+          "Islets from cadaver donor ID10": 1,
+          "Islets from cadaver donor ID11": 1,
+          "Islets from cadaver donor ID12": 1,
+          "Islets from cadaver donor ID13": 1,
+          "Islets from cadaver donor ID14": 1,
+          "Islets from cadaver donor ID15": 1,
+          "Islets from cadaver donor ID16": 1,
+          "Islets from cadaver donor ID19": 1,
+          "Islets from cadaver donor ID20": 1,
+          "Islets from cadaver donor ID21": 1,
+          "Islets from cadaver donor ID22": 1,
+          "Islets from cadaver donor ID23": 1,
+          "Islets from cadaver donor ID24": 1,
+          "Islets from cadaver donor ID25": 1,
+          "Islets from cadaver donor ID26": 1,
+          "Islets from cadaver donor ID27": 1,
+          "Islets from cadaver donor ID28": 1,
+          "Islets from cadaver donor ID29": 1,
+          "Islets from cadaver donor ID30": 1,
+          "Islets from cadaver donor ID31": 1,
+          "Islets from cadaver donor ID32": 1,
+          "Islets from cadaver donor ID33": 1,
+          "Islets from cadaver donor ID34": 1,
+          "Islets from cadaver donor ID35": 1,
+          "Islets from cadaver donor ID36": 1,
+          "Islets from cadaver donor ID37": 1,
+          "Islets from cadaver donor ID38": 1,
+          "Islets from cadaver donor ID39": 1,
+          "Islets from cadaver donor ID40": 1,
+          "Islets from cadaver donor ID41": 1,
+          "Islets from cadaver donor ID42": 1,
+          "Islets from cadaver donor ID43": 1,
+          "Islets from cadaver donor ID44": 1,
+          "Islets from cadaver donor ID46": 1,
+          "Islets from cadaver donor ID47": 1,
+          "Islets from cadaver donor ID48": 1,
+          "Islets from cadaver donor ID49": 1,
+          "Islets from cadaver donor ID50": 1,
+          "Islets from cadaver donor ID51": 1,
+          "Islets from cadaver donor ID52": 1,
+          "Islets from cadaver donor ID53": 1,
+          "Islets from cadaver donor ID54": 1,
+          "Islets from cadaver donor ID55": 1,
+          "Islets from cadaver donor ID56": 1,
+          "Islets from cadaver donor ID57": 1,
+          "Islets from cadaver donor ID58": 1,
+          "Islets from cadaver donor ID59": 1,
+          "Islets from cadaver donor ID60": 1,
+          "Islets from cadaver donor ID61": 1,
+          "Islets from cadaver donor ID62": 1,
+          "Islets from cadaver donor ID63": 1,
+          "Islets from cadaver donor ID64": 1,
+          "Islets from cadaver donor ID65": 1,
+          "Islets from cadaver donor ID66": 1
+        },
+        "characteristic_tissue": {
+          "pancreatic islets": 63
+        },
+        "characteristic_sex": {
+          "Male": 36,
+          "Female": 27
+        },
+        "characteristic_age": {
+          "54": 6,
+          "62": 5,
+          "57": 5,
+          "64": 4,
+          "61": 4,
+          "69": 3,
+          "56": 3,
+          "51": 3,
+          "43": 3,
+          "59": 3,
+          "46": 2,
+          "67": 2,
+          "60": 2,
+          "44": 1,
+          "73": 1,
+          "31": 1,
+          "55": 1,
+          "63": 1,
+          "71": 1,
+          "26": 1,
+          "49": 1,
+          "52": 1,
+          "32": 1,
+          "41": 1,
+          "74": 1,
+          "68": 1,
+          "75": 1,
+          "53": 1,
+          "40": 1,
+          "66": 1,
+          "58": 1
+        },
+        "characteristic_bmi": {
+          "24.7": 5,
+          "26.2": 4,
+          "28.4": 3,
+          "27.0": 3,
+          "26.1": 3,
+          "23.9": 2,
+          "21.1": 2,
+          "29.4": 2,
+          "26.0": 2,
+          "22.5": 2,
+          "27.5": 2,
+          "26.3": 2,
+          "24.5": 2,
+          "24.8": 2,
+          "25.7": 2,
+          "27.7": 1,
+          "17.6": 1,
+          "29.0": 1,
+          "26.8": 1,
+          "29.1": 1,
+          "22.0": 1,
+          "24.2": 1,
+          "36.6": 1,
+          "27.8": 1,
+          "23.1": 1,
+          "22.9": 1,
+          "21.5": 1,
+          "23.4": 1,
+          "23.5": 1,
+          "33.1": 1,
+          "34.6": 1,
+          "23.7": 1,
+          "24.6": 1,
+          "19.4": 1,
+          "33.6": 1,
+          "36.9": 1,
+          "32.5": 1,
+          "25.3": 1,
+          "28.7": 1,
+          "34.2": 1
+        },
+        "characteristic_hba1c": {
+          "--": 12,
+          "5.5": 6,
+          "6.2": 6,
+          "5.4": 4,
+          "5.3": 4,
+          "5.6": 4,
+          "5.8": 3,
+          "5.9": 3,
+          "6.8": 3,
+          "4.3": 2,
+          "4.6": 2,
+          "6.0": 2,
+          "7.0": 2,
+          "7.8": 1,
+          "6.9": 1,
+          "6.1": 1,
+          "4.5": 1,
+          "8.6": 1,
+          "5.0": 1,
+          "5.2": 1,
+          "8.0": 1,
+          "6.4": 1,
+          "10.0": 1
+        },
+        "characteristic_status": {
+          "non-diabetic donors": 54,
+          "T2D donors": 9
+        },
+        "platform_id": {
+          "GPL6244": 63
+        }
+      },
+      "sample_titles": [
+        "human islets, ID1",
+        "human islets, ID2",
+        "human islets, ID3",
+        "human islets, ID4",
+        "human islets, ID5",
+        "human islets, ID6",
+        "human islets, ID7",
+        "human islets, ID8",
+        "human islets, ID9",
+        "human islets, ID10",
+        "human islets, ID11",
+        "human islets, ID12",
+        "human islets, ID13",
+        "human islets, ID14",
+        "human islets, ID15",
+        "human islets, ID16",
+        "human islets, ID19",
+        "human islets, ID20",
+        "human islets, ID21",
+        "human islets, ID22",
+        "human islets, ID23",
+        "human islets, ID24",
+        "human islets, ID25",
+        "human islets, ID26",
+        "human islets, ID27",
+        "human islets, ID28",
+        "human islets, ID29",
+        "human islets, ID30",
+        "human islets, ID31",
+        "human islets, ID32",
+        "human islets, ID33",
+        "human islets, ID34",
+        "human islets, ID35",
+        "human islets, ID36",
+        "human islets, ID37",
+        "human islets, ID38",
+        "human islets, ID39",
+        "human islets, ID40",
+        "human islets, ID41",
+        "human islets, ID42",
+        "human islets, ID43",
+        "human islets, ID44",
+        "human islets, ID46",
+        "human islets, ID47",
+        "human islets, ID48",
+        "human islets, ID49",
+        "human islets, ID50",
+        "human islets, ID51",
+        "human islets, ID52",
+        "human islets, ID53",
+        "human islets, ID54",
+        "human islets, ID55",
+        "human islets, ID56",
+        "human islets, ID57",
+        "human islets, ID58",
+        "human islets, ID59",
+        "human islets, ID60",
+        "human islets, ID61",
+        "human islets, ID62",
+        "human islets, ID63",
+        "human islets, ID64",
+        "human islets, ID65",
+        "human islets, ID66"
+      ],
+      "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+    },
+    {
+      "accession": "GSE222595",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/matrix/GSE222595-GPL21145_series_matrix.txt.gz",
+      "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE222595-GPL21145_series_matrix.txt.gz",
+      "sha256": "1f80e47fe7cfcacae7eed6af558ccb97646b12a056b3995b3284eb28266b7b5b",
+      "bytes": 7469,
+      "gzip_crc": "passed_to_eof",
+      "schema_width": "passed",
+      "numeric_rows": 0,
+      "samples": 96,
+      "sample_ids_unique": true,
+      "matrix_contains_values": false,
+      "series_metadata": {
+        "!Series_title": [
+          [
+            "Integrative genomic analyses in adipocytes implicate DNA methylation in human obesity and diabetes"
+          ]
+        ],
+        "!Series_geo_accession": [
+          [
+            "GSE222595"
+          ]
+        ],
+        "!Series_status": [
+          [
+            "Public on Apr 14 2023"
+          ]
+        ],
+        "!Series_submission_date": [
+          [
+            "Jan 10 2023"
+          ]
+        ],
+        "!Series_last_update_date": [
+          [
+            "Aug 16 2023"
+          ]
+        ],
+        "!Series_pubmed_id": [
+          [
+            "37188674"
+          ]
+        ],
+        "!Series_summary": [
+          [
+            "DNA methylation variations are prevalent in human obesity but evidence of a causative role in disease pathogenesis is limited. Here, we combine epigenome-wide association and integrative genomics to investigate the impact of adipocyte DNA methylation variations in human obesity. We discover extensive DNA methylation changes that are robustly associated with obesity (N=190 samples, 691 loci in subcutaneous and 173 loci in visceral adipocytes, P<1x10-7). We connect obesity-associated methylation variations to transcriptomic changes at >500 target genes, and identify putative methylation-transcription factor interactions. Through Mendelian Randomisation, we infer causal effects of methylation on obesity and obesity-induced metabolic disturbances at 59 independent loci. Targeted methylation sequencing, CRISPR-activation and gene silencing in adipocytes, further identifies regional methylation variations, underlying regulatory elements and novel cellular metabolic effects. Our results indicate DNA methylation is an important determinant of human obesity and its metabolic complications, and reveal mechanisms through which altered methylation may impact adipocyte functions."
+          ]
+        ],
+        "!Series_overall_design": [
+          [
+            "We characterised genome-wide DNA methylation in two independent cohorts. Cohort one comprised 48 adipocyte samples (24 subcutaneous and 24 visceral) from people with extreme obesity and 48 adipocyte samples from healthy controls (24 subcutaneous and 24 visceral) analysed using the Illumina Infinium HumanMethylation450 BeadChip (Discovery Cohort). Cohort two comprised 48 adipocyte samples (24 subcutaneous and 24 visceral) from people with extreme obesity and 48 adipocyte samples from healthy controls (24 subcutaneous and 24 visceral) analysed using the Illumina Infinium EPIC BeadChip (Replication Cohort). Adipocytes were isolated from fresh whole subcutaneous and visceral adipose tissue samples using collagenase digestion and flotation, and stored at -80C, prior to DNA extraction and bisulfite conversion with 0.2-0.5-mcg of genomic DNA."
+          ]
+        ],
+        "!Series_type": [
+          [
+            "Methylation profiling by genome tiling array"
+          ]
+        ],
+        "!Series_contributor": [
+          [
+            "Liam,,McAllan"
+          ],
+          [
+            "Damir,,Baranašić"
+          ],
+          [
+            "Sergio,,Villicaña"
+          ],
+          [
+            "Scarlett,,Brown"
+          ],
+          [
+            "Weihua,,Zhang"
+          ],
+          [
+            "Benjamin,,Lehne"
+          ],
+          [
+            "Marco,,Adamo"
+          ],
+          [
+            "Andrew,,Jenkinson"
+          ],
+          [
+            "Mohamed,,Elkalaawy"
+          ],
+          [
+            "Borzoueh,,Mohammadi"
+          ],
+          [
+            "Majid,,Hashemi"
+          ],
+          [
+            "Nadia,,Fernandes"
+          ],
+          [
+            "Nathalie,,Lambie"
+          ],
+          [
+            "Richard,,Williams"
+          ],
+          [
+            "Colette,,Christiansen"
+          ],
+          [
+            "Youwen,,Yang"
+          ],
+          [
+            "Liudmila,,Zudina"
+          ],
+          [
+            "Vasiliki,,Lagou"
+          ],
+          [
+            "Sili,,Tan"
+          ],
+          [
+            "Juan,,Castillo-Fernandez"
+          ],
+          [
+            "James,,King"
+          ],
+          [
+            "R.,,Soong"
+          ],
+          [
+            "Paul,,Elliott"
+          ],
+          [
+            "James,,Scott"
+          ],
+          [
+            "Inga,,Prokopenko"
+          ],
+          [
+            "Ines,,Cebola"
+          ],
+          [
+            "Marie,,Loh"
+          ],
+          [
+            "Boris,,Lenhard"
+          ],
+          [
+            "Rachel,L,Batterham"
+          ],
+          [
+            "Jordana,T,Bell"
+          ],
+          [
+            "John,C,Chambers"
+          ],
+          [
+            "Jaspal,S,Kooner"
+          ],
+          [
+            "William,R,Scott"
+          ]
+        ],
+        "!Series_sample_id": [
+          [
+            "GSM6927446 GSM6927447 GSM6927448 GSM6927449 GSM6927450 GSM6927451 GSM6927452 GSM6927453 GSM6927454 GSM6927455 GSM6927456 GSM6927457 GSM6927458 GSM6927459 GSM6927460 GSM6927461 GSM6927462 GSM6927463 GSM6927464 GSM6927465 GSM6927466 GSM6927467 GSM6927468 GSM6927469 GSM6927470 GSM6927471 GSM6927472 GSM6927473 GSM6927474 GSM6927475 GSM6927476 GSM6927477 GSM6927478 GSM6927479 GSM6927480 GSM6927481 GSM6927482 GSM6927483 GSM6927484 GSM6927485 GSM6927486 GSM6927487 GSM6927488 GSM6927489 GSM6927490 GSM6927491 GSM6927492 GSM6927493 GSM6927494 GSM6927495 GSM6927496 GSM6927497 GSM6927498 GSM6927499 GSM6927500 GSM6927501 GSM6927502 GSM6927503 GSM6927504 GSM6927505 GSM6927506 GSM6927507 GSM6927508 GSM6927509 GSM6927510 GSM6927511 GSM6927512 GSM6927513 GSM6927514 GSM6927515 GSM6927516 GSM6927517 GSM6927518 GSM6927519 GSM6927520 GSM6927521 GSM6927522 GSM6927523 GSM6927524 GSM6927525 GSM6927526 GSM6927527 GSM6927528 GSM6927529 GSM6927530 GSM6927531 GSM6927532 GSM6927533 GSM6927534 GSM6927535 GSM6927536 GSM6927537 GSM6927538 GSM6927539 GSM6927540 GSM6927541 GSM6927542 GSM6927543 GSM6927544 GSM6927545 GSM6927546 GSM6927547 GSM6927548 GSM6927549 GSM6927550 GSM6927551 GSM6927552 GSM6927553 GSM6927554 GSM6927555 GSM6927556 GSM6927557 GSM6927558 GSM6927559 GSM6927560 GSM6927561 GSM6927562 GSM6927563 GSM6927564 GSM6927565 GSM6927566 GSM6927567 GSM6927568 GSM6927569 GSM6927570 GSM6927571 GSM6927572 GSM6927573 GSM6927574 GSM6927575 GSM6927576 GSM6927577 GSM6927578 GSM6927579 GSM6927580 GSM6927581 GSM6927582 GSM6927583 GSM6927584 GSM6927585 GSM6927586 GSM6927587 GSM6927588 GSM6927589 GSM6927590 GSM6927591 GSM6927592 GSM6927593 GSM6927594 GSM6927595 GSM6927596 GSM6927597 GSM6927598 GSM6927599 GSM6927600 GSM6927601 GSM6927602 GSM6927603 GSM6927604 GSM6927605 GSM6927606 GSM6927607 GSM6927608 GSM6927609 GSM6927610 GSM6927611 GSM6927612 GSM6927613 GSM6927614 GSM6927615 GSM6927616 GSM6927617 GSM6927618 GSM6927619 GSM6927620 GSM6927621 GSM6927622 GSM6927623 GSM6927624 GSM6927625 GSM6927626 GSM6927627 GSM6927628 GSM6927629 GSM6927630 GSM6927631 GSM6927632 GSM6927633 GSM6927634 GSM6927635 GSM6927636 GSM6927637 "
+          ]
+        ],
+        "!Series_contact_name": [
+          [
+            "William,Robert,Scott"
+          ]
+        ],
+        "!Series_contact_email": [
+          [
+            "w.scott@imperial.ac.uk"
+          ]
+        ],
+        "!Series_contact_phone": [
+          [
+            "00447729882311"
+          ]
+        ],
+        "!Series_contact_department": [
+          [
+            "Institute of Clinical Sciences"
+          ]
+        ],
+        "!Series_contact_institute": [
+          [
+            "Imperial College London"
+          ]
+        ],
+        "!Series_contact_address": [
+          [
+            "Hammersmith Hospital, Du Cane Road"
+          ]
+        ],
+        "!Series_contact_city": [
+          [
+            "London"
+          ]
+        ],
+        "!Series_contact_zip/postal_code": [
+          [
+            "W12 ONN"
+          ]
+        ],
+        "!Series_contact_country": [
+          [
+            "United Kingdom"
+          ]
+        ],
+        "!Series_supplementary_file": [
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_RAW.tar"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_subcut_effect.bedgraph.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_subcut_pval.bedgraph.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_visceral_effect.bedgraph.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_visceral_pval.bedgraph.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_processed_beta_comb.txt.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_raw_unmeth_meth_comb.txt.gz"
+          ]
+        ],
+        "!Series_platform_id": [
+          [
+            "GPL13534"
+          ],
+          [
+            "GPL21145"
+          ]
+        ],
+        "!Series_platform_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_sample_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_relation": [
+          [
+            "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA922597"
+          ]
+        ]
+      },
+      "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE222595-GPL21145_series_matrix_metadata.tsv",
+      "metadata_sha256": "da62f3aa8306f2487f5d47343c86cb27fbef3e0b966534dd2e37790d31c305da",
+      "characteristics": {
+        "source_name_ch1": {
+          "subcutaneous": 48,
+          "visceral": 48
+        },
+        "characteristic_age": {
+          "64": 2,
+          "53.5": 2,
+          "52.1": 2,
+          "45.9": 2,
+          "59.8": 2,
+          "65.7": 2,
+          "58.2": 2,
+          "40.6": 2,
+          "36": 2,
+          "60.6": 2,
+          "47.1": 2,
+          "48.6": 2,
+          "69.4": 2,
+          "41.4": 2,
+          "51.2": 2,
+          "51.7": 2,
+          "59.5": 2,
+          "39": 2,
+          "52.5": 2,
+          "34.8": 2,
+          "35.8": 2,
+          "32.8": 2,
+          "40": 2,
+          "57.6": 2,
+          "25.8": 2,
+          "45.4": 2,
+          "59": 2,
+          "54.6": 2,
+          "41.7": 2,
+          "51.8": 2,
+          "51.1": 2,
+          "67.1": 2,
+          "26": 2,
+          "53.4": 2,
+          "33.4": 2,
+          "43.2": 2,
+          "41.5": 2,
+          "56.3": 2,
+          "44.3": 2,
+          "30.9": 2,
+          "27.4": 2,
+          "55.6": 2,
+          "63": 2,
+          "47.7": 1,
+          "70.3": 1,
+          "65.5": 1,
+          "39.8": 1,
+          "49.2": 1,
+          "47.4": 1,
+          "37.4": 1,
+          "40.8": 1,
+          "41.8": 1,
+          "50.9": 1
+        },
+        "characteristic_sex": {
+          "F": 74,
+          "M": 22
+        },
+        "characteristic_cohort": {
+          "replication": 96
+        },
+        "platform_id": {
+          "GPL21145": 96
+        }
+      },
+      "sample_titles": [
+        "adipocyte-control-rep49",
+        "adipocyte-control-rep50",
+        "adipocyte-control-rep51",
+        "adipocyte-control-rep52",
+        "adipocyte-control-rep53",
+        "adipocyte-control-rep54",
+        "adipocyte-control-rep55",
+        "adipocyte-control-rep56",
+        "adipocyte-control-rep57",
+        "adipocyte-control-rep58",
+        "adipocyte-control-rep59",
+        "adipocyte-control-rep60",
+        "adipocyte-control-rep61",
+        "adipocyte-control-rep62",
+        "adipocyte-control-rep63",
+        "adipocyte-control-rep64",
+        "adipocyte-control-rep65",
+        "adipocyte-control-rep66",
+        "adipocyte-control-rep67",
+        "adipocyte-control-rep68",
+        "adipocyte-control-rep69",
+        "adipocyte-control-rep70",
+        "adipocyte-control-rep71",
+        "adipocyte-control-rep72",
+        "adipocyte-obese-rep49",
+        "adipocyte-obese-rep50",
+        "adipocyte-obese-rep51",
+        "adipocyte-obese-rep52",
+        "adipocyte-obese-rep53",
+        "adipocyte-obese-rep54",
+        "adipocyte-obese-rep55",
+        "adipocyte-obese-rep56",
+        "adipocyte-obese-rep57",
+        "adipocyte-obese-rep58",
+        "adipocyte-obese-rep59",
+        "adipocyte-obese-rep60",
+        "adipocyte-obese-rep61",
+        "adipocyte-obese-rep62",
+        "adipocyte-obese-rep63",
+        "adipocyte-obese-rep64",
+        "adipocyte-obese-rep65",
+        "adipocyte-obese-rep66",
+        "adipocyte-obese-rep67",
+        "adipocyte-obese-rep68",
+        "adipocyte-obese-rep69",
+        "adipocyte-obese-rep70",
+        "adipocyte-obese-rep71",
+        "adipocyte-obese-rep72",
+        "adipocyte-control-rep73",
+        "adipocyte-control-rep74",
+        "adipocyte-control-rep75",
+        "adipocyte-control-rep76",
+        "adipocyte-control-rep77",
+        "adipocyte-control-rep78",
+        "adipocyte-control-rep79",
+        "adipocyte-control-rep80",
+        "adipocyte-control-rep81",
+        "adipocyte-control-rep82",
+        "adipocyte-control-rep83",
+        "adipocyte-control-rep84",
+        "adipocyte-control-rep85",
+        "adipocyte-control-rep86",
+        "adipocyte-control-rep87",
+        "adipocyte-control-rep88",
+        "adipocyte-control-rep89",
+        "adipocyte-control-rep90",
+        "adipocyte-control-rep91",
+        "adipocyte-control-rep92",
+        "adipocyte-control-rep93",
+        "adipocyte-control-rep94",
+        "adipocyte-control-rep95",
+        "adipocyte-control-rep96",
+        "adipocyte-obese-rep73",
+        "adipocyte-obese-rep74",
+        "adipocyte-obese-rep75",
+        "adipocyte-obese-rep76",
+        "adipocyte-obese-rep77",
+        "adipocyte-obese-rep78",
+        "adipocyte-obese-rep79",
+        "adipocyte-obese-rep80",
+        "adipocyte-obese-rep81",
+        "adipocyte-obese-rep82",
+        "adipocyte-obese-rep83",
+        "adipocyte-obese-rep84",
+        "adipocyte-obese-rep85",
+        "adipocyte-obese-rep86",
+        "adipocyte-obese-rep87",
+        "adipocyte-obese-rep88",
+        "adipocyte-obese-rep89",
+        "adipocyte-obese-rep90",
+        "adipocyte-obese-rep91",
+        "adipocyte-obese-rep92",
+        "adipocyte-obese-rep93",
+        "adipocyte-obese-rep94",
+        "adipocyte-obese-rep95",
+        "adipocyte-obese-rep96"
+      ],
+      "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+    },
+    {
+      "accession": "GSE21232",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21232/matrix/GSE21232_series_matrix.txt.gz",
+      "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE21232_series_matrix.txt.gz",
+      "sha256": "4a7253cfcf5acfe61bbbc9f4f000b8dd5f7371fe0150b108d3cb9afc0b093873",
+      "bytes": 877680,
+      "gzip_crc": "passed_to_eof",
+      "schema_width": "passed",
+      "numeric_rows": 27578,
+      "samples": 16,
+      "sample_ids_unique": true,
+      "matrix_contains_values": true,
+      "series_metadata": {
+        "!Series_title": [
+          [
+            "DNA methylation profiling of male human pancreatic islets identifies loci for type 2 diabetes"
+          ]
+        ],
+        "!Series_geo_accession": [
+          [
+            "GSE21232"
+          ]
+        ],
+        "!Series_status": [
+          [
+            "Public on Apr 23 2012"
+          ]
+        ],
+        "!Series_submission_date": [
+          [
+            "Apr 06 2010"
+          ]
+        ],
+        "!Series_last_update_date": [
+          [
+            "Jan 02 2015"
+          ]
+        ],
+        "!Series_pubmed_id": [
+          [
+            "22293752"
+          ]
+        ],
+        "!Series_summary": [
+          [
+            "Little is known about the contribution of the epigenome to the pathophysiology of type 2 diabetes (T2D). Here we have used genome-wide DNA methylation profiling to obtain the first comprehensive DNA methylation data set for human T2D pancreatic islets. Therefore, we analyzed the methylation profile of 27,578 CpG sites affiliated to more than 14,000 genes in 16 samples of pancreatic islets, 11 normal and 5 type 2-diabetic."
+          ],
+          [
+            "Keywords: DNA methylation"
+          ],
+          [
+            ""
+          ],
+          [
+            "Keywords: Methylation profiling by array"
+          ]
+        ],
+        "!Series_overall_design": [
+          [
+            "We measured the methylation status of the 27,578 CpG sites (Human Methylation27 DNA BeadChip array) in genomic DNA obtained from pnacreatic islets of 11 non-diabetic and 5 type-2-diabetic male human donors to identify genes that are differentially methylated in T2D."
+          ]
+        ],
+        "!Series_type": [
+          [
+            "Methylation profiling by array"
+          ]
+        ],
+        "!Series_contributor": [
+          [
+            "Michael,,Volkmar"
+          ],
+          [
+            "Emilie,,Calonne"
+          ],
+          [
+            "Sarah,,Dedeurwaerder"
+          ],
+          [
+            "François,,Fuks"
+          ]
+        ],
+        "!Series_sample_id": [
+          [
+            "GSM530883 GSM530884 GSM530885 GSM530886 GSM530887 GSM530888 GSM530889 GSM530890 GSM530891 GSM530892 GSM530893 GSM530894 GSM530895 GSM530896 GSM530897 GSM530898 "
+          ]
+        ],
+        "!Series_contact_name": [
+          [
+            "Michael,,Volkmar"
+          ]
+        ],
+        "!Series_contact_laboratory": [
+          [
+            "Laboratory of Cancer Epigenetics"
+          ]
+        ],
+        "!Series_contact_department": [
+          [
+            "Faculty of Medicine, C.P. 614"
+          ]
+        ],
+        "!Series_contact_institute": [
+          [
+            "Free University of Brussels (U.L.B.)"
+          ]
+        ],
+        "!Series_contact_address": [
+          [
+            "808 route de Lennik"
+          ]
+        ],
+        "!Series_contact_city": [
+          [
+            "Brussels"
+          ]
+        ],
+        "!Series_contact_zip/postal_code": [
+          [
+            "1070"
+          ]
+        ],
+        "!Series_contact_country": [
+          [
+            "Belgium"
+          ]
+        ],
+        "!Series_supplementary_file": [
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21232/suppl/GSE21232_RAW.tar"
+          ]
+        ],
+        "!Series_platform_id": [
+          [
+            "GPL8490"
+          ]
+        ],
+        "!Series_platform_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_sample_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_relation": [
+          [
+            "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA126501"
+          ]
+        ]
+      },
+      "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE21232_series_matrix_metadata.tsv",
+      "metadata_sha256": "baa261358930b6ed7eef6381f930923473a886e45a1954307f833fd4d58ae6f4",
+      "characteristics": {
+        "source_name_ch1": {
+          "human pancreatic islets": 16
+        },
+        "characteristic_disease_state": {
+          "non-diabetic": 11,
+          "type 2 diabetes": 5
+        },
+        "characteristic_gender": {
+          "male": 16
+        },
+        "characteristic_age_y_": {
+          "69": 3,
+          "56": 2,
+          "42": 1,
+          "87": 1,
+          "70": 1,
+          "36": 1,
+          "20": 1,
+          "54": 1,
+          "na": 1,
+          "61": 1,
+          "66": 1,
+          "76": 1,
+          "63": 1
+        },
+        "characteristic_group": {
+          "CTL": 11,
+          "CASE": 5
+        },
+        "characteristic_cell_type": {
+          "pancreatic islets": 16
+        },
+        "platform_id": {
+          "GPL8490": 16
+        }
+      },
+      "sample_titles": [
+        "CTL islets (4301311023_A )",
+        "CTL islets (4301311023_B)",
+        "CTL islets (4301311023_C)",
+        "CTL islets (4690141078_E)",
+        "CTL islets (4690141078_F)",
+        "CTL islets (4690141078_G)",
+        "CTL islets (4690141078_H)",
+        "CTL islets (4564612127_K)",
+        "CTL islets (4564612128_J)",
+        "CTL islets (4564612128_L)",
+        "CTL islets (4871081068_L)",
+        "T2D islets (4301311009_A)",
+        "T2D islets (4301311009_C)",
+        "T2D islets (4301311023_F)",
+        "T2D islets (4301311023_H)",
+        "T2D islets (4301311023_L)"
+      ],
+      "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+    },
+    {
+      "accession": "GSE135251",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135251/matrix/GSE135251_series_matrix.txt.gz",
+      "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE135251_series_matrix.txt.gz",
+      "sha256": "3987ef627abe946842da8e44bdeb75769779aed160c4ca37a012fe6d336a8e68",
+      "bytes": 11529,
+      "gzip_crc": "passed_to_eof",
+      "schema_width": "passed",
+      "numeric_rows": 0,
+      "samples": 216,
+      "sample_ids_unique": true,
+      "matrix_contains_values": false,
+      "series_metadata": {
+        "!Series_title": [
+          [
+            "TRANSCRIPTOMIC PROFILING ACROSS THE SPECTRUM OF NON-ALCOHOLIC FATTY LIVER DISEASE"
+          ]
+        ],
+        "!Series_geo_accession": [
+          [
+            "GSE135251"
+          ]
+        ],
+        "!Series_status": [
+          [
+            "Public on Dec 03 2020"
+          ]
+        ],
+        "!Series_submission_date": [
+          [
+            "Aug 01 2019"
+          ]
+        ],
+        "!Series_last_update_date": [
+          [
+            "Jan 28 2025"
+          ]
+        ],
+        "!Series_pubmed_id": [
+          [
+            "33268509"
+          ],
+          [
+            "33762733"
+          ],
+          [
+            "39566466"
+          ]
+        ],
+        "!Series_summary": [
+          [
+            "The pathophysiological mechanisms that drive non-alcoholic fatty liver disease (NAFLD) progression remain poorly understood. This multicenter study characterized the transcriptional changes that occur as liver disease progresses."
+          ],
+          [
+            "216 snap frozen liver biopsies, comprising 206 NAFLD cases with different fibrosis stages and 10 controls were studied. Samples underwent high-throughput RNA sequencing."
+          ],
+          [
+            "This study provides novel insights into transcriptional changes during liver disease evolution and progression as well as proof of principle that transcriptomic changes reveal potentially tractable biomarkers for NAFLD fibrosis."
+          ]
+        ],
+        "!Series_overall_design": [
+          [
+            "216 snap-frozen biopsies were processed for RNA sequencing on the Illumina NextSeq 500 system."
+          ]
+        ],
+        "!Series_type": [
+          [
+            "Expression profiling by high throughput sequencing"
+          ]
+        ],
+        "!Series_contributor": [
+          [
+            "Quentin,M,Anstee"
+          ],
+          [
+            "Ann,K,Daly"
+          ],
+          [
+            "Simon,,Cockell"
+          ],
+          [
+            "Olivier,,Govaere"
+          ]
+        ],
+        "!Series_sample_id": [
+          [
+            "GSM3998167 GSM3998168 GSM3998169 GSM3998170 GSM3998171 GSM3998172 GSM3998173 GSM3998174 GSM3998175 GSM3998176 GSM3998177 GSM3998178 GSM3998179 GSM3998180 GSM3998181 GSM3998182 GSM3998183 GSM3998184 GSM3998185 GSM3998186 GSM3998187 GSM3998188 GSM3998189 GSM3998190 GSM3998191 GSM3998192 GSM3998193 GSM3998194 GSM3998195 GSM3998196 GSM3998197 GSM3998198 GSM3998199 GSM3998200 GSM3998201 GSM3998202 GSM3998203 GSM3998204 GSM3998205 GSM3998206 GSM3998207 GSM3998208 GSM3998209 GSM3998210 GSM3998211 GSM3998212 GSM3998213 GSM3998214 GSM3998215 GSM3998216 GSM3998217 GSM3998218 GSM3998219 GSM3998220 GSM3998221 GSM3998222 GSM3998223 GSM3998224 GSM3998225 GSM3998226 GSM3998227 GSM3998228 GSM3998229 GSM3998230 GSM3998231 GSM3998232 GSM3998233 GSM3998234 GSM3998235 GSM3998236 GSM3998237 GSM3998238 GSM3998239 GSM3998240 GSM3998241 GSM3998242 GSM3998243 GSM3998244 GSM3998245 GSM3998246 GSM3998247 GSM3998248 GSM3998249 GSM3998250 GSM3998251 GSM3998252 GSM3998253 GSM3998254 GSM3998255 GSM3998256 GSM3998257 GSM3998258 GSM3998259 GSM3998260 GSM3998261 GSM3998262 GSM3998263 GSM3998264 GSM3998265 GSM3998266 GSM3998267 GSM3998268 GSM3998269 GSM3998270 GSM3998271 GSM3998272 GSM3998273 GSM3998274 GSM3998275 GSM3998276 GSM3998277 GSM3998278 GSM3998279 GSM3998280 GSM3998281 GSM3998282 GSM3998283 GSM3998284 GSM3998285 GSM3998286 GSM3998287 GSM3998288 GSM3998289 GSM3998290 GSM3998291 GSM3998292 GSM3998293 GSM3998294 GSM3998295 GSM3998296 GSM3998297 GSM3998298 GSM3998299 GSM3998300 GSM3998301 GSM3998302 GSM3998303 GSM3998304 GSM3998305 GSM3998306 GSM3998307 GSM3998308 GSM3998309 GSM3998310 GSM3998311 GSM3998312 GSM3998313 GSM3998314 GSM3998315 GSM3998316 GSM3998317 GSM3998318 GSM3998319 GSM3998320 GSM3998321 GSM3998322 GSM3998323 GSM3998324 GSM3998325 GSM3998326 GSM3998327 GSM3998328 GSM3998329 GSM3998330 GSM3998331 GSM3998332 GSM3998333 GSM3998334 GSM3998335 GSM3998336 GSM3998337 GSM3998338 GSM3998339 GSM3998340 GSM3998341 GSM3998342 GSM3998343 GSM3998344 GSM3998345 GSM3998346 GSM3998347 GSM3998348 GSM3998349 GSM3998350 GSM3998351 GSM3998352 GSM3998353 GSM3998354 GSM3998355 GSM3998356 GSM3998357 GSM3998358 GSM3998359 GSM3998360 GSM3998361 GSM3998362 GSM3998363 GSM3998364 GSM3998365 GSM3998366 GSM3998367 GSM3998368 GSM3998369 GSM3998370 GSM3998371 GSM3998372 GSM3998373 GSM3998374 GSM3998375 GSM3998376 GSM3998377 GSM3998378 GSM3998379 GSM3998380 GSM3998381 GSM3998382 "
+          ]
+        ],
+        "!Series_contact_name": [
+          [
+            "Simon,,Cockell"
+          ]
+        ],
+        "!Series_contact_email": [
+          [
+            "simon.cockell@newcastle.ac.uk"
+          ]
+        ],
+        "!Series_contact_institute": [
+          [
+            "Newcastle University"
+          ]
+        ],
+        "!Series_contact_address": [
+          [
+            "Framlington Place"
+          ]
+        ],
+        "!Series_contact_city": [
+          [
+            "Newcastle"
+          ]
+        ],
+        "!Series_contact_zip/postal_code": [
+          [
+            "NE2 4HH"
+          ]
+        ],
+        "!Series_contact_country": [
+          [
+            "United Kingdom"
+          ]
+        ],
+        "!Series_supplementary_file": [
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135251/suppl/GSE135251_RAW.tar"
+          ]
+        ],
+        "!Series_platform_id": [
+          [
+            "GPL18573"
+          ]
+        ],
+        "!Series_platform_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_sample_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_relation": [
+          [
+            "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA558102"
+          ],
+          [
+            "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP217231"
+          ]
+        ]
+      },
+      "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE135251_series_matrix_metadata.tsv",
+      "metadata_sha256": "39ad7d436cb8acbe6b8df7c1dda60842453ec8e1c2dd32801c54a201209a2a9c",
+      "characteristics": {
+        "source_name_ch1": {
+          "NAFLD_early_liver biopsy": 138,
+          "NAFLD_moderate_liver biopsy": 68,
+          "Control_control_liver biopsy": 10
+        },
+        "characteristic_nas_score": {
+          "5": 47,
+          "4": 38,
+          "6": 37,
+          "3": 26,
+          "2": 21,
+          "7": 18,
+          "1": 11,
+          "0": 10,
+          "8": 8
+        },
+        "characteristic_fibrosis_stage": {
+          "2": 54,
+          "3": 54,
+          "1": 48,
+          "0": 46,
+          "4": 14
+        },
+        "characteristic_group_in_paper": {
+          "NASH_F3": 54,
+          "NASH_F2": 53,
+          "NAFL": 51,
+          "NASH_F0-F1": 34,
+          "NASH_F4": 14,
+          "control": 10
+        },
+        "characteristic_disease": {
+          "NAFLD": 206,
+          "Control": 10
+        },
+        "characteristic_stage": {
+          "early": 138,
+          "moderate": 68,
+          "control": 10
+        },
+        "platform_id": {
+          "GPL18573": 216
+        }
+      },
+      "sample_titles": [
+        "Liver patient 97",
+        "Liver patient 98",
+        "Liver patient 101",
+        "Liver patient 102",
+        "Liver patient 105",
+        "Liver patient 106",
+        "Liver patient 108",
+        "Liver patient 110",
+        "Liver patient 112",
+        "Liver patient 114",
+        "Liver patient 115",
+        "Liver patient 116",
+        "Liver patient 117",
+        "Liver patient 118",
+        "Liver patient 119",
+        "Liver patient 120",
+        "Liver patient 6",
+        "Liver patient 7",
+        "Liver patient 8",
+        "Liver patient 9",
+        "Liver patient 12",
+        "Liver patient 14",
+        "Liver patient 15",
+        "Liver patient 10",
+        "Liver patient 78",
+        "Liver patient 83",
+        "Liver patient 71",
+        "Liver patient 84",
+        "Liver patient 2",
+        "Liver patient 3",
+        "Liver patient 203",
+        "Liver patient 205",
+        "Liver patient 166",
+        "Liver patient 167",
+        "Liver patient 168",
+        "Liver patient 169",
+        "Liver patient 170",
+        "Liver patient 171",
+        "Liver patient 172",
+        "Liver patient 173",
+        "Liver patient 174",
+        "Liver patient 175",
+        "Liver patient 176",
+        "Liver patient 177",
+        "Liver patient 123",
+        "Liver patient 124",
+        "Liver patient 195",
+        "Liver patient 127",
+        "Liver patient 178",
+        "Liver control sample 2",
+        "Liver control sample 3",
+        "Liver control sample 5",
+        "Liver patient 196",
+        "Liver control sample 6",
+        "Liver control sample 7",
+        "Liver control sample 8",
+        "Liver control sample 9",
+        "Liver control sample 10",
+        "Liver patient 21",
+        "Liver patient 197",
+        "Liver patient 23",
+        "Liver patient 198",
+        "Liver patient 46",
+        "Liver patient 90",
+        "Liver patient 79",
+        "Liver patient 202",
+        "Liver patient 75",
+        "Liver patient 77",
+        "Liver patient 81",
+        "Liver patient 82",
+        "Liver patient 70",
+        "Liver patient 121",
+        "Liver patient 72",
+        "Liver patient 73",
+        "Liver patient 74",
+        "Liver patient 189",
+        "Liver patient 85",
+        "Liver patient 80",
+        "Liver patient 86",
+        "Liver patient 89",
+        "Liver patient 204",
+        "Liver patient 51",
+        "Liver patient 87",
+        "Liver patient 88",
+        "Liver patient 30",
+        "Liver patient 44",
+        "Liver patient 57",
+        "Liver patient 5",
+        "Liver patient 40",
+        "Liver patient 58",
+        "Liver patient 59",
+        "Liver patient 32",
+        "Liver patient 188",
+        "Liver patient 187",
+        "Liver patient 13",
+        "Liver patient 24",
+        "Liver patient 28",
+        "Liver patient 29",
+        "Liver patient 34",
+        "Liver patient 36",
+        "Liver patient 42",
+        "Liver patient 186",
+        "Liver patient 113",
+        "Liver patient 31",
+        "Liver patient 33",
+        "Liver patient 35",
+        "Liver patient 37",
+        "Liver patient 38",
+        "Liver patient 39",
+        "Liver patient 43",
+        "Liver patient 184",
+        "Liver patient 11",
+        "Liver patient 76",
+        "Liver patient 183",
+        "Liver patient 122",
+        "Liver patient 22",
+        "Liver patient 25",
+        "Liver patient 92",
+        "Liver patient 182",
+        "Liver patient 52",
+        "Liver patient 109",
+        "Liver patient 49",
+        "Liver patient 63",
+        "Liver patient 111",
+        "Liver patient 47",
+        "Liver patient 48",
+        "Liver patient 50",
+        "Liver patient 54",
+        "Liver patient 55",
+        "Liver patient 68",
+        "Liver patient 56",
+        "Liver patient 60",
+        "Liver patient 199",
+        "Liver patient 61",
+        "Liver patient 69",
+        "Liver patient 94",
+        "Liver patient 95",
+        "Liver patient 96",
+        "Liver patient 20",
+        "Liver patient 194",
+        "Liver patient 1",
+        "Liver patient 16",
+        "Liver patient 17",
+        "Liver patient 18",
+        "Liver patient 200",
+        "Liver patient 19",
+        "Liver patient 201",
+        "Liver patient 93",
+        "Liver patient 100",
+        "Liver patient 103",
+        "Liver patient 104",
+        "Liver patient 107",
+        "Liver patient 41",
+        "Liver patient 53",
+        "Liver patient 192",
+        "Liver patient 62",
+        "Liver patient 64",
+        "Liver patient 65",
+        "Liver patient 66",
+        "Liver patient 67",
+        "Liver patient 179",
+        "Liver patient 180",
+        "Liver patient 45",
+        "Liver patient 181",
+        "Liver patient 191",
+        "Liver patient 190",
+        "Liver patient 185",
+        "Liver patient 193",
+        "Liver patient 26",
+        "Liver patient 27",
+        "Liver patient 206",
+        "Liver patient 4",
+        "Liver patient 91",
+        "Liver patient 99",
+        "Liver control sample 1",
+        "Liver control sample 4",
+        "Liver patient 139",
+        "Liver patient 140",
+        "Liver patient 141",
+        "Liver patient 142",
+        "Liver patient 143",
+        "Liver patient 144",
+        "Liver patient 145",
+        "Liver patient 146",
+        "Liver patient 147",
+        "Liver patient 148",
+        "Liver patient 149",
+        "Liver patient 150",
+        "Liver patient 151",
+        "Liver patient 152",
+        "Liver patient 153",
+        "Liver patient 154",
+        "Liver patient 155",
+        "Liver patient 156",
+        "Liver patient 157",
+        "Liver patient 158",
+        "Liver patient 159",
+        "Liver patient 160",
+        "Liver patient 161",
+        "Liver patient 162",
+        "Liver patient 163",
+        "Liver patient 164",
+        "Liver patient 165",
+        "Liver patient 131",
+        "Liver patient 132",
+        "Liver patient 133",
+        "Liver patient 125",
+        "Liver patient 126",
+        "Liver patient 128",
+        "Liver patient 129",
+        "Liver patient 130",
+        "Liver patient 134",
+        "Liver patient 135",
+        "Liver patient 136",
+        "Liver patient 137",
+        "Liver patient 138"
+      ],
+      "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+    },
+    {
+      "accession": "GSE222595",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/matrix/GSE222595-GPL13534_series_matrix.txt.gz",
+      "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE222595-GPL13534_series_matrix.txt.gz",
+      "sha256": "d45128da5b86e12a851562c17e3ac409eeeea4b4d3a46cb0b468c8db5225ddb0",
+      "bytes": 7492,
+      "gzip_crc": "passed_to_eof",
+      "schema_width": "passed",
+      "numeric_rows": 0,
+      "samples": 96,
+      "sample_ids_unique": true,
+      "matrix_contains_values": false,
+      "series_metadata": {
+        "!Series_title": [
+          [
+            "Integrative genomic analyses in adipocytes implicate DNA methylation in human obesity and diabetes"
+          ]
+        ],
+        "!Series_geo_accession": [
+          [
+            "GSE222595"
+          ]
+        ],
+        "!Series_status": [
+          [
+            "Public on Apr 14 2023"
+          ]
+        ],
+        "!Series_submission_date": [
+          [
+            "Jan 10 2023"
+          ]
+        ],
+        "!Series_last_update_date": [
+          [
+            "Aug 16 2023"
+          ]
+        ],
+        "!Series_pubmed_id": [
+          [
+            "37188674"
+          ]
+        ],
+        "!Series_summary": [
+          [
+            "DNA methylation variations are prevalent in human obesity but evidence of a causative role in disease pathogenesis is limited. Here, we combine epigenome-wide association and integrative genomics to investigate the impact of adipocyte DNA methylation variations in human obesity. We discover extensive DNA methylation changes that are robustly associated with obesity (N=190 samples, 691 loci in subcutaneous and 173 loci in visceral adipocytes, P<1x10-7). We connect obesity-associated methylation variations to transcriptomic changes at >500 target genes, and identify putative methylation-transcription factor interactions. Through Mendelian Randomisation, we infer causal effects of methylation on obesity and obesity-induced metabolic disturbances at 59 independent loci. Targeted methylation sequencing, CRISPR-activation and gene silencing in adipocytes, further identifies regional methylation variations, underlying regulatory elements and novel cellular metabolic effects. Our results indicate DNA methylation is an important determinant of human obesity and its metabolic complications, and reveal mechanisms through which altered methylation may impact adipocyte functions."
+          ]
+        ],
+        "!Series_overall_design": [
+          [
+            "We characterised genome-wide DNA methylation in two independent cohorts. Cohort one comprised 48 adipocyte samples (24 subcutaneous and 24 visceral) from people with extreme obesity and 48 adipocyte samples from healthy controls (24 subcutaneous and 24 visceral) analysed using the Illumina Infinium HumanMethylation450 BeadChip (Discovery Cohort). Cohort two comprised 48 adipocyte samples (24 subcutaneous and 24 visceral) from people with extreme obesity and 48 adipocyte samples from healthy controls (24 subcutaneous and 24 visceral) analysed using the Illumina Infinium EPIC BeadChip (Replication Cohort). Adipocytes were isolated from fresh whole subcutaneous and visceral adipose tissue samples using collagenase digestion and flotation, and stored at -80C, prior to DNA extraction and bisulfite conversion with 0.2-0.5-mcg of genomic DNA."
+          ]
+        ],
+        "!Series_type": [
+          [
+            "Methylation profiling by genome tiling array"
+          ]
+        ],
+        "!Series_contributor": [
+          [
+            "Liam,,McAllan"
+          ],
+          [
+            "Damir,,Baranašić"
+          ],
+          [
+            "Sergio,,Villicaña"
+          ],
+          [
+            "Scarlett,,Brown"
+          ],
+          [
+            "Weihua,,Zhang"
+          ],
+          [
+            "Benjamin,,Lehne"
+          ],
+          [
+            "Marco,,Adamo"
+          ],
+          [
+            "Andrew,,Jenkinson"
+          ],
+          [
+            "Mohamed,,Elkalaawy"
+          ],
+          [
+            "Borzoueh,,Mohammadi"
+          ],
+          [
+            "Majid,,Hashemi"
+          ],
+          [
+            "Nadia,,Fernandes"
+          ],
+          [
+            "Nathalie,,Lambie"
+          ],
+          [
+            "Richard,,Williams"
+          ],
+          [
+            "Colette,,Christiansen"
+          ],
+          [
+            "Youwen,,Yang"
+          ],
+          [
+            "Liudmila,,Zudina"
+          ],
+          [
+            "Vasiliki,,Lagou"
+          ],
+          [
+            "Sili,,Tan"
+          ],
+          [
+            "Juan,,Castillo-Fernandez"
+          ],
+          [
+            "James,,King"
+          ],
+          [
+            "R.,,Soong"
+          ],
+          [
+            "Paul,,Elliott"
+          ],
+          [
+            "James,,Scott"
+          ],
+          [
+            "Inga,,Prokopenko"
+          ],
+          [
+            "Ines,,Cebola"
+          ],
+          [
+            "Marie,,Loh"
+          ],
+          [
+            "Boris,,Lenhard"
+          ],
+          [
+            "Rachel,L,Batterham"
+          ],
+          [
+            "Jordana,T,Bell"
+          ],
+          [
+            "John,C,Chambers"
+          ],
+          [
+            "Jaspal,S,Kooner"
+          ],
+          [
+            "William,R,Scott"
+          ]
+        ],
+        "!Series_sample_id": [
+          [
+            "GSM6927446 GSM6927447 GSM6927448 GSM6927449 GSM6927450 GSM6927451 GSM6927452 GSM6927453 GSM6927454 GSM6927455 GSM6927456 GSM6927457 GSM6927458 GSM6927459 GSM6927460 GSM6927461 GSM6927462 GSM6927463 GSM6927464 GSM6927465 GSM6927466 GSM6927467 GSM6927468 GSM6927469 GSM6927470 GSM6927471 GSM6927472 GSM6927473 GSM6927474 GSM6927475 GSM6927476 GSM6927477 GSM6927478 GSM6927479 GSM6927480 GSM6927481 GSM6927482 GSM6927483 GSM6927484 GSM6927485 GSM6927486 GSM6927487 GSM6927488 GSM6927489 GSM6927490 GSM6927491 GSM6927492 GSM6927493 GSM6927494 GSM6927495 GSM6927496 GSM6927497 GSM6927498 GSM6927499 GSM6927500 GSM6927501 GSM6927502 GSM6927503 GSM6927504 GSM6927505 GSM6927506 GSM6927507 GSM6927508 GSM6927509 GSM6927510 GSM6927511 GSM6927512 GSM6927513 GSM6927514 GSM6927515 GSM6927516 GSM6927517 GSM6927518 GSM6927519 GSM6927520 GSM6927521 GSM6927522 GSM6927523 GSM6927524 GSM6927525 GSM6927526 GSM6927527 GSM6927528 GSM6927529 GSM6927530 GSM6927531 GSM6927532 GSM6927533 GSM6927534 GSM6927535 GSM6927536 GSM6927537 GSM6927538 GSM6927539 GSM6927540 GSM6927541 GSM6927542 GSM6927543 GSM6927544 GSM6927545 GSM6927546 GSM6927547 GSM6927548 GSM6927549 GSM6927550 GSM6927551 GSM6927552 GSM6927553 GSM6927554 GSM6927555 GSM6927556 GSM6927557 GSM6927558 GSM6927559 GSM6927560 GSM6927561 GSM6927562 GSM6927563 GSM6927564 GSM6927565 GSM6927566 GSM6927567 GSM6927568 GSM6927569 GSM6927570 GSM6927571 GSM6927572 GSM6927573 GSM6927574 GSM6927575 GSM6927576 GSM6927577 GSM6927578 GSM6927579 GSM6927580 GSM6927581 GSM6927582 GSM6927583 GSM6927584 GSM6927585 GSM6927586 GSM6927587 GSM6927588 GSM6927589 GSM6927590 GSM6927591 GSM6927592 GSM6927593 GSM6927594 GSM6927595 GSM6927596 GSM6927597 GSM6927598 GSM6927599 GSM6927600 GSM6927601 GSM6927602 GSM6927603 GSM6927604 GSM6927605 GSM6927606 GSM6927607 GSM6927608 GSM6927609 GSM6927610 GSM6927611 GSM6927612 GSM6927613 GSM6927614 GSM6927615 GSM6927616 GSM6927617 GSM6927618 GSM6927619 GSM6927620 GSM6927621 GSM6927622 GSM6927623 GSM6927624 GSM6927625 GSM6927626 GSM6927627 GSM6927628 GSM6927629 GSM6927630 GSM6927631 GSM6927632 GSM6927633 GSM6927634 GSM6927635 GSM6927636 GSM6927637 "
+          ]
+        ],
+        "!Series_contact_name": [
+          [
+            "William,Robert,Scott"
+          ]
+        ],
+        "!Series_contact_email": [
+          [
+            "w.scott@imperial.ac.uk"
+          ]
+        ],
+        "!Series_contact_phone": [
+          [
+            "00447729882311"
+          ]
+        ],
+        "!Series_contact_department": [
+          [
+            "Institute of Clinical Sciences"
+          ]
+        ],
+        "!Series_contact_institute": [
+          [
+            "Imperial College London"
+          ]
+        ],
+        "!Series_contact_address": [
+          [
+            "Hammersmith Hospital, Du Cane Road"
+          ]
+        ],
+        "!Series_contact_city": [
+          [
+            "London"
+          ]
+        ],
+        "!Series_contact_zip/postal_code": [
+          [
+            "W12 ONN"
+          ]
+        ],
+        "!Series_contact_country": [
+          [
+            "United Kingdom"
+          ]
+        ],
+        "!Series_supplementary_file": [
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_RAW.tar"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_subcut_effect.bedgraph.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_subcut_pval.bedgraph.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_visceral_effect.bedgraph.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_meth_obese_visceral_pval.bedgraph.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_processed_beta_comb.txt.gz"
+          ],
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_raw_unmeth_meth_comb.txt.gz"
+          ]
+        ],
+        "!Series_platform_id": [
+          [
+            "GPL13534"
+          ],
+          [
+            "GPL21145"
+          ]
+        ],
+        "!Series_platform_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_sample_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_relation": [
+          [
+            "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA922597"
+          ]
+        ]
+      },
+      "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE222595-GPL13534_series_matrix_metadata.tsv",
+      "metadata_sha256": "56994d626cc30f115d535a2872a498a23b2f7f39e9d98dcb958bda17497b0e4b",
+      "characteristics": {
+        "source_name_ch1": {
+          "subcutaneous": 48,
+          "visceral": 48
+        },
+        "characteristic_age": {
+          "55.9": 4,
+          "51.4": 2,
+          "42.6": 2,
+          "39.6": 2,
+          "26.7": 2,
+          "28.4": 2,
+          "49.5": 2,
+          "43": 2,
+          "34.9": 2,
+          "45.7": 2,
+          "22.6": 2,
+          "39.5": 2,
+          "62.2": 2,
+          "33.5": 2,
+          "48.4": 2,
+          "54.5": 2,
+          "25.7": 2,
+          "53.7": 2,
+          "25.6": 2,
+          "43.6": 2,
+          "55.5": 2,
+          "32.4": 2,
+          "27.5": 2,
+          "33.6": 2,
+          "48": 2,
+          "40.2": 2,
+          "68.2": 2,
+          "40.3": 2,
+          "43.9": 2,
+          "55": 2,
+          "51": 2,
+          "32.6": 2,
+          "33.7": 2,
+          "37.9": 2,
+          "49": 2,
+          "20.2": 2,
+          "41.3": 2,
+          "44.8": 2,
+          "37.3": 2,
+          "52.2": 2,
+          "30.2": 2,
+          "35.6": 2,
+          "51.9": 2,
+          "51.1": 2,
+          "53.5": 1,
+          "45.6": 1,
+          "24.8": 1,
+          "42": 1,
+          "38.1": 1,
+          "44.4": 1
+        },
+        "characteristic_sex": {
+          "F": 78,
+          "M": 18
+        },
+        "characteristic_cohort": {
+          "discovery": 96
+        },
+        "platform_id": {
+          "GPL13534": 96
+        }
+      },
+      "sample_titles": [
+        "adipocyte-control-rep1",
+        "adipocyte-control-rep2",
+        "adipocyte-control-rep3",
+        "adipocyte-control-rep4",
+        "adipocyte-control-rep5",
+        "adipocyte-control-rep6",
+        "adipocyte-control-rep7",
+        "adipocyte-control-rep8",
+        "adipocyte-control-rep9",
+        "adipocyte-control-rep10",
+        "adipocyte-control-rep11",
+        "adipocyte-control-rep12",
+        "adipocyte-control-rep13",
+        "adipocyte-control-rep14",
+        "adipocyte-control-rep15",
+        "adipocyte-control-rep16",
+        "adipocyte-control-rep17",
+        "adipocyte-control-rep18",
+        "adipocyte-control-rep19",
+        "adipocyte-control-rep20",
+        "adipocyte-control-rep21",
+        "adipocyte-control-rep22",
+        "adipocyte-control-rep23",
+        "adipocyte-control-rep24",
+        "adipocyte-obese-rep1",
+        "adipocyte-obese-rep2",
+        "adipocyte-obese-rep3",
+        "adipocyte-obese-rep4",
+        "adipocyte-obese-rep5",
+        "adipocyte-obese-rep6",
+        "adipocyte-obese-rep7",
+        "adipocyte-obese-rep8",
+        "adipocyte-obese-rep9",
+        "adipocyte-obese-rep10",
+        "adipocyte-obese-rep11",
+        "adipocyte-obese-rep12",
+        "adipocyte-obese-rep13",
+        "adipocyte-obese-rep14",
+        "adipocyte-obese-rep15",
+        "adipocyte-obese-rep16",
+        "adipocyte-obese-rep17",
+        "adipocyte-obese-rep18",
+        "adipocyte-obese-rep19",
+        "adipocyte-obese-rep20",
+        "adipocyte-obese-rep21",
+        "adipocyte-obese-rep22",
+        "adipocyte-obese-rep23",
+        "adipocyte-obese-rep24",
+        "adipocyte-control-rep25",
+        "adipocyte-control-rep26",
+        "adipocyte-control-rep27",
+        "adipocyte-control-rep28",
+        "adipocyte-control-rep29",
+        "adipocyte-control-rep30",
+        "adipocyte-control-rep31",
+        "adipocyte-control-rep32",
+        "adipocyte-control-rep33",
+        "adipocyte-control-rep34",
+        "adipocyte-control-rep35",
+        "adipocyte-control-rep36",
+        "adipocyte-control-rep37",
+        "adipocyte-control-rep38",
+        "adipocyte-control-rep39",
+        "adipocyte-control-rep40",
+        "adipocyte-control-rep41",
+        "adipocyte-control-rep42",
+        "adipocyte-control-rep43",
+        "adipocyte-control-rep44",
+        "adipocyte-control-rep45",
+        "adipocyte-control-rep46",
+        "adipocyte-control-rep47",
+        "adipocyte-control-rep48",
+        "adipocyte-obese-rep25",
+        "adipocyte-obese-rep26",
+        "adipocyte-obese-rep27",
+        "adipocyte-obese-rep28",
+        "adipocyte-obese-rep29",
+        "adipocyte-obese-rep30",
+        "adipocyte-obese-rep31",
+        "adipocyte-obese-rep32",
+        "adipocyte-obese-rep33",
+        "adipocyte-obese-rep34",
+        "adipocyte-obese-rep35",
+        "adipocyte-obese-rep36",
+        "adipocyte-obese-rep37",
+        "adipocyte-obese-rep38",
+        "adipocyte-obese-rep39",
+        "adipocyte-obese-rep40",
+        "adipocyte-obese-rep41",
+        "adipocyte-obese-rep42",
+        "adipocyte-obese-rep43",
+        "adipocyte-obese-rep44",
+        "adipocyte-obese-rep45",
+        "adipocyte-obese-rep46",
+        "adipocyte-obese-rep47",
+        "adipocyte-obese-rep48"
+      ],
+      "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+    },
+    {
+      "accession": "GSE89632",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE89nnn/GSE89632/matrix/GSE89632_series_matrix.txt.gz",
+      "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE89632_series_matrix.txt.gz",
+      "sha256": "b8184cd4331823183d1c63232dbd0372bdffa6f847bb0f2830de84f5315d88da",
+      "bytes": 7588773,
+      "gzip_crc": "passed_to_eof",
+      "schema_width": "passed",
+      "numeric_rows": 29377,
+      "samples": 63,
+      "sample_ids_unique": true,
+      "matrix_contains_values": true,
+      "series_metadata": {
+        "!Series_title": [
+          [
+            "Genome-wide analysis of hepatic gene expression in patients with non-alcoholic fatty liver disease  and in healthy donors in relation to hepatic fatty acid composition and other nutritional factors"
+          ]
+        ],
+        "!Series_geo_accession": [
+          [
+            "GSE89632"
+          ]
+        ],
+        "!Series_status": [
+          [
+            "Public on Nov 08 2016"
+          ]
+        ],
+        "!Series_submission_date": [
+          [
+            "Nov 07 2016"
+          ]
+        ],
+        "!Series_last_update_date": [
+          [
+            "Sep 15 2023"
+          ]
+        ],
+        "!Series_pubmed_id": [
+          [
+            "25581263"
+          ],
+          [
+            "35166723"
+          ]
+        ],
+        "!Series_summary": [
+          [
+            "In nonalcoholic fatty liver disease (NAFLD), hepatic gene expression and fatty acid (FA) composition have been reported independently but a comprehensive gene expression profiling in relation to FA composition is lacking. The aim was to assess this relationship."
+          ],
+          [
+            "In a cross-sectional study, hepatic gene expression (Illumina Microarray) was first compared among 20 patients with simple steatosis (SS), 19 with nonalcoholic steatohepatitis (NASH), and 24 healthy controls (HC). FA composition in hepatic total lipids was compared between SS and NASH, and associations between gene expression and FA were examined. Gene expression differed mainly between HC and patients (SS and NASH), including genes related to unsaturated FA metabolism. Twenty-two genes were differentially expressed between NASH and SS; most of them correlated with disease severity and related more to cancer progression than to lipid metabolism. Biologically long-chain polyunsaturated FA (PUFA) (eicosapentaenoic acid + docosahexaenoic acid, arachidonic acid) in hepatic total lipids were lower in NASH than in SS. This may be related to overexpression of FADS1, FADS2, and PNPLA3. The degree and direction of correlations between PUFA and gene expression were different among SS and NASH which may suggest that low PUFA content in NASH modulates gene expression in a different way compared with SS or, alternatively, gene expression influences PUFA content differently depending on disease severity (SS versus NASH). Conclusion: Well-defined subjects with either healthy liver, SS or NASH showed distinct hepatic gene expression profiles including genes involved in unsaturated FA metabolism. In NASH, hepatic PUFA were lower and associations with gene expression were different than in SS."
+          ]
+        ],
+        "!Series_overall_design": [
+          [
+            "Cross-sectional study, including patients with non-alcoholic fatty liver disease (25 SS, 23 NASH) and 24 healthy living liver donors as HC. Nine samples (5 SS, 4 NASH) were excluded during quality control. The final analysis inclulded 63 participants (20 SS, 19 NASH, 24 HC)."
+          ]
+        ],
+        "!Series_type": [
+          [
+            "Expression profiling by array"
+          ]
+        ],
+        "!Series_contributor": [
+          [
+            "Johane,P,Allard"
+          ],
+          [
+            "Bianca,M,Arendt"
+          ],
+          [
+            "Elena,M,Comelli"
+          ],
+          [
+            "David,W,Ma"
+          ],
+          [
+            "Wendy,,Lou"
+          ],
+          [
+            "Anastasia,,Teterina"
+          ],
+          [
+            "TaeHyung,,Kim"
+          ],
+          [
+            "Scott,K,Fung"
+          ],
+          [
+            "David,K,Wong"
+          ],
+          [
+            "Ian,,McGilvray"
+          ],
+          [
+            "Sandra,E,Fischer"
+          ]
+        ],
+        "!Series_sample_id": [
+          [
+            "GSM2385720 GSM2385721 GSM2385722 GSM2385723 GSM2385724 GSM2385725 GSM2385726 GSM2385727 GSM2385728 GSM2385729 GSM2385730 GSM2385731 GSM2385732 GSM2385733 GSM2385734 GSM2385735 GSM2385736 GSM2385737 GSM2385738 GSM2385739 GSM2385740 GSM2385741 GSM2385742 GSM2385743 GSM2385744 GSM2385745 GSM2385746 GSM2385747 GSM2385748 GSM2385749 GSM2385750 GSM2385751 GSM2385752 GSM2385753 GSM2385754 GSM2385755 GSM2385756 GSM2385757 GSM2385758 GSM2385759 GSM2385760 GSM2385761 GSM2385762 GSM2385763 GSM2385764 GSM2385765 GSM2385766 GSM2385767 GSM2385768 GSM2385769 GSM2385770 GSM2385771 GSM2385772 GSM2385773 GSM2385774 GSM2385775 GSM2385776 GSM2385777 GSM2385778 GSM2385779 GSM2385780 GSM2385781 GSM2385782 "
+          ]
+        ],
+        "!Series_contact_name": [
+          [
+            "Johane,P.,Allard"
+          ]
+        ],
+        "!Series_contact_email": [
+          [
+            "johane.allard@uhn.on.ca"
+          ]
+        ],
+        "!Series_contact_phone": [
+          [
+            "416-340-5159"
+          ]
+        ],
+        "!Series_contact_department": [
+          [
+            "Medicine"
+          ]
+        ],
+        "!Series_contact_institute": [
+          [
+            "University Health Network"
+          ]
+        ],
+        "!Series_contact_address": [
+          [
+            "585 University Ave, 9-NU-973"
+          ]
+        ],
+        "!Series_contact_city": [
+          [
+            "Toronto"
+          ]
+        ],
+        "!Series_contact_state": [
+          [
+            "Ontario"
+          ]
+        ],
+        "!Series_contact_zip/postal_code": [
+          [
+            "M5G 2N2"
+          ]
+        ],
+        "!Series_contact_country": [
+          [
+            "Canada"
+          ]
+        ],
+        "!Series_supplementary_file": [
+          [
+            "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE89nnn/GSE89632/suppl/GSE89632_RAW.tar"
+          ]
+        ],
+        "!Series_platform_id": [
+          [
+            "GPL14951"
+          ]
+        ],
+        "!Series_platform_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_sample_taxid": [
+          [
+            "9606"
+          ]
+        ],
+        "!Series_relation": [
+          [
+            "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA352744"
+          ]
+        ]
+      },
+      "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE89632_series_matrix_metadata.tsv",
+      "metadata_sha256": "1fd79984f5496a76cd7bbd763d639ae96784575302dfcf56fbd326c372d3ce53",
+      "characteristics": {
+        "source_name_ch1": {
+          "liver": 63
+        },
+        "characteristic_array_sample": {
+          "8473515032_A": 1,
+          "8473515021_E": 1,
+          "8473515021_L": 1,
+          "8473515071_L": 1,
+          "8473515021_I": 1,
+          "8473515077_L": 1,
+          "8473515032_G": 1,
+          "8473515023_B": 1,
+          "8473515021_H": 1,
+          "8473515023_C": 1,
+          "8473515071_H": 1,
+          "8473515039_E": 1,
+          "8473515039_F": 1,
+          "8473515039_K": 1,
+          "8473515021_C": 1,
+          "8473515071_D": 1,
+          "8473515077_E": 1,
+          "8473515071_F": 1,
+          "8473515071_A": 1,
+          "8473515071_G": 1,
+          "8473515032_F": 1,
+          "8473515032_B": 1,
+          "8473515021_J": 1,
+          "8473515032_H": 1,
+          "8473515077_J": 1,
+          "8473515032_I": 1,
+          "8473515071_B": 1,
+          "8473515023_H": 1,
+          "8473515077_F": 1,
+          "8473515077_H": 1,
+          "8473515071_K": 1,
+          "8473515032_E": 1,
+          "8473515077_C": 1,
+          "8473515032_J": 1,
+          "8473515021_B": 1,
+          "8473515039_I": 1,
+          "8473515039_H": 1,
+          "8473515021_F": 1,
+          "8473515021_G": 1,
+          "8473515077_I": 1,
+          "8473515071_J": 1,
+          "8473515039_D": 1,
+          "8473515021_A": 1,
+          "8473515023_K": 1,
+          "8473515023_A": 1,
+          "8473515023_D": 1,
+          "8473515071_E": 1,
+          "8473515023_J": 1,
+          "8473515077_G": 1,
+          "8473515023_E": 1,
+          "8473515077_K": 1,
+          "8473515032_L": 1,
+          "8473515071_C": 1,
+          "8473515071_I": 1,
+          "8473515039_B": 1,
+          "8473515023_F": 1,
+          "8473515077_D": 1,
+          "8473515039_A": 1,
+          "8473515021_K": 1,
+          "8473515039_J": 1,
+          "8473515032_C": 1,
+          "8473515023_I": 1,
+          "8473515077_A": 1
+        },
+        "characteristic_diagnosis": {
+          "HC": 24,
+          "SS": 20,
+          "NASH": 19
+        },
+        "characteristic_steatosis_": {
+          "0": 13,
+          "40": 8,
+          "10": 6,
+          "70": 5,
+          "5": 4,
+          "50": 3,
+          "80": 3,
+          "1": 3,
+          "20": 2,
+          "30": 2,
+          "60": 2,
+          "90": 1,
+          "15": 1,
+          "45": 1,
+          "25": 1,
+          "2.5": 1
+        },
+        "characteristic_age_y_": {
+          "38": 5,
+          "23": 4,
+          "60": 3,
+          "47": 3,
+          "35": 3,
+          "49": 3,
+          "37": 3,
+          "52": 2,
+          "46": 2,
+          "51": 2,
+          "29": 2,
+          "34": 2,
+          "40": 2,
+          "44": 2,
+          "54": 2,
+          "26": 2,
+          "45": 2,
+          "48": 2,
+          "30": 1,
+          "31": 1,
+          "42": 1,
+          "63": 1,
+          "68": 1,
+          "50": 1,
+          "53": 1,
+          "33": 1,
+          "58": 1,
+          "56": 1,
+          "39": 1,
+          "22": 1,
+          "28": 1,
+          "41": 1,
+          "27": 1,
+          "25": 1,
+          "43": 1
+        },
+        "characteristic_fibrosis_stage_": {
+          "0": 31,
+          "1": 14,
+          "4": 4,
+          "3": 4,
+          "2": 2
+        },
+        "characteristic_gender": {
+          "male": 34,
+          "female": 29
+        },
+        "characteristic_ballooning_intensity_": {
+          "0": 37,
+          "1": 13,
+          "2": 6
+        },
+        "characteristic_lobular_inflammation_severity_": {
+          "0": 26,
+          "1": 11,
+          "2": 6,
+          "3": 2
+        },
+        "characteristic_body_mass_index_kg_m2_": {
+          "28.60": 2,
+          "26.01": 2,
+          "27.97": 1,
+          "27.77": 1,
+          "41.19": 1,
+          "28.89": 1,
+          "32.90": 1,
+          "27.24": 1,
+          "29.22": 1,
+          "29.64": 1,
+          "29.76": 1,
+          "30.11": 1,
+          "28.47": 1,
+          "32.92": 1,
+          "28.86": 1,
+          "22.92": 1,
+          "31.99": 1,
+          "23.18": 1,
+          "35.59": 1,
+          "24.16": 1,
+          "31.79": 1,
+          "32.47": 1,
+          "32.32": 1,
+          "33.71": 1,
+          "33.81": 1,
+          "24.81": 1,
+          "33.15": 1,
+          "25.25": 1,
+          "30.86": 1,
+          "28.32": 1,
+          "29.65": 1,
+          "24.55": 1,
+          "33.43": 1,
+          "32.41": 1,
+          "23.54": 1,
+          "49.53": 1,
+          "22.04": 1,
+          "23.39": 1,
+          "25.39": 1,
+          "33.68": 1,
+          "20.09": 1,
+          "26.68": 1,
+          "22.24": 1,
+          "27.73": 1,
+          "33.73": 1,
+          "25.61": 1,
+          "18.79": 1,
+          "28.27": 1,
+          "30.52": 1,
+          "26.23": 1,
+          "29.82": 1,
+          "20.39": 1,
+          "29.63": 1,
+          "23.80": 1,
+          "28.03": 1,
+          "28.80": 1,
+          "19.79": 1,
+          "27.05": 1,
+          "26.66": 1
+        },
+        "characteristic_waist_cm_": {
+          "85": 3,
+          "108.5": 2,
+          "75": 2,
+          "90.5": 1,
+          "95.25": 1,
+          "120.75": 1,
+          "93.75": 1,
+          "115.75": 1,
+          "99.5": 1,
+          "101.5": 1,
+          "100.63": 1,
+          "106.25": 1,
+          "91": 1,
+          "106.9": 1,
+          "96.5": 1,
+          "122": 1,
+          "83.82": 1,
+          "111": 1,
+          "98": 1,
+          "116": 1,
+          "98.75": 1,
+          "107": 1,
+          "109": 1,
+          "110.25": 1,
+          "86.5": 1,
+          "112": 1,
+          "93.5": 1,
+          "94": 1,
+          "100.00": 1,
+          "89.00": 1,
+          "111.75": 1,
+          "108.50": 1,
+          "87.45": 1,
+          "77.5": 1,
+          "115.5": 1,
+          "84.75": 1,
+          "93.7": 1,
+          "89": 1,
+          "76.75": 1,
+          "95.75": 1,
+          "74.25": 1,
+          "90.75": 1,
+          "87": 1,
+          "104.75": 1,
+          "95.95": 1,
+          "106": 1,
+          "108": 1,
+          "90.25": 1,
+          "97.13": 1,
+          "88.5": 1,
+          "78.5": 1,
+          "94.16": 1,
+          "92": 1
+        },
+        "characteristic_aspartate_transaminase_u_l_": {
+          "17": 5,
+          "19": 4,
+          "31": 3,
+          "29": 3,
+          "32": 3,
+          "30": 3,
+          "25": 3,
+          "23": 3,
+          "15": 3,
+          "16": 3,
+          "33": 2,
+          "35": 2,
+          "36": 2,
+          "50": 2,
+          "18": 2,
+          "83": 1,
+          "34": 1,
+          "61": 1,
+          "88": 1,
+          "52": 1,
+          "28": 1,
+          "64": 1,
+          "112": 1,
+          "53": 1,
+          "44": 1,
+          "114": 1,
+          "60": 1,
+          "41": 1,
+          "99": 1,
+          "24": 1,
+          "12": 1,
+          "27": 1,
+          "26": 1,
+          "22": 1
+        },
+        "characteristic_nafld_activity_score": {
+          "1": 9,
+          "4": 8,
+          "2": 7,
+          "0": 7,
+          "5": 5,
+          "3": 4,
+          "6": 4,
+          "8": 1
+        },
+        "characteristic_alanine_transaminase_u_l_": {
+          "15": 4,
+          "42": 3,
+          "46": 3,
+          "14": 3,
+          "17": 3,
+          "37": 2,
+          "72": 2,
+          "69": 2,
+          "81": 2,
+          "22": 2,
+          "56": 1,
+          "24": 1,
+          "63": 1,
+          "61": 1,
+          "21": 1,
+          "145": 1,
+          "45": 1,
+          "64": 1,
+          "52": 1,
+          "90": 1,
+          "105": 1,
+          "80": 1,
+          "119": 1,
+          "51": 1,
+          "168": 1,
+          "53": 1,
+          "32": 1,
+          "55": 1,
+          "47": 1,
+          "126": 1,
+          "96": 1,
+          "87": 1,
+          "118": 1,
+          "12": 1,
+          "27": 1,
+          "30": 1,
+          "4": 1,
+          "48": 1,
+          "11": 1,
+          "6": 1,
+          "7": 1,
+          "18": 1,
+          "29": 1,
+          "41": 1,
+          "35": 1,
+          "13": 1
+        },
+        "characteristic_alkaline_phosphatase_u_l_": {
+          "64": 3,
+          "68": 3,
+          "73": 3,
+          "57": 2,
+          "101": 2,
+          "60": 2,
+          "56": 2,
+          "70": 2,
+          "75": 2,
+          "58": 2,
+          "76": 2,
+          "65": 2,
+          "66": 2,
+          "47": 2,
+          "61": 2,
+          "188": 1,
+          "50": 1,
+          "53": 1,
+          "275": 1,
+          "95": 1,
+          "69": 1,
+          "33": 1,
+          "116": 1,
+          "51": 1,
+          "113": 1,
+          "106": 1,
+          "77": 1,
+          "37": 1,
+          "83": 1,
+          "42": 1,
+          "89": 1,
+          "55": 1,
+          "107": 1,
+          "87": 1,
+          "80": 1,
+          "54": 1,
+          "109": 1,
+          "71": 1,
+          "44": 1,
+          "90": 1,
+          "59": 1,
+          "98": 1,
+          "78": 1,
+          "96": 1
+        },
+        "characteristic_triglycerides_mmol_l_": {
+          "1.15": 2,
+          "0.6": 2,
+          "1.77": 2,
+          "0.86": 2,
+          "0.68": 2,
+          "0.77": 2,
+          "0.59": 2,
+          "0.99": 1,
+          "1.68": 1,
+          "2.2": 1,
+          "1.26": 1,
+          "2.14": 1,
+          "1.86": 1,
+          "3.7": 1,
+          "1.33": 1,
+          "0.97": 1,
+          "1.76": 1,
+          "0.53": 1,
+          "11.32": 1,
+          "2.23": 1,
+          "1.57": 1,
+          "2.39": 1,
+          "2.36": 1,
+          "1.1": 1,
+          "1.2": 1,
+          "0.76": 1,
+          "1.73": 1,
+          "0.62": 1,
+          "4.74": 1,
+          "0.98": 1,
+          "2.91": 1,
+          "1.13": 1,
+          "1.75": 1,
+          "3.29": 1,
+          "1.03": 1,
+          "1.21": 1,
+          "0.67": 1,
+          "0.58": 1,
+          "0.92": 1,
+          "1.34": 1,
+          "1.22": 1,
+          "0.9": 1,
+          "1.48": 1,
+          "1.97": 1,
+          "1.31": 1,
+          "1.14": 1,
+          "0.79": 1
+        },
+        "characteristic_liver_arachidonic_acid_of_total_lipids_": {
+          "2.60": 2,
+          "8.21": 2,
+          "5.12": 1,
+          "2.36": 1,
+          "3.98": 1,
+          "1.41": 1,
+          "4.80": 1,
+          "2.16": 1,
+          "1.63": 1,
+          "6.10": 1,
+          "2.22": 1,
+          "2.73": 1,
+          "4.36": 1,
+          "1.59": 1,
+          "2.20": 1,
+          "3.75": 1,
+          "3.77": 1,
+          "2.56": 1,
+          "5.33": 1,
+          "4.01": 1,
+          "4.59": 1,
+          "1.78": 1,
+          "0.90": 1,
+          "1.47": 1,
+          "3.57": 1,
+          "1.72": 1,
+          "7.01": 1,
+          "9.39": 1,
+          "8.74": 1,
+          "6.83": 1,
+          "7.23": 1,
+          "9.02": 1,
+          "7.34": 1,
+          "7.60": 1,
+          "6.34": 1,
+          "7.29": 1,
+          "7.98": 1,
+          "6.43": 1,
+          "6.95": 1,
+          "4.63": 1,
+          "8.55": 1,
+          "7.32": 1,
+          "9.29": 1,
+          "3.42": 1,
+          "7.51": 1,
+          "4.16": 1,
+          "6.38": 1,
+          "7.69": 1,
+          "6.24": 1,
+          "9.38": 1
+        },
+        "characteristic_fasting_glucose_mmol_l_": {
+          "4.7": 6,
+          "5.2": 5,
+          "5.3": 4,
+          "4.8": 4,
+          "5": 3,
+          "6.5": 3,
+          "5.8": 3,
+          "4.9": 3,
+          "5.1": 3,
+          "8": 2,
+          "5.5": 2,
+          "5.7": 2,
+          "4.5": 2,
+          "7.3": 2,
+          "4.2": 2,
+          "4.6": 2,
+          "6.7": 1,
+          "5.4": 1,
+          "16.2": 1,
+          "6": 1,
+          "4.3": 1,
+          "7.5": 1,
+          "6.4": 1,
+          "3.4": 1,
+          "5.6": 1
+        },
+        "characteristic_total_cholesterol_mmol_l_": {
+          "3.69": 2,
+          "4.4": 2,
+          "5.2": 2,
+          "3.65": 1,
+          "2.61": 1,
+          "6.83": 1,
+          "3.93": 1,
+          "3.79": 1,
+          "3.53": 1,
+          "5.79": 1,
+          "5.57": 1,
+          "5.82": 1,
+          "4.81": 1,
+          "7.67": 1,
+          "4.95": 1,
+          "6.55": 1,
+          "6.5": 1,
+          "5.44": 1,
+          "5.74": 1,
+          "5.51": 1,
+          "5.15": 1,
+          "6.39": 1,
+          "5.06": 1,
+          "2.65": 1,
+          "5.59": 1,
+          "4.9": 1,
+          "4.04": 1,
+          "6.73": 1,
+          "3.92": 1,
+          "4.12": 1,
+          "4.56": 1,
+          "5.29": 1,
+          "4.66": 1,
+          "4.51": 1,
+          "5": 1,
+          "3.67": 1,
+          "4.84": 1,
+          "4.17": 1,
+          "4.94": 1,
+          "3.5": 1,
+          "5.54": 1,
+          "4.76": 1,
+          "4.71": 1,
+          "3.58": 1,
+          "7.46": 1,
+          "5.05": 1,
+          "5.18": 1,
+          "4.47": 1,
+          "5.7": 1,
+          "5.04": 1,
+          "2.78": 1
+        },
+        "characteristic_liver_eicosapentaenoic_acid_of_total_lipids_": {
+          "0.00": 16,
+          "0.32": 5,
+          "0.14": 2,
+          "0.12": 2,
+          "0.37": 2,
+          "0.28": 2,
+          "0.46": 2,
+          "0.42": 2,
+          "0.15": 1,
+          "0.25": 1,
+          "0.17": 1,
+          "0.22": 1,
+          "0.93": 1,
+          "0.41": 1,
+          "0.11": 1,
+          "0.34": 1,
+          "0.97": 1,
+          "0.56": 1,
+          "0.29": 1,
+          "0.76": 1,
+          "0.26": 1,
+          "0.49": 1,
+          "0.36": 1,
+          "1.12": 1,
+          "0.67": 1,
+          "0.51": 1,
+          "0.65": 1
+        },
+        "characteristic_hemoglobin_a1c": {
+          "0.053": 8,
+          "0.054": 7,
+          "0.052": 6,
+          "0.055": 5,
+          "0.05": 5,
+          "0.057": 4,
+          "0.056": 4,
+          "0.049": 3,
+          "0.058": 2,
+          "0.062": 1,
+          "0.061": 1,
+          "0.066": 1,
+          "0.09": 1,
+          "0.073": 1,
+          "0.064": 1,
+          "0.063": 1,
+          "0.074": 1,
+          "0.059": 1,
+          "0.051": 1,
+          "0.06": 1,
+          "0.072": 1
+        },
+        "characteristic_ldl_cholesterol_mmol_l_": {
+          "2.67": 3,
+          "2.11": 2,
+          "2.31": 2,
+          "3.33": 2,
+          "3.2": 2,
+          "3.01": 2,
+          "3.15": 2,
+          "3.22": 2,
+          "1.48": 1,
+          "4.71": 1,
+          "1.95": 1,
+          "3.91": 1,
+          "2.82": 1,
+          "3.29": 1,
+          "5.46": 1,
+          "3.45": 1,
+          "4.75": 1,
+          "2.34": 1,
+          "2.69": 1,
+          "3.87": 1,
+          "3.46": 1,
+          "4.61": 1,
+          "1.33": 1,
+          "2.9": 1,
+          "2.56": 1,
+          "2.46": 1,
+          "2.2": 1,
+          "2.85": 1,
+          "3.43": 1,
+          "2.57": 1,
+          "3.19": 1,
+          "2.58": 1,
+          "2.04": 1,
+          "5.17": 1,
+          "3.04": 1,
+          "2.73": 1,
+          "2.86": 1,
+          "3.92": 1,
+          "3.07": 1,
+          "1.87": 1,
+          "1.03": 1
+        },
+        "characteristic_liver_docosahexaenoic_acid_of_total_lipids_": {
+          "0.84": 2,
+          "1.24": 2,
+          "1.29": 2,
+          "2.79": 1,
+          "1.51": 1,
+          "0.83": 1,
+          "1.73": 1,
+          "0.69": 1,
+          "2.76": 1,
+          "1.13": 1,
+          "0.85": 1,
+          "1.36": 1,
+          "2.01": 1,
+          "1.00": 1,
+          "0.98": 1,
+          "1.88": 1,
+          "0.78": 1,
+          "3.89": 1,
+          "1.25": 1,
+          "2.31": 1,
+          "0.59": 1,
+          "0.31": 1,
+          "0.90": 1,
+          "3.07": 1,
+          "0.58": 1,
+          "3.00": 1,
+          "2.62": 1,
+          "2.94": 1,
+          "2.52": 1,
+          "6.21": 1,
+          "2.55": 1,
+          "3.86": 1,
+          "4.44": 1,
+          "3.83": 1,
+          "1.99": 1,
+          "2.87": 1,
+          "2.44": 1,
+          "4.49": 1,
+          "1.66": 1,
+          "2.35": 1,
+          "3.71": 1,
+          "4.35": 1,
+          "2.89": 1,
+          "1.08": 1,
+          "2.51": 1,
+          "1.48": 1,
+          "1.32": 1,
+          "3.30": 1,
+          "2.28": 1
+        },
+        "characteristic_diabetes": {
+          "no": 54,
+          "yes": 8
+        },
+        "characteristic_hdl_cholesterol_mmol_l_": {
+          "0.9": 2,
+          "0.95": 2,
+          "0.87": 2,
+          "1.27": 2,
+          "1.47": 2,
+          "1.14": 2,
+          "1.63": 2,
+          "1.01": 1,
+          "0.68": 1,
+          "1.35": 1,
+          "0.81": 1,
+          "1.21": 1,
+          "1": 1,
+          "1.39": 1,
+          "1.3": 1,
+          "0.91": 1,
+          "1.4": 1,
+          "1.05": 1,
+          "0.99": 1,
+          "1.11": 1,
+          "0.96": 1,
+          "1.73": 1,
+          "1.15": 1,
+          "1.5": 1,
+          "0.97": 1,
+          "1.65": 1,
+          "1.72": 1,
+          "1.2": 1,
+          "1.37": 1,
+          "1.29": 1,
+          "0.84": 1,
+          "0.85": 1,
+          "1.1": 1,
+          "0.79": 1,
+          "1.23": 1,
+          "1.44": 1,
+          "0.65": 1,
+          "1.97": 1,
+          "1.13": 1,
+          "1.61": 1,
+          "0.82": 1,
+          "1.75": 1,
+          "1.45": 1,
+          "1.46": 1,
+          "1.48": 1
+        },
+        "characteristic_fasting_insulin_pmol_l_": {
+          "15": 5,
+          "50": 2,
+          "26": 2,
+          "22": 2,
+          "21": 2,
+          "87": 1,
+          "185": 1,
+          "65": 1,
+          "74": 1,
+          "61": 1,
+          "128": 1,
+          "111": 1,
+          "145": 1,
+          "132": 1,
+          "93": 1,
+          "63": 1,
+          "203": 1,
+          "17": 1,
+          "674": 1,
+          "108": 1,
+          "159": 1,
+          "191": 1,
+          "204": 1,
+          "83": 1,
+          "33": 1,
+          "29": 1,
+          "54": 1,
+          "38": 1,
+          "56": 1,
+          "75": 1,
+          "720": 1,
+          "57": 1,
+          "211": 1,
+          "19": 1,
+          "32": 1,
+          "600": 1,
+          "48": 1,
+          "90": 1,
+          "39": 1,
+          "24": 1,
+          "25": 1,
+          "16": 1
+        },
+        "characteristic_homa_insulin_resistance": {
+          "2.12": 2,
+          "0.85": 2,
+          "2.48": 1,
+          "4.19": 1,
+          "7.26": 1,
+          "3.85": 1,
+          "3.01": 1,
+          "5.40": 1,
+          "3.86": 1,
+          "5.91": 1,
+          "5.08": 1,
+          "3.24": 1,
+          "2.71": 1,
+          "24.36": 1,
+          "0.63": 1,
+          "22.47": 1,
+          "2.96": 1,
+          "5.84": 1,
+          "6.83": 1,
+          "8.49": 1,
+          "11.03": 1,
+          "3.26": 1,
+          "1.59": 1,
+          "1.12": 1,
+          "1.21": 1,
+          "1.74": 1,
+          "2.72": 1,
+          "40.00": 1,
+          "0.54": 1,
+          "1.98": 1,
+          "7.50": 1,
+          "0.47": 1,
+          "0.73": 1,
+          "1.19": 1,
+          "23.56": 1,
+          "0.89": 1,
+          "0.53": 1,
+          "2.28": 1,
+          "3.40": 1,
+          "1.36": 1,
+          "0.77": 1,
+          "0.38": 1,
+          "0.72": 1,
+          "0.98": 1,
+          "1.04": 1,
+          "0.55": 1,
+          "0.70": 1
+        },
+        "platform_id": {
+          "GPL14951": 63
+        }
+      },
+      "sample_titles": [
+        "liver_SS_CL-86",
+        "liver_NASH_CL-87",
+        "liver_SS_CL-88",
+        "liver_SS_CL-90",
+        "liver_SS_CL-91",
+        "liver_SS_CL-92",
+        "liver_SS_CL-95",
+        "liver_SS_CL-96",
+        "liver_NASH_CL-97",
+        "liver_NASH_CL-98",
+        "liver_SS_CL-100",
+        "liver_NASH_CL-103",
+        "liver_NASH_CL-106",
+        "liver_SS_CL-108",
+        "liver_SS_CL-110",
+        "liver_NASH_CL-111",
+        "liver_NASH_CL-112",
+        "liver_NASH_CL-113",
+        "liver_SS_CL-114",
+        "liver_NASH_CL-116",
+        "liver_SS_CL-117",
+        "liver_NASH_CL-118",
+        "liver_NASH_CL-128",
+        "liver_NASH_CL-132",
+        "liver_SS_CL-134",
+        "liver_SS_CL-136",
+        "liver_SS_CL-140",
+        "liver_SS_CL-142",
+        "liver_NASH_CL-144",
+        "liver_SS_CL-145",
+        "liver_NASH_CL-147",
+        "liver_NASH_CL-152",
+        "liver_NASH_CL-155",
+        "liver_NASH_CL-157",
+        "liver_NASH_CL-160",
+        "liver_SS_CL-161",
+        "liver_NASH_CL-167",
+        "liver_HC_HLD-1",
+        "liver_HC_HLD-2",
+        "liver_HC_HLD-3",
+        "liver_HC_HLD-4",
+        "liver_HC_HLD-5",
+        "liver_HC_HLD-7",
+        "liver_HC_HLD-8",
+        "liver_HC_HLD-10",
+        "liver_HC_HLD-11",
+        "liver_HC_HLD-13",
+        "liver_HC_HLD-14",
+        "liver_HC_HLD-21",
+        "liver_HC_HLD-23",
+        "liver_HC_HLD-26",
+        "liver_HC_HLD-35",
+        "liver_HC_HLD-36",
+        "liver_SS_HLD-38",
+        "liver_HC_HLD-41",
+        "liver_HC_HLD-43",
+        "liver_HC_HLD-47",
+        "liver_SS_HLD-50",
+        "liver_HC_HLD-51",
+        "liver_HC_HLD-53",
+        "liver_HC_HLD-55",
+        "liver_HC_HLD-56",
+        "liver_HC_HLD-66"
+      ],
+      "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+    }
+  ],
+  "errors": [
+    {
+      "accession": "GSE61258",
+      "file": "GSE61258_series_matrix.txt.gz",
+      "error": "EOFError",
+      "detail": "Compressed file ended before the end-of-stream marker was reached"
+    },
+    {
+      "accession": "GSE48325",
+      "file": "GSE48325_series_matrix.txt.gz",
+      "error": "EOFError",
+      "detail": "Compressed file ended before the end-of-stream marker was reached"
+    }
+  ],
+  "all_planned_downloads_finished": true
+}

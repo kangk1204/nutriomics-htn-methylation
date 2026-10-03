@@ -1,0 +1,26 @@
+{
+  "accession": "GSE89632",
+  "source_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE89632_series_matrix.txt.gz",
+  "sha256": "b8184cd4331823183d1c63232dbd0372bdffa6f847bb0f2830de84f5315d88da",
+  "n": 63,
+  "n_positive": 39,
+  "features": 29377,
+  "disease": "NAFLD",
+  "modality": "expression",
+  "tissue": "liver",
+  "field": "characteristic_diagnosis",
+  "labels": {
+    "HC": 0,
+    "SS": 1,
+    "NASH": 1
+  },
+  "expected": [
+    24,
+    39
+  ],
+  "public_processed_data": true,
+  "normalization_scope": "Author-supplied processed cohort; original cohort normalization cannot be undone here.",
+  "individual_covariate_adjustment_performed": false,
+  "independent_external_evaluation": false,
+  "tissue_representative_of_blood": false
+}

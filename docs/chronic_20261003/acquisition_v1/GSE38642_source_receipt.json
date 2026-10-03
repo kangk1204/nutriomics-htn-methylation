@@ -1,0 +1,394 @@
+{
+  "accession": "GSE38642",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38642/matrix/GSE38642_series_matrix.txt.gz",
+  "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/raw_v1/GSE38642_series_matrix.txt.gz",
+  "sha256": "aa9513381d5e13a3ba08fc0665d88a36b08d98f712b451781298fffad0633bcb",
+  "bytes": 1872293,
+  "gzip_crc": "passed_to_eof",
+  "schema_width": "passed",
+  "numeric_rows": 18808,
+  "samples": 63,
+  "sample_ids_unique": true,
+  "matrix_contains_values": true,
+  "series_metadata": {
+    "!Series_title": [
+      [
+        "Expression data from human pancreatic islets"
+      ]
+    ],
+    "!Series_geo_accession": [
+      [
+        "GSE38642"
+      ]
+    ],
+    "!Series_status": [
+      [
+        "Public on Jul 05 2012"
+      ]
+    ],
+    "!Series_submission_date": [
+      [
+        "Jun 11 2012"
+      ]
+    ],
+    "!Series_last_update_date": [
+      [
+        "May 27 2020"
+      ]
+    ],
+    "!Series_pubmed_id": [
+      [
+        "22768844"
+      ],
+      [
+        "23707792"
+      ],
+      [
+        "23935095"
+      ],
+      [
+        "26742564"
+      ]
+    ],
+    "!Series_summary": [
+      [
+        "Close to 50 genetic loci have been associated with type 2 diabetes (T2D), but they explain only 15% of the heritability."
+      ],
+      [
+        "In an attempt to identify additional T2D genes, we analyzed global gene expression in human islets from 63 donors."
+      ]
+    ],
+    "!Series_overall_design": [
+      [
+        "Islets from cadaver donors (54 non-diabetic and 9 diabetic) were provided by the Nordic Islet Transplantation Programme (www.nordicislets.org), Uppsala University. The microarrays were performed using GeneChip® Human Gene 1.0 ST whole transcript according to Affymetrix standard protocol."
+      ]
+    ],
+    "!Series_type": [
+      [
+        "Expression profiling by array"
+      ]
+    ],
+    "!Series_contributor": [
+      [
+        "João,,Fadista"
+      ],
+      [
+        "Jalal,,Taneera"
+      ]
+    ],
+    "!Series_sample_id": [
+      [
+        "GSM946700 GSM946701 GSM946702 GSM946703 GSM946704 GSM946705 GSM946706 GSM946707 GSM946708 GSM946709 GSM946710 GSM946711 GSM946712 GSM946713 GSM946714 GSM946715 GSM946716 GSM946717 GSM946718 GSM946719 GSM946720 GSM946721 GSM946722 GSM946723 GSM946724 GSM946725 GSM946726 GSM946727 GSM946728 GSM946729 GSM946730 GSM946731 GSM946732 GSM946733 GSM946734 GSM946735 GSM946736 GSM946737 GSM946738 GSM946739 GSM946740 GSM946741 GSM946742 GSM946743 GSM946744 GSM946745 GSM946746 GSM946747 GSM946748 GSM946749 GSM946750 GSM946751 GSM946752 GSM946753 GSM946754 GSM946755 GSM946756 GSM946757 GSM946758 GSM946759 GSM946760 GSM946761 GSM946762 "
+      ]
+    ],
+    "!Series_contact_name": [
+      [
+        "Joao,,Fadista"
+      ]
+    ],
+    "!Series_contact_email": [
+      [
+        "joao.fadista@med.lu.se"
+      ]
+    ],
+    "!Series_contact_institute": [
+      [
+        "Lund University Diabetes Centre"
+      ]
+    ],
+    "!Series_contact_address": [
+      [
+        "Jan Waldenströms gata 35"
+      ]
+    ],
+    "!Series_contact_city": [
+      [
+        "Malmö"
+      ]
+    ],
+    "!Series_contact_zip/postal_code": [
+      [
+        "205 02"
+      ]
+    ],
+    "!Series_contact_country": [
+      [
+        "Sweden"
+      ]
+    ],
+    "!Series_supplementary_file": [
+      [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE38nnn/GSE38642/suppl/GSE38642_RAW.tar"
+      ]
+    ],
+    "!Series_platform_id": [
+      [
+        "GPL6244"
+      ]
+    ],
+    "!Series_platform_taxid": [
+      [
+        "9606"
+      ]
+    ],
+    "!Series_sample_taxid": [
+      [
+        "9606"
+      ]
+    ],
+    "!Series_relation": [
+      [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA168302"
+      ]
+    ]
+  },
+  "metadata_file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/docs/chronic_20261003/acquisition_v1/GSE38642_series_matrix_metadata.tsv",
+  "metadata_sha256": "b6dec9ee65000807393c63d66f10818409dabd7d906b854bdc7426e556bdacfc",
+  "characteristics": {
+    "source_name_ch1": {
+      "Islets from cadaver donor ID1": 1,
+      "Islets from cadaver donor ID2": 1,
+      "Islets from cadaver donor ID3": 1,
+      "Islets from cadaver donor ID4": 1,
+      "Islets from cadaver donor ID5": 1,
+      "Islets from cadaver donor ID6": 1,
+      "Islets from cadaver donor ID7": 1,
+      "Islets from cadaver donor ID8": 1,
+      "Islets from cadaver donor ID9": 1,
+      "Islets from cadaver donor ID10": 1,
+      "Islets from cadaver donor ID11": 1,
+      "Islets from cadaver donor ID12": 1,
+      "Islets from cadaver donor ID13": 1,
+      "Islets from cadaver donor ID14": 1,
+      "Islets from cadaver donor ID15": 1,
+      "Islets from cadaver donor ID16": 1,
+      "Islets from cadaver donor ID19": 1,
+      "Islets from cadaver donor ID20": 1,
+      "Islets from cadaver donor ID21": 1,
+      "Islets from cadaver donor ID22": 1,
+      "Islets from cadaver donor ID23": 1,
+      "Islets from cadaver donor ID24": 1,
+      "Islets from cadaver donor ID25": 1,
+      "Islets from cadaver donor ID26": 1,
+      "Islets from cadaver donor ID27": 1,
+      "Islets from cadaver donor ID28": 1,
+      "Islets from cadaver donor ID29": 1,
+      "Islets from cadaver donor ID30": 1,
+      "Islets from cadaver donor ID31": 1,
+      "Islets from cadaver donor ID32": 1,
+      "Islets from cadaver donor ID33": 1,
+      "Islets from cadaver donor ID34": 1,
+      "Islets from cadaver donor ID35": 1,
+      "Islets from cadaver donor ID36": 1,
+      "Islets from cadaver donor ID37": 1,
+      "Islets from cadaver donor ID38": 1,
+      "Islets from cadaver donor ID39": 1,
+      "Islets from cadaver donor ID40": 1,
+      "Islets from cadaver donor ID41": 1,
+      "Islets from cadaver donor ID42": 1,
+      "Islets from cadaver donor ID43": 1,
+      "Islets from cadaver donor ID44": 1,
+      "Islets from cadaver donor ID46": 1,
+      "Islets from cadaver donor ID47": 1,
+      "Islets from cadaver donor ID48": 1,
+      "Islets from cadaver donor ID49": 1,
+      "Islets from cadaver donor ID50": 1,
+      "Islets from cadaver donor ID51": 1,
+      "Islets from cadaver donor ID52": 1,
+      "Islets from cadaver donor ID53": 1,
+      "Islets from cadaver donor ID54": 1,
+      "Islets from cadaver donor ID55": 1,
+      "Islets from cadaver donor ID56": 1,
+      "Islets from cadaver donor ID57": 1,
+      "Islets from cadaver donor ID58": 1,
+      "Islets from cadaver donor ID59": 1,
+      "Islets from cadaver donor ID60": 1,
+      "Islets from cadaver donor ID61": 1,
+      "Islets from cadaver donor ID62": 1,
+      "Islets from cadaver donor ID63": 1,
+      "Islets from cadaver donor ID64": 1,
+      "Islets from cadaver donor ID65": 1,
+      "Islets from cadaver donor ID66": 1
+    },
+    "characteristic_tissue": {
+      "pancreatic islets": 63
+    },
+    "characteristic_sex": {
+      "Male": 36,
+      "Female": 27
+    },
+    "characteristic_age": {
+      "54": 6,
+      "62": 5,
+      "57": 5,
+      "64": 4,
+      "61": 4,
+      "69": 3,
+      "56": 3,
+      "51": 3,
+      "43": 3,
+      "59": 3,
+      "46": 2,
+      "67": 2,
+      "60": 2,
+      "44": 1,
+      "73": 1,
+      "31": 1,
+      "55": 1,
+      "63": 1,
+      "71": 1,
+      "26": 1,
+      "49": 1,
+      "52": 1,
+      "32": 1,
+      "41": 1,
+      "74": 1,
+      "68": 1,
+      "75": 1,
+      "53": 1,
+      "40": 1,
+      "66": 1,
+      "58": 1
+    },
+    "characteristic_bmi": {
+      "24.7": 5,
+      "26.2": 4,
+      "28.4": 3,
+      "27.0": 3,
+      "26.1": 3,
+      "23.9": 2,
+      "21.1": 2,
+      "29.4": 2,
+      "26.0": 2,
+      "22.5": 2,
+      "27.5": 2,
+      "26.3": 2,
+      "24.5": 2,
+      "24.8": 2,
+      "25.7": 2,
+      "27.7": 1,
+      "17.6": 1,
+      "29.0": 1,
+      "26.8": 1,
+      "29.1": 1,
+      "22.0": 1,
+      "24.2": 1,
+      "36.6": 1,
+      "27.8": 1,
+      "23.1": 1,
+      "22.9": 1,
+      "21.5": 1,
+      "23.4": 1,
+      "23.5": 1,
+      "33.1": 1,
+      "34.6": 1,
+      "23.7": 1,
+      "24.6": 1,
+      "19.4": 1,
+      "33.6": 1,
+      "36.9": 1,
+      "32.5": 1,
+      "25.3": 1,
+      "28.7": 1,
+      "34.2": 1
+    },
+    "characteristic_hba1c": {
+      "--": 12,
+      "5.5": 6,
+      "6.2": 6,
+      "5.4": 4,
+      "5.3": 4,
+      "5.6": 4,
+      "5.8": 3,
+      "5.9": 3,
+      "6.8": 3,
+      "4.3": 2,
+      "4.6": 2,
+      "6.0": 2,
+      "7.0": 2,
+      "7.8": 1,
+      "6.9": 1,
+      "6.1": 1,
+      "4.5": 1,
+      "8.6": 1,
+      "5.0": 1,
+      "5.2": 1,
+      "8.0": 1,
+      "6.4": 1,
+      "10.0": 1
+    },
+    "characteristic_status": {
+      "non-diabetic donors": 54,
+      "T2D donors": 9
+    },
+    "platform_id": {
+      "GPL6244": 63
+    }
+  },
+  "sample_titles": [
+    "human islets, ID1",
+    "human islets, ID2",
+    "human islets, ID3",
+    "human islets, ID4",
+    "human islets, ID5",
+    "human islets, ID6",
+    "human islets, ID7",
+    "human islets, ID8",
+    "human islets, ID9",
+    "human islets, ID10",
+    "human islets, ID11",
+    "human islets, ID12",
+    "human islets, ID13",
+    "human islets, ID14",
+    "human islets, ID15",
+    "human islets, ID16",
+    "human islets, ID19",
+    "human islets, ID20",
+    "human islets, ID21",
+    "human islets, ID22",
+    "human islets, ID23",
+    "human islets, ID24",
+    "human islets, ID25",
+    "human islets, ID26",
+    "human islets, ID27",
+    "human islets, ID28",
+    "human islets, ID29",
+    "human islets, ID30",
+    "human islets, ID31",
+    "human islets, ID32",
+    "human islets, ID33",
+    "human islets, ID34",
+    "human islets, ID35",
+    "human islets, ID36",
+    "human islets, ID37",
+    "human islets, ID38",
+    "human islets, ID39",
+    "human islets, ID40",
+    "human islets, ID41",
+    "human islets, ID42",
+    "human islets, ID43",
+    "human islets, ID44",
+    "human islets, ID46",
+    "human islets, ID47",
+    "human islets, ID48",
+    "human islets, ID49",
+    "human islets, ID50",
+    "human islets, ID51",
+    "human islets, ID52",
+    "human islets, ID53",
+    "human islets, ID54",
+    "human islets, ID55",
+    "human islets, ID56",
+    "human islets, ID57",
+    "human islets, ID58",
+    "human islets, ID59",
+    "human islets, ID60",
+    "human islets, ID61",
+    "human islets, ID62",
+    "human islets, ID63",
+    "human islets, ID64",
+    "human islets, ID65",
+    "human islets, ID66"
+  ],
+  "rights": "Official public GEO research download; cite accession and original study. Source data are excluded from code redistribution."
+}

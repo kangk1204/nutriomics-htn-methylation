@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-10-03T00:38:08.598754+00:00",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "script_sha256": "bf9df4e3ba49a749a168613991183fe8f5b113676e78f1f06df3d5a2bdbe607b",
+  "learning_code_sha256": "22123f43b7c4e94a2b22795f4a9a19822addbb2642367c5386ef25d044536c83",
+  "models_evaluated": 6,
+  "nested_prediction_runs": 18,
+  "raw_data_not_redistributed": true,
+  "all_evaluated_models_reported": true,
+  "no_person_matched_multiomics_merge": true
+}

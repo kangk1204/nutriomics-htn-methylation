@@ -1,0 +1,40 @@
+{
+  "frozen_before_these_cohort_model_results": true,
+  "seeds": [
+    20261003,
+    20261020,
+    20261103
+  ],
+  "source_target_pairs": [
+    [
+      "obesity_discovery",
+      "obesity_replication"
+    ],
+    [
+      "nafld_GSE48325",
+      "nafld_GSE61258"
+    ]
+  ],
+  "obesity_design": "SAT only; discovery 450K 24 controls/24 obese, held-out replication EPIC 24 controls/24 obese; exact native HA mapping; mask Detection P>0.01; no target training.",
+  "liver_design": "Exclude all postoperative and unknown GSE48325 samples; healthy obese/normal controls versus NAFLD/NASH. GSE61258 Control/Healthy Obese versus NAFLD/NASH; PSC/PBC excluded.",
+  "liver_external_claim": "Exploratory cohort transfer; donor independence not established; related recruitment and upstream normalization may limit inference.",
+  "source_CV": "Nested 5-fold/minority-limited, inner 3-fold/minority-limited; every learned feature, imputation and scaler training-only.",
+  "hyperparameters": {
+    "k": [
+      10,
+      50,
+      200
+    ],
+    "C": [
+      0.1,
+      1.0
+    ],
+    "ranking": [
+      "supervised",
+      "variance"
+    ],
+    "threshold": 0.5
+  },
+  "all_results_reported": true,
+  "raw_source_matrices_not_redistributed": true
+}

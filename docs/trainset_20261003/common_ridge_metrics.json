@@ -1,0 +1,35 @@
+{
+  "model": "common_ridge",
+  "metrics": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.9307851239669421,
+    "average_precision": 0.9349932375881461,
+    "auprc_trapezoid": 0.9341866890674869,
+    "brier": 0.1834242063933005,
+    "sensitivity": 0.8636363636363636,
+    "specificity": 0.8636363636363636,
+    "threshold": 0.5,
+    "tp": 38,
+    "tn": 38,
+    "fp": 6,
+    "fn": 6,
+    "accuracy": 0.8636363636363636,
+    "evaluation": "training_resubstitution",
+    "independent_evaluation": false
+  },
+  "parameters": {
+    "k": 100,
+    "C": 0.01,
+    "l1_ratio": null
+  },
+  "parameters_source": "Original inner-CV selected final refit parameters, fixed before this diagnostic",
+  "selected_probes": 100,
+  "available_probes": 10749,
+  "fresh_fit_n": 88,
+  "refit_convergence_warnings": 0,
+  "original_refit_max_probability_difference": 0.0,
+  "nested5_auroc": 0.4679752066115702,
+  "loocv_auroc": 0.46849173553719015,
+  "external_auroc": 0.5625
+}

@@ -1,0 +1,55 @@
+{
+  "generated_utc": "2026-10-03T00:35:16.834184+00:00",
+  "sources": [
+    {
+      "accession": "GSE61258",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE61nnn/GSE61258/matrix/GSE61258_series_matrix.txt.gz",
+      "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/assets_v1/GSE61258_series_matrix.txt.gz",
+      "bytes": 161900820,
+      "last_modified": "Wed, 23 Sep 2026 05:48:05 GMT",
+      "sha256": "8c82dcd6200246a145c66974487c8d47e260f96513415ba9d707206c7e882dba",
+      "gzip_crc": "passed_to_eof",
+      "attempts": [
+        {
+          "attempt": 1,
+          "exit_code": 0,
+          "bytes": 161900820
+        }
+      ]
+    },
+    {
+      "accession": "GSE48325",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48325/matrix/GSE48325_series_matrix.txt.gz",
+      "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/assets_v1/GSE48325_series_matrix.txt.gz",
+      "bytes": 173118811,
+      "last_modified": "Sat, 26 Sep 2026 12:00:37 GMT",
+      "sha256": "ea62c668c050c1097b74ab17267e548e7cb0ac5d1c07cc8561ab5b1e6631d715",
+      "gzip_crc": "passed_to_eof",
+      "attempts": [
+        {
+          "attempt": 1,
+          "exit_code": 0,
+          "bytes": 173118811
+        }
+      ]
+    },
+    {
+      "accession": "GSE222595",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222595/suppl/GSE222595_processed_beta_comb.txt.gz",
+      "file": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/data/chronic_20261003/assets_v1/GSE222595_processed_beta_comb.txt.gz",
+      "bytes": 1011346905,
+      "last_modified": "Tue, 10 Jan 2023 23:33:22 GMT",
+      "sha256": "654634d1d53d49f1e242fd119c2c63c733e3cfe0b873e78a4839089526885e5c",
+      "gzip_crc": "passed_to_eof",
+      "attempts": [
+        {
+          "attempt": 1,
+          "exit_code": 0,
+          "bytes": 1011346905
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "scope": "Supplemental beta and corrected complete matrix downloads; original truncated transfer receipts preserved."
+}
