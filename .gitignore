@@ -25,3 +25,4 @@ cache/
 *.log
 
 .pytest*/
+docs/obesity_third_20261003_v1/native_metadata.tsv

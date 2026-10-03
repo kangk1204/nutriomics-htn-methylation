@@ -1,0 +1,75 @@
+{
+  "space": "full",
+  "source": "GSE193795",
+  "target": null,
+  "source_metrics": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.35640495867768596,
+    "average_precision": 0.4293352847723406,
+    "auprc_trapezoid": 0.4153457652866189,
+    "brier": 0.3595992096641363,
+    "sensitivity": 0.38636363636363635,
+    "specificity": 0.36363636363636365,
+    "threshold": 0.5,
+    "tp": 17,
+    "tn": 16,
+    "fp": 28,
+    "fn": 27,
+    "ci95": {
+      "auroc": [
+        0.2447959710743802,
+        0.4783703512396694
+      ],
+      "average_precision": [
+        0.37935215741935663,
+        0.5375870277249757
+      ],
+      "auprc_trapezoid": [
+        0.3613163186481398,
+        0.5110783665005089
+      ],
+      "brier": [
+        0.3101883254594292,
+        0.4089722911867212
+      ],
+      "sensitivity": [
+        0.243571642440721,
+        0.5450446953365582
+      ],
+      "specificity": [
+        0.22408014007872376,
+        0.5222785035613743
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": -0.49455793284149097,
+    "calibration_intercept_descriptive": -0.04966945126583161
+  },
+  "replication_metrics": null,
+  "training_resubstitution": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.9462809917355373,
+    "average_precision": 0.9499091581674142,
+    "auprc_trapezoid": 0.9493325594615369,
+    "brier": 0.10234178402263107,
+    "sensitivity": 0.9090909090909091,
+    "specificity": 0.8636363636363636,
+    "threshold": 0.5,
+    "tp": 40,
+    "tn": 38,
+    "fp": 6,
+    "fn": 4
+  },
+  "selected_k": 10,
+  "selected_C": 0.1,
+  "posthoc": true,
+  "target_fitting_tuning_calibration_or_threshold_selection": false
+}

@@ -1,0 +1,32 @@
+{
+  "frozen_utc": "2026-10-03T03:09:05.809275+00:00",
+  "primary_model": "original_supervised_50",
+  "comparators": [
+    "original_variance",
+    "snp_excluded_supervised_10"
+  ],
+  "model_sha256": {
+    "original_supervised_50": "c95f1740e4b5c4cf46e79079fd3fa77e9614a17813c4b1df64ba258b52c5c2ce",
+    "original_variance": "983f27f58669eaa7b34afe239f80094d35adad53476d60a92d98fbec96c29dd7",
+    "snp_excluded_supervised_10": "3877f3a074c1f94710e74c3532b1bf1c9f14a9506ce3112109f3fd217cb0ba0f"
+  },
+  "target": "GSE67024",
+  "source": "GSE222595 discovery SAT 48 participants",
+  "expected_target_class_counts": [
+    14,
+    15
+  ],
+  "tissue": "isolated abdominal subcutaneous fat cells",
+  "scope": "Separately published 2015 women-only cohort; cross-study exploratory transfer",
+  "target_beta_or_predictions_previously_inspected": false,
+  "source_replication_results_previously_known": true,
+  "source_only_frozen_preprocessing": true,
+  "threshold": 0.5,
+  "target_training_feature_selection_tuning_calibration": false,
+  "individual_covariate_adjustment": false,
+  "raw_IDAT_reprocessing": false,
+  "data_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE67nnn/GSE67024/matrix/GSE67024_series_matrix.txt.gz",
+  "metadata_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67024",
+  "paper_pmid": "26351548",
+  "primary_model_must_not_be_selected_by_this_test": true
+}

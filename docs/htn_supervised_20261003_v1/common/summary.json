@@ -1,0 +1,124 @@
+{
+  "space": "common",
+  "source": "GSE193795",
+  "target": "GSE42774",
+  "source_metrics": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.4607438016528925,
+    "average_precision": 0.5137954347810925,
+    "auprc_trapezoid": 0.4980803093536841,
+    "brier": 0.31836646648051675,
+    "sensitivity": 0.5227272727272727,
+    "specificity": 0.36363636363636365,
+    "threshold": 0.5,
+    "tp": 23,
+    "tn": 16,
+    "fp": 28,
+    "fn": 21,
+    "ci95": {
+      "auroc": [
+        0.3419034090909091,
+        0.5883522727272728
+      ],
+      "average_precision": [
+        0.4345274454249295,
+        0.6491487965800855
+      ],
+      "auprc_trapezoid": [
+        0.41337018046279084,
+        0.634175430476585
+      ],
+      "brier": [
+        0.2701799262392727,
+        0.368593085875884
+      ],
+      "sensitivity": [
+        0.36689751659283454,
+        0.6753857836029169
+      ],
+      "specificity": [
+        0.22408014007872376,
+        0.5222785035613743
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": -0.18097513817418107,
+    "calibration_intercept_descriptive": 0.03522359275467969
+  },
+  "replication_metrics": {
+    "n": 16,
+    "n_positive": 8,
+    "auroc": 0.71875,
+    "average_precision": 0.7313311688311688,
+    "auprc_trapezoid": 0.7030167748917748,
+    "brier": 0.4996597656355851,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "threshold": 0.5,
+    "tp": 0,
+    "tn": 8,
+    "fp": 0,
+    "fn": 8,
+    "ci95": {
+      "auroc": [
+        0.4375,
+        0.953125
+      ],
+      "average_precision": [
+        0.5416555059523809,
+        0.9583333333333333
+      ],
+      "auprc_trapezoid": [
+        0.45732672709235206,
+        0.9479414682539683
+      ],
+      "brier": [
+        0.49905455237814667,
+        0.4999818290719979
+      ],
+      "sensitivity": [
+        0.0,
+        0.3694166475528192
+      ],
+      "specificity": [
+        0.6305833524471807,
+        1.0
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "matched-pair bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261001,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.23786296720181918,
+    "calibration_intercept_descriptive": 2.864614549489295
+  },
+  "training_resubstitution": {
+    "n": 88,
+    "n_positive": 44,
+    "auroc": 0.9318181818181819,
+    "average_precision": 0.9347775602251445,
+    "auprc_trapezoid": 0.9339752141132971,
+    "brier": 0.10447354049392743,
+    "sensitivity": 0.8636363636363636,
+    "specificity": 0.8636363636363636,
+    "threshold": 0.5,
+    "tp": 38,
+    "tn": 38,
+    "fp": 6,
+    "fn": 6
+  },
+  "selected_k": 10,
+  "selected_C": 1.0,
+  "posthoc": true,
+  "target_fitting_tuning_calibration_or_threshold_selection": false
+}

@@ -1,0 +1,33 @@
+{
+  "analysis": "post-hoc annotation-based robustness",
+  "locked_before_this_run_results": true,
+  "original_replication_results_already_known": true,
+  "seeds": [
+    20261003,
+    20261020,
+    20261103
+  ],
+  "exclusion_rule": "Any nonempty native Probe_SNPs or Probe_SNPs_10 on the entire GPL13534 platform; no MAF threshold claimed",
+  "nested": "5 outer / 3 inner folds, source-only learned filtering/imputation/F-statistic ranking/scaling/tuning",
+  "grid": {
+    "k": [
+      10,
+      50,
+      200
+    ],
+    "C": [
+      0.1,
+      1.0
+    ]
+  },
+  "threshold": 0.5,
+  "replication_training_or_selection": false,
+  "clinical_validation": false,
+  "raw_IDAT_reprocessing_or_covariate_adjustment": false,
+  "all_inputs_sha256": {
+    "data/chronic_20261003/prepared_v3/obesity_discovery.npz": "fcb96240de4b9c34b9af60589b87d49ef966bf4c702d9c4f97fc252615529335",
+    "data/chronic_20261003/prepared_v3/obesity_replication.npz": "268e18d8e4d78199a6c0a236dc959c31f6c1e98724d8da0aa02f7162db884781",
+    "data/chronic_20261003/obesity_annotation_v1/GPL13534_self.soft.gz": "f82e96ac78829434ea2d44c266da68f47d8cd14f826fda7566869ad0d0a0d6c0",
+    "models/chronic_20261003_obesity_discovery_supervised.joblib": "c95f1740e4b5c4cf46e79079fd3fa77e9614a17813c4b1df64ba258b52c5c2ce"
+  }
+}

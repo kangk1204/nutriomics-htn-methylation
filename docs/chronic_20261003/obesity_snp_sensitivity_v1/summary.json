@@ -1,0 +1,142 @@
+{
+  "platform_rows": 485577,
+  "platform_flagged": 89678,
+  "aligned_union_probes": 875551,
+  "removed_aligned_probes": 88029,
+  "remaining_aligned_probes": 787522,
+  "source_usable_90pct_before": 469071,
+  "source_usable_90pct_after": 382052,
+  "source_metrics": {
+    "n": 48,
+    "n_positive": 24,
+    "auroc": 0.9392361111111112,
+    "average_precision": 0.9143198469085616,
+    "auprc_trapezoid": 0.9105800056399376,
+    "brier": 0.08618833029854826,
+    "sensitivity": 0.9583333333333334,
+    "specificity": 0.875,
+    "threshold": 0.5,
+    "tp": 23,
+    "tn": 21,
+    "fp": 3,
+    "fn": 1,
+    "ci95": {
+      "auroc": [
+        0.8420138888888888,
+        1.0
+      ],
+      "average_precision": [
+        0.786759865453253,
+        0.9999999999999999
+      ],
+      "auprc_trapezoid": [
+        0.7676295783759238,
+        0.9999999999999999
+      ],
+      "brier": [
+        0.03322531604000105,
+        0.15610623305622484
+      ],
+      "sensitivity": [
+        0.7887983165430269,
+        0.9989456475545303
+      ],
+      "specificity": [
+        0.6763886418111671,
+        0.973440685013751
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261003,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 1.0066113684572107,
+    "calibration_intercept_descriptive": -0.39042554541510244
+  },
+  "replication_metrics": {
+    "n": 48,
+    "n_positive": 24,
+    "auroc": 0.9253472222222223,
+    "average_precision": 0.9436413160030956,
+    "auprc_trapezoid": 0.9426274179627195,
+    "brier": 0.11490527801259513,
+    "sensitivity": 0.9166666666666666,
+    "specificity": 0.7916666666666666,
+    "threshold": 0.5,
+    "tp": 22,
+    "tn": 19,
+    "fp": 5,
+    "fn": 2,
+    "ci95": {
+      "auroc": [
+        0.8246527777777778,
+        0.9896267361111111
+      ],
+      "average_precision": [
+        0.8776941169808444,
+        0.9910734010362243
+      ],
+      "auprc_trapezoid": [
+        0.8724483786645221,
+        0.9906796463274046
+      ],
+      "brier": [
+        0.04678389392005422,
+        0.19688748861375072
+      ],
+      "sensitivity": [
+        0.7300271984423964,
+        0.9897436587187498
+      ],
+      "specificity": [
+        0.5784871563627474,
+        0.928681382801945
+      ]
+    },
+    "interval_method": {
+      "discrimination_brier": "stratified participant bootstrap",
+      "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+      "bootstrap_replicates": 1000,
+      "seed": 20261003,
+      "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+    },
+    "calibration_slope_descriptive": 0.5600233873458313,
+    "calibration_intercept_descriptive": -0.0005507188524161182
+  },
+  "training_resubstitution": {
+    "n": 48,
+    "n_positive": 24,
+    "auroc": 0.9913194444444444,
+    "average_precision": 0.9918226650563606,
+    "auprc_trapezoid": 0.9916547195759153,
+    "brier": 0.03854083732213188,
+    "sensitivity": 1.0,
+    "specificity": 0.875,
+    "threshold": 0.5,
+    "tp": 24,
+    "tn": 21,
+    "fp": 3,
+    "fn": 0
+  },
+  "selected_probes": 10,
+  "selected_k": 10,
+  "selected_C": 1.0,
+  "model_sha256": "3877f3a074c1f94710e74c3532b1bf1c9f14a9506ce3112109f3fd217cb0ba0f",
+  "model_path": "/home/keunsoo/projects/nutriomics-2026-final/nutriomics-htn-methylation/models/obesity_snp_sensitivity_v1_source_only.joblib",
+  "original_inputs_and_model_unchanged": true,
+  "posthoc": true,
+  "replication_used_for_tuning": false,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "script_sha256": "0c94c4b241291716ea2c58da2e99bf48ee7352512c5e7223cc56f78111ada497",
+  "generated_utc": "2026-10-03T02:42:46.942024+00:00"
+}

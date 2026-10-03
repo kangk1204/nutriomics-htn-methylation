@@ -1,0 +1,204 @@
+{
+  "results": [
+    {
+      "model": "original_supervised_50",
+      "target": "GSE67024",
+      "metrics": {
+        "n": 29,
+        "n_positive": 15,
+        "auroc": 0.980952380952381,
+        "average_precision": 0.9829505135387488,
+        "auprc_trapezoid": 0.9823635351576527,
+        "brier": 0.0613098844828943,
+        "sensitivity": 0.9333333333333333,
+        "specificity": 0.8571428571428571,
+        "threshold": 0.5,
+        "tp": 14,
+        "tn": 12,
+        "fp": 2,
+        "fn": 1,
+        "ci95": {
+          "auroc": [
+            0.9238095238095237,
+            1.0
+          ],
+          "average_precision": [
+            0.9366211484593837,
+            1.0
+          ],
+          "auprc_trapezoid": [
+            0.9310549866799867,
+            1.0
+          ],
+          "brier": [
+            0.005395194177494402,
+            0.13248912495729212
+          ],
+          "sensitivity": [
+            0.6805154334216966,
+            0.9983135697586473
+          ],
+          "specificity": [
+            0.5718708390903011,
+            0.9822054845168084
+          ]
+        },
+        "interval_method": {
+          "discrimination_brier": "stratified participant bootstrap",
+          "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+          "bootstrap_replicates": 1000,
+          "seed": 20261003,
+          "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+        },
+        "calibration_slope_descriptive": 0.9084263336348941,
+        "calibration_intercept_descriptive": -0.23112236764144747
+      },
+      "selected_probes": 50,
+      "selected_probes_all_target_missing": 0,
+      "original_model_sha256": "c95f1740e4b5c4cf46e79079fd3fa77e9614a17813c4b1df64ba258b52c5c2ce",
+      "source_only_frozen_model": true,
+      "external_label_or_value_fitting": false,
+      "clinical_validation": false,
+      "interpretation": "Cross-study 29-woman isolated SAT-adipocyte discrimination; raw processing/covariates differ and are not harmonized with test data"
+    },
+    {
+      "model": "original_variance",
+      "target": "GSE67024",
+      "metrics": {
+        "n": 29,
+        "n_positive": 15,
+        "auroc": 0.5809523809523809,
+        "average_precision": 0.6115584824611193,
+        "auprc_trapezoid": 0.5896542655621058,
+        "brier": 0.33033727651426464,
+        "sensitivity": 0.4,
+        "specificity": 0.7142857142857143,
+        "threshold": 0.5,
+        "tp": 6,
+        "tn": 10,
+        "fp": 4,
+        "fn": 9,
+        "ci95": {
+          "auroc": [
+            0.35714285714285715,
+            0.7904761904761904
+          ],
+          "average_precision": [
+            0.47690040331141614,
+            0.8117974112972998
+          ],
+          "auprc_trapezoid": [
+            0.42309928943483055,
+            0.7945713653691037
+          ],
+          "brier": [
+            0.2171669957141059,
+            0.45481087826849775
+          ],
+          "sensitivity": [
+            0.16336432385951347,
+            0.6771302337937184
+          ],
+          "specificity": [
+            0.4189647428163391,
+            0.9161106816928725
+          ]
+        },
+        "interval_method": {
+          "discrimination_brier": "stratified participant bootstrap",
+          "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+          "bootstrap_replicates": 1000,
+          "seed": 20261003,
+          "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+        },
+        "calibration_slope_descriptive": 0.05220330724422495,
+        "calibration_intercept_descriptive": 0.09525164164743381
+      },
+      "selected_probes": 50,
+      "selected_probes_all_target_missing": 0,
+      "original_model_sha256": "983f27f58669eaa7b34afe239f80094d35adad53476d60a92d98fbec96c29dd7",
+      "source_only_frozen_model": true,
+      "external_label_or_value_fitting": false,
+      "clinical_validation": false,
+      "interpretation": "Cross-study 29-woman isolated SAT-adipocyte discrimination; raw processing/covariates differ and are not harmonized with test data"
+    },
+    {
+      "model": "snp_excluded_supervised_10",
+      "target": "GSE67024",
+      "metrics": {
+        "n": 29,
+        "n_positive": 15,
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "auprc_trapezoid": 1.0,
+        "brier": 0.3351699563254862,
+        "sensitivity": 0.2,
+        "specificity": 1.0,
+        "threshold": 0.5,
+        "tp": 3,
+        "tn": 14,
+        "fp": 0,
+        "fn": 12,
+        "ci95": {
+          "auroc": [
+            0.9999999999999999,
+            1.0
+          ],
+          "average_precision": [
+            1.0,
+            1.0
+          ],
+          "auprc_trapezoid": [
+            1.0,
+            1.0
+          ],
+          "brier": [
+            0.24589193029031833,
+            0.42119926088849585
+          ],
+          "sensitivity": [
+            0.0433120051058366,
+            0.48089113380685305
+          ],
+          "specificity": [
+            0.7683642383498834,
+            1.0
+          ]
+        },
+        "interval_method": {
+          "discrimination_brier": "stratified participant bootstrap",
+          "sensitivity_specificity": "Clopper-Pearson exact binomial; external pairing not modeled for these intervals",
+          "bootstrap_replicates": 1000,
+          "seed": 20261003,
+          "scope": "Conditional on realized predictions, does not refit CV and does not capture model-selection variability."
+        },
+        "calibration_slope_descriptive": 192.31840121249968,
+        "calibration_intercept_descriptive": 869.2917102603225
+      },
+      "selected_probes": 10,
+      "selected_probes_all_target_missing": 0,
+      "original_model_sha256": "3877f3a074c1f94710e74c3532b1bf1c9f14a9506ce3112109f3fd217cb0ba0f",
+      "source_only_frozen_model": true,
+      "external_label_or_value_fitting": false,
+      "clinical_validation": false,
+      "interpretation": "Cross-study 29-woman isolated SAT-adipocyte discrimination; raw processing/covariates differ and are not harmonized with test data"
+    }
+  ],
+  "source_models_unchanged": true,
+  "target_matrix_sha256": "6e1571466b4ffff7d2fa6d4ad33a8b5ea272db57117de3dcaccff07aa3a4d7a9",
+  "target_samples": 29,
+  "target_cases": 15,
+  "target_controls": 14,
+  "target_probe_rows": 485577,
+  "gzip_full_read_crc_passed": true,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "script_sha256": "fd0470db1bd53f6fc74a55b2a5827805c5ca5702f748e1e2d3bd79de399e01a3",
+  "generated_utc": "2026-10-03T03:09:49.829417+00:00"
+}

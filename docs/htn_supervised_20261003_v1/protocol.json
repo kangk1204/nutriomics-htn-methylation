@@ -1,0 +1,33 @@
+{
+  "posthoc": true,
+  "seeds": [
+    20261001,
+    20261018,
+    20261101
+  ],
+  "primary_n": 88,
+  "htn_n": 44,
+  "control_n": 44,
+  "preHT_excluded_from_learning": 44,
+  "selector": "source-fold-local F statistic",
+  "nested": "5 outer / 3 inner",
+  "k": [
+    10,
+    50,
+    200
+  ],
+  "C": [
+    0.1,
+    1.0
+  ],
+  "spaces": [
+    "common",
+    "full"
+  ],
+  "threshold": 0.5,
+  "prepared_sha256": "8353873c44e88186debcc13ede15fc8896c7232716ffc77fa5bcb2701bf5402e",
+  "external_already_seen_in_previous_analyses": true,
+  "external_tuning": false,
+  "age_sex_adjustment": false,
+  "clinical_validation": false
+}
