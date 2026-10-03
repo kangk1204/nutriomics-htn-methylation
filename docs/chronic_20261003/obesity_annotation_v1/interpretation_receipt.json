@@ -1,0 +1,158 @@
+{
+  "actual_final_selected_probes": 50,
+  "native_platform_coordinate_matches": 50,
+  "native_gene_annotated_probes": 39,
+  "without_native_gene_assignment": 11,
+  "unique_native_gene_symbols": [
+    "ACE",
+    "AGRN",
+    "ANTXR1",
+    "CASC2",
+    "CASP10",
+    "CDH13",
+    "CLEC4GP1",
+    "CYP26C1",
+    "FERMT3",
+    "HOXA10",
+    "HOXA11AS",
+    "JAZF1",
+    "LTBP4",
+    "MCF2L",
+    "P4HA3",
+    "PTPRR",
+    "RAD51L1",
+    "TBX5",
+    "TMEM100",
+    "TNFRSF17",
+    "TRANK1",
+    "VWA5B1"
+  ],
+  "same_delta_direction_probes": 46,
+  "native_build_values": [
+    37
+  ],
+  "selection_stability_denominator": 15,
+  "top12_rule": "Descending absolute coefficient of frozen source-only final refit; independent of replication effect/association results",
+  "published_exact_probe_match_counts": {
+    "2": 22,
+    "7": 3,
+    "9": 1,
+    "11": 4
+  },
+  "mean_difference_interval": "Unadjusted obese minus control beta percentage points; separate group bootstrap 2000; conditional descriptive intervals, not selection-adjusted or age/sex-adjusted EWAS",
+  "posthoc_replication_interpretation": true,
+  "RNA_reanalysed": false,
+  "model_refitted": false,
+  "causal_target_assignment_claimed": false,
+  "input_hashes": {
+    "data/chronic_20261003/prepared_v3/obesity_discovery.npz": "fcb96240de4b9c34b9af60589b87d49ef966bf4c702d9c4f97fc252615529335",
+    "data/chronic_20261003/prepared_v3/obesity_replication.npz": "268e18d8e4d78199a6c0a236dc959c31f6c1e98724d8da0aa02f7162db884781",
+    "models/chronic_20261003_obesity_discovery_supervised.joblib": "c95f1740e4b5c4cf46e79079fd3fa77e9614a17813c4b1df64ba258b52c5c2ce",
+    "docs/chronic_20261003/methylation_transfer_v3/obesity_discovery/supervised_20261003_fold_audit.json": "879e9b8a8f13edfbbc2a5588b4c015a3fb348eda6c47487462edee595fd06891",
+    "docs/chronic_20261003/methylation_transfer_v3/obesity_discovery/supervised_20261020_fold_audit.json": "f186b07df0c490de2e95c8e6f3f46e2174aceb20555d144cc9a13cce1e52995b",
+    "docs/chronic_20261003/methylation_transfer_v3/obesity_discovery/supervised_20261103_fold_audit.json": "70ab472acbb2a71f7d3794bd3e842ff066cd8b582e2f88b646b9d37a4ce71870",
+    "data/chronic_20261003/obesity_annotation_v1/published_Supplementary_Data_1-26.xlsx": "5bd57f507faef9baefa5d5a6289e49e8b8644e8c211ed90e111ee71a23f116f9"
+  },
+  "fold_counts": [
+    {
+      "seed": 20261003,
+      "outer_fold": 0,
+      "selected_n": 200
+    },
+    {
+      "seed": 20261003,
+      "outer_fold": 1,
+      "selected_n": 50
+    },
+    {
+      "seed": 20261003,
+      "outer_fold": 2,
+      "selected_n": 200
+    },
+    {
+      "seed": 20261003,
+      "outer_fold": 3,
+      "selected_n": 200
+    },
+    {
+      "seed": 20261003,
+      "outer_fold": 4,
+      "selected_n": 10
+    },
+    {
+      "seed": 20261020,
+      "outer_fold": 0,
+      "selected_n": 50
+    },
+    {
+      "seed": 20261020,
+      "outer_fold": 1,
+      "selected_n": 200
+    },
+    {
+      "seed": 20261020,
+      "outer_fold": 2,
+      "selected_n": 10
+    },
+    {
+      "seed": 20261020,
+      "outer_fold": 3,
+      "selected_n": 50
+    },
+    {
+      "seed": 20261020,
+      "outer_fold": 4,
+      "selected_n": 50
+    },
+    {
+      "seed": 20261103,
+      "outer_fold": 0,
+      "selected_n": 200
+    },
+    {
+      "seed": 20261103,
+      "outer_fold": 1,
+      "selected_n": 200
+    },
+    {
+      "seed": 20261103,
+      "outer_fold": 2,
+      "selected_n": 200
+    },
+    {
+      "seed": 20261103,
+      "outer_fold": 3,
+      "selected_n": 200
+    },
+    {
+      "seed": 20261103,
+      "outer_fold": 4,
+      "selected_n": 50
+    }
+  ],
+  "script_sha256": "b4580d18f1a7226ea19315ef50805368cab5bfcdbd5e704faf7367e654e55f8f",
+  "two_cohort_observed_effect_comparable_probes": 46,
+  "insufficient_replication_observations": [
+    {
+      "feature_id": "cg10330839",
+      "replication_control_n": 0,
+      "replication_obese_n": 0
+    },
+    {
+      "feature_id": "cg00346208",
+      "replication_control_n": 0,
+      "replication_obese_n": 0
+    },
+    {
+      "feature_id": "cg20544451",
+      "replication_control_n": 0,
+      "replication_obese_n": 0
+    },
+    {
+      "feature_id": "cg14935646",
+      "replication_control_n": 0,
+      "replication_obese_n": 0
+    }
+  ],
+  "all_inputs_and_frozen_model_unchanged": true
+}
